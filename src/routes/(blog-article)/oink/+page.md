@@ -47,7 +47,8 @@ We found that around 50% of children switched from using cash to debit card at a
 
 The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.
 
-## Problem  
+## Problem
+
 The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can **see**, reduced to just a numerical representation on a screen.
 
 In order to better encouragr good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.
@@ -60,18 +61,37 @@ Another problem is that financial education needs to start early but it's not al
 
 And that's the overarching theme of out problem; "Transition Period of Cash to Digital Money"
 
-## Target User  
+## Target User
+
 So, we decided our target user to be 7-13 years old kids and their parents. If the product is expected to ship in 4-5 years, they would be
 
 - **Kids**  
-  [*Alpha Generation*](https://en.wikipedia.org/wiki/Generation_Alpha)  
+  [_Alpha Generation_](https://en.wikipedia.org/wiki/Generation_Alpha)  
   The biggest feature of Alpha Generation is that they are the generation directly influenced by the popularization of smartphones and the ubiquitous society. They will grow up and become a member of the financial world.
 
 - **Parents**  
-  [*MZ Generation*](https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80)  
+  [_MZ Generation_](https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80)  
   Generation MZ (a South Korean specific term) refers to the Millennials who were born in the early to mid-1990s, and Generation Z who were born in the mid to late 1990s. It is a generation with characteristics of diversity, leisure-oriented, value-based consumption (environmental and ethical values), self-centered, digital native, and fun-seeking.
 
 <Image src="/images/posts/oink/target.png" alt="Claims supporting our two observations" />
+
+## Goals
+
+We set some goals and objective for each goal so we have a common understanding among members and other stakeholders.
+
+1. **create a seamless transition from physical to digital money**  
+   to achieve this we need to
+   - Help them understand the value of digital money
+   - Visualize digital money
+   - Simulate the physical manipulation of digital money
+2. **Form good money management habits**  
+   to encourage good habits we need to
+   - Make savings appealing
+   - Foster thoughtful spending and saving
+3. **Encourage conversations about money between kids and parents**
+   - Provide talking topic and common place to talk
+
+## Ideation
 
 <style>
 </style>
