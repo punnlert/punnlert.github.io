@@ -54,6 +54,11 @@
 					"type": "tags"
 				},
 				{
+					"title": "Contribution",
+					"name": "contribution",
+					"type": "tags"
+				},
+				{
 					"title": "Keywords",
 					"name": "keywords",
 					"type": "list"

@@ -34,7 +34,8 @@
 	// Used for Code Block component
 	@include define-color('code-background', #1c1e26);
 	@include define-color('code-text', #ffffff);
-	@include define-color('code-inline-background', #bbcac6);
+	@include define-color('code-inline-background', #f7c1c1);
+	@include define-color('code--inline-text', #efe9d1);
 
 	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
 	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
