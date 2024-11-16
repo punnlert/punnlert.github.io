@@ -231,13 +231,20 @@ h6 {
   --color--code-text-a: 1;
   --color--code-text-rgb: 255, 255, 255;
   --color--code-text-contrast: var(--color--text-inverse);
-  --color--code-inline-background: #bbcac6;
-  --color--code-inline-background-h: 164deg;
-  --color--code-inline-background-l: 76.2745098039%;
-  --color--code-inline-background-s: 12.3966942149%;
+  --color--code-inline-background: #f7c1c1;
+  --color--code-inline-background-h: 0deg;
+  --color--code-inline-background-l: 86.2745098039%;
+  --color--code-inline-background-s: 77.1428571429%;
   --color--code-inline-background-a: 1;
-  --color--code-inline-background-rgb: 187, 202, 198;
+  --color--code-inline-background-rgb: 247, 193, 193;
   --color--code-inline-background-contrast: var(--color--text-inverse);
+  --color--code--inline-text: #efe9d1;
+  --color--code--inline-text-h: 48deg;
+  --color--code--inline-text-l: 87.8431372549%;
+  --color--code--inline-text-s: 48.3870967742%;
+  --color--code--inline-text-a: 1;
+  --color--code--inline-text-rgb: 239, 233, 209;
+  --color--code--inline-text-contrast: var(--color--text-inverse);
   --color--waves-start: rgba(var(--color--primary-rgb), 0.3);
   --color--waves-end: rgba(var(--color--primary-rgb), 0.1);
   --card-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
@@ -684,7 +691,7 @@ h2 {
   font-family: var(--font--title);
 }
 #article-content .content a:not(.button):hover {
-  filter: drop-shadow(0px 0px 3px var(--color--primary));
+  font-weight: 700;
 }
 #article-content .content p {
   margin: 0.75rem 0;
@@ -734,6 +741,7 @@ h2 {
   background: var(--color--callout-background);
 }
 #article-content .content code:not([class^=language-]) {
+  color: var(--color--code-inline-text);
   background: var(--color--code-inline-background);
   padding: 0 10px;
   border-radius: 5px;

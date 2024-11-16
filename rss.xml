@@ -49,7 +49,7 @@
 <img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span>#</span></a>Introduction</h2>
 <p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
-<img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span>#</span></a>The main screen</h2>
 <p>Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt “press space”. The reason behind the IP address being displayed will be explained in <a href="#the-control-screen">the control screen</a> section.</p>
@@ -118,22 +118,39 @@
               </strong>
             </div>
 
-            <h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span>#</span></a>Context</h2>
-<p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen. </p>
+            <p>If you want a bite-sized summary, check out this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a></p>
+<h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span>#</span></a>Context</h2>
+<p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
 <p>It may make sense for adults that have to manage their complex finance (I am also trying to learn how to be financially responsible) but it does not make sense for kids who just started to learn about money. So, what we’re trying to do was bring back some of charming characteristics of physical money to digital banking tools for children.</p>
 <h2 id="overview-and-background"><a class="heading-link" title="Permalink" aria-hidden="true" href="#overview-and-background"><span>#</span></a>Overview and Background</h2>
 <p><strong>Primary Research</strong><br>
-After our initial research, we came to realize this problem from the two observations </p>
+After our initial research, we came to realize this problem from the two observations</p>
 <ol><li><strong>Financial experimenting during childhood is important</strong></li>
 <li><strong>The financial literacy in Korea is low</strong> (and I believe it can also be said for the most part of the world)</li></ol>
 <img srcset="/images/posts/oink/research.avif, /images/posts/oink/research.webp, /images/posts/oink/research.png" src="/images/posts/oink/research.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p><strong>Surveys</strong><br>
-Then, we conducted some surveys to see how relevant are those two points and get more detailed explaination for them.</p>
+<p><strong>Surveys &amp; Interview</strong><br>
+After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.</p>
+<img srcset="/images/posts/oink/survey-design.avif, /images/posts/oink/survey-design.webp, /images/posts/oink/survey-design.png" src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>The result is them compiled and analyze into more digestible presentation.</p>
 <img srcset="/images/posts/oink/survey.avif, /images/posts/oink/survey.webp, /images/posts/oink/survey.png" src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong> (which, i know, is obvious but we like to make sure). </p>
+<p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong> (which, i know, is obvious but we like to make sure).</p>
 <p>The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.</p>
-<p><strong>Problem</strong><br>
-The problem we see here is that the change from physical money to digital one is maybe too sudden.</p>
+<h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span>#</span></a>Problem</h2>
+<p>The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can <strong>see</strong>, reduced to just a numerical representation on a screen.</p>
+<p>In order to better encouragr good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
+<img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Another problem is that financial education needs to start early but it’s not always easy to have an effective financial conversation between kids and parents.</p>
+<img srcset="/images/posts/oink/problem-2.avif, /images/posts/oink/problem-2.webp, /images/posts/oink/problem-2.png" src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>And that’s the overarching theme of out problem; “Transition Period of Cash to Digital Money”</p>
+<h2 id="target-user"><a class="heading-link" title="Permalink" aria-hidden="true" href="#target-user"><span>#</span></a>Target User</h2>
+<p>So, we decided our target user to be 7-13 years old kids and their parents. If the product is expected to ship in 4-5 years, they would be</p>
+<ul><li><p><strong>Kids</strong><br>
+<a href="https://en.wikipedia.org/wiki/Generation_Alpha" rel="nofollow"><em>Alpha Generation</em></a><br>
+The biggest feature of Alpha Generation is that they are the generation directly influenced by the popularization of smartphones and the ubiquitous society. They will grow up and become a member of the financial world.</p></li>
+<li><p><strong>Parents</strong><br>
+<a href="https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80" rel="nofollow"><em>MZ Generation</em></a><br>
+Generation MZ (a South Korean specific term) refers to the Millennials who were born in the early to mid-1990s, and Generation Z who were born in the mid to late 1990s. It is a generation with characteristics of diversity, leisure-oriented, value-based consumption (environmental and ethical values), self-centered, digital native, and fun-seeking.</p></li></ul>
+<img srcset="/images/posts/oink/target.avif, /images/posts/oink/target.webp, /images/posts/oink/target.png" src="/images/posts/oink/target.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
