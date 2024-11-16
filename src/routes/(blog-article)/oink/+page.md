@@ -138,7 +138,19 @@ Which is cute but it didn't fully answers all of our [goals](#goals). But it got
 
 What if dragging around bank notes icons isn't just contained in the saving interface, but it is the main idea of this financial interface?
 
-<style>
+## Design
+
+With that in mind, we divided the team into 2 parts: one developing a rough information architecture of the system while the other gather references and moodboards.
+
+<Image src="/images/posts/oink/design-1.png" alt="Claims supporting our two observations" />
+
+<Image src="/images/posts/oink/design-2.png" alt="Claims supporting our two observations" />
+
+Then we started to design and iterate through the interface. This is how one iteration looks like.
+
+<Image src="/images/posts/oink/design-3.png" alt="Claims supporting our two observations" />
+
+<style lang="scss">
   .drawing_container {
     width: 100%;
     display: grid;
