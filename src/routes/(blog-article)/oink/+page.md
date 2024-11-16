@@ -49,9 +49,21 @@ The interesting part is what changed after they started using digital money. The
 
 ## Problem
 
+<!-- With the results from surveys, interviews, and literature reviews we decided to separately analyze the problem in 3 areas of personal finance for kids:
+
+1. Earning
+2. Spending
+3. Savings
+
+<Image src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" />
+
+Then we create an affinity diagram of the painpoints.
+
+<Image src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" /> -->
+
 The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can **see**, reduced to just a numerical representation on a screen.
 
-In order to better encouragr good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.
+In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.
 
 <Image src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" />
 
@@ -93,5 +105,45 @@ We set some goals and objective for each goal so we have a common understanding 
 
 ## Ideation
 
+Ok. Now we have our goals and objectives, let's think about how to achieve them.
+
+To better formulate and shape the solution, we tried to draw inspiration from the problems.
+
+With the results from surveys, interviews, and literature reviews we decided to separately analyze the problem in 3 areas of personal finance for kids:
+
+1. Earning
+2. Spending
+3. Savings
+
+<Image src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" />
+
+Then we create an affinity diagram of the painpoints.
+
+<Image src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" />
+
+The recurring theme found in the post-its are that digital money sometimes are too _abstract_. So, after some weeks of researching, we came upon a promising solution; **"Tangible User Interface"**.
+
+<Image src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" />
+
+The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)
+
+<div class="drawing_container">
+  <Image src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" />
+  <Image src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" />
+</div>
+
+<Image src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" />
+
+Which is cute but it didn't fully answers all of our [goals](#goals). But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.
+
+What if dragging around bank notes icons isn't just contained in the saving interface, but it is the main idea of this financial interface?
+
 <style>
+  .drawing_container {
+    width: 100%;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
 </style>
