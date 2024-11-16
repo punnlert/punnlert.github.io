@@ -136,8 +136,9 @@ After we had our base hypothesis, we designed a series of survey and interview q
 <p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong> (which, i know, is obvious but we like to make sure).</p>
 <p>The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.</p>
 <h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span>#</span></a>Problem</h2>
+
 <p>The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can <strong>see</strong>, reduced to just a numerical representation on a screen.</p>
-<p>In order to better encouragr good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
+<p>In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
 <img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Another problem is that financial education needs to start early but it’s not always easy to have an effective financial conversation between kids and parents.</p>
 <img srcset="/images/posts/oink/problem-2.avif, /images/posts/oink/problem-2.webp, /images/posts/oink/problem-2.png" src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
@@ -162,6 +163,23 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <li>Foster thoughtful spending and saving</li></ul></li>
 <li><strong>Encourage conversations about money between kids and parents</strong><ul><li>Provide talking topic and common place to talk</li></ul></li></ol>
 <h2 id="ideation"><a class="heading-link" title="Permalink" aria-hidden="true" href="#ideation"><span>#</span></a>Ideation</h2>
+<p>Ok. Now we have our goals and objectives, let’s think about how to achieve them.</p>
+<p>To better formulate and shape the solution, we tried to draw inspiration from the problems.</p>
+<p>With the results from surveys, interviews, and literature reviews we decided to separately analyze the problem in 3 areas of personal finance for kids:</p>
+<ol><li>Earning</li>
+<li>Spending</li>
+<li>Savings</li></ol>
+<img srcset="/images/posts/oink/ideation-1.avif, /images/posts/oink/ideation-1.webp, /images/posts/oink/ideation-1.png" src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Then we create an affinity diagram of the painpoints.</p>
+<img srcset="/images/posts/oink/ideation-2.avif, /images/posts/oink/ideation-2.webp, /images/posts/oink/ideation-2.png" src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>The recurring theme found in the post-its are that digital money sometimes are too <em>abstract</em>. So, after some weeks of researching, we came upon a promising solution; <strong>“Tangible User Interface”</strong>.</p>
+<img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)</p>
+<div class="drawing_container svelte-1tirtb0"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+  <img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+<img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
+<p>What if dragging around bank notes icons isn’t just contained in the saving interface, but it is the main idea of this financial interface?</p>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
