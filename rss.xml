@@ -107,7 +107,7 @@
           <description>Reshaping digital financial experience for kids and preteens by introducing tangible interface.</description>
           <link>https://punnlert.github.io//oink</link>
           <pubDate>Sat, 22 Apr 2023 21:55:27 +0000</pubDate>
-          <category>UX Design</category><category>UI Design</category>
+          <category>UI Design</category><category>UX Design</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
@@ -136,7 +136,6 @@ After we had our base hypothesis, we designed a series of survey and interview q
 <p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong> (which, i know, is obvious but we like to make sure).</p>
 <p>The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.</p>
 <h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span>#</span></a>Problem</h2>
-
 <p>The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can <strong>see</strong>, reduced to just a numerical representation on a screen.</p>
 <p>In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
 <img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
@@ -181,11 +180,26 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
 <p>What if dragging around bank notes icons isn’t just contained in the saving interface, but it is the main idea of this financial interface?</p>
 <h2 id="design"><a class="heading-link" title="Permalink" aria-hidden="true" href="#design"><span>#</span></a>Design</h2>
-<p>With that in mind, we divided the team into 2 parts: one developing a rough information architecture of the system while the other gather references and moodboards.</p>
+<p>With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.</p>
 <img srcset="/images/posts/oink/design-1.avif, /images/posts/oink/design-1.webp, /images/posts/oink/design-1.png" src="/images/posts/oink/design-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <img srcset="/images/posts/oink/design-2.avif, /images/posts/oink/design-2.webp, /images/posts/oink/design-2.png" src="/images/posts/oink/design-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Then we started to design and iterate through the interface. This is how one iteration looks like.</p>
 <img srcset="/images/posts/oink/design-3.avif, /images/posts/oink/design-3.webp, /images/posts/oink/design-3.png" src="/images/posts/oink/design-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process</p>
+<p>because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.</p>
+<img srcset="/images/posts/oink/design-4.avif, /images/posts/oink/design-4.webp, /images/posts/oink/design-4.png" src="/images/posts/oink/design-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="final-product"><a class="heading-link" title="Permalink" aria-hidden="true" href="#final-product"><span>#</span></a>Final Product</h2>
+<p>And after a month of iterations discussion, out of our blood, sweat, and tears came
+<div class="sparkle-wrapper svelte-exdx8u">
+	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d">Oink!
+</strong></span>
+</div>
+ :D
+</p>
+<p>It might be better for your experience if you see this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a> before we dive into the product.</p>
+<h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span>#</span></a>Impacts</h2>
+<h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span>#</span></a>What I learned</h2>
+<h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span>#</span></a>What I wish were more explored</h2>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
