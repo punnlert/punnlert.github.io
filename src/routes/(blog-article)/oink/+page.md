@@ -5,8 +5,8 @@ date: 2023-04-22T21:55:27.154Z
 excerpt: Reshaping digital financial experience for kids and preteens by introducing tangible interface.
 coverImage: /images/posts/oink/cover.png
 tags:
-  - UX Design
   - UI Design
+  - UX Design
 hidden: false
 ---
 
@@ -14,6 +14,9 @@ hidden: false
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import TintHighlight from "$lib/components/molecules/TintHighlight.svelte";
+  import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
+  import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
 </script>
 
 If you want a bite-sized summary, check out this [video](https://youtu.be/I8RZJOs1q6Y)
@@ -48,18 +51,6 @@ We found that around 50% of children switched from using cash to debit card at a
 The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.
 
 ## Problem
-
-<!-- With the results from surveys, interviews, and literature reviews we decided to separately analyze the problem in 3 areas of personal finance for kids:
-
-1. Earning
-2. Spending
-3. Savings
-
-<Image src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" />
-
-Then we create an affinity diagram of the painpoints.
-
-<Image src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" /> -->
 
 The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can **see**, reduced to just a numerical representation on a screen.
 
@@ -140,7 +131,7 @@ What if dragging around bank notes icons isn't just contained in the saving inte
 
 ## Design
 
-With that in mind, we divided the team into 2 parts: one developing a rough information architecture of the system while the other gather references and moodboards.
+With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.
 
 <Image src="/images/posts/oink/design-1.png" alt="Claims supporting our two observations" />
 
@@ -149,6 +140,32 @@ With that in mind, we divided the team into 2 parts: one developing a rough info
 Then we started to design and iterate through the interface. This is how one iteration looks like.
 
 <Image src="/images/posts/oink/design-3.png" alt="Claims supporting our two observations" />
+
+After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process
+
+because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.
+
+<Image src="/images/posts/oink/design-4.png" alt="Claims supporting our two observations" />
+
+## Final Product
+
+<p>
+And after a month of iterations discussion, out of our blood, sweat, and tears came
+<SparklingHighlight>
+Oink!
+</SparklingHighlight>
+ :D
+</p>
+
+It might be better for your experience if you see this [video](https://youtu.be/I8RZJOs1q6Y) before we dive into the product.
+
+
+
+## Impacts
+
+## What I learned
+
+## What I wish were more explored
 
 <style lang="scss">
   .drawing_container {
