@@ -47,11 +47,11 @@
 	YouTube
 </a></div>
 <img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span>#</span></a>Introduction</h2>
+<h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
 <p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
 <img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span>#</span></a>The main screen</h2>
+<h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span></span></a>The main screen</h2>
 <p>Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt “press space”. The reason behind the IP address being displayed will be explained in <a href="#the-control-screen">the control screen</a> section.</p>
 <img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>After all the players have connected and the captain pressed spacebar, the main screen shows the players the rocket they are controlling. It also shows the score and lives they have left.</p>
@@ -61,39 +61,39 @@
 <p>If the rocket ran out of life, the game ends. The last page will display the final score and whether you got the new highscore.</p>
 <img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span>#</span></a>The control screen</h2>
+<h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span></span></a>The control screen</h2>
 <p>The control screen consisted of two parts: socket connection input and the control.</p>
 <p>Socket connection input lets the player input the IP address of the server to gain control of the rocket. If the connection is successful, green circle appears on the right side of the input. This is because I want the server to be able to be hosted on the computer and in that case the IP address would be dynamically assigned.</p>
 <img srcset="/images/posts/roger-roger/IP_input.avif, /images/posts/roger-roger/IP_input.webp, /images/posts/roger-roger/IP_input.png" src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="gun-controls"><a class="heading-link" title="Permalink" aria-hidden="true" href="#gun-controls"><span>#</span></a>Gun controls</h3>
+<h3 id="gun-controls"><a class="heading-link" title="Permalink" aria-hidden="true" href="#gun-controls"><span></span></a>Gun controls</h3>
 <p>lets the player controls the gun. There is a two seconds cooldown period for gun firing.</p>
 <img srcset="/images/posts/roger-roger/gun_control.avif, /images/posts/roger-roger/gun_control.webp, /images/posts/roger-roger/gun_control.png" src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="trajectory-control"><a class="heading-link" title="Permalink" aria-hidden="true" href="#trajectory-control"><span>#</span></a>Trajectory control</h3>
+<h3 id="trajectory-control"><a class="heading-link" title="Permalink" aria-hidden="true" href="#trajectory-control"><span></span></a>Trajectory control</h3>
 <p>lets the player controls the up-down movement of the spaceship</p>
 <img srcset="/images/posts/roger-roger/trajectory_control.avif, /images/posts/roger-roger/trajectory_control.webp, /images/posts/roger-roger/trajectory_control.png" src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="acceleration"><a class="heading-link" title="Permalink" aria-hidden="true" href="#acceleration"><span>#</span></a>Acceleration</h3>
+<h3 id="acceleration"><a class="heading-link" title="Permalink" aria-hidden="true" href="#acceleration"><span></span></a>Acceleration</h3>
 <p>lets the player controls the left-right of the spaceship</p>
 <img srcset="/images/posts/roger-roger/acceleration.avif, /images/posts/roger-roger/acceleration.webp, /images/posts/roger-roger/acceleration.png" src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-game-mechanics"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-game-mechanics"><span>#</span></a>The game mechanics</h2>
+<h2 id="the-game-mechanics"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-game-mechanics"><span></span></a>The game mechanics</h2>
 <p>Player navigate through the group of asteroids. if they get hit, their lives decreases. they get points for shooting the asteroid depending on the size of it. There are astronauts that you can save. But you can hurt them if you accidentally shoot them. So, be careful around them. But the velocity increase with the score. The gun have a cooldown period of two seconds so players have to be conservative about their shooting. You can collect some lives as you go and save yourselves from dying. If you accidentally shoot the lives, they disappear.</p>
 <p>To see a clearer picture, you can check my demo on <a href="https://youtu.be/GxBwiM4es7w" rel="nofollow">YouTube</a></p>
-<h2 id="how-to-start"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-to-start"><span>#</span></a>How to start?</h2>
+<h2 id="how-to-start"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-to-start"><span></span></a>How to start?</h2>
 <p>After you clone the repository, you have to go into every folder <code>/client/display; gun-control; horizontal control; vertical control</code> and <code>/server</code> then run <code>npm install</code> for each one of them.</p>
 <p>If you use Visual Studio Code and have a ‘Go Live’ extension, you can launch the control pages by go into <code>/client</code> then click go live.</p>
 <p>For the display of the main screen, go into <code>/client/display</code> directory and run <code>npm run dev</code></p>
 <p>To initiate the server, go into<code>/server</code> then run <code>npx nodemon &#39;index.js&#39;</code></p>
 <p>If there is an IP address appearing on your ‘display’ screen, you are ready to play!</p>
-<h2 id="highlight"><a class="heading-link" title="Permalink" aria-hidden="true" href="#highlight"><span>#</span></a>Highlight</h2>
+<h2 id="highlight"><a class="heading-link" title="Permalink" aria-hidden="true" href="#highlight"><span></span></a>Highlight</h2>
 <p>After finishing all the code, I tried to draw some pixel art to elevate the gaming experience. So, I drew this astronaut and asteroid.</p>
 <div class="drawing_container svelte-1biqf0s"><img srcset="/images/posts/roger-roger/astronaut.avif, /images/posts/roger-roger/astronaut.webp, /images/posts/roger-roger/astronaut.png" src="/images/posts/roger-roger/astronaut.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
     <img srcset="/images/posts/roger-roger/asteroid.avif, /images/posts/roger-roger/asteroid.webp, /images/posts/roger-roger/asteroid.png" src="/images/posts/roger-roger/asteroid.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 <p>I also learned to postpone the socket.io connection and connect to the input IP (in the <a href="#the-control-screen">control sections</a>) and I am really proud of it.</p>
-<h2 id="software"><a class="heading-link" title="Permalink" aria-hidden="true" href="#software"><span>#</span></a>Software</h2>
+<h2 id="software"><a class="heading-link" title="Permalink" aria-hidden="true" href="#software"><span></span></a>Software</h2>
 <p>The game use node to host the server, P5JS to draw the graphics, and socket.io to allow the communication between devices.</p>
-<h2 id="the-architecture"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-architecture"><span>#</span></a>The architecture</h2>
+<h2 id="the-architecture"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-architecture"><span></span></a>The architecture</h2>
 <p>This is the UML of the game code.</p>
 <img srcset="/images/posts/roger-roger/RogerRogerUML.avif, /images/posts/roger-roger/RogerRogerUML.webp, /images/posts/roger-roger/RogerRogerUML.png" src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="what-i-would-do-to-make-it-better"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-would-do-to-make-it-better"><span>#</span></a>What I would do to make it better</h2>
+<h2 id="what-i-would-do-to-make-it-better"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-would-do-to-make-it-better"><span></span></a>What I would do to make it better</h2>
 <p>Right now, the obstacles are extended from the class asteroid. That is not very organized in terms of the readability of the code. So, in the future, I would like to restructure it to have a base class of “hittable” and extends every obstacle from there.</p>
 <p>I would also like to add collectibles other than “lives” and “astronaut”; like temporary life extension or gun boost that modify the property of the bullet fired.</p>
           ]]></content:encoded>
@@ -118,31 +118,35 @@
               </strong>
             </div>
 
-            <p>If you want a bite-sized summary, check out this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a></p>
-<h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span>#</span></a>Context</h2>
+            <div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+	If you want a bite-sized summary, check out this
+  <a href="https://youtu.be/I8RZJOs1q6Y">video </a>
+  
+</div>
+<h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span></span></a>Context</h2>
 <p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
 <p>It may make sense for adults that have to manage their complex finance (I am also trying to learn how to be financially responsible) but it does not make sense for kids who just started to learn about money. So, what we’re trying to do was bring back some of charming characteristics of physical money to digital banking tools for children.</p>
-<h2 id="overview-and-background"><a class="heading-link" title="Permalink" aria-hidden="true" href="#overview-and-background"><span>#</span></a>Overview and Background</h2>
-<p><strong>Primary Research</strong><br>
-After our initial research, we came to realize this problem from the two observations</p>
+<h2 id="overview-and-background"><a class="heading-link" title="Permalink" aria-hidden="true" href="#overview-and-background"><span></span></a>Overview and Background</h2>
+<h3 id="primary-research"><a class="heading-link" title="Permalink" aria-hidden="true" href="#primary-research"><span></span></a>Primary Research</h3>
+<p>After our initial research, we came to realize this problem from the two observations</p>
 <ol><li><strong>Financial experimenting during childhood is important</strong></li>
 <li><strong>The financial literacy in Korea is low</strong> (and I believe it can also be said for the most part of the world)</li></ol>
 <img srcset="/images/posts/oink/research.avif, /images/posts/oink/research.webp, /images/posts/oink/research.png" src="/images/posts/oink/research.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p><strong>Surveys &amp; Interview</strong><br>
-After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.</p>
+<h3 id="surveys--interview"><a class="heading-link" title="Permalink" aria-hidden="true" href="#surveys--interview"><span></span></a>Surveys &amp; Interview</h3>
+<p>After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.</p>
 <img srcset="/images/posts/oink/survey-design.avif, /images/posts/oink/survey-design.webp, /images/posts/oink/survey-design.png" src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>The result is them compiled and analyze into more digestible presentation.</p>
 <img srcset="/images/posts/oink/survey.avif, /images/posts/oink/survey.webp, /images/posts/oink/survey.png" src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong> (which, i know, is obvious but we like to make sure).</p>
 <p>The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.</p>
-<h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span>#</span></a>Problem</h2>
+<h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span></span></a>Problem</h2>
 <p>The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can <strong>see</strong>, reduced to just a numerical representation on a screen.</p>
 <p>In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
 <img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Another problem is that financial education needs to start early but it’s not always easy to have an effective financial conversation between kids and parents.</p>
 <img srcset="/images/posts/oink/problem-2.avif, /images/posts/oink/problem-2.webp, /images/posts/oink/problem-2.png" src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>And that’s the overarching theme of out problem; “Transition Period of Cash to Digital Money”</p>
-<h2 id="target-user"><a class="heading-link" title="Permalink" aria-hidden="true" href="#target-user"><span>#</span></a>Target User</h2>
+<h2 id="target-user"><a class="heading-link" title="Permalink" aria-hidden="true" href="#target-user"><span></span></a>Target User</h2>
 <p>So, we decided our target user to be 7-13 years old kids and their parents. If the product is expected to ship in 4-5 years, they would be</p>
 <ul><li><p><strong>Kids</strong><br>
 <a href="https://en.wikipedia.org/wiki/Generation_Alpha" rel="nofollow"><em>Alpha Generation</em></a><br>
@@ -151,7 +155,7 @@ The biggest feature of Alpha Generation is that they are the generation directly
 <a href="https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80" rel="nofollow"><em>MZ Generation</em></a><br>
 Generation MZ (a South Korean specific term) refers to the Millennials who were born in the early to mid-1990s, and Generation Z who were born in the mid to late 1990s. It is a generation with characteristics of diversity, leisure-oriented, value-based consumption (environmental and ethical values), self-centered, digital native, and fun-seeking.</p></li></ul>
 <img srcset="/images/posts/oink/target.avif, /images/posts/oink/target.webp, /images/posts/oink/target.png" src="/images/posts/oink/target.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="goals"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals"><span>#</span></a>Goals</h2>
+<h2 id="goals"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals"><span></span></a>Goals</h2>
 <p>We set some goals and objective for each goal so we have a common understanding among members and other stakeholders.</p>
 <ol><li><strong>create a seamless transition from physical to digital money</strong><br>
 to achieve this we need to<ul><li>Help them understand the value of digital money</li>
@@ -161,7 +165,7 @@ to achieve this we need to<ul><li>Help them understand the value of digital mone
 to encourage good habits we need to<ul><li>Make savings appealing</li>
 <li>Foster thoughtful spending and saving</li></ul></li>
 <li><strong>Encourage conversations about money between kids and parents</strong><ul><li>Provide talking topic and common place to talk</li></ul></li></ol>
-<h2 id="ideation"><a class="heading-link" title="Permalink" aria-hidden="true" href="#ideation"><span>#</span></a>Ideation</h2>
+<h2 id="ideation"><a class="heading-link" title="Permalink" aria-hidden="true" href="#ideation"><span></span></a>Ideation</h2>
 <p>Ok. Now we have our goals and objectives, let’s think about how to achieve them.</p>
 <p>To better formulate and shape the solution, we tried to draw inspiration from the problems.</p>
 <p>With the results from surveys, interviews, and literature reviews we decided to separately analyze the problem in 3 areas of personal finance for kids:</p>
@@ -174,12 +178,12 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p>The recurring theme found in the post-its are that digital money sometimes are too <em>abstract</em>. So, after some weeks of researching, we came upon a promising solution; <strong>“Tangible User Interface”</strong>.</p>
 <img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)</p>
-<div class="drawing_container svelte-1kwwrxy"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="drawing_container svelte-1mpncn0"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
   <img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 <img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
 <p>What if dragging around bank notes icons isn’t just contained in the saving interface, but it is the main idea of this financial interface?</p>
-<h2 id="design"><a class="heading-link" title="Permalink" aria-hidden="true" href="#design"><span>#</span></a>Design</h2>
+<h2 id="design"><a class="heading-link" title="Permalink" aria-hidden="true" href="#design"><span></span></a>Design</h2>
 <p>With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.</p>
 <img srcset="/images/posts/oink/design-1.avif, /images/posts/oink/design-1.webp, /images/posts/oink/design-1.png" src="/images/posts/oink/design-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <img srcset="/images/posts/oink/design-2.avif, /images/posts/oink/design-2.webp, /images/posts/oink/design-2.png" src="/images/posts/oink/design-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
@@ -188,7 +192,7 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p>After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process</p>
 <p>because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.</p>
 <img srcset="/images/posts/oink/design-4.avif, /images/posts/oink/design-4.webp, /images/posts/oink/design-4.png" src="/images/posts/oink/design-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="final-product"><a class="heading-link" title="Permalink" aria-hidden="true" href="#final-product"><span>#</span></a>Final Product</h2>
+<h2 id="final-product"><a class="heading-link" title="Permalink" aria-hidden="true" href="#final-product"><span></span></a>Final Product</h2>
 <p>And after a month of iterations discussion, out of our blood, sweat, and tears came
 <div class="sparkle-wrapper svelte-exdx8u">
 	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d">Oink!
@@ -197,9 +201,27 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
  :D
 </p>
 <p>It might be better for your experience if you see this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a> before we dive into the product.</p>
-<h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span>#</span></a>Impacts</h2>
-<h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span>#</span></a>What I learned</h2>
-<h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span>#</span></a>What I wish were more explored</h2>
+<h3 id="home-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#home-page"><span></span></a>Home Page</h3>
+<img srcset="/images/posts/oink/product-phone-wallet.avif, /images/posts/oink/product-phone-wallet.webp, /images/posts/oink/product-phone-wallet.png" src="/images/posts/oink/product-phone-wallet.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p><strong>Wallet</strong><br>
+Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
+<p>Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable</p>
+<img srcset="/images/posts/oink/product-phone-bottomNav.avif, /images/posts/oink/product-phone-bottomNav.webp, /images/posts/oink/product-phone-bottomNav.png" src="/images/posts/oink/product-phone-bottomNav.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p><strong>Bottom Navigation</strong><br>
+Swipe left or right to navigate between components and click to view details</p>
+<h3 id="wallet"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet"><span></span></a>Wallet</h3>
+<p><strong>Interaction with Bills and Coins</strong><br>
+Bills and coins in the wallet can be interacted with in several ways</p>
+<div class="phone_and_description svelte-1mpncn0"><div><p><strong>Combining Bills or Coins</strong><br>
+Long press and drag bills or coins together to combine into a larger bill or coin</p></div>
+<img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+<div class="phone_and_description svelte-1mpncn0"><div><p><strong>Dividing Bills or Coins</strong><br>
+Long press a bill or coin to break it down into smaller bills</p></div>
+<img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+
+<h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span></span></a>Impacts</h2>
+<h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
+<h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span></span></a>What I wish were more explored</h2>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
