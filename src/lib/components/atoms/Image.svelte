@@ -4,6 +4,7 @@
 	export let src: string;
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
+	export let noBg: boolean | undefined = undefined;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
@@ -37,7 +38,7 @@
 	}
 </script>
 
-<img srcset={buildSrcset()} {src} {alt} loading="lazy" decoding="async" class:full-bleed={fullBleed} />
+<img srcset={buildSrcset()} {src} {alt} loading="lazy" decoding="async" class:full-bleed={fullBleed} class:show_nobg={noBg}/>
 
 <style lang="scss">
 	img {

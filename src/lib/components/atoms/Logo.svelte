@@ -44,7 +44,7 @@
 			height: 100%;
 			max-height: 60px;
 
-				transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
 			#text {
 			}
 		}
@@ -62,7 +62,8 @@
 		.animated {
 			#icon {
 				> path {
-					--text-color: var(--color--text-shade);
+					// --text-color: var(--color--text-shade);
+					--text-color: var(--color--text);
 					stroke-width: 2;
 					animation: svg-text-stroke 3s;
 				}

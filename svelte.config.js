@@ -33,7 +33,7 @@ const config = {
 							type: 'element',
 							tagName: 'span',
 							properties: {},
-							children: [{ type: 'text', value: '#' }]
+							// children: [{ type: 'text', value: '#' }]
 						}
 					}
 				]

@@ -19,7 +19,11 @@ hidden: false
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
 </script>
 
-If you want a bite-sized summary, check out this [video](https://youtu.be/I8RZJOs1q6Y)
+<Callout type="info">
+  If you want a bite-sized summary, check out this
+  <a href="https://youtu.be/I8RZJOs1q6Y"> video </a>
+  <!-- [video](https://youtu.be/I8RZJOs1q6Y) -->
+</Callout>
 
 ## Context
 
@@ -29,7 +33,8 @@ It may make sense for adults that have to manage their complex finance (I am als
 
 ## Overview and Background
 
-**Primary Research**  
+### Primary Research
+
 After our initial research, we came to realize this problem from the two observations
 
 1. **Financial experimenting during childhood is important**
@@ -37,7 +42,8 @@ After our initial research, we came to realize this problem from the two observa
 
 <Image  src="/images/posts/oink/research.png" alt="Claims supporting our two observations" />
 
-**Surveys & Interview**  
+### Surveys & Interview
+
 After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.
 
 <Image src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" />
@@ -159,7 +165,60 @@ Oink!
 
 It might be better for your experience if you see this [video](https://youtu.be/I8RZJOs1q6Y) before we dive into the product.
 
+### Home Page
 
+<Image src="/images/posts/oink/product-phone-wallet.png" alt="Claims supporting our two observations"/>
+
+**Wallet**  
+Filled with draggable bills and coins representing the amount the child currently has in their bank account
+
+Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
+
+<Image src="/images/posts/oink/product-phone-bottomNav.png" alt="Claims supporting our two observations"/>
+
+**Bottom Navigation**  
+Swipe left or right to navigate between components and click to view details
+
+### Wallet
+
+**Interaction with Bills and Coins**  
+Bills and coins in the wallet can be interacted with in several ways
+
+<div class="phone_and_description">
+<div>
+
+**Combining Bills or Coins**  
+Long press and drag bills or coins together to combine into a larger bill or coin
+
+</div>
+
+<Image src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" noBg={true}/>
+
+</div>
+
+<div class="phone_and_description">
+<div>
+
+**Dividing Bills or Coins**  
+Long press a bill or coin to break it down into smaller bills
+
+</div>
+
+<Image src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" noBg={true}/>
+
+</div>
+
+<!-- <div class="phone_and_description">
+  <Image src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" noBg={true}/>
+  <div class="content">
+    <b> Wallet </b>
+
+    Filled with draggable bills and coins representing the amount the child currently has in their bank account
+
+    Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
+
+  </div>
+</div> -->
 
 ## Impacts
 
@@ -175,4 +234,15 @@ It might be better for your experience if you see this [video](https://youtu.be/
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
+  .phone_and_description {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  /* img:not(.show_nobg) {
+		box-shadow: var(--image-shadow);
+  } */
 </style>

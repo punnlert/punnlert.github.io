@@ -7,6 +7,10 @@
 			}
 		}
 
+		b {
+			font-weight: 800;
+		}
+
 		p {
 			margin: 0.75rem 0;
 			line-height: 1.55em;
@@ -41,9 +45,11 @@
 			height: auto;
 			width: auto;
 
-			border-style: solid;
-			border-width: 3px;
+			// border-style: solid;
+			// border-width: 3px;
+		}
 
+		img:not(.show_nobg) {
 			box-shadow: var(--image-shadow);
 		}
 
@@ -81,7 +87,7 @@
 	.heading-link {
 		color: var(--color--primary);
 		text-decoration: none;
-		margin-right: 10px;
+		// margin-right: 10px;
 	}
 
 	img {

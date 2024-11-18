@@ -9,7 +9,7 @@
 <section id="hero">
 	<div class="name">
 		<h1>Punn</h1>
-		<h1>Lertjaturphat's</h1>
+		<h1>Lertjaturaphat's</h1>
 	</div>
 	<h2 class="hello">Portfolio</h2>
 	<!-- <p class="intro">

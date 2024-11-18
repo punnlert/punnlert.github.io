@@ -6,7 +6,7 @@
 	import Error from '$lib/icons/error.svelte';
 </script>
 
-<Header showBackground />
+<Header />
 
 <main>
 	<div class="error-page">
