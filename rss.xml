@@ -178,7 +178,7 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p>The recurring theme found in the post-its are that digital money sometimes are too <em>abstract</em>. So, after some weeks of researching, we came upon a promising solution; <strong>“Tangible User Interface”</strong>.</p>
 <img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)</p>
-<div class="drawing_container svelte-1mpncn0"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="drawing_container svelte-v8vqyz"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
   <img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 <img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
@@ -206,19 +206,24 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p><strong>Wallet</strong><br>
 Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
 <p>Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable</p>
-<img srcset="/images/posts/oink/product-phone-bottomNav.avif, /images/posts/oink/product-phone-bottomNav.webp, /images/posts/oink/product-phone-bottomNav.png" src="/images/posts/oink/product-phone-bottomNav.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bottomNav.avif, /images/posts/oink/product-phone-bottomNav.webp, /images/posts/oink/product-phone-bottomNav.png" src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p><strong>Bottom Navigation</strong><br>
-Swipe left or right to navigate between components and click to view details</p>
+Swipe left or right to navigate between components and click to view details</p></div>
 <h3 id="wallet"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet"><span></span></a>Wallet</h3>
 <p><strong>Interaction with Bills and Coins</strong><br>
 Bills and coins in the wallet can be interacted with in several ways</p>
-<div class="phone_and_description svelte-1mpncn0"><div><p><strong>Combining Bills or Coins</strong><br>
-Long press and drag bills or coins together to combine into a larger bill or coin</p></div>
-<img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
-<div class="phone_and_description svelte-1mpncn0"><div><p><strong>Dividing Bills or Coins</strong><br>
-Long press a bill or coin to break it down into smaller bills</p></div>
-<img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
-
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+  <div><p><strong>Combining Bills or Coins</strong><br>
+Long press and drag bills or coins together to combine into a larger bill or coin</p></div></div>
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+  <div><p><strong>Dividing Bills or Coins</strong><br>
+Long press a bill or coin to break it down into smaller bills</p></div></div>
+<h3 id="spending"><a class="heading-link" title="Permalink" aria-hidden="true" href="#spending"><span></span></a>Spending</h3>
+<img srcset="/images/posts/oink/product-phone-spending1.avif, /images/posts/oink/product-phone-spending1.webp, /images/posts/oink/product-phone-spending1.png" src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div><p><strong>Purchase History</strong><br>
+Can easily find any recent transactions and has the ability to filter by week, month, and year</p>
+<p>Designed after a receipt slip to make it more familiar to child’s understanding of the world</p></div></div>
 <h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span></span></a>Impacts</h2>
 <h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
 <h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span></span></a>What I wish were more explored</h2>
