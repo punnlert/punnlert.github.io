@@ -206,7 +206,7 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p><strong>Wallet</strong><br>
 Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
 <p>Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable</p>
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bottomNav.avif, /images/posts/oink/product-phone-bottomNav.webp, /images/posts/oink/product-phone-bottomNav.png, /images/posts/oink/product-phone-bottomNav.gif" src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-v8vqyz"><img src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations">
 <p><strong>Bottom Navigation</strong><br>
 Swipe left or right to navigate between components and click to view details</p></div>
 <h3 id="wallet"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet"><span></span></a>Wallet</h3>
