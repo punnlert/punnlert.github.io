@@ -53,7 +53,7 @@
 		}
 
 		.hello {
-			font-family: var(--font--special);
+			font-family: var(--font--default);
 			text-align: center;
 			line-height: 1;
 		}

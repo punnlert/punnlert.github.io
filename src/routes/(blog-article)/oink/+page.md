@@ -174,10 +174,12 @@ Filled with draggable bills and coins representing the amount the child currentl
 
 Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
 
-<Image src="/images/posts/oink/product-phone-bottomNav.png" alt="Claims supporting our two observations"/>
+<div class="phone_and_description">
+<Image src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations"/>
 
 **Bottom Navigation**  
 Swipe left or right to navigate between components and click to view details
+</div>
 
 ### Wallet
 
@@ -185,40 +187,48 @@ Swipe left or right to navigate between components and click to view details
 Bills and coins in the wallet can be interacted with in several ways
 
 <div class="phone_and_description">
-<div>
+
+  <Image src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" noBg={true}/>
+
+  <div>
 
 **Combining Bills or Coins**  
-Long press and drag bills or coins together to combine into a larger bill or coin
+ Long press and drag bills or coins together to combine into a larger bill or coin
 
-</div>
-
-<Image src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" noBg={true}/>
+  </div>
 
 </div>
 
 <div class="phone_and_description">
-<div>
+
+  <Image src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" noBg={true}/>
+
+  <div>
 
 **Dividing Bills or Coins**  
-Long press a bill or coin to break it down into smaller bills
-
-</div>
-
-<Image src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" noBg={true}/>
-
-</div>
-
-<!-- <div class="phone_and_description">
-  <Image src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" noBg={true}/>
-  <div class="content">
-    <b> Wallet </b>
-
-    Filled with draggable bills and coins representing the amount the child currently has in their bank account
-
-    Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
+ Long press a bill or coin to break it down into smaller bills
 
   </div>
-</div> -->
+
+</div>
+
+### Spending
+
+<Image src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations"/>
+
+<div class="phone_and_description">
+
+<Image src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" noBg={true}/>
+<div>
+
+**Purchase History**  
+Can easily find any recent transactions and has the ability to filter by week, month, and year
+
+Designed after a receipt slip to make it more familiar to child’s understanding of the world
+
+</div>
+
+</div>
 
 ## Impacts
 
@@ -240,6 +250,12 @@ Long press a bill or coin to break it down into smaller bills
     align-items: center;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+
+    @media (max-width: 1000px) {
+			grid-template-columns: 1fr;
+			justify-items: center;
+			gap: 20px;
+    }
   }
 
   /* img:not(.show_nobg) {
