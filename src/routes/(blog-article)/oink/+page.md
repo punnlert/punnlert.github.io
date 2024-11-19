@@ -232,6 +232,7 @@ Designed after a receipt slip to make it more familiar to child’s understandin
 </div>
 
 ### Card - Kid's UI
+
 <img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations"/>
 
 <div class="phone_and_description">
@@ -263,23 +264,27 @@ The drawer is hovering on the wallet to enable the user drag the money outside t
 </div>
 
 ### Piggy Bank - Kid's UI
-Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone 
+
+Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone
 
 On the phone the child can begin planning their goals and saving
 
-*"For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children's world and of their learning." - Revelle et al., 2005*
+_"For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children's world and of their learning." - Revelle et al., 2005_
 
 ### Setting Goals - Kid's UI
+
 To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it
 
-*"Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals" - Murphy, 2018*
+_"Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals" - Murphy, 2018_
 
 ### Saving - Kid's UI
+
 When organizing money into spending, short term savings, and savings towards their goal the child can save in their physical piggy bank
 
 Saving their goal money in the physical piggy bank gives a sense of accomplishment, but also distance, knowing they cannot spend that money
 
 ### Compound Interest - Kid's UI
+
 Compound interest is a simple concept that children can easily grasp as their first introduction into the more complex financial world
 
 Compound interest is simulated in conjunction with their parents through their long term savings goal
@@ -287,16 +292,19 @@ Compound interest is simulated in conjunction with their parents through their l
 The fun animation brings excitement and attention to the new concept making it easier to learn
 
 ### Goals - Kid's UI
-Able to check on progress towards set long term goal with a visual graph 
+
+Able to check on progress towards set long term goal with a visual graph
 
 Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)
 
 ### Dashboard - Parents' UI
-Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions 
+
+Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions
 
 These transactions are also broken up by categories and visually shown in a circle graph to determine where their child is spending most of their money
 
 ### Transfer - Parents' UI
+
 Within the child’s analysis screen, parents are also able to quickly send money to their child
 
 After confirming the amount, the parents is prompted to bring their phone close to their child’s, where the number is transformed into bills so they are able to visually see the money being added to their wallet
