@@ -6,7 +6,7 @@
 	export let fullBleed: boolean | undefined = undefined;
 	export let noBg: boolean | undefined = undefined;
 
-	export let formats: string[] = ['avif', 'webp', 'png'];
+	export let formats: string[] = ['avif', 'webp', 'png', 'gif'];
 	export let widths: string[] | undefined = undefined;
 
 	$: fileName = src.split('.')[0];
