@@ -201,7 +201,7 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
  :D
 </p>
 <p>It might be better for your experience if you see this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a> before we dive into the product.</p>
-<h3 id="home-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#home-page"><span></span></a>Home Page</h3>
+<h3 id="home-page---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#home-page---kids-ui"><span></span></a>Home Page - Kid’s UI</h3>
 <img srcset="/images/posts/oink/product-phone-wallet.avif, /images/posts/oink/product-phone-wallet.webp, /images/posts/oink/product-phone-wallet.png, /images/posts/oink/product-phone-wallet.gif" src="/images/posts/oink/product-phone-wallet.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p><strong>Wallet</strong><br>
 Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
@@ -209,7 +209,7 @@ Filled with draggable bills and coins representing the amount the child currentl
 <div class="phone_and_description svelte-v8vqyz"><img src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations">
 <p><strong>Bottom Navigation</strong><br>
 Swipe left or right to navigate between components and click to view details</p></div>
-<h3 id="wallet"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet"><span></span></a>Wallet</h3>
+<h3 id="wallet---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet---kids-ui"><span></span></a>Wallet - Kid’s UI</h3>
 <p><strong>Interaction with Bills and Coins</strong><br>
 Bills and coins in the wallet can be interacted with in several ways</p>
 <div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png, /images/posts/oink/product-phone-bill1.gif" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
@@ -218,13 +218,48 @@ Long press and drag bills or coins together to combine into a larger bill or coi
 <div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png, /images/posts/oink/product-phone-bill2.gif" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
   <div><p><strong>Dividing Bills or Coins</strong><br>
 Long press a bill or coin to break it down into smaller bills</p></div></div>
-<h3 id="spending"><a class="heading-link" title="Permalink" aria-hidden="true" href="#spending"><span></span></a>Spending</h3>
+<h3 id="spending---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#spending---kids-ui"><span></span></a>Spending - Kid’s UI</h3>
 <img src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations">
 <div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png, /images/posts/oink/product-phone-spending2.gif" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
 <div><p><strong>Purchase History</strong><br>
 Can easily find any recent transactions and has the ability to filter by week, month, and year</p>
 <p>Designed after a receipt slip to make it more familiar to child’s understanding of the world</p></div></div>
+<h3 id="card---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#card---kids-ui"><span></span></a>Card - Kid’s UI</h3>
+<img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations">
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png, /images/posts/oink/product-phone-card1.gif" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div><p><strong>Balance Information</strong><br>
+Displayed on the card is the amount in the child’s account and how much of their daily limit is remaining to be used</p>
+<p>Use of visually interesting, but simple UX to increase the usability for kids</p></div></div>
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-card3.avif, /images/posts/oink/product-phone-card3.webp, /images/posts/oink/product-phone-card3.png, /images/posts/oink/product-phone-card3.gif" src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div><p><strong>Card Drawer</strong><br>
+Drawer pops up from the card to show the balance inside in the visual form of cash</p>
+<p>The drawer is hovering on the wallet to enable the user drag the money outside the card</p></div></div>
+<h3 id="piggy-bank---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#piggy-bank---kids-ui"><span></span></a>Piggy Bank - Kid’s UI</h3>
+<p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone </p>
+<p>On the phone the child can begin planning their goals and saving</p>
+<p><em>“For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children’s world and of their learning.” - Revelle et al., 2005</em></p>
+<h3 id="setting-goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#setting-goals---kids-ui"><span></span></a>Setting Goals - Kid’s UI</h3>
+<p>To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it</p>
+<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals” - Murphy, 2018</em></p>
+<h3 id="saving---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#saving---kids-ui"><span></span></a>Saving - Kid’s UI</h3>
+<p>When organizing money into spending, short term savings, and savings towards their goal the child can save in their physical piggy bank</p>
+<p>Saving their goal money in the physical piggy bank gives a sense of accomplishment, but also distance, knowing they cannot spend that money</p>
+<h3 id="compound-interest---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#compound-interest---kids-ui"><span></span></a>Compound Interest - Kid’s UI</h3>
+<p>Compound interest is a simple concept that children can easily grasp as their first introduction into the more complex financial world</p>
+<p>Compound interest is simulated in conjunction with their parents through their long term savings goal</p>
+<p>The fun animation brings excitement and attention to the new concept making it easier to learn</p>
+<h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
+<p>Able to check on progress towards set long term goal with a visual graph </p>
+<p>Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)</p>
+<h3 id="dashboard---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#dashboard---parents-ui"><span></span></a>Dashboard - Parents’ UI</h3>
+<p>Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions </p>
+<p>These transactions are also broken up by categories and visually shown in a circle graph to determine where their child is spending most of their money</p>
+<h3 id="transfer---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#transfer---parents-ui"><span></span></a>Transfer - Parents’ UI</h3>
+<p>Within the child’s analysis screen, parents are also able to quickly send money to their child</p>
+<p>After confirming the amount, the parents is prompted to bring their phone close to their child’s, where the number is transformed into bills so they are able to visually see the money being added to their wallet</p>
 <h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span></span></a>Impacts</h2>
+<h3 id="individual-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#individual-impact"><span></span></a>Individual Impact</h3>
+<h3 id="social-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#social-impact"><span></span></a>Social Impact</h3>
 <h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
 <h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span></span></a>What I wish were more explored</h2>
           ]]></content:encoded>
