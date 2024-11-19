@@ -179,6 +179,7 @@ Drop shadows on the bills and coins make use of the existing mental model that t
 
 **Bottom Navigation**  
 Swipe left or right to navigate between components and click to view details
+
 </div>
 
 ### Wallet
