@@ -215,7 +215,7 @@ Bills and coins in the wallet can be interacted with in several ways
 
 ### Spending
 
-<Image src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations"/>
+<img src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations"/>
 
 <div class="phone_and_description">
 
