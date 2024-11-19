@@ -175,7 +175,7 @@ Filled with draggable bills and coins representing the amount the child currentl
 Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
 
 <div class="phone_and_description">
-<Image src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations"/>
+<img src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations"/>
 
 **Bottom Navigation**  
 Swipe left or right to navigate between components and click to view details
