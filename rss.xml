@@ -23,6 +23,52 @@
     </image>
     
         <item>
+          <guid>https://punnlert.github.io//lambda-studio</guid>
+          <title>Lambda Studio</title>
+          <description>A MIDI controller with an ability to sample soundwaves... using a barcode reader!</description>
+          <link>https://punnlert.github.io//lambda-studio</link>
+          <pubDate>Wed, 20 Nov 2024 11:12:02 +0000</pubDate>
+          
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//lambda-studio">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//klms-redesign</guid>
+          <title>KLMS Redesign</title>
+          <description>Have you ever feel like your school website is a frustrating to use?</description>
+          <link>https://punnlert.github.io//klms-redesign</link>
+          <pubDate>Wed, 20 Nov 2024 05:01:28 +0000</pubDate>
+          <category>UI Design</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//klms-redesign">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <p>Hi</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
+        </item>
+      
+        <item>
           <guid>https://punnlert.github.io//roger-roger</guid>
           <title>Roger, Roger</title>
           <description>Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!</description>
@@ -102,6 +148,29 @@
         </item>
       
         <item>
+          <guid>https://punnlert.github.io//baobal</guid>
+          <title>Baobal</title>
+          <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
+          <link>https://punnlert.github.io//baobal</link>
+          <pubDate>Sat, 22 Apr 2023 21:55:27 +0000</pubDate>
+          <category>HCI</category><category>HCI Research</category><category>UI Design</category><category>UX Design</category><category>UX Research</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//baobal">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>          
+        </item>
+      
+        <item>
           <guid>https://punnlert.github.io//oink</guid>
           <title>Oink</title>
           <description>Reshaping digital financial experience for kids and preteens by introducing tangible interface.</description>
@@ -121,7 +190,6 @@
             <div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	If you want a bite-sized summary, check out this
   <a href="https://youtu.be/I8RZJOs1q6Y">video </a>
-  
 </div>
 <h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span></span></a>Context</h2>
 <p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
@@ -235,12 +303,23 @@ Displayed on the card is the amount in the child’s account and how much of the
 Drawer pops up from the card to show the balance inside in the visual form of cash</p>
 <p>The drawer is hovering on the wallet to enable the user drag the money outside the card</p></div></div>
 <h3 id="piggy-bank---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#piggy-bank---kids-ui"><span></span></a>Piggy Bank - Kid’s UI</h3>
-<p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone</p>
-<p>On the phone the child can begin planning their goals and saving</p>
-<p><em>“For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children’s world and of their learning.” - Revelle et al., 2005</em></p>
-<h3 id="setting-goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#setting-goals---kids-ui"><span></span></a>Setting Goals - Kid’s UI</h3>
+<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div><p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone</p>
+<p>On the phone the child can begin planning their goals and saving</p></div></div>
+<div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+	<p><em>“For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children’s world and of their learning.”</em><br>
+<em>- Revelle et al., 2005</em></p>
+</div>
+<h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
+<img srcset="/images/posts/oink/product-phone-goal1.avif, /images/posts/oink/product-phone-goal1.webp, /images/posts/oink/product-phone-goal1.png" src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it</p>
-<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals” - Murphy, 2018</em></p>
+<div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+	<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals”</em><br>
+<em>- Murphy, 2018</em></p>
+</div>
+<img srcset="/images/posts/oink/product-phone-goal2.avif, /images/posts/oink/product-phone-goal2.webp, /images/posts/oink/product-phone-goal2.png" src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Check on progress towards set long term goal with a visual graph</p>
+<p>Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)</p>
 <h3 id="saving---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#saving---kids-ui"><span></span></a>Saving - Kid’s UI</h3>
 <p>When organizing money into spending, short term savings, and savings towards their goal the child can save in their physical piggy bank</p>
 <p>Saving their goal money in the physical piggy bank gives a sense of accomplishment, but also distance, knowing they cannot spend that money</p>
@@ -248,10 +327,8 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <p>Compound interest is a simple concept that children can easily grasp as their first introduction into the more complex financial world</p>
 <p>Compound interest is simulated in conjunction with their parents through their long term savings goal</p>
 <p>The fun animation brings excitement and attention to the new concept making it easier to learn</p>
-<h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
-<p>Able to check on progress towards set long term goal with a visual graph</p>
-<p>Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)</p>
 <h3 id="dashboard---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#dashboard---parents-ui"><span></span></a>Dashboard - Parents’ UI</h3>
+<img srcset="/images/posts/oink/product-phone-dashboard1.avif, /images/posts/oink/product-phone-dashboard1.webp, /images/posts/oink/product-phone-dashboard1.png" src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions</p>
 <p>These transactions are also broken up by categories and visually shown in a circle graph to determine where their child is spending most of their money</p>
 <h3 id="transfer---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#transfer---parents-ui"><span></span></a>Transfer - Parents’ UI</h3>
