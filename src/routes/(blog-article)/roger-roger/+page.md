@@ -1,14 +1,14 @@
 ---
 slug: roger-roger
 title: Roger, Roger
-date: 2023-05-18T21:55:27.000Z
 excerpt: Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!
 coverImage: /images/posts/roger-roger/cover.png
 tags:
-  - Coding
-  - Javascript
-  - Game Design
+    - Coding
+    - Javascript
+    - Game Design
 hidden: false
+startDate: 2023-02-20T11:40:39.000Z
 ---
 
 <script>

@@ -30,15 +30,15 @@
 					"type": "string"
 				},
 				{
-					"title": "Publishing date",
-					"name": "date",
+					"title": "Project start",
+					"name": "startDate",
 					"type": "datetime",
 					"default": "{{now}}",
 					"isPublishDate": true
 				},
 				{
-					"title": "Last modified date",
-					"name": "updated",
+					"title": "Project end",
+					"name": "endDate",
 					"type": "datetime",
 					"isModifiedDate": true
 				},

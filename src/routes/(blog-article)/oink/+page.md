@@ -1,7 +1,6 @@
 ---
 slug: oink
 title: Oink
-date: 2023-04-22T21:55:27.154Z
 excerpt: Reshaping digital financial experience for kids and preteens by introducing tangible interface.
 coverImage: /images/posts/oink/cover.png
 tags:
@@ -13,6 +12,8 @@ teammates:
   - Hyeonseok Lee
   - Hoyeon Lee
   - Sunwook Kim
+startDate: 2023-08-20T11:38:06.000Z
+endDate: 2023-12-19T15:00:00.000Z
 ---
 
 <script>

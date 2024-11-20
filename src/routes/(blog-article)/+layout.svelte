@@ -52,10 +52,19 @@
 			<div class="header">
 				{#if post}
 					<h1>{post.title}</h1>
-					<div class="note">Published in {dateformat(post.date, 'UTC:mmmm yyyy')}</div>
-					{#if post.updated}
-						<div class="note">Updated in {dateformat(post.updated, 'UTC:mmmm yyyy')}</div>
-					{/if}
+					<div class="dateperiod-container">
+						<div class="note">
+							Development period <br />
+							{#if post.endDate}
+								{dateformat(post.startDate, 'UTC:mmmm yyyy')} - {dateformat(
+									post.endDate,
+									'UTC:mmmm yyyy'
+								)}
+							{:else}
+								{dateformat(post.startDate, 'UTC:mmmm yyyy')}
+							{/if}
+						</div>
+					</div>
 					<!-- {#if post.readingTime}
 						<div class="note">{post.readingTime}</div>
 					{/if} -->
@@ -154,6 +163,10 @@
 				h2 {
 					font-size: 1.618rem;
 				}
+			}
+
+			.dateperiod-container {
+				margin-bottom: 1rem;
 			}
 
 			.note {

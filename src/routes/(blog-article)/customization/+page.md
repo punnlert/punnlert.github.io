@@ -2,7 +2,7 @@
 hidden: true
 slug: customization
 title: How to Customize this Template
-date: 2023-04-22T21:55:27.154Z
+startDate: 2023-04-22T21:55:27.154Z
 excerpt: How to customize what you're seeing here and make it your own.
 coverImage: /images/posts/customization.jpg
 tags:

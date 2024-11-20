@@ -1,7 +1,6 @@
 ---
 slug: baobal
 title: Baobal
-date: 2023-04-22T21:55:27.154Z
 excerpt: Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.
 coverImage: /images/posts/baobal/cover.png
 tags:
@@ -15,6 +14,8 @@ teammates:
   - Zhi Lin Yap
   - Damir Zhumatayev
   - Karen Dolmagambetov
+startDate: 2023-08-20T11:38:06.000Z
+endDate: 2023-12-19T15:00:00.000Z
 ---
 
 <script>
@@ -25,6 +26,8 @@ teammates:
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
 </script>
+
+placeholder
 
 <style lang="scss">
   .drawing_container {
