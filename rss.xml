@@ -23,136 +23,11 @@
     </image>
     
         <item>
-          <guid>https://punnlert.github.io//lambda-studio</guid>
-          <title>Lambda Studio</title>
-          <description>A MIDI controller with an ability to sample soundwaves... using a barcode reader!</description>
-          <link>https://punnlert.github.io//lambda-studio</link>
-          <pubDate>Wed, 20 Nov 2024 11:12:02 +0000</pubDate>
-          
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//lambda-studio">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>          
-        </item>
-      
-        <item>
-          <guid>https://punnlert.github.io//klms-redesign</guid>
-          <title>KLMS Redesign</title>
-          <description>Have you ever feel like your school website is a frustrating to use?</description>
-          <link>https://punnlert.github.io//klms-redesign</link>
-          <pubDate>Wed, 20 Nov 2024 05:01:28 +0000</pubDate>
-          <category>UI Design</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//klms-redesign">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <p>Hi</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
-        </item>
-      
-        <item>
-          <guid>https://punnlert.github.io//roger-roger</guid>
-          <title>Roger, Roger</title>
-          <description>Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!</description>
-          <link>https://punnlert.github.io//roger-roger</link>
-          <pubDate>Thu, 18 May 2023 21:55:27 +0000</pubDate>
-          <category>Coding</category><category>Javascript</category><category>Game Design</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//roger-roger">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
-	Github
-    
-</a>
-    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
-	YouTube
-</a></div>
-<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
-<p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
-<img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span></span></a>The main screen</h2>
-<p>Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt “press space”. The reason behind the IP address being displayed will be explained in <a href="#the-control-screen">the control screen</a> section.</p>
-<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p>After all the players have connected and the captain pressed spacebar, the main screen shows the players the rocket they are controlling. It also shows the score and lives they have left.</p>
-<img srcset="/images/posts/roger-roger/score_and_info.avif, /images/posts/roger-roger/score_and_info.webp, /images/posts/roger-roger/score_and_info.png" src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p>Group of asteroids are streaming through the right side of the screen at different velocity. The players have to use this visual display to based their control on.</p>
-<img srcset="/images/posts/roger-roger/asteroid_streaming.avif, /images/posts/roger-roger/asteroid_streaming.webp, /images/posts/roger-roger/asteroid_streaming.png" src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p>If the rocket ran out of life, the game ends. The last page will display the final score and whether you got the new highscore.</p>
-<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span></span></a>The control screen</h2>
-<p>The control screen consisted of two parts: socket connection input and the control.</p>
-<p>Socket connection input lets the player input the IP address of the server to gain control of the rocket. If the connection is successful, green circle appears on the right side of the input. This is because I want the server to be able to be hosted on the computer and in that case the IP address would be dynamically assigned.</p>
-<img srcset="/images/posts/roger-roger/IP_input.avif, /images/posts/roger-roger/IP_input.webp, /images/posts/roger-roger/IP_input.png" src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="gun-controls"><a class="heading-link" title="Permalink" aria-hidden="true" href="#gun-controls"><span></span></a>Gun controls</h3>
-<p>lets the player controls the gun. There is a two seconds cooldown period for gun firing.</p>
-<img srcset="/images/posts/roger-roger/gun_control.avif, /images/posts/roger-roger/gun_control.webp, /images/posts/roger-roger/gun_control.png" src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="trajectory-control"><a class="heading-link" title="Permalink" aria-hidden="true" href="#trajectory-control"><span></span></a>Trajectory control</h3>
-<p>lets the player controls the up-down movement of the spaceship</p>
-<img srcset="/images/posts/roger-roger/trajectory_control.avif, /images/posts/roger-roger/trajectory_control.webp, /images/posts/roger-roger/trajectory_control.png" src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h3 id="acceleration"><a class="heading-link" title="Permalink" aria-hidden="true" href="#acceleration"><span></span></a>Acceleration</h3>
-<p>lets the player controls the left-right of the spaceship</p>
-<img srcset="/images/posts/roger-roger/acceleration.avif, /images/posts/roger-roger/acceleration.webp, /images/posts/roger-roger/acceleration.png" src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="the-game-mechanics"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-game-mechanics"><span></span></a>The game mechanics</h2>
-<p>Player navigate through the group of asteroids. if they get hit, their lives decreases. they get points for shooting the asteroid depending on the size of it. There are astronauts that you can save. But you can hurt them if you accidentally shoot them. So, be careful around them. But the velocity increase with the score. The gun have a cooldown period of two seconds so players have to be conservative about their shooting. You can collect some lives as you go and save yourselves from dying. If you accidentally shoot the lives, they disappear.</p>
-<p>To see a clearer picture, you can check my demo on <a href="https://youtu.be/GxBwiM4es7w" rel="nofollow">YouTube</a></p>
-<h2 id="how-to-start"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-to-start"><span></span></a>How to start?</h2>
-<p>After you clone the repository, you have to go into every folder <code>/client/display; gun-control; horizontal control; vertical control</code> and <code>/server</code> then run <code>npm install</code> for each one of them.</p>
-<p>If you use Visual Studio Code and have a ‘Go Live’ extension, you can launch the control pages by go into <code>/client</code> then click go live.</p>
-<p>For the display of the main screen, go into <code>/client/display</code> directory and run <code>npm run dev</code></p>
-<p>To initiate the server, go into<code>/server</code> then run <code>npx nodemon &#39;index.js&#39;</code></p>
-<p>If there is an IP address appearing on your ‘display’ screen, you are ready to play!</p>
-<h2 id="highlight"><a class="heading-link" title="Permalink" aria-hidden="true" href="#highlight"><span></span></a>Highlight</h2>
-<p>After finishing all the code, I tried to draw some pixel art to elevate the gaming experience. So, I drew this astronaut and asteroid.</p>
-<div class="drawing_container svelte-1biqf0s"><img srcset="/images/posts/roger-roger/astronaut.avif, /images/posts/roger-roger/astronaut.webp, /images/posts/roger-roger/astronaut.png" src="/images/posts/roger-roger/astronaut.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-    <img srcset="/images/posts/roger-roger/asteroid.avif, /images/posts/roger-roger/asteroid.webp, /images/posts/roger-roger/asteroid.png" src="/images/posts/roger-roger/asteroid.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
-<p>I also learned to postpone the socket.io connection and connect to the input IP (in the <a href="#the-control-screen">control sections</a>) and I am really proud of it.</p>
-<h2 id="software"><a class="heading-link" title="Permalink" aria-hidden="true" href="#software"><span></span></a>Software</h2>
-<p>The game use node to host the server, P5JS to draw the graphics, and socket.io to allow the communication between devices.</p>
-<h2 id="the-architecture"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-architecture"><span></span></a>The architecture</h2>
-<p>This is the UML of the game code.</p>
-<img srcset="/images/posts/roger-roger/RogerRogerUML.avif, /images/posts/roger-roger/RogerRogerUML.webp, /images/posts/roger-roger/RogerRogerUML.png" src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<h2 id="what-i-would-do-to-make-it-better"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-would-do-to-make-it-better"><span></span></a>What I would do to make it better</h2>
-<p>Right now, the obstacles are extended from the class asteroid. That is not very organized in terms of the readability of the code. So, in the future, I would like to restructure it to have a base class of “hittable” and extends every obstacle from there.</p>
-<p>I would also like to add collectibles other than “lives” and “astronaut”; like temporary life extension or gun boost that modify the property of the bullet fired.</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>          
-        </item>
-      
-        <item>
           <guid>https://punnlert.github.io//baobal</guid>
           <title>Baobal</title>
           <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
           <link>https://punnlert.github.io//baobal</link>
-          <pubDate>Sat, 22 Apr 2023 21:55:27 +0000</pubDate>
+          <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
           <category>HCI</category><category>HCI Research</category><category>UI Design</category><category>UX Design</category><category>UX Research</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
@@ -164,7 +39,7 @@
               </strong>
             </div>
 
-            
+            <p>placeholder</p>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>          
@@ -175,7 +50,7 @@
           <title>Oink</title>
           <description>Reshaping digital financial experience for kids and preteens by introducing tangible interface.</description>
           <link>https://punnlert.github.io//oink</link>
-          <pubDate>Sat, 22 Apr 2023 21:55:27 +0000</pubDate>
+          <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
           <category>UI Design</category><category>UX Design</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
@@ -342,6 +217,131 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//lambda-studio</guid>
+          <title>Lambda Studio</title>
+          <description>A MIDI controller with an ability to sample soundwaves... using a barcode reader!</description>
+          <link>https://punnlert.github.io//lambda-studio</link>
+          <pubDate>Wed, 01 Mar 2023 11:46:13 +0000</pubDate>
+          <category>Interaction Design</category><category>Product Design</category><category>Microcomputer</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//lambda-studio">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <p>placeholder</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//klms-redesign</guid>
+          <title>KLMS Redesign</title>
+          <description>Have you ever feel like your school website is a frustrating to use?</description>
+          <link>https://punnlert.github.io//klms-redesign</link>
+          <pubDate>Mon, 20 Mar 2023 11:45:13 +0000</pubDate>
+          <category>UI Design</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//klms-redesign">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <p>placeholder</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//roger-roger</guid>
+          <title>Roger, Roger</title>
+          <description>Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!</description>
+          <link>https://punnlert.github.io//roger-roger</link>
+          <pubDate>Mon, 20 Feb 2023 11:40:39 +0000</pubDate>
+          <category>Coding</category><category>Javascript</category><category>Game Design</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//roger-roger">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
+	Github
+    
+</a>
+    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
+	YouTube
+</a></div>
+<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
+<p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
+<img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span></span></a>The main screen</h2>
+<p>Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt “press space”. The reason behind the IP address being displayed will be explained in <a href="#the-control-screen">the control screen</a> section.</p>
+<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>After all the players have connected and the captain pressed spacebar, the main screen shows the players the rocket they are controlling. It also shows the score and lives they have left.</p>
+<img srcset="/images/posts/roger-roger/score_and_info.avif, /images/posts/roger-roger/score_and_info.webp, /images/posts/roger-roger/score_and_info.png" src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Group of asteroids are streaming through the right side of the screen at different velocity. The players have to use this visual display to based their control on.</p>
+<img srcset="/images/posts/roger-roger/asteroid_streaming.avif, /images/posts/roger-roger/asteroid_streaming.webp, /images/posts/roger-roger/asteroid_streaming.png" src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>If the rocket ran out of life, the game ends. The last page will display the final score and whether you got the new highscore.</p>
+<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span></span></a>The control screen</h2>
+<p>The control screen consisted of two parts: socket connection input and the control.</p>
+<p>Socket connection input lets the player input the IP address of the server to gain control of the rocket. If the connection is successful, green circle appears on the right side of the input. This is because I want the server to be able to be hosted on the computer and in that case the IP address would be dynamically assigned.</p>
+<img srcset="/images/posts/roger-roger/IP_input.avif, /images/posts/roger-roger/IP_input.webp, /images/posts/roger-roger/IP_input.png" src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h3 id="gun-controls"><a class="heading-link" title="Permalink" aria-hidden="true" href="#gun-controls"><span></span></a>Gun controls</h3>
+<p>lets the player controls the gun. There is a two seconds cooldown period for gun firing.</p>
+<img srcset="/images/posts/roger-roger/gun_control.avif, /images/posts/roger-roger/gun_control.webp, /images/posts/roger-roger/gun_control.png" src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h3 id="trajectory-control"><a class="heading-link" title="Permalink" aria-hidden="true" href="#trajectory-control"><span></span></a>Trajectory control</h3>
+<p>lets the player controls the up-down movement of the spaceship</p>
+<img srcset="/images/posts/roger-roger/trajectory_control.avif, /images/posts/roger-roger/trajectory_control.webp, /images/posts/roger-roger/trajectory_control.png" src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h3 id="acceleration"><a class="heading-link" title="Permalink" aria-hidden="true" href="#acceleration"><span></span></a>Acceleration</h3>
+<p>lets the player controls the left-right of the spaceship</p>
+<img srcset="/images/posts/roger-roger/acceleration.avif, /images/posts/roger-roger/acceleration.webp, /images/posts/roger-roger/acceleration.png" src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="the-game-mechanics"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-game-mechanics"><span></span></a>The game mechanics</h2>
+<p>Player navigate through the group of asteroids. if they get hit, their lives decreases. they get points for shooting the asteroid depending on the size of it. There are astronauts that you can save. But you can hurt them if you accidentally shoot them. So, be careful around them. But the velocity increase with the score. The gun have a cooldown period of two seconds so players have to be conservative about their shooting. You can collect some lives as you go and save yourselves from dying. If you accidentally shoot the lives, they disappear.</p>
+<p>To see a clearer picture, you can check my demo on <a href="https://youtu.be/GxBwiM4es7w" rel="nofollow">YouTube</a></p>
+<h2 id="how-to-start"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-to-start"><span></span></a>How to start?</h2>
+<p>After you clone the repository, you have to go into every folder <code>/client/display; gun-control; horizontal control; vertical control</code> and <code>/server</code> then run <code>npm install</code> for each one of them.</p>
+<p>If you use Visual Studio Code and have a ‘Go Live’ extension, you can launch the control pages by go into <code>/client</code> then click go live.</p>
+<p>For the display of the main screen, go into <code>/client/display</code> directory and run <code>npm run dev</code></p>
+<p>To initiate the server, go into<code>/server</code> then run <code>npx nodemon &#39;index.js&#39;</code></p>
+<p>If there is an IP address appearing on your ‘display’ screen, you are ready to play!</p>
+<h2 id="highlight"><a class="heading-link" title="Permalink" aria-hidden="true" href="#highlight"><span></span></a>Highlight</h2>
+<p>After finishing all the code, I tried to draw some pixel art to elevate the gaming experience. So, I drew this astronaut and asteroid.</p>
+<div class="drawing_container svelte-1biqf0s"><img srcset="/images/posts/roger-roger/astronaut.avif, /images/posts/roger-roger/astronaut.webp, /images/posts/roger-roger/astronaut.png" src="/images/posts/roger-roger/astronaut.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+    <img srcset="/images/posts/roger-roger/asteroid.avif, /images/posts/roger-roger/asteroid.webp, /images/posts/roger-roger/asteroid.png" src="/images/posts/roger-roger/asteroid.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+<p>I also learned to postpone the socket.io connection and connect to the input IP (in the <a href="#the-control-screen">control sections</a>) and I am really proud of it.</p>
+<h2 id="software"><a class="heading-link" title="Permalink" aria-hidden="true" href="#software"><span></span></a>Software</h2>
+<p>The game use node to host the server, P5JS to draw the graphics, and socket.io to allow the communication between devices.</p>
+<h2 id="the-architecture"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-architecture"><span></span></a>The architecture</h2>
+<p>This is the UML of the game code.</p>
+<img srcset="/images/posts/roger-roger/RogerRogerUML.avif, /images/posts/roger-roger/RogerRogerUML.webp, /images/posts/roger-roger/RogerRogerUML.png" src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<h2 id="what-i-would-do-to-make-it-better"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-would-do-to-make-it-better"><span></span></a>What I would do to make it better</h2>
+<p>Right now, the obstacles are extended from the class asteroid. That is not very organized in terms of the readability of the code. So, in the future, I would like to restructure it to have a base class of “hittable” and extends every obstacle from there.</p>
+<p>I would also like to add collectibles other than “lives” and “astronaut”; like temporary life extension or gun boost that modify the property of the bullet fired.</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>          
         </item>
       
   </channel>
