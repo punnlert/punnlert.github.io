@@ -52,18 +52,30 @@
 			<div class="header">
 				{#if post}
 					<h1>{post.title}</h1>
-					<div class="note">Published on {dateformat(post.date, 'UTC:dd mmmm yyyy')}</div>
+					<div class="note">Published in {dateformat(post.date, 'UTC:mmmm yyyy')}</div>
 					{#if post.updated}
-						<div class="note">Updated on {dateformat(post.updated, 'UTC:dd mmmm yyyy')}</div>
+						<div class="note">Updated in {dateformat(post.updated, 'UTC:mmmm yyyy')}</div>
 					{/if}
-					{#if post.readingTime}
+					<!-- {#if post.readingTime}
 						<div class="note">{post.readingTime}</div>
-					{/if}
+					{/if} -->
 					{#if post.tags?.length}
 						<div class="tags">
 							{#each post.tags as tag}
 								<Tag>{tag}</Tag>
 							{/each}
+						</div>
+					{/if}
+					{#if post.teammates?.length}
+						<div class="teammate-container">
+							<h2>Teammates</h2>
+							<div class="note">
+								<p>
+									{#each post.teammates as teammate}
+										{teammate} <br />
+									{/each}
+								</p>
+							</div>
 						</div>
 					{/if}
 				{/if}
@@ -132,6 +144,17 @@
 			gap: 10px;
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
+
+			.teammate-container {
+				width: fit-content;
+				// border-top: solid;
+				// border-bottom: solid;
+				// padding: 0.7rem 1rem;
+				margin: 1rem;
+				h2 {
+					font-size: 1.618rem;
+				}
+			}
 
 			.note {
 				font-size: 90%;

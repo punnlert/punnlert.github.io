@@ -27,6 +27,7 @@ export type Feature = {
 export type BlogPost = {
   tags: string[],
   keywords: string[],
+  teammates: string[],
   hidden: boolean,
   slug: string,
   title: string,

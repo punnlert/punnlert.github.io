@@ -4,8 +4,8 @@
 		{
 			"name": "default",
 			"previewPath": null,
-			"defaultFileName": "+page",
-      "pageBundle": true,
+			"defaultFileName": "+page.md",
+			"pageBundle": true,
 			"fields": [
 				{
 					"title": "Title",
@@ -16,7 +16,7 @@
 					"title": "Slug",
 					"name": "slug",
 					"type": "string",
-          "default": "{{slug}}"
+					"default": "{{slug}}"
 				},
 				{
 					"title": "Cover Image",
@@ -46,7 +46,7 @@
 					"title": "Is hidden",
 					"name": "hidden",
 					"type": "draft",
-          "default": false
+					"default": false
 				},
 				{
 					"title": "Tags",
@@ -57,6 +57,11 @@
 					"title": "Contribution",
 					"name": "contribution",
 					"type": "tags"
+				},
+				{
+					"title": "Work Buddies",
+					"name": "teammates",
+					"type": "list"
 				},
 				{
 					"title": "Keywords",
@@ -72,7 +77,7 @@
 		{
 			"title": "posts",
 			"path": "[[workspace]]/src/routes/(blog-article)",
-      "filePrefix": null
+			"filePrefix": null
 		}
 	]
 }

@@ -8,6 +8,11 @@ tags:
   - UI Design
   - UX Design
 hidden: false
+teammates:
+  - Lucy Bell
+  - Hyeonseok Lee
+  - Hoyeon Lee
+  - Sunwook Kim
 ---
 
 <script>
@@ -22,7 +27,6 @@ hidden: false
 <Callout type="info">
   If you want a bite-sized summary, check out this
   <a href="https://youtu.be/I8RZJOs1q6Y"> video </a>
-  <!-- [video](https://youtu.be/I8RZJOs1q6Y) -->
 </Callout>
 
 ## Context
@@ -265,17 +269,43 @@ The drawer is hovering on the wallet to enable the user drag the money outside t
 
 ### Piggy Bank - Kid's UI
 
+<div class="phone_and_description">
+
+<Image src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations"/>
+<div>
+
 Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone
 
 On the phone the child can begin planning their goals and saving
 
-_"For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children's world and of their learning." - Revelle et al., 2005_
+</div>
 
-### Setting Goals - Kid's UI
+</div>
+<Callout type="info">
+
+_"For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children's world and of their learning."_  
+_- Revelle et al., 2005_
+
+</Callout>
+
+### Goals - Kid's UI
+
+<Image src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations"/>
 
 To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it
 
-_"Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals" - Murphy, 2018_
+<Callout type="info">
+
+_"Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals"_  
+_- Murphy, 2018_
+
+</Callout>
+
+<Image src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations"/>
+
+Check on progress towards set long term goal with a visual graph
+
+Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)
 
 ### Saving - Kid's UI
 
@@ -291,13 +321,9 @@ Compound interest is simulated in conjunction with their parents through their l
 
 The fun animation brings excitement and attention to the new concept making it easier to learn
 
-### Goals - Kid's UI
-
-Able to check on progress towards set long term goal with a visual graph
-
-Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)
-
 ### Dashboard - Parents' UI
+
+<Image src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations"/>
 
 Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions
 
