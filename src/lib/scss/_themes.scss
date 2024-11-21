@@ -5,9 +5,9 @@
 	@include define-color('primary-shade', #82a496);
 	@include define-color('primary-tint', #73bfa9);
 
-	@include define-color('secondary', #F66C8D);
-	@include define-color('secondary-shade', #F5C3C4);
-	@include define-color('secondary-tint', #EFD9D1);
+	@include define-color('secondary', #f66c8d);
+	@include define-color('secondary-shade', #f5c3c4);
+	@include define-color('secondary-tint', #efd9d1);
 
 	@include define-color('yellow', #ffd400);
 
@@ -21,8 +21,9 @@
 	@include define-color('card-background', #eee9d4);
 
 	// Used for Callout component
+	@include define-color('callout-text', #1c1e26);
 	@include define-color('callout-background', #f4f8fb);
-	@include define-color('callout-background--info', #bdd6d6);
+	@include define-color('callout-background--info', #d4dede);
 	@include define-color('callout-accent--info', #29a6c5);
 	@include define-color('callout-background--warning', #fff6b6);
 	@include define-color('callout-accent--warning', #c87820);

@@ -80,6 +80,7 @@
 
 				&:hover {
 					text-decoration: underline;
+					text-decoration-thickness: 2px;
 
 					// get rid of shadows
 					// color: var(--color--primary);

@@ -32,8 +32,8 @@
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		background: var(--bg-color);
-		color: var(--text-color);
-		// color: var(--accent-color);
+		// color: var(--text-color);
+		color: var(--accent-color);
 		border-left: 4px solid var(--accent-color);
 
 		position: relative;

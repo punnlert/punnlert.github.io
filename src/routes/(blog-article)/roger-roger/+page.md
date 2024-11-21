@@ -4,9 +4,9 @@ title: Roger, Roger
 excerpt: Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!
 coverImage: /images/posts/roger-roger/cover.png
 tags:
-    - Coding
-    - Javascript
-    - Game Design
+  - Coding
+  - Javascript
+  - Game Design
 hidden: false
 startDate: 2023-02-20T11:40:39.000Z
 ---
@@ -14,13 +14,19 @@ startDate: 2023-02-20T11:40:39.000Z
 <script>
   import Image from "$lib/components/atoms/Image.svelte";
   import Button from "$lib/components/atoms/Button.svelte"
+  import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
+  import GithubIcon from "$lib/icons/socials/github.svelte"; 
 </script>
 
 <div class="button_container"> 
     <Button href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project">
-    Github
+      <GithubIcon slot="icon" />
+      Github
     </Button>
-    <Button href="https://youtu.be/GxBwiM4es7w">YouTube</Button>
+    <Button href="https://youtu.be/GxBwiM4es7w">
+      <YoutubeIcon slot="icon" />
+      YouTube
+    </Button>
 </div>
 
 <Image src="/images/posts/roger-roger/start_page.png" alt="Start Page" />

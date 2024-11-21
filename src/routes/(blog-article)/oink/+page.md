@@ -23,12 +23,20 @@ endDate: 2023-12-19T15:00:00.000Z
   import TintHighlight from "$lib/components/molecules/TintHighlight.svelte";
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
+  import Button from "$lib/components/atoms/Button.svelte";
+  import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
 </script>
 
-<Callout type="info">
+<div class="button_container"> 
+    <Button href="https://youtu.be/I8RZJOs1q6Y">
+      <YoutubeIcon slot="icon" />
+      YouTube
+    </Button>
+</div>
+<!-- <Callout type="info">
   If you want a bite-sized summary, check out this
   <a href="https://youtu.be/I8RZJOs1q6Y"> video </a>
-</Callout>
+</Callout> -->
 
 ## Context
 
@@ -172,9 +180,8 @@ It might be better for your experience if you see this [video](https://youtu.be/
 
 ### Home Page - Kid's UI
 
-<Image src="/images/posts/oink/product-phone-wallet.png" alt="Claims supporting our two observations"/>
+<Image src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations"/>
 
-**Wallet**  
 Filled with draggable bills and coins representing the amount the child currently has in their bank account
 
 Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable
@@ -191,6 +198,8 @@ Swipe left or right to navigate between components and click to view details
 
 **Interaction with Bills and Coins**  
 Bills and coins in the wallet can be interacted with in several ways
+
+<img src="/images/posts/oink/product-phone-wallet1.gif" alt="Claims supporting our two observations"/>
 
 <div class="phone_and_description">
 
@@ -366,6 +375,15 @@ After confirming the amount, the parents is prompted to bring their phone close 
 			justify-items: center;
 			gap: 20px;
     }
+  }
+  
+  .button_container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
   }
 
   /* img:not(.show_nobg) {
