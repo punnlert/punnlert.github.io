@@ -62,10 +62,11 @@
               </strong>
             </div>
 
-            <div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
-	If you want a bite-sized summary, check out this
-  <a href="https://youtu.be/I8RZJOs1q6Y">video </a>
-</div>
+            <div class="button_container svelte-1k0qw67"><a href="https://youtu.be/I8RZJOs1q6Y" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+	YouTube
+    
+</a></div>
+
 <h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span></span></a>Context</h2>
 <p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
 <p>It may make sense for adults that have to manage their complex finance (I am also trying to learn how to be financially responsible) but it does not make sense for kids who just started to learn about money. So, what we’re trying to do was bring back some of charming characteristics of physical money to digital banking tools for children.</p>
@@ -121,7 +122,7 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <p>The recurring theme found in the post-its are that digital money sometimes are too <em>abstract</em>. So, after some weeks of researching, we came upon a promising solution; <strong>“Tangible User Interface”</strong>.</p>
 <img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)</p>
-<div class="drawing_container svelte-v8vqyz"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="drawing_container svelte-1k0qw67"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
   <img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 <img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
@@ -145,50 +146,50 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 </p>
 <p>It might be better for your experience if you see this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a> before we dive into the product.</p>
 <h3 id="home-page---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#home-page---kids-ui"><span></span></a>Home Page - Kid’s UI</h3>
-<img srcset="/images/posts/oink/product-phone-wallet.avif, /images/posts/oink/product-phone-wallet.webp, /images/posts/oink/product-phone-wallet.png" src="/images/posts/oink/product-phone-wallet.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-<p><strong>Wallet</strong><br>
-Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
+<img srcset="/images/posts/oink/product-phone-home.avif, /images/posts/oink/product-phone-home.webp, /images/posts/oink/product-phone-home.png" src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p>Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
 <p>Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable</p>
-<div class="phone_and_description svelte-v8vqyz"><img src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations">
+<div class="phone_and_description svelte-1k0qw67"><img src="/images/posts/oink/product-phone-bottomNav.gif" alt="Claims supporting our two observations">
 <p><strong>Bottom Navigation</strong><br>
 Swipe left or right to navigate between components and click to view details</p></div>
 <h3 id="wallet---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#wallet---kids-ui"><span></span></a>Wallet - Kid’s UI</h3>
 <p><strong>Interaction with Bills and Coins</strong><br>
 Bills and coins in the wallet can be interacted with in several ways</p>
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<img src="/images/posts/oink/product-phone-wallet1.gif" alt="Claims supporting our two observations">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
   <div><p><strong>Combining Bills or Coins</strong><br>
 Long press and drag bills or coins together to combine into a larger bill or coin</p></div></div>
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
   <div><p><strong>Dividing Bills or Coins</strong><br>
 Long press a bill or coin to break it down into smaller bills</p></div></div>
 <h3 id="spending---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#spending---kids-ui"><span></span></a>Spending - Kid’s UI</h3>
 <img src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations">
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
 <div><p><strong>Purchase History</strong><br>
 Can easily find any recent transactions and has the ability to filter by week, month, and year</p>
 <p>Designed after a receipt slip to make it more familiar to child’s understanding of the world</p></div></div>
 <h3 id="card---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#card---kids-ui"><span></span></a>Card - Kid’s UI</h3>
 <img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations">
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
 <div><p><strong>Balance Information</strong><br>
 Displayed on the card is the amount in the child’s account and how much of their daily limit is remaining to be used</p>
 <p>Use of visually interesting, but simple UX to increase the usability for kids</p></div></div>
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-card3.avif, /images/posts/oink/product-phone-card3.webp, /images/posts/oink/product-phone-card3.png" src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-card3.avif, /images/posts/oink/product-phone-card3.webp, /images/posts/oink/product-phone-card3.png" src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <div><p><strong>Card Drawer</strong><br>
 Drawer pops up from the card to show the balance inside in the visual form of cash</p>
 <p>The drawer is hovering on the wallet to enable the user drag the money outside the card</p></div></div>
 <h3 id="piggy-bank---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#piggy-bank---kids-ui"><span></span></a>Piggy Bank - Kid’s UI</h3>
-<div class="phone_and_description svelte-v8vqyz"><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <div><p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone</p>
 <p>On the phone the child can begin planning their goals and saving</p></div></div>
-<div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<div class="callout-block info svelte-9betqn"><div class="icon-wrapper svelte-9betqn"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	<p><em>“For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children’s world and of their learning.”</em><br>
 <em>- Revelle et al., 2005</em></p>
 </div>
 <h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
 <img srcset="/images/posts/oink/product-phone-goal1.avif, /images/posts/oink/product-phone-goal1.webp, /images/posts/oink/product-phone-goal1.png" src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it</p>
-<div class="callout-block info svelte-sxx0n0"><div class="icon-wrapper svelte-sxx0n0"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<div class="callout-block info svelte-9betqn"><div class="icon-wrapper svelte-9betqn"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals”</em><br>
 <em>- Murphy, 2018</em></p>
 </div>
@@ -282,12 +283,13 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
               </strong>
             </div>
 
-            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
+            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	Github
     
 </a>
-    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-o0yy46" data-sveltekit-preload-data>
+    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	YouTube
+    
 </a></div>
 <img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
