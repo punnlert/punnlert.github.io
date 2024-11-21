@@ -39,6 +39,33 @@
 	}
 </script>
 
+<!-- {#if caption}
+	<figure>
+		<img
+			srcset={buildSrcset()}
+			{src}
+			{alt}
+			loading="lazy"
+			decoding="async"
+			class:full-bleed={fullBleed}
+			class:show_nobg={noBg}
+		/>
+		<figcaption>
+			{alt}
+		</figcaption>
+	</figure>
+{:else}
+	<img
+		srcset={buildSrcset()}
+		{src}
+		{alt}
+		loading="lazy"
+		decoding="async"
+		class:full-bleed={fullBleed}
+		class:show_nobg={noBg}
+	/>
+{/if} -->
+
 <figure>
 	<img
 		srcset={buildSrcset()}
@@ -50,21 +77,11 @@
 		class:show_nobg={noBg}
 	/>
 	{#if caption}
-		<figcaption>
-			{alt}
-		</figcaption>
+	<figcaption>
+		{alt}
+	</figcaption>
 	{/if}
 </figure>
-
-<!-- <img
-		srcset={buildSrcset()}
-		{src}
-		{alt}
-		loading="lazy"
-		decoding="async"
-		class:full-bleed={fullBleed}
-		class:show_nobg={noBg}
-	/> -->
 
 <style lang="scss">
 	img {

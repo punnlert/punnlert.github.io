@@ -1,0 +1,14 @@
+// for the carousel to work
+@import '@splidejs/svelte-splide/css';
+
+.splide__pagination__page {
+	background: var(--color--primary-shade);
+}
+
+.splide__pagination__page.is-active {
+	background: var(--color--primary);
+}
+
+.splide__track {
+	overflow: visible;
+}

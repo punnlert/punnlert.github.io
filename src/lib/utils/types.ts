@@ -17,6 +17,11 @@ export type SocialLink = {
   
 }
 
+export type img = {
+  src: string,
+  alt: string
+}
+
 export type Feature = {
   name: string,
   description: string,

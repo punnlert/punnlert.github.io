@@ -19,7 +19,7 @@ endDate: 2023-12-19T15:00:00.000Z
 importance: 2
 ---
 
-<script>
+<script lang="ts">
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
@@ -29,6 +29,13 @@ importance: 2
   import Button from "$lib/components/atoms/Button.svelte";
   import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
   import BlogIcon from "$lib/icons/blog.svelte";
+  import Carousel from "$lib/components/molecules/Carousel.svelte";
+
+  const needfindingImages = [
+    {src: "/images/posts/baobal/needfinding-sequence.png", alt: "Sequence Model"},
+    {src: "/images/posts/baobal/needfinding-physical.png", alt: "Sequence Model"},
+    {src: "/images/posts/baobal/needfinding-artifact.png", alt: "Sequence Model"},
+  ]
 </script>
 
 <div class="button_container"> 
@@ -56,13 +63,26 @@ And one of the thing we noticed is that, while there are an abundance of product
 ## Needfinding
 To identify the needs that out product has to satisfy, we conducted interviews with 9 potential target users. Then, we identify any interesting moments or remarks throughout the interview and develop our contextual models: sequence model, physical model, and artifact model.
 
-<Image src="/images/posts/baobal/needfinding-sequence.png" alt="Sequence Model" />
-<Image src="/images/posts/baobal/needfinding-physical.png" alt="Physical Model" />
-<Image src="/images/posts/baobal/needfinding-artifact.png" alt="Artifact Model" />
+<Carousel images={needfindingImages} label="images"></Carousel>
 
 Then we proceed to identify the needs from the insights we found in the model.
 
+### Needs
+- They need for a sense of work-life integration, rather than strict separation
+- They need to recognize that breaks are not bad
+- They need a positive and motivating competitive environment
+- They need consistent reassurance that they have worked hard
+- They need to maintain focus and concentration
+- They need a reliable support system from peers
+- They need to manage anxiety stemming from concerns about productivity
+- They need to actively track and manage work commitments
+- They need to set achievable, realistic goals
+- They need effective resting techniques, such as the Pomodoro method
+- They require tools to measure progress and accomplishments
+
 ## Ideation
+
+
 ## Prototyping
 ### Low-Fidelity (Paper)
 ### High-Fidelity (Digital)

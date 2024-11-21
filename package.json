@@ -56,6 +56,7 @@
 		"@fontsource/merriweather": "^4.5.14",
 		"@fontsource/poppins": "^5.1.0",
 		"@fontsource/space-mono": "^5.1.1",
-		"@fontsource/ubuntu-mono": "^4.5.11"
+		"@fontsource/ubuntu-mono": "^4.5.11",
+		"@splidejs/svelte-splide": "^0.2.9"
 	}
 }
