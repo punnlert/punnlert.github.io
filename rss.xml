@@ -23,29 +23,6 @@
     </image>
     
         <item>
-          <guid>https://punnlert.github.io//baobal</guid>
-          <title>Baobal</title>
-          <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
-          <link>https://punnlert.github.io//baobal</link>
-          <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
-          <category>HCI</category><category>HCI Research</category><category>UI Design</category><category>UX Design</category><category>UX Research</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//baobal">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <p>placeholder</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>          
-        </item>
-      
-        <item>
           <guid>https://punnlert.github.io//oink</guid>
           <title>Oink</title>
           <description>Reshaping digital financial experience for kids and preteens by introducing tangible interface.</description>
@@ -62,12 +39,14 @@
               </strong>
             </div>
 
-            <div class="button_container svelte-1k0qw67"><a href="https://youtu.be/I8RZJOs1q6Y" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
-	YouTube
-    
-</a></div>
-
+            <div class="button_container svelte-1k0qw67"><div class="sparkle-wrapper svelte-exdx8u">
+	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d"><a href="https://youtu.be/I8RZJOs1q6Y" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+	Explanation Video
+      
+</a></strong></span>
+</div></div>
 <h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span></span></a>Context</h2>
+<p><em>This is a collaboration with <a href="https://banking.nonghyup.com/nhbank.html" rel="nofollow">NH Bank Korea</a> under the theme <strong>“Life Finance Platform Service Design”</strong>. The basic idea is that how can we design financial experience that makes life better.</em></p>
 <p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
 <p>It may make sense for adults that have to manage their complex finance (I am also trying to learn how to be financially responsible) but it does not make sense for kids who just started to learn about money. So, what we’re trying to do was bring back some of charming characteristics of physical money to digital banking tools for children.</p>
 <h2 id="overview-and-background"><a class="heading-link" title="Permalink" aria-hidden="true" href="#overview-and-background"><span></span></a>Overview and Background</h2>
@@ -169,6 +148,7 @@ Long press a bill or coin to break it down into smaller bills</p></div></div>
 Can easily find any recent transactions and has the ability to filter by week, month, and year</p>
 <p>Designed after a receipt slip to make it more familiar to child’s understanding of the world</p></div></div>
 <h3 id="card---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#card---kids-ui"><span></span></a>Card - Kid’s UI</h3>
+<p>The kid can drag the money they have in their homepage into their card to top-up before any usage. this design choice is to simulate the need to look into the physical wallet before buying anything.</p>
 <img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations">
 <div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
 <div><p><strong>Balance Information</strong><br>
@@ -182,14 +162,14 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <div class="phone_and_description svelte-1k0qw67"><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <div><p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone</p>
 <p>On the phone the child can begin planning their goals and saving</p></div></div>
-<div class="callout-block info svelte-9betqn"><div class="icon-wrapper svelte-9betqn"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<div class="callout-block info svelte-1u8p6v1"><div class="icon-wrapper svelte-1u8p6v1"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	<p><em>“For young users, [digital] interface use is often developmentally inappropriate and can be a stumbling block to interactive learning. Exploring and manipulating physical objects is a key component of young children’s world and of their learning.”</em><br>
 <em>- Revelle et al., 2005</em></p>
 </div>
 <h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
 <img srcset="/images/posts/oink/product-phone-goal1.avif, /images/posts/oink/product-phone-goal1.webp, /images/posts/oink/product-phone-goal1.png" src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it</p>
-<div class="callout-block info svelte-9betqn"><div class="icon-wrapper svelte-9betqn"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+<div class="callout-block info svelte-1u8p6v1"><div class="icon-wrapper svelte-1u8p6v1"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals”</em><br>
 <em>- Murphy, 2018</em></p>
 </div>
@@ -197,27 +177,77 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <p>Check on progress towards set long term goal with a visual graph</p>
 <p>Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)</p>
 <h3 id="saving---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#saving---kids-ui"><span></span></a>Saving - Kid’s UI</h3>
+<img src="/images/posts/oink/product-phone-saving1.gif" alt="Claims supporting our two observations">
 <p>When organizing money into spending, short term savings, and savings towards their goal the child can save in their physical piggy bank</p>
 <p>Saving their goal money in the physical piggy bank gives a sense of accomplishment, but also distance, knowing they cannot spend that money</p>
 <h3 id="compound-interest---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#compound-interest---kids-ui"><span></span></a>Compound Interest - Kid’s UI</h3>
+<img src="/images/posts/oink/product-phone-compoundInterest1.gif" alt="Claims supporting our two observations">
 <p>Compound interest is a simple concept that children can easily grasp as their first introduction into the more complex financial world</p>
-<p>Compound interest is simulated in conjunction with their parents through their long term savings goal</p>
+<p>Compound interest is simulated in conjunction with their parents through their long term savings goal. The interest the child get is going to be from the parents (this is how it is “simulated”) so they have more flexibility in managing the interest rates.</p>
 <p>The fun animation brings excitement and attention to the new concept making it easier to learn</p>
 <h3 id="dashboard---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#dashboard---parents-ui"><span></span></a>Dashboard - Parents’ UI</h3>
 <img srcset="/images/posts/oink/product-phone-dashboard1.avif, /images/posts/oink/product-phone-dashboard1.webp, /images/posts/oink/product-phone-dashboard1.png" src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 <p>Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions</p>
 <p>These transactions are also broken up by categories and visually shown in a circle graph to determine where their child is spending most of their money</p>
 <h3 id="transfer---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#transfer---parents-ui"><span></span></a>Transfer - Parents’ UI</h3>
+<img src="/images/posts/oink/product-phone-transfer1.gif" alt="Claims supporting our two observations">
 <p>Within the child’s analysis screen, parents are also able to quickly send money to their child</p>
 <p>After confirming the amount, the parents is prompted to bring their phone close to their child’s, where the number is transformed into bills so they are able to visually see the money being added to their wallet</p>
 <h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span></span></a>Impacts</h2>
 <h3 id="individual-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#individual-impact"><span></span></a>Individual Impact</h3>
+<img srcset="/images/posts/oink/product-phone-impact1.avif, /images/posts/oink/product-phone-impact1.webp, /images/posts/oink/product-phone-impact1.png" src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p><strong>Fill children’s childhoods with healthy financial experiences</strong><br>
+Through the experience of moving and exchanging bills and coins, children will be able to perceive money as colors and shapes, not numbers, and as a result will be able to read numerical values.</p>
+<p>By stacking and labeling money in their wallet compartments, kids get the experience of practicing planned spending in different areas. They’ll move away from seeing their balance as a number that’s always available to them and start spending with a sense of direction.
+Kids can save money based on goals, recognize that they can’t spend it, and feel a sense of accomplishment in reaching their goals.</p>
+<p>The experience of not spending money right away, but investing it in the future and earning additional interest, can help them weigh immediate happiness against long-term gains.</p>
+<p><strong>Parents will be able to have healthy conversations with their kids.</strong><br>
+Our app suggests new conversation topics. Your child will be able to set new savings goals and check them off, and you’ll be able to see them and give them more compound interest to encourage them to save.</p>
+<p>Instead of getting mad at them for spending a big chunk of money out of the blue, you’ll have the opportunity to understand and praise them for the hard work they’ve put into saving to get there.</p>
+<p>You could even meet them face-to-face every time they ask you for their pocket money and have a short conversation about the amount.</p>
 <h3 id="social-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#social-impact"><span></span></a>Social Impact</h3>
+<img srcset="/images/posts/oink/product-phone-impact2.avif, /images/posts/oink/product-phone-impact2.webp, /images/posts/oink/product-phone-impact2.png" src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<p><strong>Attract the smart customers of tomorrow</strong><br>
+With an easily accessible admin screen in NH’s existing app, parents can attract kids as future customers. With financial literacy, customers are expected to quickly see the benefits of “investing,” whether it’s trading stocks or buying bonds.</p>
 <h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
+<ol><li>Making things easy to use is not easy</li>
+<li>Complete the whole project and refining over iterations is more effective than getting every details right in one go.</li>
+<li>Face-to-face meeting is uncomfortable and inconvenient, but it is fun and it is the best way to get things done.</li></ol>
+<p>I am the kind of person who likes to see how far the crazy ideas would go. So, often times I would ended up building upon others’ so-called <em>dumb ideas</em> rather than trying to find their limitations. This team is the first team that believe in the same principle as me. Every team member would try adding on to the ideas on the post-it board and rarely disregard any of them. It would started out sounding kinda funny but then we often ended up with beautiful and unique interactions.</p>
+<p>This team showed me how powerful any ideas can be with a little bit of everyone’s help.</p>
 <h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span></span></a>What I wish were more explored</h2>
+<p>We had quite a short time period in developing this project. So, we rely so heavily on researches and surveys because extensive user testing and heuristics evaluation are not very feasible. I wish we had a little more time to make a testable prototype and conduct user tests to verify our design. However, I am satisfied with the progress we managed to achieve in such a short time frame. Maybe with more experience we can achieve more in the future.</p>
+<p>If you are interested in a project with more emphasis on verifying design choices and user experience evaluation, check out my project 
+  <div class="sparkle-wrapper svelte-exdx8u">
+	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d"><a href="/baobal">Baobal!
+    </a></strong></span>
+</div></p>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/oink/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/oink/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//baobal</guid>
+          <title>Baobal</title>
+          <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
+          <link>https://punnlert.github.io//baobal</link>
+          <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
+          <category>HCI</category><category>HCI Research</category><category>UI Design</category><category>UX Design</category><category>UX Research</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//baobal">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <p>placeholder</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>          
         </item>
       
         <item>
@@ -241,29 +271,6 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>          
-        </item>
-      
-        <item>
-          <guid>https://punnlert.github.io//klms-redesign</guid>
-          <title>KLMS Redesign</title>
-          <description>Have you ever feel like your school website is a frustrating to use?</description>
-          <link>https://punnlert.github.io//klms-redesign</link>
-          <pubDate>Mon, 20 Mar 2023 11:45:13 +0000</pubDate>
-          <category>UI Design</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//klms-redesign">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <p>placeholder</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
         </item>
       
         <item>
@@ -344,6 +351,29 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>          
+        </item>
+      
+        <item>
+          <guid>https://punnlert.github.io//klms-redesign</guid>
+          <title>KLMS Redesign</title>
+          <description>Have you ever feel like your school website is a little frustrating to use?</description>
+          <link>https://punnlert.github.io//klms-redesign</link>
+          <pubDate>Mon, 20 Mar 2023 11:45:13 +0000</pubDate>
+          <category>UI Design</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.github.io//klms-redesign">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <p>placeholder</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
         </item>
       
   </channel>
