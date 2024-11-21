@@ -90,7 +90,7 @@ Then we proceed to identify the needs from the insights we found in the model.
 - They require tools to measure progress and accomplishments
 
 <div class="button_container"> 
-  <Button href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing">
+  <Button href="https://drive.google.com/file/d/1yDkNvHZ7Hq9DcPJA49tkmu7zSecXPwtx/view?usp=sharing">
     <SlideIcon slot="icon" />
     Slides
   </Button>
@@ -134,17 +134,17 @@ Then we selected 3 HMWs that we think best captures the target user struggles wi
 
 We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scensrio storyboard for each one of them.
 
-**3 Best Solutions**
+### 3 Best Solutions
 
 - We randomise and deconstruct tasks into their schedule
 - Join ‘one challenge a day’ with friends and get rewarded with stamps and points
 - Track the amount of time dedicated to different tasks to visualise the work-life balance
 
-**Storyboards**
+### Storyboards
 <Carousel images={ideationScenariosImages} label="images"></Carousel>
 
 <div class="button_container"> 
-  <Button href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing">
+  <Button href="https://drive.google.com/file/d/1zFMgVtaQ9DSuMJ0A7S_ZZg-Y1r8RIqJY/view?usp=sharing">
     <SlideIcon slot="icon" />
     Slides
   </Button>
@@ -153,6 +153,15 @@ We tried to come up with as many solution as we can for each HMWs and picked 3 b
 ## Prototyping
 
 ### Low-Fidelity (Paper)
+We made a quick paper prototype to verify our early iteration design.  
+
+We chose paper prototype because it is:
+- **faster to build**: sketching is faster than programming
+- **easier to change**: lower investment and easy to make changes between user tests, or even during a user test
+- **focus on the big picture**: designers don't waste time on details and customer can make more creative suggestion on the interaction
+- **nonprogrammers can help**: designers who don't have experience in programming can do a hands-on help
+
+The prototype is made in a way that can support the verification of 3 tasks that appears in the end-to-end scenarios captured in the [storyboards](#storyboards)
 
 ### High-Fidelity (Digital)
 

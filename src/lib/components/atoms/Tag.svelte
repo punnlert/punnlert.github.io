@@ -7,6 +7,8 @@
 </div>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.tag {
 		display: flex;
 		align-items: center;
@@ -19,6 +21,11 @@
 		width: fit-content;
 		white-space: nowrap;
 		border-style: dashed;
+		border-width: 2px;
+
+		@media for-phone-only {
+			border-width: 1px;
+		}
 
 		&.primary {
 			background-color: var(--color--page-background);
