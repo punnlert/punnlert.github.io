@@ -14,6 +14,7 @@ teammates:
   - Sunwook Kim
 startDate: 2023-08-20T11:38:06.000Z
 endDate: 2023-12-19T15:00:00.000Z
+importance: 1
 ---
 
 <script>
@@ -28,17 +29,17 @@ endDate: 2023-12-19T15:00:00.000Z
 </script>
 
 <div class="button_container"> 
-    <Button href="https://youtu.be/I8RZJOs1q6Y">
-      <YoutubeIcon slot="icon" />
-      YouTube
-    </Button>
+  <SparklingHighlight>
+      <Button href="https://youtu.be/I8RZJOs1q6Y">
+        <YoutubeIcon slot="icon" />
+        Explanation Video
+      </Button>
+  </SparklingHighlight>
 </div>
-<!-- <Callout type="info">
-  If you want a bite-sized summary, check out this
-  <a href="https://youtu.be/I8RZJOs1q6Y"> video </a>
-</Callout> -->
 
 ## Context
+
+_This is a collaboration with [NH Bank Korea](https://banking.nonghyup.com/nhbank.html) under the theme **"Life Finance Platform Service Design"**. The basic idea is that how can we design financial experience that makes life better._
 
 Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so... _in the air_, in a sense that you cannot really touch it; the money you have is just _numbers_ on the screen.
 
@@ -247,6 +248,8 @@ Designed after a receipt slip to make it more familiar to child’s understandin
 
 ### Card - Kid's UI
 
+The kid can drag the money they have in their homepage into their card to top-up before any usage. this design choice is to simulate the need to look into the physical wallet before buying anything.
+
 <img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations"/>
 
 <div class="phone_and_description">
@@ -319,15 +322,19 @@ Money is categorized into actual money saved (represented in pink) and the money
 
 ### Saving - Kid's UI
 
+<img src="/images/posts/oink/product-phone-saving1.gif" alt="Claims supporting our two observations"/>
+
 When organizing money into spending, short term savings, and savings towards their goal the child can save in their physical piggy bank
 
 Saving their goal money in the physical piggy bank gives a sense of accomplishment, but also distance, knowing they cannot spend that money
 
 ### Compound Interest - Kid's UI
 
+<img src="/images/posts/oink/product-phone-compoundInterest1.gif" alt="Claims supporting our two observations"/>
+
 Compound interest is a simple concept that children can easily grasp as their first introduction into the more complex financial world
 
-Compound interest is simulated in conjunction with their parents through their long term savings goal
+Compound interest is simulated in conjunction with their parents through their long term savings goal. The interest the child get is going to be from the parents (this is how it is "simulated") so they have more flexibility in managing the interest rates.
 
 The fun animation brings excitement and attention to the new concept making it easier to learn
 
@@ -341,6 +348,8 @@ These transactions are also broken up by categories and visually shown in a circ
 
 ### Transfer - Parents' UI
 
+<img src="/images/posts/oink/product-phone-transfer1.gif" alt="Claims supporting our two observations"/>
+
 Within the child’s analysis screen, parents are also able to quickly send money to their child
 
 After confirming the amount, the parents is prompted to bring their phone close to their child’s, where the number is transformed into bills so they are able to visually see the money being added to their wallet
@@ -349,11 +358,52 @@ After confirming the amount, the parents is prompted to bring their phone close 
 
 ### Individual Impact
 
+<Image src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations"/>
+
+**Fill children's childhoods with healthy financial experiences**  
+Through the experience of moving and exchanging bills and coins, children will be able to perceive money as colors and shapes, not numbers, and as a result will be able to read numerical values.
+
+By stacking and labeling money in their wallet compartments, kids get the experience of practicing planned spending in different areas. They'll move away from seeing their balance as a number that's always available to them and start spending with a sense of direction.
+Kids can save money based on goals, recognize that they can't spend it, and feel a sense of accomplishment in reaching their goals.
+
+The experience of not spending money right away, but investing it in the future and earning additional interest, can help them weigh immediate happiness against long-term gains.
+
+**Parents will be able to have healthy conversations with their kids.**  
+Our app suggests new conversation topics. Your child will be able to set new savings goals and check them off, and you'll be able to see them and give them more compound interest to encourage them to save.
+
+Instead of getting mad at them for spending a big chunk of money out of the blue, you'll have the opportunity to understand and praise them for the hard work they've put into saving to get there.
+
+You could even meet them face-to-face every time they ask you for their pocket money and have a short conversation about the amount.
+
 ### Social Impact
+
+<Image src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations"/>
+
+**Attract the smart customers of tomorrow**  
+With an easily accessible admin screen in NH's existing app, parents can attract kids as future customers. With financial literacy, customers are expected to quickly see the benefits of "investing," whether it's trading stocks or buying bonds.
 
 ## What I learned
 
+1. Making things easy to use is not easy
+2. Complete the whole project and refining over iterations is more effective than getting every details right in one go.
+3. Face-to-face meeting is uncomfortable and inconvenient, but it is fun and it is the best way to get things done.
+
+I am the kind of person who likes to see how far the crazy ideas would go. So, often times I would ended up building upon others' so-called _dumb ideas_ rather than trying to find their limitations. This team is the first team that believe in the same principle as me. Every team member would try adding on to the ideas on the post-it board and rarely disregard any of them. It would started out sounding kinda funny but then we often ended up with beautiful and unique interactions.
+
+This team showed me how powerful any ideas can be with a little bit of everyone's help.
+
 ## What I wish were more explored
+
+We had quite a short time period in developing this project. So, we rely so heavily on researches and surveys because extensive user testing and heuristics evaluation are not very feasible. I wish we had a little more time to make a testable prototype and conduct user tests to verify our design. However, I am satisfied with the progress we managed to achieve in such a short time frame. Maybe with more experience we can achieve more in the future.
+
+<p>
+  If you are interested in a project with more emphasis on verifying design choices and user experience evaluation, check out my project 
+  <SparklingHighlight>
+    <a href="/baobal">
+      Baobal!
+    </a>
+  </SparklingHighlight>
+</p>
 
 <style lang="scss">
   .drawing_container {

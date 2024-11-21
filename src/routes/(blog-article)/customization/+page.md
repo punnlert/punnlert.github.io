@@ -7,6 +7,7 @@ excerpt: How to customize what you're seeing here and make it your own.
 coverImage: /images/posts/customization.jpg
 tags:
   - Documentation
+importance: 20
 ---
 
 In general, content can be modified by editing the **organisms** and the pages themselves. Below is a list of the most common changes that you may want to make.

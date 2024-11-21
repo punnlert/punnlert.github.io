@@ -34,6 +34,7 @@
 		background: var(--bg-color);
 		// color: var(--text-color);
 		color: var(--accent-color);
+		font-weight: 700;
 		border-left: 4px solid var(--accent-color);
 
 		position: relative;

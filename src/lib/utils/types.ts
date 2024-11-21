@@ -29,6 +29,7 @@ export type BlogPost = {
   keywords: string[],
   teammates: string[],
   hidden: boolean,
+  importance: number,
   slug: string,
   title: string,
   startDate: string,

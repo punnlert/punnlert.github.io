@@ -63,10 +63,10 @@
 			}
 		}
 
-		a {
-			&:hover {
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
-			}
-		}
+		// a {
+		// 	&:hover {
+		// 		filter: drop-shadow(0px 0px 3px var(--color--primary));
+		// 	}
+		// }
 	}
 </style>

@@ -4,7 +4,7 @@
 		{
 			"name": "default",
 			"previewPath": null,
-			"defaultFileName": "+page.md",
+			"defaultFileName": "+page",
 			"pageBundle": true,
 			"fields": [
 				{
@@ -52,6 +52,16 @@
 					"title": "Tags",
 					"name": "tags",
 					"type": "tags"
+				},
+				{
+					"title": "Importance",
+					"name": "importance",
+					"type": "number",
+					"numberOptions": {
+						"min": 1,
+						"max": 20,
+						"step": 1
+					}
 				},
 				{
 					"title": "Contribution",

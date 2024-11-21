@@ -30,15 +30,22 @@ export const importPosts = (render = false) => {
 	return posts;
 };
 
+const compareDates = (a: string, b: string) => {
+	return new Date(a).getTime() > new Date(b).getTime()
+		? -1
+		: new Date(a).getTime() < new Date(b).getTime()
+		? 1
+		: 0;
+};
+
 export const filterPosts = (posts: BlogPost[]) => {
 	return posts
 		.filter((post) => !post.hidden)
-		.sort((a, b) =>
-			new Date(a.endDate).getTime() > new Date(b.endDate).getTime()
+		.sort((a, b) => a.importance < b.importance
 				? -1
-				: new Date(a.endDate).getTime() < new Date(b.endDate).getTime()
+				: a.importance > b.importance
 				? 1
-				: 0
+				: compareDates(a.endDate, b.endDate)
 		)
 		.map((post) => {
 			const readingTimeResult = post.html ? readingTime(striptags(post.html) || '') : undefined;

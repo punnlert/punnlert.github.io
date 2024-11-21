@@ -16,6 +16,7 @@ teammates:
   - Karen Dolmagambetov
 startDate: 2023-08-20T11:38:06.000Z
 endDate: 2023-12-19T15:00:00.000Z
+importance: 2
 ---
 
 <script>

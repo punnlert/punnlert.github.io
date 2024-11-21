@@ -7,6 +7,7 @@ excerpt: How code and structure are organized.
 coverImage: /images/posts/project-structure.jpg
 tags:
   - Documentation
+importance: 20
 ---
 
 <script>
