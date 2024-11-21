@@ -5,6 +5,7 @@
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
 	export let noBg: boolean | undefined = undefined;
+	export let caption: boolean | undefined = undefined;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
@@ -38,15 +39,32 @@
 	}
 </script>
 
-<img
-	srcset={buildSrcset()}
-	{src}
-	{alt}
-	loading="lazy"
-	decoding="async"
-	class:full-bleed={fullBleed}
-	class:show_nobg={noBg}
-/>
+<figure>
+	<img
+		srcset={buildSrcset()}
+		{src}
+		{alt}
+		loading="lazy"
+		decoding="async"
+		class:full-bleed={fullBleed}
+		class:show_nobg={noBg}
+	/>
+	{#if caption}
+		<figcaption>
+			{alt}
+		</figcaption>
+	{/if}
+</figure>
+
+<!-- <img
+		srcset={buildSrcset()}
+		{src}
+		{alt}
+		loading="lazy"
+		decoding="async"
+		class:full-bleed={fullBleed}
+		class:show_nobg={noBg}
+	/> -->
 
 <style lang="scss">
 	img {

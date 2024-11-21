@@ -26,9 +26,49 @@ importance: 2
   import TintHighlight from "$lib/components/molecules/TintHighlight.svelte";
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
+  import Button from "$lib/components/atoms/Button.svelte";
+  import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
+  import BlogIcon from "$lib/icons/blog.svelte";
 </script>
 
-placeholder
+<div class="button_container"> 
+  <SparklingHighlight>
+      <Button href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing">
+        <BlogIcon slot="icon" />
+        Documentation
+      </Button>
+  </SparklingHighlight>
+</div>
+
+## Context
+Have you ever feel like your to-do-note-taking-life-planning-work-grinding app is making you overwork? As an undergrad student, I often find myself scared of lacking behind others; whether it be in class, school activities, or career path. And I often hear my friend complain about the same thing; _what if they work too little?_
+
+But rarely do someone ask themselves _"Do I work too much?"_ 
+
+With the modern mindset that over-emphasize the importance of **productivity,** many have find themselves becoming a "workaholic"
+
+<Callout type="info">
+  A workaholic <br> is a person who works compulsively. A workaholic experiences an inability to limit the amount of time they spend on work despite negative consequences such as damage to their relationships or health.
+</Callout>
+
+And one of the thing we noticed is that, while there are an abundance of productivity app that can help you work **more**, none of them can help you work **less**. And that is what we are trying to do in this project.
+
+## Needfinding
+To identify the needs that out product has to satisfy, we conducted interviews with 9 potential target users. Then, we identify any interesting moments or remarks throughout the interview and develop our contextual models: sequence model, physical model, and artifact model.
+
+<Image src="/images/posts/baobal/needfinding-sequence.png" alt="Sequence Model" />
+<Image src="/images/posts/baobal/needfinding-physical.png" alt="Physical Model" />
+<Image src="/images/posts/baobal/needfinding-artifact.png" alt="Artifact Model" />
+
+Then we proceed to identify the needs from the insights we found in the model.
+
+## Ideation
+## Prototyping
+### Low-Fidelity (Paper)
+### High-Fidelity (Digital)
+## Heuristic Evaluation
+## Iteration and User Testing
+## Final Product
 
 <style lang="scss">
   .drawing_container {
@@ -50,6 +90,15 @@ placeholder
 			justify-items: center;
 			gap: 20px;
     }
+  }
+  
+  .button_container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
   }
 
   /* img:not(.show_nobg) {

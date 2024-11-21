@@ -66,7 +66,7 @@ The result is them compiled and analyze into more digestible presentation.
 
 <Image src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" />
 
-We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of **_convenience_** (which, i know, is obvious but we like to make sure).
+We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of **_convenience_**.
 
 The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.
 
@@ -153,19 +153,19 @@ What if dragging around bank notes icons isn't just contained in the saving inte
 
 With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.
 
-<Image src="/images/posts/oink/design-1.png" alt="Claims supporting our two observations" />
+<Image src="/images/posts/oink/design-1.png" alt="Information Architecture of the system" caption={true} />
 
-<Image src="/images/posts/oink/design-2.png" alt="Claims supporting our two observations" />
+<Image src="/images/posts/oink/design-2.png" alt="references and moodboard" caption={true}/>
 
 Then we started to design and iterate through the interface. This is how one iteration looks like.
 
-<Image src="/images/posts/oink/design-3.png" alt="Claims supporting our two observations" />
+<Image src="/images/posts/oink/design-3.png" alt="early iteration of the design" caption={true} />
 
 After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process
 
 because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.
 
-<Image src="/images/posts/oink/design-4.png" alt="Claims supporting our two observations" />
+<Image src="/images/posts/oink/design-4.png" alt="A white board after our brainstorming session" />
 
 ## Final Product
 
@@ -390,7 +390,12 @@ With an easily accessible admin screen in NH's existing app, parents can attract
 
 I am the kind of person who likes to see how far the crazy ideas would go. So, often times I would ended up building upon others' so-called _dumb ideas_ rather than trying to find their limitations. This team is the first team that believe in the same principle as me. Every team member would try adding on to the ideas on the post-it board and rarely disregard any of them. It would started out sounding kinda funny but then we often ended up with beautiful and unique interactions.
 
-This team showed me how powerful any ideas can be with a little bit of everyone's help.
+<p>
+This team showed me 
+  <MarkerHighlight color="secondary">
+    how powerful any ideas can be with a little bit of everyone's help.
+  </MarkerHighlight>
+</p>
 
 ## What I wish were more explored
 
