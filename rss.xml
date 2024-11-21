@@ -345,7 +345,61 @@ With an easily accessible admin screen in NH’s existing app, parents can attra
 <li>They need to set achievable, realistic goals</li>
 <li>They need effective resting techniques, such as the Pomodoro method</li>
 <li>They require tools to measure progress and accomplishments</li></ul>
+<div class="button_container svelte-1k0qw67"><a href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+	Slides
+  
+</a></div>
 <h2 id="ideation"><a class="heading-link" title="Permalink" aria-hidden="true" href="#ideation"><span></span></a>Ideation</h2>
+<h3 id="point-of-view"><a class="heading-link" title="Permalink" aria-hidden="true" href="#point-of-view"><span></span></a>Point of View</h3>
+<p>We developed a Point of View statement for our target user.</p>
+<p>Young workaholics juggling between internships and studies
+<mark class="secondary svelte-1600vgs">need to
+</mark>
+moderate their pursuit of self-improvement through attainable goals and progress monitoring
+<mark class="secondary svelte-1600vgs">because
+</mark>
+their work perception can lead to excessive, unhealthy decisions.
+</p>
+<h3 id="persona"><a class="heading-link" title="Permalink" aria-hidden="true" href="#persona"><span></span></a>Persona</h3>
+<p>From the Point of View statement, we made a user persona.</p>
+
+<figure><img srcset="/images/posts/baobal/ideation-persona.avif, /images/posts/baobal/ideation-persona.webp, /images/posts/baobal/ideation-persona.png" src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	</figure>
+<h3 id="how-might-wes"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-might-wes"><span></span></a>How Might We’s</h3>
+<p>To better empathise with the user, it’s important to ask ourselves “How might we …” (or HMWs) questions that forces us to think in the target users’ shoes.</p>
+
+<figure><img srcset="/images/posts/baobal/ideation-HMWs.avif, /images/posts/baobal/ideation-HMWs.webp, /images/posts/baobal/ideation-HMWs.png" src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	<figcaption>HMWs brainstorming in figjam page</figcaption></figure>
+<p>Then we selected 3 HMWs that we think best captures the target user struggles with these criteria:</p>
+<ul><li>encourage creative problem-solving</li>
+<li>focus on user’s needs</li>
+<li>does not suggest solutions</li></ul>
+
+<figure><img srcset="/images/posts/baobal/ideation-bestHMWs.avif, /images/posts/baobal/ideation-bestHMWs.webp, /images/posts/baobal/ideation-bestHMWs.png" src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	<figcaption>3 best HMWs</figcaption></figure>
+<p>We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scensrio storyboard for each one of them.</p>
+<p><strong>3 Best Solutions</strong></p>
+<ul><li>We randomise and deconstruct tasks into their schedule</li>
+<li>Join ‘one challenge a day’ with friends and get rewarded with stamps and points</li>
+<li>Track the amount of time dedicated to different tasks to visualise the work-life balance</li></ul>
+<p><strong>Storyboards</strong></p>
+
+
+
+<div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide">
+<figure><img srcset="/images/posts/baobal/ideation-storyboard1.avif, /images/posts/baobal/ideation-storyboard1.webp, /images/posts/baobal/ideation-storyboard1.png" src="/images/posts/baobal/ideation-storyboard1.png" alt="Storyboard for solution 1" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	</figure>
+		</li><li class="splide__slide">
+<figure><img srcset="/images/posts/baobal/ideation-storyboard2.avif, /images/posts/baobal/ideation-storyboard2.webp, /images/posts/baobal/ideation-storyboard2.png" src="/images/posts/baobal/ideation-storyboard2.png" alt="Storyboard for solution 2" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	</figure>
+		</li><li class="splide__slide">
+<figure><img srcset="/images/posts/baobal/ideation-storyboard3.avif, /images/posts/baobal/ideation-storyboard3.webp, /images/posts/baobal/ideation-storyboard3.png" src="/images/posts/baobal/ideation-storyboard3.png" alt="Storyboard for solution 3" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	</figure>
+		</li></ul></div></div>
+<div class="button_container svelte-1k0qw67"><a href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+	Slides
+  
+</a></div>
 <h2 id="prototyping"><a class="heading-link" title="Permalink" aria-hidden="true" href="#prototyping"><span></span></a>Prototyping</h2>
 <h3 id="low-fidelity-paper"><a class="heading-link" title="Permalink" aria-hidden="true" href="#low-fidelity-paper"><span></span></a>Low-Fidelity (Paper)</h3>
 <h3 id="high-fidelity-digital"><a class="heading-link" title="Permalink" aria-hidden="true" href="#high-fidelity-digital"><span></span></a>High-Fidelity (Digital)</h3>
