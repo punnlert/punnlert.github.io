@@ -11,8 +11,8 @@
 	aria-label={label}
 	options={{
 		rewind: true,
-		width: 800,
-		gap: '1rem'
+		gap: '2rem',
+		padding: "4rem"
 	}}
 >
 	{#each images as image}

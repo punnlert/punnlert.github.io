@@ -10,5 +10,13 @@
 }
 
 .splide__track {
-	overflow: visible;
+	// 	--mask: linear-gradient(to bottom,
+	//       rgba(0,0,0, 1) 0,   rgba(0,0,0, 1) 40%,
+	//       rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
+	//   ) 100% 50% / 100% 100% repeat-x;
+	mask-image: linear-gradient(to right, transparent 0%, black 5% 95%, transparent 100%);
 }
+
+// .splide__track {
+// 	overflow: visible;
+// }
