@@ -213,14 +213,15 @@ The observations gathered from the user testing were then categorized according 
 </div>
 
 ### High-Fidelity (Digital)
-With the details of core user experience (interaction, UI element placement) established with paper prototype, we move on to the finer details like colors, font, icons, and layout.
 
+With the details of core user experience (interaction, UI element placement) established in paper prototype, we move on to the finer details like colors, font, icons, and layout.
 
 ## Heuristic Evaluation
 
 ## Iteration and User Testing
 
 ## Final Product
+
 <div class="show-prototype">
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
 </div>
@@ -233,6 +234,7 @@ With the details of core user experience (interaction, UI element placement) est
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
   }
+
   .phone_and_description {
     width: 100%;
     display: grid;
