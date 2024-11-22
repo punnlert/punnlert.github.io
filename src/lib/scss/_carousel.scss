@@ -1,5 +1,6 @@
 // for the carousel to work
 @import '@splidejs/svelte-splide/css';
+@import './_breakpoints.scss';
 
 .splide__pagination__page {
 	background: var(--color--primary-shade);
@@ -15,7 +16,12 @@
 	//       rgba(0,0,0, 0) 95%, rgba(0,0,0, 0) 0
 	//   ) 100% 50% / 100% 100% repeat-x;
 	mask-image: linear-gradient(to right, transparent 0%, black 5% 95%, transparent 100%);
+
+	@include for-phone-only {
+		mask-image: none;
+	}
 }
+
 
 // .splide__track {
 // 	overflow: visible;

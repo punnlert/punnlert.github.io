@@ -46,6 +46,10 @@
 			gap: 20px;
 		}
 
+		@include for-tablet-landscape-down {
+			justify-content: space-around;
+		}
+
 		@include for-phone-only {
 			grid-template-columns: 1fr;
 			justify-items: center;

@@ -12,7 +12,13 @@
 	options={{
 		rewind: true,
 		gap: '2rem',
-		padding: "4rem"
+		padding: '4rem',
+		breakpoints: {
+			767: {
+				gap: '1rem',
+				padding: '0rem'
+			}
+		}
 	}}
 >
 	{#each images as image}
