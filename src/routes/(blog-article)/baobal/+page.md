@@ -71,7 +71,7 @@ And one of the thing we noticed is that, while there are an abundance of product
 
 To identify the needs that out product has to satisfy, we conducted interviews with 9 potential target users. Then, we identify any interesting moments or remarks throughout the interview and develop our contextual models: sequence model, physical model, and artifact model.
 
-<Carousel images={needfindingImages} label="images"></Carousel>
+<Carousel images={needfindingImages} label="images" withLightbox={true}></Carousel>
 
 Then we proceed to identify the needs from the insights we found in the model.
 
@@ -117,12 +117,12 @@ their work perception can lead to excessive, unhealthy decisions.
 ### Persona
 
 From the Point of View statement, we made a user persona.
-<Image src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" />
+<Image src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" withLightbox={true} />
 
 ### How Might We's
 
 To better empathise with the user, it's important to ask ourselves "How might we ..." (or HMWs) questions that forces us to think in the target users' shoes.
-<Image src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" caption={true} />
+<Image src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" caption={true} withLightbox={true} />
 
 Then we selected 3 HMWs that we think best captures the target user struggles with these criteria:
 
@@ -130,7 +130,7 @@ Then we selected 3 HMWs that we think best captures the target user struggles wi
 - focus on user’s needs
 - does not suggest solutions
 
-<Image src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" caption={true} />
+<Image src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" caption={true} withLightbox={true}/>
 
 We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scensrio storyboard for each one of them.
 
@@ -141,7 +141,7 @@ We tried to come up with as many solution as we can for each HMWs and picked 3 b
 - Track the amount of time dedicated to different tasks to visualise the work-life balance
 
 ### Storyboards
-<Carousel images={ideationScenariosImages} label="images"></Carousel>
+<Carousel images={ideationScenariosImages} label="images" withLightbox={true}></Carousel>
 
 <div class="button_container"> 
   <Button href="https://drive.google.com/file/d/1zFMgVtaQ9DSuMJ0A7S_ZZg-Y1r8RIqJY/view?usp=sharing">

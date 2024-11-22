@@ -5,6 +5,7 @@
 
 	export let label: string;
 	export let images: img[];
+	export let withLightbox: boolean = false;
 </script>
 
 <Splide
@@ -23,7 +24,7 @@
 >
 	{#each images as image}
 		<SplideSlide>
-			<Image src={image.src} alt={image.alt} />
+			<Image src={image.src} alt={image.alt} {withLightbox}/>
 		</SplideSlide>
 	{/each}
 </Splide>

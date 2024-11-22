@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
+	import { Lightbox } from 'svelte-lightbox';
 
 	export let src: string;
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
 	export let noBg: boolean | undefined = undefined;
 	export let caption: boolean | undefined = undefined;
+	export let withLightbox: boolean | undefined = undefined;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
@@ -39,8 +41,20 @@
 	}
 </script>
 
-<!-- {#if caption}
-	<figure>
+<figure>
+	{#if withLightbox}
+		<Lightbox imagePreset="fullscreen" enableClickToClose={true} enableImageExpand={true}>
+			<img
+				srcset={buildSrcset()}
+				{src}
+				{alt}
+				loading="lazy"
+				decoding="async"
+				class:full-bleed={fullBleed}
+				class:show_nobg={noBg}
+			/>
+		</Lightbox>
+	{:else}
 		<img
 			srcset={buildSrcset()}
 			{src}
@@ -50,36 +64,11 @@
 			class:full-bleed={fullBleed}
 			class:show_nobg={noBg}
 		/>
+	{/if}
+	{#if caption}
 		<figcaption>
 			{alt}
 		</figcaption>
-	</figure>
-{:else}
-	<img
-		srcset={buildSrcset()}
-		{src}
-		{alt}
-		loading="lazy"
-		decoding="async"
-		class:full-bleed={fullBleed}
-		class:show_nobg={noBg}
-	/>
-{/if} -->
-
-<figure>
-	<img
-		srcset={buildSrcset()}
-		{src}
-		{alt}
-		loading="lazy"
-		decoding="async"
-		class:full-bleed={fullBleed}
-		class:show_nobg={noBg}
-	/>
-	{#if caption}
-	<figcaption>
-		{alt}
-	</figcaption>
 	{/if}
 </figure>
 
