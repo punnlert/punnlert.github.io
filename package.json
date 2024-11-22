@@ -47,17 +47,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/eb-garamond": "^5.1.1",
-		"@fontsource-variable/hepta-slab": "^5.1.0",
-		"@fontsource-variable/instrument-sans": "^5.1.0",
-		"@fontsource-variable/open-sans": "^5.1.0",
 		"@fontsource/anonymous-pro": "^5.1.0",
 		"@fontsource/instrument-serif": "^5.1.0",
-		"@fontsource/inter": "^4.5.15",
-		"@fontsource/merriweather": "^4.5.14",
-		"@fontsource/poppins": "^5.1.0",
 		"@fontsource/space-mono": "^5.1.1",
-		"@fontsource/ubuntu-mono": "^4.5.11",
 		"@splidejs/svelte-splide": "^0.2.9"
 	}
 }

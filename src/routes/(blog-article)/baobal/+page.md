@@ -42,6 +42,22 @@ importance: 2
     {src: "/images/posts/baobal/ideation-storyboard2.png", alt: "Storyboard for solution 2"},
     {src: "/images/posts/baobal/ideation-storyboard3.png", alt: "Storyboard for solution 3"},
   ]
+
+  const paperPrototypeScreens = [
+    {src: "/images/posts/baobal/paperprototype-screen1.png", alt: "Paper Prototype Screen 1"},
+    {src: "/images/posts/baobal/paperprototype-screen2.png", alt: "Paper Prototype Screen 2"},
+    {src: "/images/posts/baobal/paperprototype-screen3.png", alt: "Paper Prototype Screen 3"},
+    {src: "/images/posts/baobal/paperprototype-screen4.png", alt: "Paper Prototype Screen 4"},
+    {src: "/images/posts/baobal/paperprototype-screen5.png", alt: "Paper Prototype Screen 5"},
+  ]
+
+  const paperPrototypeTentativeSols = [
+    {src: "/images/posts/baobal/paperprototype-tentativesol1.png", alt: "Paper Prototype Tentetive Solution 1"},
+    {src: "/images/posts/baobal/paperprototype-tentativesol2.png", alt: "Paper Prototype Tentetive Solution 2"},
+    {src: "/images/posts/baobal/paperprototype-tentativesol3.png", alt: "Paper Prototype Tentetive Solution 3"},
+    {src: "/images/posts/baobal/paperprototype-tentativesol4.png", alt: "Paper Prototype Tentetive Solution 4"},
+    {src: "/images/posts/baobal/paperprototype-tentativesol5.png", alt: "Paper Prototype Tentetive Solution 5"},
+  ]
 </script>
 
 <div class="button_container"> 
@@ -157,13 +173,47 @@ We made a quick paper prototype to verify our early iteration design.
 
 We chose paper prototype because it is:
 - **faster to build**: sketching is faster than programming
-- **easier to change**: lower investment and easy to make changes between user tests, or even during a user test
+- 
+ <b>easier to change</b>: lower investment and easy to make changes between user tests, or even during a user test. 
+ <MarkerHighlight color="secondary">
+ This also makes people more ready to criticize because it is less burdensome to make changes.
+ </MarkerHighlight>
 - **focus on the big picture**: designers don't waste time on details and customer can make more creative suggestion on the interaction
-- **nonprogrammers can help**: designers who don't have experience in programming can do a hands-on help
+- **non-programmers can help**: designers who don't have experience in programming can do a hands-on help
 
-The prototype is made in a way that can support the verification of 3 tasks that appears in the end-to-end scenarios captured in the [storyboards](#storyboards)
+The prototype is made in a way that can support the verification of 4 tasks that appears in the end-to-end scenarios captured in the [storyboards](#storyboards)
+
+**Tasks**
+1. Create a challenge and invite your friend (Damir) to join it. 
+2. Add a task to your to-do list
+3. Schedule a time in your calendar to complete your task
+4. Check your work-life balance
+
+**Screens for Paper Prototype**
+<Carousel images={paperPrototypeScreens} label="images" withLightbox={true}></Carousel>
+
+We asked 4 participants to participate in this prototype testing. First, we gave them a short briefing and then asked them to complete the 4 tasks mentioned before. 
+
+<Image src="/images/posts/baobal/paperprototype-participant1.png" alt="A participant during one of the user testing" caption={true} withLightbox={true}/>
+
+The observations gathered from the user testing were then categorized according to their severity: High, Medium, Low. Then, we brainstormed solutions to patch them.
+
+<Image src="/images/posts/baobal/paperprototype-observations1.png" alt="A participant during one of the user testing" withLightbox={true}/>
+
+<Carousel images={paperPrototypeTentativeSols} label="images" withLightbox={true}></Carousel>
+
+<div class="button_container"> 
+  <Button href="https://drive.google.com/file/d/1J25rmjyzjp4kM8PcLfNM78ENu75vUTrI/view?usp=sharing">
+    <SlideIcon slot="icon" />
+    Slides
+  </Button>
+</div>
 
 ### High-Fidelity (Digital)
+
+<div class="show-prototype">
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
+</div>
 
 ## Heuristic Evaluation
 
@@ -192,17 +242,18 @@ The prototype is made in a way that can support the verification of 3 tasks that
 			gap: 20px;
     }
   }
+
+  .show-prototype {
+    margin-top: 1rem;
+  }
   
   .button_container {
       display: flex;
-      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+      margin-top: 1.5rem;
       gap: 10px;
       width: 100%;
   }
 
-  /* img:not(.show_nobg) {
-		box-shadow: var(--image-shadow);
-  } */
 </style>
