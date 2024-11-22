@@ -1220,6 +1220,11 @@ code[class*=language-] ::selection {
 .splide__track {
   mask-image: linear-gradient(to right, transparent 0%, black 5% 95%, transparent 100%);
 }
+@media (max-width: 767px) {
+  .splide__track {
+    mask-image: none;
+  }
+}
 /* space-mono-vietnamese-400-normal */
 @font-face {
   font-family: "Space Mono";
