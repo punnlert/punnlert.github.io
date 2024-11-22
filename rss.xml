@@ -54,29 +54,29 @@
 <p>After our initial research, we came to realize this problem from the two observations</p>
 <ol><li><strong>Financial experimenting during childhood is important</strong></li>
 <li><strong>The financial literacy in Korea is low</strong> (and I believe it can also be said for the most part of the world)</li></ol>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/research.avif, /images/posts/oink/research.webp, /images/posts/oink/research.png" src="/images/posts/oink/research.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/research.avif, /images/posts/oink/research.webp, /images/posts/oink/research.png" src="/images/posts/oink/research.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h3 id="surveys--interview"><a class="heading-link" title="Permalink" aria-hidden="true" href="#surveys--interview"><span></span></a>Surveys &amp; Interview</h3>
 <p>After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/survey-design.avif, /images/posts/oink/survey-design.webp, /images/posts/oink/survey-design.png" src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/survey-design.avif, /images/posts/oink/survey-design.webp, /images/posts/oink/survey-design.png" src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>The result is them compiled and analyze into more digestible presentation.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/survey.avif, /images/posts/oink/survey.webp, /images/posts/oink/survey.png" src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/survey.avif, /images/posts/oink/survey.webp, /images/posts/oink/survey.png" src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of <strong><em>convenience</em></strong>.</p>
 <p>The interesting part is what changed after they started using digital money. There are some positive changes like the children gets more freedom to spend but that eventually leads to negative effects like overconsumptions and lack of planning.</p>
 <h2 id="problem"><a class="heading-link" title="Permalink" aria-hidden="true" href="#problem"><span></span></a>Problem</h2>
 <p>The problem we see here is that the change from physical money to digital one may be too sudden. From physical assets that you can <strong>see</strong>, reduced to just a numerical representation on a screen.</p>
 <p>In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/problem-1.avif, /images/posts/oink/problem-1.webp, /images/posts/oink/problem-1.png" src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Another problem is that financial education needs to start early but it’s not always easy to have an effective financial conversation between kids and parents.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/problem-2.avif, /images/posts/oink/problem-2.webp, /images/posts/oink/problem-2.png" src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/problem-2.avif, /images/posts/oink/problem-2.webp, /images/posts/oink/problem-2.png" src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>And that’s the overarching theme of out problem; “Transition Period of Cash to Digital Money”</p>
 <h2 id="target-user"><a class="heading-link" title="Permalink" aria-hidden="true" href="#target-user"><span></span></a>Target User</h2>
@@ -87,8 +87,8 @@ The biggest feature of Alpha Generation is that they are the generation directly
 <li><p><strong>Parents</strong><br>
 <a href="https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80" rel="nofollow"><em>MZ Generation</em></a><br>
 Generation MZ (a South Korean specific term) refers to the Millennials who were born in the early to mid-1990s, and Generation Z who were born in the mid to late 1990s. It is a generation with characteristics of diversity, leisure-oriented, value-based consumption (environmental and ethical values), self-centered, digital native, and fun-seeking.</p></li></ul>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/target.avif, /images/posts/oink/target.webp, /images/posts/oink/target.png" src="/images/posts/oink/target.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/target.avif, /images/posts/oink/target.webp, /images/posts/oink/target.png" src="/images/posts/oink/target.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="goals"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals"><span></span></a>Goals</h2>
 <p>We set some goals and objective for each goal so we have a common understanding among members and other stakeholders.</p>
@@ -107,45 +107,45 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 <ol><li>Earning</li>
 <li>Spending</li>
 <li>Savings</li></ol>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/ideation-1.avif, /images/posts/oink/ideation-1.webp, /images/posts/oink/ideation-1.png" src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/ideation-1.avif, /images/posts/oink/ideation-1.webp, /images/posts/oink/ideation-1.png" src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Then we create an affinity diagram of the painpoints.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/ideation-2.avif, /images/posts/oink/ideation-2.webp, /images/posts/oink/ideation-2.png" src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/ideation-2.avif, /images/posts/oink/ideation-2.webp, /images/posts/oink/ideation-2.png" src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>The recurring theme found in the post-its are that digital money sometimes are too <em>abstract</em>. So, after some weeks of researching, we came upon a promising solution; <strong>“Tangible User Interface”</strong>.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/ideation-3.avif, /images/posts/oink/ideation-3.webp, /images/posts/oink/ideation-3.png" src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)</p>
-<div class="drawing_container svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-	</figure>
-  
-<figure><img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
-	</figure></div>
+<div class="drawing_container svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/ideation-4.avif, /images/posts/oink/ideation-4.webp, /images/posts/oink/ideation-4.png" src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+	</figure>
+  <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/beer-app.avif, /images/posts/oink/beer-app.webp, /images/posts/oink/beer-app.png" src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
+	</figure></div>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/ideation-5.avif, /images/posts/oink/ideation-5.webp, /images/posts/oink/ideation-5.png" src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
 <p>Which is cute but it didn’t fully answers all of our <a href="#goals">goals</a>. But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.</p>
 <p>What if dragging around bank notes icons isn’t just contained in the saving interface, but it is the main idea of this financial interface?</p>
 <h2 id="design"><a class="heading-link" title="Permalink" aria-hidden="true" href="#design"><span></span></a>Design</h2>
 <p>With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/design-1.avif, /images/posts/oink/design-1.webp, /images/posts/oink/design-1.png" src="/images/posts/oink/design-1.png" alt="Information Architecture of the system" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/design-1.avif, /images/posts/oink/design-1.webp, /images/posts/oink/design-1.png" src="/images/posts/oink/design-1.png" alt="Information Architecture of the system" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	<figcaption>Information Architecture of the system</figcaption></figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/design-2.avif, /images/posts/oink/design-2.webp, /images/posts/oink/design-2.png" src="/images/posts/oink/design-2.png" alt="references and moodboard" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/design-2.avif, /images/posts/oink/design-2.webp, /images/posts/oink/design-2.png" src="/images/posts/oink/design-2.png" alt="references and moodboard" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	<figcaption>references and moodboard</figcaption></figure>
 <p>Then we started to design and iterate through the interface. This is how one iteration looks like.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/design-3.avif, /images/posts/oink/design-3.webp, /images/posts/oink/design-3.png" src="/images/posts/oink/design-3.png" alt="early iteration of the design" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/design-3.avif, /images/posts/oink/design-3.webp, /images/posts/oink/design-3.png" src="/images/posts/oink/design-3.png" alt="early iteration of the design" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	<figcaption>early iteration of the design</figcaption></figure>
 <p>After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process</p>
 <p>because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/design-4.avif, /images/posts/oink/design-4.webp, /images/posts/oink/design-4.png" src="/images/posts/oink/design-4.png" alt="A white board after our brainstorming session" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/design-4.avif, /images/posts/oink/design-4.webp, /images/posts/oink/design-4.png" src="/images/posts/oink/design-4.png" alt="A white board after our brainstorming session" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="final-product"><a class="heading-link" title="Permalink" aria-hidden="true" href="#final-product"><span></span></a>Final Product</h2>
 <p>And after a month of iterations discussion, out of our blood, sweat, and tears came
@@ -157,8 +157,8 @@ to encourage good habits we need to<ul><li>Make savings appealing</li>
 </p>
 <p>It might be better for your experience if you see this <a href="https://youtu.be/I8RZJOs1q6Y" rel="nofollow">video</a> before we dive into the product.</p>
 <h3 id="home-page---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#home-page---kids-ui"><span></span></a>Home Page - Kid’s UI</h3>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-home.avif, /images/posts/oink/product-phone-home.webp, /images/posts/oink/product-phone-home.png" src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-home.avif, /images/posts/oink/product-phone-home.webp, /images/posts/oink/product-phone-home.png" src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Filled with draggable bills and coins representing the amount the child currently has in their bank account</p>
 <p>Drop shadows on the bills and coins make use of the existing mental model that the objects are draggable</p>
@@ -169,20 +169,20 @@ Swipe left or right to navigate between components and click to view details</p>
 <p><strong>Interaction with Bills and Coins</strong><br>
 Bills and coins in the wallet can be interacted with in several ways</p>
 <img src="/images/posts/oink/product-phone-wallet1.gif" alt="Claims supporting our two observations">
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-bill1.avif, /images/posts/oink/product-phone-bill1.webp, /images/posts/oink/product-phone-bill1.png" src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+
 	</figure>
   <div><p><strong>Combining Bills or Coins</strong><br>
 Long press and drag bills or coins together to combine into a larger bill or coin</p></div></div>
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-bill2.avif, /images/posts/oink/product-phone-bill2.webp, /images/posts/oink/product-phone-bill2.png" src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+
 	</figure>
   <div><p><strong>Dividing Bills or Coins</strong><br>
 Long press a bill or coin to break it down into smaller bills</p></div></div>
 <h3 id="spending---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#spending---kids-ui"><span></span></a>Spending - Kid’s UI</h3>
 <img src="/images/posts/oink/product-phone-spending1.gif" alt="Claims supporting our two observations">
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-spending2.avif, /images/posts/oink/product-phone-spending2.webp, /images/posts/oink/product-phone-spending2.png" src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+
 	</figure>
 <div><p><strong>Purchase History</strong><br>
 Can easily find any recent transactions and has the ability to filter by week, month, and year</p>
@@ -190,21 +190,21 @@ Can easily find any recent transactions and has the ability to filter by week, m
 <h3 id="card---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#card---kids-ui"><span></span></a>Card - Kid’s UI</h3>
 <p>The kid can drag the money they have in their homepage into their card to top-up before any usage. this design choice is to simulate the need to look into the physical wallet before buying anything.</p>
 <img src="/images/posts/oink/product-phone-card2.gif" alt="Claims supporting our two observations">
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-card1.avif, /images/posts/oink/product-phone-card1.webp, /images/posts/oink/product-phone-card1.png" src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj  show_nobg"></div>
+
 	</figure>
 <div><p><strong>Balance Information</strong><br>
 Displayed on the card is the amount in the child’s account and how much of their daily limit is remaining to be used</p>
 <p>Use of visually interesting, but simple UX to increase the usability for kids</p></div></div>
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-card3.avif, /images/posts/oink/product-phone-card3.webp, /images/posts/oink/product-phone-card3.png" src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-card3.avif, /images/posts/oink/product-phone-card3.webp, /images/posts/oink/product-phone-card3.png" src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
 <div><p><strong>Card Drawer</strong><br>
 Drawer pops up from the card to show the balance inside in the visual form of cash</p>
 <p>The drawer is hovering on the wallet to enable the user drag the money outside the card</p></div></div>
 <h3 id="piggy-bank---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#piggy-bank---kids-ui"><span></span></a>Piggy Bank - Kid’s UI</h3>
-<div class="phone_and_description svelte-1k0qw67">
-<figure><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="phone_and_description svelte-1k0qw67"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-pig1.avif, /images/posts/oink/product-phone-pig1.webp, /images/posts/oink/product-phone-pig1.png" src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
 <div><p>Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone</p>
 <p>On the phone the child can begin planning their goals and saving</p></div></div>
@@ -213,16 +213,16 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <em>- Revelle et al., 2005</em></p>
 </div>
 <h3 id="goals---kids-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#goals---kids-ui"><span></span></a>Goals - Kid’s UI</h3>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-goal1.avif, /images/posts/oink/product-phone-goal1.webp, /images/posts/oink/product-phone-goal1.png" src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-goal1.avif, /images/posts/oink/product-phone-goal1.webp, /images/posts/oink/product-phone-goal1.png" src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it</p>
 <div class="callout-block info svelte-1u8p6v1"><div class="icon-wrapper svelte-1u8p6v1"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	<p><em>“Individuals who vividly put down their goal are 1.2-1.4 times more likely to successfully accomplish their goals”</em><br>
 <em>- Murphy, 2018</em></p>
 </div>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-goal2.avif, /images/posts/oink/product-phone-goal2.webp, /images/posts/oink/product-phone-goal2.png" src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-goal2.avif, /images/posts/oink/product-phone-goal2.webp, /images/posts/oink/product-phone-goal2.png" src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Check on progress towards set long term goal with a visual graph</p>
 <p>Money is categorized into actual money saved (represented in pink) and the money earned from the simulated compound interest (represented in orange)</p>
@@ -236,8 +236,8 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <p>Compound interest is simulated in conjunction with their parents through their long term savings goal. The interest the child get is going to be from the parents (this is how it is “simulated”) so they have more flexibility in managing the interest rates.</p>
 <p>The fun animation brings excitement and attention to the new concept making it easier to learn</p>
 <h3 id="dashboard---parents-ui"><a class="heading-link" title="Permalink" aria-hidden="true" href="#dashboard---parents-ui"><span></span></a>Dashboard - Parents’ UI</h3>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-dashboard1.avif, /images/posts/oink/product-phone-dashboard1.webp, /images/posts/oink/product-phone-dashboard1.png" src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-dashboard1.avif, /images/posts/oink/product-phone-dashboard1.webp, /images/posts/oink/product-phone-dashboard1.png" src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions</p>
 <p>These transactions are also broken up by categories and visually shown in a circle graph to determine where their child is spending most of their money</p>
@@ -247,8 +247,8 @@ Drawer pops up from the card to show the balance inside in the visual form of ca
 <p>After confirming the amount, the parents is prompted to bring their phone close to their child’s, where the number is transformed into bills so they are able to visually see the money being added to their wallet</p>
 <h2 id="impacts"><a class="heading-link" title="Permalink" aria-hidden="true" href="#impacts"><span></span></a>Impacts</h2>
 <h3 id="individual-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#individual-impact"><span></span></a>Individual Impact</h3>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-impact1.avif, /images/posts/oink/product-phone-impact1.webp, /images/posts/oink/product-phone-impact1.png" src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-impact1.avif, /images/posts/oink/product-phone-impact1.webp, /images/posts/oink/product-phone-impact1.png" src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p><strong>Fill children’s childhoods with healthy financial experiences</strong><br>
 Through the experience of moving and exchanging bills and coins, children will be able to perceive money as colors and shapes, not numbers, and as a result will be able to read numerical values.</p>
@@ -260,8 +260,8 @@ Our app suggests new conversation topics. Your child will be able to set new sav
 <p>Instead of getting mad at them for spending a big chunk of money out of the blue, you’ll have the opportunity to understand and praise them for the hard work they’ve put into saving to get there.</p>
 <p>You could even meet them face-to-face every time they ask you for their pocket money and have a short conversation about the amount.</p>
 <h3 id="social-impact"><a class="heading-link" title="Permalink" aria-hidden="true" href="#social-impact"><span></span></a>Social Impact</h3>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/oink/product-phone-impact2.avif, /images/posts/oink/product-phone-impact2.webp, /images/posts/oink/product-phone-impact2.png" src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/oink/product-phone-impact2.avif, /images/posts/oink/product-phone-impact2.webp, /images/posts/oink/product-phone-impact2.png" src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p><strong>Attract the smart customers of tomorrow</strong><br>
 With an easily accessible admin screen in NH’s existing app, parents can attract kids as future customers. With financial literacy, customers are expected to quickly see the benefits of “investing,” whether it’s trading stocks or buying bonds.</p>
@@ -322,14 +322,14 @@ With an easily accessible admin screen in NH’s existing app, parents can attra
 
 
 
-<div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/needfinding-sequence.avif, /images/posts/baobal/needfinding-sequence.webp, /images/posts/baobal/needfinding-sequence.png" src="/images/posts/baobal/needfinding-sequence.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/needfinding-sequence.avif, /images/posts/baobal/needfinding-sequence.webp, /images/posts/baobal/needfinding-sequence.png" src="/images/posts/baobal/needfinding-sequence.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
-		</li><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/needfinding-physical.avif, /images/posts/baobal/needfinding-physical.webp, /images/posts/baobal/needfinding-physical.png" src="/images/posts/baobal/needfinding-physical.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+		</li><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/needfinding-physical.avif, /images/posts/baobal/needfinding-physical.webp, /images/posts/baobal/needfinding-physical.png" src="/images/posts/baobal/needfinding-physical.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
-		</li><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/needfinding-artifact.avif, /images/posts/baobal/needfinding-artifact.webp, /images/posts/baobal/needfinding-artifact.png" src="/images/posts/baobal/needfinding-artifact.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+		</li><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/needfinding-artifact.avif, /images/posts/baobal/needfinding-artifact.webp, /images/posts/baobal/needfinding-artifact.png" src="/images/posts/baobal/needfinding-artifact.png" alt="Sequence Model" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
 		</li></ul></div></div>
 <p>Then we proceed to identify the needs from the insights we found in the model.</p>
@@ -362,20 +362,20 @@ their work perception can lead to excessive, unhealthy decisions.
 </p>
 <h3 id="persona"><a class="heading-link" title="Permalink" aria-hidden="true" href="#persona"><span></span></a>Persona</h3>
 <p>From the Point of View statement, we made a user persona.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-persona.avif, /images/posts/baobal/ideation-persona.webp, /images/posts/baobal/ideation-persona.png" src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/baobal/ideation-persona.avif, /images/posts/baobal/ideation-persona.webp, /images/posts/baobal/ideation-persona.png" src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h3 id="how-might-wes"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-might-wes"><span></span></a>How Might We’s</h3>
 <p>To better empathise with the user, it’s important to ask ourselves “How might we …” (or HMWs) questions that forces us to think in the target users’ shoes.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-HMWs.avif, /images/posts/baobal/ideation-HMWs.webp, /images/posts/baobal/ideation-HMWs.png" src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/baobal/ideation-HMWs.avif, /images/posts/baobal/ideation-HMWs.webp, /images/posts/baobal/ideation-HMWs.png" src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	<figcaption>HMWs brainstorming in figjam page</figcaption></figure>
 <p>Then we selected 3 HMWs that we think best captures the target user struggles with these criteria:</p>
 <ul><li>encourage creative problem-solving</li>
 <li>focus on user’s needs</li>
 <li>does not suggest solutions</li></ul>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-bestHMWs.avif, /images/posts/baobal/ideation-bestHMWs.webp, /images/posts/baobal/ideation-bestHMWs.png" src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/baobal/ideation-bestHMWs.avif, /images/posts/baobal/ideation-bestHMWs.webp, /images/posts/baobal/ideation-bestHMWs.png" src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	<figcaption>3 best HMWs</figcaption></figure>
 <p>We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scensrio storyboard for each one of them.</p>
 <h3 id="3-best-solutions"><a class="heading-link" title="Permalink" aria-hidden="true" href="#3-best-solutions"><span></span></a>3 Best Solutions</h3>
@@ -386,14 +386,14 @@ their work perception can lead to excessive, unhealthy decisions.
 
 
 
-<div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/ideation-storyboard1.avif, /images/posts/baobal/ideation-storyboard1.webp, /images/posts/baobal/ideation-storyboard1.png" src="/images/posts/baobal/ideation-storyboard1.png" alt="Storyboard for solution 1" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-storyboard1.avif, /images/posts/baobal/ideation-storyboard1.webp, /images/posts/baobal/ideation-storyboard1.png" src="/images/posts/baobal/ideation-storyboard1.png" alt="Storyboard for solution 1" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
-		</li><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/ideation-storyboard2.avif, /images/posts/baobal/ideation-storyboard2.webp, /images/posts/baobal/ideation-storyboard2.png" src="/images/posts/baobal/ideation-storyboard2.png" alt="Storyboard for solution 2" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+		</li><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-storyboard2.avif, /images/posts/baobal/ideation-storyboard2.webp, /images/posts/baobal/ideation-storyboard2.png" src="/images/posts/baobal/ideation-storyboard2.png" alt="Storyboard for solution 2" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
-		</li><li class="splide__slide">
-<figure><img srcset="/images/posts/baobal/ideation-storyboard3.avif, /images/posts/baobal/ideation-storyboard3.webp, /images/posts/baobal/ideation-storyboard3.png" src="/images/posts/baobal/ideation-storyboard3.png" alt="Storyboard for solution 3" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+		</li><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/ideation-storyboard3.avif, /images/posts/baobal/ideation-storyboard3.webp, /images/posts/baobal/ideation-storyboard3.png" src="/images/posts/baobal/ideation-storyboard3.png" alt="Storyboard for solution 3" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
 		</li></ul></div></div>
 <div class="button_container svelte-1k0qw67"><a href="https://drive.google.com/file/d/1zFMgVtaQ9DSuMJ0A7S_ZZg-Y1r8RIqJY/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
@@ -466,57 +466,57 @@ their work perception can lead to excessive, unhealthy decisions.
 	YouTube
     
 </a></div>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
 <p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span></span></a>The main screen</h2>
 <p>Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt “press space”. The reason behind the IP address being displayed will be explained in <a href="#the-control-screen">the control screen</a> section.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>After all the players have connected and the captain pressed spacebar, the main screen shows the players the rocket they are controlling. It also shows the score and lives they have left.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/score_and_info.avif, /images/posts/roger-roger/score_and_info.webp, /images/posts/roger-roger/score_and_info.png" src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/score_and_info.avif, /images/posts/roger-roger/score_and_info.webp, /images/posts/roger-roger/score_and_info.png" src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>Group of asteroids are streaming through the right side of the screen at different velocity. The players have to use this visual display to based their control on.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/asteroid_streaming.avif, /images/posts/roger-roger/asteroid_streaming.webp, /images/posts/roger-roger/asteroid_streaming.png" src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/asteroid_streaming.avif, /images/posts/roger-roger/asteroid_streaming.webp, /images/posts/roger-roger/asteroid_streaming.png" src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <p>If the rocket ran out of life, the game ends. The last page will display the final score and whether you got the new highscore.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span></span></a>The control screen</h2>
 <p>The control screen consisted of two parts: socket connection input and the control.</p>
 <p>Socket connection input lets the player input the IP address of the server to gain control of the rocket. If the connection is successful, green circle appears on the right side of the input. This is because I want the server to be able to be hosted on the computer and in that case the IP address would be dynamically assigned.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/IP_input.avif, /images/posts/roger-roger/IP_input.webp, /images/posts/roger-roger/IP_input.png" src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/IP_input.avif, /images/posts/roger-roger/IP_input.webp, /images/posts/roger-roger/IP_input.png" src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h3 id="gun-controls"><a class="heading-link" title="Permalink" aria-hidden="true" href="#gun-controls"><span></span></a>Gun controls</h3>
 <p>lets the player controls the gun. There is a two seconds cooldown period for gun firing.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/gun_control.avif, /images/posts/roger-roger/gun_control.webp, /images/posts/roger-roger/gun_control.png" src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/gun_control.avif, /images/posts/roger-roger/gun_control.webp, /images/posts/roger-roger/gun_control.png" src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h3 id="trajectory-control"><a class="heading-link" title="Permalink" aria-hidden="true" href="#trajectory-control"><span></span></a>Trajectory control</h3>
 <p>lets the player controls the up-down movement of the spaceship</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/trajectory_control.avif, /images/posts/roger-roger/trajectory_control.webp, /images/posts/roger-roger/trajectory_control.png" src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/trajectory_control.avif, /images/posts/roger-roger/trajectory_control.webp, /images/posts/roger-roger/trajectory_control.png" src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h3 id="acceleration"><a class="heading-link" title="Permalink" aria-hidden="true" href="#acceleration"><span></span></a>Acceleration</h3>
 <p>lets the player controls the left-right of the spaceship</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/acceleration.avif, /images/posts/roger-roger/acceleration.webp, /images/posts/roger-roger/acceleration.png" src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/acceleration.avif, /images/posts/roger-roger/acceleration.webp, /images/posts/roger-roger/acceleration.png" src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="the-game-mechanics"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-game-mechanics"><span></span></a>The game mechanics</h2>
 <p>Player navigate through the group of asteroids. if they get hit, their lives decreases. they get points for shooting the asteroid depending on the size of it. There are astronauts that you can save. But you can hurt them if you accidentally shoot them. So, be careful around them. But the velocity increase with the score. The gun have a cooldown period of two seconds so players have to be conservative about their shooting. You can collect some lives as you go and save yourselves from dying. If you accidentally shoot the lives, they disappear.</p>
@@ -529,19 +529,19 @@ their work perception can lead to excessive, unhealthy decisions.
 <p>If there is an IP address appearing on your ‘display’ screen, you are ready to play!</p>
 <h2 id="highlight"><a class="heading-link" title="Permalink" aria-hidden="true" href="#highlight"><span></span></a>Highlight</h2>
 <p>After finishing all the code, I tried to draw some pixel art to elevate the gaming experience. So, I drew this astronaut and asteroid.</p>
-<div class="drawing_container svelte-1biqf0s">
-<figure><img srcset="/images/posts/roger-roger/astronaut.avif, /images/posts/roger-roger/astronaut.webp, /images/posts/roger-roger/astronaut.png" src="/images/posts/roger-roger/astronaut.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+<div class="drawing_container svelte-1biqf0s"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/astronaut.avif, /images/posts/roger-roger/astronaut.webp, /images/posts/roger-roger/astronaut.png" src="/images/posts/roger-roger/astronaut.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure>
-    
-<figure><img srcset="/images/posts/roger-roger/asteroid.avif, /images/posts/roger-roger/asteroid.webp, /images/posts/roger-roger/asteroid.png" src="/images/posts/roger-roger/asteroid.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
+    <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/asteroid.avif, /images/posts/roger-roger/asteroid.webp, /images/posts/roger-roger/asteroid.png" src="/images/posts/roger-roger/asteroid.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
+
 	</figure></div>
 <p>I also learned to postpone the socket.io connection and connect to the input IP (in the <a href="#the-control-screen">control sections</a>) and I am really proud of it.</p>
 <h2 id="software"><a class="heading-link" title="Permalink" aria-hidden="true" href="#software"><span></span></a>Software</h2>
 <p>The game use node to host the server, P5JS to draw the graphics, and socket.io to allow the communication between devices.</p>
 <h2 id="the-architecture"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-architecture"><span></span></a>The architecture</h2>
 <p>This is the UML of the game code.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/roger-roger/RogerRogerUML.avif, /images/posts/roger-roger/RogerRogerUML.webp, /images/posts/roger-roger/RogerRogerUML.png" src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
 
-<figure><img srcset="/images/posts/roger-roger/RogerRogerUML.avif, /images/posts/roger-roger/RogerRogerUML.webp, /images/posts/roger-roger/RogerRogerUML.png" src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj">
 	</figure>
 <h2 id="what-i-would-do-to-make-it-better"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-would-do-to-make-it-better"><span></span></a>What I would do to make it better</h2>
 <p>Right now, the obstacles are extended from the class asteroid. That is not very organized in terms of the readability of the code. So, in the future, I would like to restructure it to have a base class of “hittable” and extends every obstacle from there.</p>
