@@ -157,6 +157,7 @@ We tried to come up with as many solution as we can for each HMWs and picked 3 b
 - Track the amount of time dedicated to different tasks to visualise the work-life balance
 
 ### Storyboards
+
 <Carousel images={ideationScenariosImages} label="images" withLightbox={true}></Carousel>
 
 <div class="button_container"> 
@@ -169,22 +170,24 @@ We tried to come up with as many solution as we can for each HMWs and picked 3 b
 ## Prototyping
 
 ### Low-Fidelity (Paper)
-We made a quick paper prototype to verify our early iteration design.  
+
+We made a quick paper prototype to verify our early iteration design.
 
 We chose paper prototype because it is:
+
 - **faster to build**: sketching is faster than programming
-- 
- <b>easier to change</b>: lower investment and easy to make changes between user tests, or even during a user test. 
- <MarkerHighlight color="secondary">
- This also makes people more ready to criticize because it is less burdensome to make changes.
- </MarkerHighlight>
+- <b>easier to change</b>: lower investment and easy to make changes between user tests, or even during a user test.
+  <MarkerHighlight color="secondary">
+  This also makes people more ready to criticize because it is less burdensome to make changes.
+  </MarkerHighlight>
 - **focus on the big picture**: designers don't waste time on details and customer can make more creative suggestion on the interaction
 - **non-programmers can help**: designers who don't have experience in programming can do a hands-on help
 
 The prototype is made in a way that can support the verification of 4 tasks that appears in the end-to-end scenarios captured in the [storyboards](#storyboards)
 
 **Tasks**
-1. Create a challenge and invite your friend (Damir) to join it. 
+
+1. Create a challenge and invite your friend (Damir) to join it.
 2. Add a task to your to-do list
 3. Schedule a time in your calendar to complete your task
 4. Check your work-life balance
@@ -192,7 +195,7 @@ The prototype is made in a way that can support the verification of 4 tasks that
 **Screens for Paper Prototype**
 <Carousel images={paperPrototypeScreens} label="images" withLightbox={true}></Carousel>
 
-We asked 4 participants to participate in this prototype testing. First, we gave them a short briefing and then asked them to complete the 4 tasks mentioned before. 
+We asked 4 participants to participate in this prototype testing. First, we gave them a short briefing and then asked them to complete the 4 tasks mentioned before.
 
 <Image src="/images/posts/baobal/paperprototype-participant1.png" alt="A participant during one of the user testing" caption={true} withLightbox={true}/>
 
@@ -210,16 +213,17 @@ The observations gathered from the user testing were then categorized according 
 </div>
 
 ### High-Fidelity (Digital)
+With the details of core user experience (interaction, UI element placement) established with paper prototype, we move on to the finer details like colors, font, icons, and layout.
 
-<div class="show-prototype">
-  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
-</div>
 
 ## Heuristic Evaluation
 
 ## Iteration and User Testing
 
 ## Final Product
+<div class="show-prototype">
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
+</div>
 
 <style lang="scss">
   .drawing_container {
@@ -243,7 +247,14 @@ The observations gathered from the user testing were then categorized according 
     }
   }
 
+  .show-prototype iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
   .show-prototype {
+    width: 100%;
+    height: auto;
     margin-top: 1rem;
   }
   
