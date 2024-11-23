@@ -1,5 +1,6 @@
 <script lang="ts">
-	export let color: 'primary' | 'secondary' | string = 'primary';
+	// export let color: 'primary' | 'secondary' | string = 'primary';
+	export let color: string = 'primary';
 </script>
 
 <mark style="--mark-color: var(--color--{color}-tint);">

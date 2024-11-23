@@ -78,4 +78,8 @@
 		height: 100%;
 		object-fit: contain;
 	}
+
+	.svelte-lightbox-overlay {
+		background-color: rgba(133, 132, 99, 0.87);
+	}
 </style>

@@ -3,7 +3,7 @@
 @mixin base-theme {
 	@include define-color('primary', #277857);
 	@include define-color('primary-shade', #82a496);
-	@include define-color('primary-tint', #73bfa9);
+	@include define-color('primary-tint', #b8dad0);
 
 	@include define-color('secondary', #f66c8d);
 	@include define-color('secondary-shade', #f5c3c4);
@@ -37,6 +37,11 @@
 	@include define-color('code-text', #ffffff);
 	@include define-color('code-inline-background', #f7c1c1);
 	@include define-color('code--inline-text', #efe9d1);
+
+	// Used for Highlight Component
+	@include define-color('highlight-red-tint', #eab7b7);
+	@include define-color('highlight-yellow-tint', #e7d78a);
+	@include define-color('highlight-green-tint', #d5eec6);
 
 	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
 	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
