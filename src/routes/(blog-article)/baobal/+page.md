@@ -27,9 +27,12 @@ importance: 2
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
   import Button from "$lib/components/atoms/Button.svelte";
+
   import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
   import BlogIcon from "$lib/icons/blog.svelte";
   import SlideIcon from "$lib/icons/slides.svelte";
+  import DocumentIcon from "$lib/icons/document.svelte";
+
   import Carousel from "$lib/components/molecules/Carousel.svelte";
   import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 
@@ -289,15 +292,28 @@ And, the same as paper prototype, we categorized the observation into 3 severity
 
 ## Heuristic Evaluation
 
-After refining the interface according to the result of digital prototype testing, we submitted our interface for heuristic evaluation
+After refining the interface according to the result of digital prototype testing, we submitted our interface, along with request form, for heuristic evaluation from fellow HCI enthusiasts.
 
-## Iteration and User Testing
-
-## Final Product
+### Refined Digital Prototype
 
 <div class="show-prototype">
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
 </div>
+
+<div class="button_container"> 
+  <Button href="https://drive.google.com/file/d/1D8i5xlUP35XcUV7LNMeQ-ZRDzRU53DbE/view?usp=sharing">
+    <DocumentIcon slot="icon" />
+    HE Request Form
+  </Button>
+</div>
+
+And received feedbacks about the usability issues of the interface along with suggested fixes. The interface evaluation is based on these usability dimension
+
+<Image src="/images/posts/baobal/heuristicseval-usability1.png" alt="A participant during one of the user testing" withLightbox={true}/>
+
+## Iteration and User Testing
+
+## Final Product
 
 <style lang="scss">
   .drawing_container {
