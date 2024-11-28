@@ -84,6 +84,19 @@ importance: 2
     {src: "/images/posts/baobal/digitalprototype-tentativesol3.png", alt: "Digital Prototype Tentative Solution 3"},
     {src: "/images/posts/baobal/digitalprototype-tentativesol4.png", alt: "Digital Prototype Tentative Solution 4"},
   ]
+
+  const usertestGQM = [
+    {src: "/images/posts/baobal/usertest-gqm1.png", alt: "User Test GQM 1"},
+    {src: "/images/posts/baobal/usertest-gqm2.png", alt: "User Test GQM 2"},
+    {src: "/images/posts/baobal/usertest-gqm3.png", alt: "User Test GQM 3"},
+  ]
+
+  const usertestTasks = [
+    {src: "/images/posts/baobal/usertest-task1.png", alt: "User Test Task 1"},
+    {src: "/images/posts/baobal/usertest-task2.png", alt: "User Test Task 2"},
+    {src: "/images/posts/baobal/usertest-task3.png", alt: "User Test Task 3"},
+    {src: "/images/posts/baobal/usertest-task4.png", alt: "User Test Task 4"},
+  ]
 </script>
 
 <div class="button_container"> 
@@ -111,7 +124,7 @@ And one of the thing we noticed is that, while there are an abundance of product
 
 ## Needfinding
 
-To identify the needs that out product has to satisfy, we conducted interviews with 9 potential target users. Then, we identify any interesting moments or remarks throughout the interview and develop our contextual models: sequence model, physical model, and artifact model.
+To identify the needs that out product has to satisfy, we conducted interviews with 9 potential target users; the workaholics. Then, we identify any interesting moments or remarks throughout the interview and develop our contextual models: sequence model, physical model, and artifact model.
 
 <Carousel images={needfindingImages} label="images" withLightbox={true}></Carousel>
 
@@ -142,7 +155,7 @@ Then we proceed to identify the needs from the insights we found in the model.
 
 ### Point of View
 
-We developed a Point of View statement for our target user.
+To better get the context of how our target user feels, we developed what's called a "Point of View" of workaholics.
 
 <p>
 Young workaholics juggling between internships and studies
@@ -158,7 +171,7 @@ their work perception can lead to excessive, unhealthy decisions.
 
 ### Persona
 
-From the Point of View statement, we made a user persona.
+From the Point of View statement, we made a user persona for everybody in the team to be on the same page about who to design for.
 <Image src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" withLightbox={true} />
 
 ### How Might We's
@@ -174,13 +187,20 @@ Then we selected 3 HMWs that we think best captures the target user struggles wi
 
 <Image src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" caption={true} withLightbox={true}/>
 
-We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scensrio storyboard for each one of them.
+We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scenario storyboard for each one of them.
+
+We got stuck staring at the HMWs board for some time. Ideas come and go. Some good, some bad; but none really hits. You know -- when you brainstormed and all the ideas are... okay but none _slaps_ yet. Until someone said
+"If workaholics often forgot how imbalanced their life is, how about we _really_ show them the imbalance."
+
+<Image src="/images/posts/baobal/ideation-solution1.png" alt="Early conception of our solutions" caption={true} withLightbox={true}/>
+
+So, the idea of mapping abstract concept, like time, to a more concrete concept, like weight, kind of become the central theme of our application. The visualization makes the imbalance of their life more digestible, relatable, and ... somewhat more dramatic.
 
 ### 3 Best Solutions
 
-- We randomise and deconstruct tasks into their schedule
-- Join ‘one challenge a day’ with friends and get rewarded with stamps and points
-- Track the amount of time dedicated to different tasks to visualise the work-life balance
+1. We randomise and deconstruct tasks into their schedule
+2. Join ‘one challenge a day’ with friends and get rewarded with stamps and points
+3. Track the amount of time dedicated to different tasks to visualise the work-life balance
 
 ### Storyboards
 
@@ -195,9 +215,11 @@ We tried to come up with as many solution as we can for each HMWs and picked 3 b
 
 ## Prototyping
 
+So with the main solutions agreed upon, we work on translating those solutions into low-fi UI screens and wireframes.
+
 ### Low-Fidelity (Paper)
 
-We made a quick paper prototype to verify our early iteration design.
+After we finish the early design, we made a quick paper prototype to verify it before moving on to higher fidelity prototypes.
 
 We chose paper prototype because it is:
 
@@ -213,7 +235,7 @@ The prototype is made in a way that can support the verification of 4 tasks that
 
 #### Tasks
 
-1. Create a challenge and invite your friend (Damir) to join it.
+1. Create a challenge and invite your friend to join it.
 2. Add a task to your to-do list
 3. Schedule a time in your calendar to complete your task
 4. Check your work-life balance
@@ -236,6 +258,8 @@ The observations gathered from the user testing were then categorized according 
   <li><TintHighlight color="primary">Low</TintHighlight>: Refers to inconveniences that do not obstruct the completion of necessary tasks.</li>
 </ul>
 
+### Observations
+
 Then, we brainstormed solutions to patch them.
 
 <Image src="/images/posts/baobal/paperprototype-observations1.png" alt="A participant during one of the user testing" withLightbox={true}/>
@@ -257,9 +281,18 @@ When I show unfinished rough-on-the-edges kind of works, people tend to feel tha
 
 ### High-Fidelity (Digital)
 
-With the details of core user experience (interaction, UI element placement) established in paper prototype, we move on to the finer details like interactive feedback, efficiency issues, and layout.
+With the details of core user experience (navigation, metaphor, UI element placement) established in paper prototype, we move on to the finer details like interactive feedback, efficiency issues, and layout.
 
 We choose to implement our interface in digital prototype to identify those usability issue.
+
+#### Tasks
+
+<!-- <Carousel images={digitalPrototypeTasks} label="images" withLightbox={true}></Carousel> -->
+
+- Join challenge
+- Create task
+- Schedule task
+- Check balance
 
 #### Screens for Digital Prototype
 
@@ -267,19 +300,13 @@ We choose to implement our interface in digital prototype to identify those usab
 
 Even thought this version is a more _"polished"_ version than the paper prototype, some corners are cut for efficiency.
 
-<ul>
-<li>We intentionally <MarkerHighlight color="secondary">refrained from including hard-coded data for tasks and emojis</MarkerHighlight> in our design. Our rationale was to <MarkerHighlight color="secondary">prevent overwhelming users with unrelated content.</MarkerHighlight> Instead, we aimed to keep the focus squarely on the core concept and functionality of our design.</li>
+<p>
+We intentionally <MarkerHighlight color="secondary">refrained from including detailed hard-coded data for tasks</MarkerHighlight> in our design. Our rationale was to <MarkerHighlight color="secondary">prevent overwhelming users with unrelated content.</MarkerHighlight> Instead, we aimed to keep the focus squarely on the core concept and functionality of our design.
+</p>
 
-<li>We opted to streamline the user experience by <MarkerHighlight color="secondary">eliminating the 'Joining Challenges with Friends' feature.</MarkerHighlight> Instead, users can now select a challenge and join independently. This decision simplifies the user journey, eliminating the need for users to search for or invite friends, reducing cognitive load. It offers an intuitive and straightforward experience.</li>
-</ul>
+### Observations
 
-Since we were trying to identify different issues this time, the task list and task structure are different. The instruction for each task is provided because discoverability and learnability are not our concern for this test.
-
-#### Tasks
-
-<Carousel images={digitalPrototypeTasks} label="images" withLightbox={true}></Carousel>
-
-And, the same as paper prototype, we categorized the observation into 3 severity using the same [criteria](#criteria).
+And, the same as paper prototype, we categorized the observation into 3 severity using the same [criteria](#criteria) and then tried to come up with solutions for each of them.
 
 <Carousel images={digitalPrototypeTentativeSols} label="images" withLightbox={true}></Carousel>
 
@@ -290,7 +317,7 @@ And, the same as paper prototype, we categorized the observation into 3 severity
   </Button>
 </div>
 
-## Heuristic Evaluation
+<!-- ## Heuristic Evaluation
 
 After refining the interface according to the result of digital prototype testing, we submitted our interface, along with request form, for heuristic evaluation from fellow HCI enthusiasts.
 
@@ -300,7 +327,7 @@ After refining the interface according to the result of digital prototype testin
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
 </div>
 
-<div class="button_container"> 
+<div class="button_container">
   <Button href="https://drive.google.com/file/d/1D8i5xlUP35XcUV7LNMeQ-ZRDzRU53DbE/view?usp=sharing">
     <DocumentIcon slot="icon" />
     HE Request Form
@@ -309,11 +336,86 @@ After refining the interface according to the result of digital prototype testin
 
 And received feedbacks about the usability issues of the interface along with suggested fixes. The interface evaluation is based on these usability dimension
 
-<Image src="/images/posts/baobal/heuristicseval-usability1.png" alt="A participant during one of the user testing" withLightbox={true}/>
+<Image src="/images/posts/baobal/heuristicseval-usability1.png" alt="A participant during one of the user testing" withLightbox={true}/> -->
 
-## Iteration and User Testing
+## User Testing
+
+Now, after all the revision and polishing, we reached the late stage of prototyping. Unlike [paper prototype](#low-fidelity-paper) and [digital prototype](#high-fidelity-digital) where only tasks for chosen scenarios work, most of the functionalites of this prototype are clearly defined and most of the core interaction work.
+
+So, this test place more focus on improving the interface rather than testing the interaction. We put together a protocol document for the test that serves as a test documentation as well as a concrete plan for the test execution.
+
+### Test Protocol
+
+We defined the goal we want to achieve, what questions help verify those goals, and what metrics we should use to measure the questions.
+<Carousel images={usertestGQM} label="images" withLightbox={true}></Carousel>
+
+We use our previously mentioned [user persona](#persona) as our user profile.
+
+The methods we will use for collecting the test result are:
+
+- Think aloud
+- Interviews
+- Survey questions
+  - Likert scale
+  - NASA task load index
+
+The 4 main tasks to be perform along with conditions are:
+<Carousel images={usertestTasks} label="images" withLightbox={true}></Carousel>
+
+You can try performing the tasks yourself with this prototype!
+
+<div class="show-prototype">
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
+</div>
+
+We choose test users based on the defined characteristics of representative users:
+
+- Undergraduate students
+- Overwhelmed with work. Working in lab, internship, etc, while also dealing with academic responsibility
+- Strive to regain work - life balance
+
+The whole protocol along with the script can be found [here](https://docs.google.com/document/d/10_L4-MPPJk5LPyO9YnG7A-yfgrivi9LEI9hbp8_eSzw/edit?usp=sharing)
+
+### Result
+
+Similarly to previous two prototypes, we concluded our observations and reflected on the study process.
+I feel like the observations are too detailed to be mentioned here so if you want to check them out you can do so by looking at the [slides](#user-test-slides)
+
+What I want to share are the takeaways from this user testing session.
+
+Performing a real structured user testing, I can see insights that I wouldn't know had I never done it. It's one thing to learn about it in the classroom but to really prepare for it and _think_ about the process in a real project feels a lot different for me.
+I learned that:
+
+1. Surprisingly, it is very hard not to impact or influence the user decision while testing.
+2. They might feel inclined to give positive feedback when they are aware of being recorded and observed.
+3. Their needs can be more diverse than I expected (no matter how big i expected, it always exceeded that!)
+
+<a name="user-test-slides"></a>
+
+<div class="button_container"> 
+  <Button href="https://drive.google.com/file/d/14gh7auPP54QxN-btqg5p7shjaDG7Mnu8/view?usp=drive_link">
+    <SlideIcon slot="icon" />
+    Slides
+  </Button>
+</div>
 
 ## Final Product
+
+To recap before diving into the solutions, I want to mention the [How Might We](#how-might-wes) questions once again and our solution approach them.
+
+<Image src="/images/posts/baobal/final-hmw.png" alt="A participant during one of the user testing" withLightbox={true}/>
+
+And we answered all those How Might We's in the interface. Let me explain those answers as the How Did We's
+
+### How did we make their leisure as important as their work?
+
+### How did we help them turn their goals into something more attainable?
+
+### How did we make other areas of self-improvement more attractive?
+
+## What I learned
+
+## What I wish were more explored
 
 <style lang="scss">
   .drawing_container {
