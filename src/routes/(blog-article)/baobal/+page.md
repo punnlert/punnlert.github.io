@@ -368,6 +368,8 @@ You can try performing the tasks yourself with this prototype!
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
 </div>
 
+<Image src="/images/posts/baobal/usertest-usertest.png" alt="A participant during one of the user testing" caption={true} noBg={true} withLightbox={true}/>
+
 We choose test users based on the defined characteristics of representative users:
 
 - Undergraduate students
@@ -409,13 +411,41 @@ And we answered all those How Might We's in the interface. Let me explain those 
 
 ### How did we make their leisure as important as their work?
 
+<img src="/images/posts/baobal/finalproduct-hdw1.gif" alt="How Did We statement 1"/>
+
+The proportion of their completed work-related tasks to life-related tasks is displayed in see-saw scale to emphasize the notion of imbalance between the two kinds of task.
+
 ### How did we help them turn their goals into something more attainable?
+
+<img src="/images/posts/baobal/finalproduct-hdw2.gif" alt="How Did We statement 2"/>
+
+We let them categorize the task they add to the to-do list as a work-task or a life-task and color coded the two. A filter can be applied to see only one of the two kinds of task.
+
+<img src="/images/posts/baobal/finalproduct-hdw3.gif" alt="How Did We statement 3"/>
+
+The user can schedule time specific tasks into a calendar interface. From the [needs](#needs) that we listed, we try to address the user's need to actively track and manage commitments by this list interface.
 
 ### How did we make other areas of self-improvement more attractive?
 
+<img src="/images/posts/baobal/finalproduct-hdw4.gif" alt="How Did We statement 4"/>
+
+We included a section dedicated to challenges that user can join and complete. The user can participate in completing one challenge a day and log their journey of challenges. There is a section dedicated to recommending challenges the user may like and another section dedicated to recommending challenges outside the user's comfort zone.
+
 ## What I learned
 
+Conducting this project helped me reflected on many valuable insights that I am grateful for. I got the opportunity to try to conduct the procedural way of user experience / human-computer interaction research. I learned how to identify needs and develop the solutions to answer them. I verifed those solutions by performing user tests on prototypes of vary fidelity. I learned how to be systematic about user tests and observations.
+
+Ultimately, I got yet another lesson on teamwork.
+
+<p>
+Normally, I would be in a team full of designers with strong passion to deliver the best user experience who likes to let our imagination run wild with little notion of practicality. In this team, I was surrounded by developers and computer science major students. And they showed me different perspective that I would never see in other teams. Of course, it's fun to dream big but sometimes being nudge by the people who build it can give you a better design constrains in real world. And in return I think I also gave them the courage to dream. <MarkerHighlight color="secondary">That is what "designer" means to me. Not the person with the ability to create, but the one who brings out the creativity of everybody in the team.</MarkerHighlight>
+</p>
+
 ## What I wish were more explored
+
+Because prototype offers so little to explore, I wish we can get to early implementation stage and conduct another user study with semi-implemented product. I want to see how a feature is tested before launch using evaluative UX method in larger scale (like tree test, AB test)
+
+I wish we can get a glimpse of how all of this documentation get passed on to the implementation stage. I want to see how the developers deal with these information and what role do designers play in the next step. I want to see how my concept can be brought alive as a real world product.
 
 <style lang="scss">
   .drawing_container {
