@@ -578,6 +578,9 @@ their work perception can lead to excessive, unhealthy decisions.
 		</li></ul></div></div>
 <p>You can try performing the tasks yourself with this prototype!</p>
 <div class="show-prototype svelte-doqc11"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen class="svelte-doqc11"></iframe></div>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9"><img srcset="/images/posts/baobal/usertest-usertest.avif, /images/posts/baobal/usertest-usertest.webp, /images/posts/baobal/usertest-usertest.png" src="/images/posts/baobal/usertest-usertest.png" alt="A participant during one of the user testing" loading="lazy" decoding="async" class="svelte-qadelj  show_nobg"></div>
+
+	<figcaption>A participant during one of the user testing</figcaption></figure>
 <p>We choose test users based on the defined characteristics of representative users:</p>
 <ul><li>Undergraduate students</li>
 <li>Overwhelmed with work. Working in lab, internship, etc, while also dealing with academic responsibility</li>
@@ -604,10 +607,23 @@ I learned that:</p>
 	</figure>
 <p>And we answered all those How Might We’s in the interface. Let me explain those answers as the How Did We’s</p>
 <h3 id="how-did-we-make-their-leisure-as-important-as-their-work"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-did-we-make-their-leisure-as-important-as-their-work"><span></span></a>How did we make their leisure as important as their work?</h3>
+<img src="/images/posts/baobal/finalproduct-hdw1.gif" alt="How Did We statement 1">
+<p>The proportion of their completed work-related tasks to life-related tasks is displayed in see-saw scale to emphasize the notion of imbalance between the two kinds of task.</p>
 <h3 id="how-did-we-help-them-turn-their-goals-into-something-more-attainable"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-did-we-help-them-turn-their-goals-into-something-more-attainable"><span></span></a>How did we help them turn their goals into something more attainable?</h3>
+<img src="/images/posts/baobal/finalproduct-hdw2.gif" alt="How Did We statement 2">
+<p>We let them categorize the task they add to the to-do list as a work-task or a life-task and color coded the two. A filter can be applied to see only one of the two kinds of task.</p>
+<img src="/images/posts/baobal/finalproduct-hdw3.gif" alt="How Did We statement 3">
+<p>The user can schedule time specific tasks into a calendar interface. From the <a href="#needs">needs</a> that we listed, we try to address the user’s need to actively track and manage commitments by this list interface.</p>
 <h3 id="how-did-we-make-other-areas-of-self-improvement-more-attractive"><a class="heading-link" title="Permalink" aria-hidden="true" href="#how-did-we-make-other-areas-of-self-improvement-more-attractive"><span></span></a>How did we make other areas of self-improvement more attractive?</h3>
+<img src="/images/posts/baobal/finalproduct-hdw4.gif" alt="How Did We statement 4">
+<p>We included a section dedicated to challenges that user can join and complete. The user can participate in completing one challenge a day and log their journey of challenges. There is a section dedicated to recommending challenges the user may like and another section dedicated to recommending challenges outside the user’s comfort zone.</p>
 <h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
+<p>Conducting this project helped me reflected on many valuable insights that I am grateful for. I got the opportunity to try to conduct the procedural way of user experience / human-computer interaction research. I learned how to identify needs and develop the solutions to answer them. I verifed those solutions by performing user tests on prototypes of vary fidelity. I learned how to be systematic about user tests and observations.</p>
+<p>Ultimately, I got yet another lesson on teamwork.</p>
+<p>Normally, I would be in a team full of designers with strong passion to deliver the best user experience who likes to let our imagination run wild with little notion of practicality. In this team, I was surrounded by developers and computer science major students. And they showed me different perspective that I would never see in other teams. Of course, it&#39;s fun to dream big but sometimes being nudge by the people who build it can give you a better design constrains in real world. And in return I think I also gave them the courage to dream. <mark class="secondary svelte-1600vgs">That is what &quot;designer&quot; means to me. Not the person with the ability to create, but the one who brings out the creativity of everybody in the team.</mark></p>
 <h2 id="what-i-wish-were-more-explored"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-wish-were-more-explored"><span></span></a>What I wish were more explored</h2>
+<p>Because prototype offers so little to explore, I wish we can get to early implementation stage and conduct another user study with semi-implemented product. I want to see how a feature is tested before launch using evaluative UX method in larger scale (like tree test, AB test)</p>
+<p>I wish we can get a glimpse of how all of this documentation get passed on to the implementation stage. I want to see how the developers deal with these information and what role do designers play in the next step. I want to see how my concept can be brought alive as a real world product.</p>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/baobal/cover.png"/>          
