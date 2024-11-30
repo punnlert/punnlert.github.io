@@ -3,7 +3,7 @@ title: Lambda Studio
 slug: lambda-studio
 coverImage: /images/posts/lambda-studio/cover.png
 excerpt: A MIDI controller with an ability to sample soundwaves... using a barcode reader!
-hidden: false
+hidden: true
 tags:
   - Interaction Design
   - Product Design

@@ -3,7 +3,7 @@ title: KLMS Redesign
 slug: klms-redesign
 coverImage: /images/posts/klms-redesign/cover.png
 excerpt: Have you ever feel like your school website is a little frustrating to use?
-hidden: false
+hidden: true
 tags:
   - UI Design
 contribution: []

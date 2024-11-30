@@ -63,13 +63,6 @@ importance: 2
     {src: "/images/posts/baobal/paperprototype-tentativesol5.png", alt: "Paper Prototype Tentetive Solution 5"},
   ]
 
-  const digitalPrototypeTasks = [
-    {src: "/images/posts/baobal/digitalprototype-task1.png", alt: "Digital Prototype Task 1"},
-    {src: "/images/posts/baobal/digitalprototype-task2.png", alt: "Digital Prototype Task 2"},
-    {src: "/images/posts/baobal/digitalprototype-task3.png", alt: "Digital Prototype Task 3"},
-    {src: "/images/posts/baobal/digitalprototype-task4.png", alt: "Digital Prototype Task 4"},
-  ]
-
   const digitalPrototypeScreens = [
     {src: "/images/posts/baobal/digitalprototype-screen1.png", alt: "Digital Prototype Screen 1"},
     {src: "/images/posts/baobal/digitalprototype-screen2.png", alt: "Digital Prototype Screen 2"},
@@ -286,8 +279,6 @@ With the details of core user experience (navigation, metaphor, UI element place
 We choose to implement our interface in digital prototype to identify those usability issue.
 
 #### Tasks
-
-<!-- <Carousel images={digitalPrototypeTasks} label="images" withLightbox={true}></Carousel> -->
 
 - Join challenge
 - Create task

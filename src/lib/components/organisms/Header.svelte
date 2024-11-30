@@ -13,7 +13,7 @@
 		</a>
 		<div class="links">
 			<a href="/projects">Projects</a>
-			<a id="reach" href="/projects">About</a>
+			<a id="reach" href="/about">About</a>
 			<a id="reach" href="/projects">Resume</a>
 			<!-- <RssLink /> -->
 			<!-- <ThemeToggle /> -->
