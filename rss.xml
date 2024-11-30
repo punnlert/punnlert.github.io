@@ -487,7 +487,6 @@ their work perception can lead to excessive, unhealthy decisions.
 <p>With the details of core user experience (navigation, metaphor, UI element placement) established in paper prototype, we move on to the finer details like interactive feedback, efficiency issues, and layout.</p>
 <p>We choose to implement our interface in digital prototype to identify those usability issue.</p>
 <h4 id="tasks-1"><a class="heading-link" title="Permalink" aria-hidden="true" href="#tasks-1"><span></span></a>Tasks</h4>
-
 <ul><li>Join challenge</li>
 <li>Create task</li>
 <li>Schedule task</li>
@@ -630,29 +629,6 @@ I learned that:</p>
         </item>
       
         <item>
-          <guid>https://punnlert.github.io//lambda-studio</guid>
-          <title>Lambda Studio</title>
-          <description>A MIDI controller with an ability to sample soundwaves... using a barcode reader!</description>
-          <link>https://punnlert.github.io//lambda-studio</link>
-          <pubDate>Wed, 01 Mar 2023 11:46:13 +0000</pubDate>
-          <category>Interaction Design</category><category>Product Design</category><category>Microcomputer</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//lambda-studio">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <p>placeholder</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/lambda-studio/cover.png"/>          
-        </item>
-      
-        <item>
           <guid>https://punnlert.github.io//roger-roger</guid>
           <title>Roger, Roger</title>
           <description>Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!</description>
@@ -760,29 +736,6 @@ I learned that:</p>
           ]]></content:encoded>
           <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/roger-roger/cover.png"/>          
-        </item>
-      
-        <item>
-          <guid>https://punnlert.github.io//klms-redesign</guid>
-          <title>KLMS Redesign</title>
-          <description>Have you ever feel like your school website is a little frustrating to use?</description>
-          <link>https://punnlert.github.io//klms-redesign</link>
-          <pubDate>Mon, 20 Mar 2023 11:45:13 +0000</pubDate>
-          <category>UI Design</category>
-          <content:encoded><![CDATA[
-            <div style="margin: 50px 0; font-style: italic;">
-              If anything looks wrong, 
-              <strong>
-                <a href="https://punnlert.github.io//klms-redesign">
-                  read on the site!
-                </a>
-              </strong>
-            </div>
-
-            <p>placeholder</p>
-          ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.github.io///images/posts/klms-redesign/cover.png"/>          
         </item>
       
   </channel>
