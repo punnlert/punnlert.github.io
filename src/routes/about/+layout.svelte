@@ -3,10 +3,9 @@
 	import Footer from '$lib/components/organisms/Footer.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import dateformat from 'dateformat';
+	import Logo from '$lib/components/atoms/Logo.svelte';
+	import HandwriteLogo from '$lib/icons/handwrite_logo.svelte';
 
-	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
-	import type { BlogPost } from '$lib/utils/types';
-	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
 </script>
 
@@ -23,6 +22,9 @@
 			</div>
 			<div class="content">
 				<slot />
+			</div>
+			<div class="logo-container">
+				<HandwriteLogo />
 			</div>
 		</article>
 	</main>
@@ -134,6 +136,14 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
+		}
+
+		.logo-container {
+			width: min(var(--main-column-width), 100%);
+			display: flex;
+			justify-content: flex-end;
+			margin: 0 auto;
+            margin-top: 4ch;
 		}
 
 		.tags {
