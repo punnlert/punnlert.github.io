@@ -19,11 +19,14 @@
 			fun physical experience into an otherwise mundane digital task we perform everyday.
 		</p>
 		<p>
+			Currently majoring in Industrial Design and Computer Science at
+			<a href="https://www.kaist.ac.kr/en/html/kaist/01.html">KAIST</a>
+		</p>
+		<p>
 			I keep my days going with small talks with cafeteria ladies, songs on cracked speakers, and
 			the romance of handwritten letters.
 		</p>
 		<div class="socials">
-			<span>Socials:</span>
 			<Socials />
 		</div>
 	</div>
@@ -81,6 +84,7 @@
 			display: flex;
 			align-items: center;
 			gap: 15px;
+			margin-top: 10px;
 
 			@include for-phone-only {
 				justify-content: center;

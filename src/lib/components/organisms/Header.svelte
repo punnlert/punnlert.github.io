@@ -14,7 +14,7 @@
 		<div class="links">
 			<a href="/projects">Projects</a>
 			<a id="reach" href="/about">About</a>
-			<a id="reach" href="/projects">Resume</a>
+			<a id="reach" href="/files/resume.pdf">Resume</a>
 			<!-- <RssLink /> -->
 			<!-- <ThemeToggle /> -->
 		</div>

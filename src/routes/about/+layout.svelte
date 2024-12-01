@@ -9,6 +9,12 @@
 	import Image from '$lib/components/atoms/Image.svelte';
 </script>
 
+<svelte:head>
+	<title>About Punn</title>
+	<meta property="og:title" content="About Punn" />
+	<meta name="twitter:title" content="About Punn" />
+</svelte:head>
+
 <div class="article-layout">
 	<Header />
 
@@ -143,7 +149,7 @@
 			display: flex;
 			justify-content: flex-end;
 			margin: 0 auto;
-            margin-top: 4ch;
+			margin-top: 4ch;
 		}
 
 		.tags {
