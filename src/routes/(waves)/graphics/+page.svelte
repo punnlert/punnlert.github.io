@@ -1,6 +1,8 @@
 <script lang="ts">
 	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
+	import Masonry from '$lib/components/atoms/Masonry.svelte';
+	import Image from '$lib/components/atoms/Image.svelte';
 	import type { Graphics } from '$lib/utils/types';
 
 	export let data: {
@@ -12,6 +14,11 @@
 
 <div class="container">
 	<ContentSection title="Graphic Designs">
+		<Masonry stretchFirst={false} colWidth="minmax(Min(15em, 100%), 1fr)">
+			{#each graphics as graphic}
+				<Image src={graphic.image} alt={graphic.description} withLightbox={true} />
+			{/each}
+		</Masonry>
 		<!-- <div class="grid">
 			{#each posts as post}
 				<BlogPostCard
