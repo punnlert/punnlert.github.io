@@ -29,6 +29,13 @@ export type Feature = {
   tags: TagType[]
 }
 
+export type Graphics = {
+  name: string,
+  description: string,
+  image: string,
+  tags: TagType[] 
+}
+
 export type BlogPost = {
   tags: string[],
   keywords: string[],
