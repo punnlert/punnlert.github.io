@@ -12,6 +12,9 @@ const extensions = ['.svelte', '.md'];
 const config = {
 	kit: {
 		adapter: adapter(),
+		paths: {
+			relative: false
+		},
 		prerender: {
 			handleHttpError: 'warn'
 		}
@@ -32,7 +35,7 @@ const config = {
 						content: {
 							type: 'element',
 							tagName: 'span',
-							properties: {},
+							properties: {}
 							// children: [{ type: 'text', value: '#' }]
 						}
 					}
