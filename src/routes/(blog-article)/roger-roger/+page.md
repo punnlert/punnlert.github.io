@@ -14,6 +14,7 @@ importance: 3
 
 <script>
   import Image from "$lib/components/atoms/Image.svelte";
+  import LightBoxImage from "$lib/components/molecules/LightBoxImage.svelte";
   import Button from "$lib/components/atoms/Button.svelte"
   import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
   import GithubIcon from "$lib/icons/socials/github.svelte"; 
@@ -30,32 +31,32 @@ importance: 3
     </Button>
 </div>
 
-<Image src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/>
 
 ## Introduction
 
 "Roger, Roger" is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.
 
-<Image src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" withLightbox={true}/>
-<Image src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/>
 
 ## The main screen
 
 Upon the welcome screen, the player will be greeted with the title of the game, the IP address of the server, and the prompt "press space". The reason behind the IP address being displayed will be explained in [the control screen](#the-control-screen) section.
 
-<Image src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/>
 
 After all the players have connected and the captain pressed spacebar, the main screen shows the players the rocket they are controlling. It also shows the score and lives they have left.
 
-<Image src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" withLightbox={true}/>
 
 Group of asteroids are streaming through the right side of the screen at different velocity. The players have to use this visual display to based their control on.
 
-<Image src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" withLightbox={true}/>
 
 If the rocket ran out of life, the game ends. The last page will display the final score and whether you got the new highscore.
 
-<Image src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/>
 <Image src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" withLightbox={true}/>
 
 ## The control screen
@@ -63,22 +64,22 @@ If the rocket ran out of life, the game ends. The last page will display the fin
 The control screen consisted of two parts: socket connection input and the control.
 
 Socket connection input lets the player input the IP address of the server to gain control of the rocket. If the connection is successful, green circle appears on the right side of the input. This is because I want the server to be able to be hosted on the computer and in that case the IP address would be dynamically assigned.
-<Image src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/IP_input.jpg" alt="Start Page" withLightbox={true}/>
 
 ### Gun controls
 
 lets the player controls the gun. There is a two seconds cooldown period for gun firing.
-<Image src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/gun_control.PNG" alt="Start Page" withLightbox={true}/>
 
 ### Trajectory control
 
 lets the player controls the up-down movement of the spaceship
-<Image src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/trajectory_control.PNG" alt="Start Page" withLightbox={true}/>
 
 ### Acceleration
 
 lets the player controls the left-right of the spaceship
-<Image src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/acceleration.PNG" alt="Start Page" withLightbox={true}/>
 
 ## The game mechanics
 
@@ -103,8 +104,8 @@ If there is an IP address appearing on your 'display' screen, you are ready to p
 After finishing all the code, I tried to draw some pixel art to elevate the gaming experience. So, I drew this astronaut and asteroid.
 
 <div class="drawing_container">
-    <Image src="/images/posts/roger-roger/astronaut.png" alt="Start Page" withLightbox={true}/>
-    <Image src="/images/posts/roger-roger/asteroid.png" alt="Start Page" withLightbox={true}/>
+    <LightBoxImage src="/images/posts/roger-roger/astronaut.png" alt="Start Page" withLightbox={true}/>
+    <LightBoxImage src="/images/posts/roger-roger/asteroid.png" alt="Start Page" withLightbox={true}/>
 </div>
 
 I also learned to postpone the socket.io connection and connect to the input IP (in the [control sections](#the-control-screen)) and I am really proud of it.
@@ -116,7 +117,7 @@ The game use node to host the server, P5JS to draw the graphics, and socket.io t
 ## The architecture
 
 This is the UML of the game code.
-<Image src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" withLightbox={true}/>
+<LightBoxImage src="/images/posts/roger-roger/RogerRogerUML.drawio.png" alt="Start Page" withLightbox={true}/>
 
 ## What I would do to make it better
 

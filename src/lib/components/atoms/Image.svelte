@@ -1,13 +1,12 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import { Lightbox } from 'svelte-lightbox';
 
 	export let src: string;
 	export let alt: string;
 	export let fullBleed: boolean | undefined = undefined;
 	export let noBg: boolean | undefined = undefined;
 	export let caption: boolean | undefined = undefined;
-	export let withLightbox: boolean | undefined = undefined;
+	export let loadCall = undefined;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
@@ -42,29 +41,16 @@
 </script>
 
 <figure>
-	{#if withLightbox}
-		<Lightbox imagePreset="fullscreen" enableClickToClose={true} enableImageExpand={true}>
-			<img
-				srcset={buildSrcset()}
-				{src}
-				{alt}
-				loading="lazy"
-				decoding="async"
-				class:full-bleed={fullBleed}
-				class:show_nobg={noBg}
-			/>
-		</Lightbox>
-	{:else}
-		<img
-			srcset={buildSrcset()}
-			{src}
-			{alt}
-			loading="lazy"
-			decoding="async"
-			class:full-bleed={fullBleed}
-			class:show_nobg={noBg}
-		/>
-	{/if}
+	<img
+		srcset={buildSrcset()}
+		{src}
+		{alt}
+		loading="lazy"
+		decoding="async"
+		on:load={loadCall}
+		class:full-bleed={fullBleed}
+		class:show_nobg={noBg}
+	/>
 	{#if caption}
 		<figcaption>
 			{alt}
@@ -77,9 +63,5 @@
 		width: 100%;
 		height: 100%;
 		object-fit: contain;
-	}
-
-	.svelte-lightbox-overlay {
-		background-color: rgba(133, 132, 99, 0.87);
 	}
 </style>

@@ -21,6 +21,7 @@ importance: 1
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import Image from "$lib/components/atoms/Image.svelte";
+  import LightBoxImage from "$lib/components/molecules/LightBoxImage.svelte";
   import TintHighlight from "$lib/components/molecules/TintHighlight.svelte";
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
@@ -54,17 +55,17 @@ After our initial research, we came to realize this problem from the two observa
 1. **Financial experimenting during childhood is important**
 2. **The financial literacy in Korea is low** (and I believe it can also be said for the most part of the world)
 
-<Image  src="/images/posts/oink/research.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage  src="/images/posts/oink/research.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 ### Surveys & Interview
 
 After we had our base hypothesis, we designed a series of survey and interview questions to better define the problem in details.
 
-<Image src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/survey-design.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 The result is them compiled and analyze into more digestible presentation.
 
-<Image src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/survey.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 We found that around 50% of children switched from using cash to debit card at around 12-14 years old. The main reason they make the switch is because of **_convenience_**.
 
@@ -76,11 +77,11 @@ The problem we see here is that the change from physical money to digital one ma
 
 In order to better encourage good financial habit since teenage year, maybe a better transition to help children acclimated themselves to the digital financial world.
 
-<Image src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/problem-1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Another problem is that financial education needs to start early but it's not always easy to have an effective financial conversation between kids and parents.
 
-<Image src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/problem-2.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 And that's the overarching theme of out problem; "Transition Period of Cash to Digital Money"
 
@@ -96,7 +97,7 @@ So, we decided our target user to be 7-13 years old kids and their parents. If t
   [_MZ Generation_](https://en.namu.wiki/w/MZ%EC%84%B8%EB%8C%80)  
   Generation MZ (a South Korean specific term) refers to the Millennials who were born in the early to mid-1990s, and Generation Z who were born in the mid to late 1990s. It is a generation with characteristics of diversity, leisure-oriented, value-based consumption (environmental and ethical values), self-centered, digital native, and fun-seeking.
 
-<Image src="/images/posts/oink/target.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/target.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 ## Goals
 
@@ -126,24 +127,24 @@ With the results from surveys, interviews, and literature reviews we decided to 
 2. Spending
 3. Savings
 
-<Image src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/ideation-1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Then we create an affinity diagram of the painpoints.
 
-<Image src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/ideation-2.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 The recurring theme found in the post-its are that digital money sometimes are too _abstract_. So, after some weeks of researching, we came upon a promising solution; **"Tangible User Interface"**.
 
-<Image src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/ideation-3.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 The initial idea is that we have a physical piggy bank that kids can pretend to drag the money on their mobile screen and drop them into the piggy bank as if they are putting real bank notes into the piggy bank. (Like some of those weird apps from the early era of smartphones that let you pretend to be drinking beer out of your phone.)
 
 <div class="drawing_container">
-  <Image src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" withLightbox={true}/>
-  <Image src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" withLightbox={true}/>
+  <LightBoxImage src="/images/posts/oink/ideation-4.png" alt="Claims supporting our two observations" withLightbox={true}/>
+  <LightBoxImage src="/images/posts/oink/beer-app.jpeg" alt="Claims supporting our two observations" withLightbox={true}/>
 </div>
 
-<Image src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/ideation-5.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Which is cute but it didn't fully answers all of our [goals](#goals). But it got the ball rolling! We ended up liking the potential user experience of this idea so much that we started to build the solutions around it.
 
@@ -153,19 +154,19 @@ What if dragging around bank notes icons isn't just contained in the saving inte
 
 With that in mind, we divided the team into 2 parts: one developing a rough Information Architecture (IA) of the system while the other gather references and moodboards.
 
-<Image src="/images/posts/oink/design-1.png" alt="Information Architecture of the system" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/design-1.png" alt="Information Architecture of the system" caption={true} withLightbox={true}/>
 
-<Image src="/images/posts/oink/design-2.png" alt="references and moodboard" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/design-2.png" alt="references and moodboard" caption={true} withLightbox={true}/>
 
 Then we started to design and iterate through the interface. This is how one iteration looks like.
 
-<Image src="/images/posts/oink/design-3.png" alt="early iteration of the design" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/design-3.png" alt="early iteration of the design" caption={true} withLightbox={true}/>
 
 After each iteration, a team meeting is organized and we go through the user flow together. I had so much fun in this process
 
 because we get to disect the prototype with the teammates, discuss the rationale behind each design or interactions, and defend your own design.
 
-<Image src="/images/posts/oink/design-4.png" alt="A white board after our brainstorming session" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/design-4.png" alt="A white board after our brainstorming session" withLightbox={true}/>
 
 ## Final Product
 
@@ -181,7 +182,7 @@ It might be better for your experience if you see this [video](https://youtu.be/
 
 ### Home Page - Kid's UI
 
-<Image src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-home.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Filled with draggable bills and coins representing the amount the child currently has in their bank account
 
@@ -204,7 +205,7 @@ Bills and coins in the wallet can be interacted with in several ways
 
 <div class="phone_and_description">
 
-  <Image src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
+  <LightBoxImage src="/images/posts/oink/product-phone-bill1.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
 
   <div>
 
@@ -217,7 +218,7 @@ Bills and coins in the wallet can be interacted with in several ways
 
 <div class="phone_and_description">
 
-  <Image src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
+  <LightBoxImage src="/images/posts/oink/product-phone-bill2.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
 
   <div>
 
@@ -234,7 +235,7 @@ Bills and coins in the wallet can be interacted with in several ways
 
 <div class="phone_and_description">
 
-<Image src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-spending2.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
 <div>
 
 **Purchase History**  
@@ -254,7 +255,7 @@ The kid can drag the money they have in their homepage into their card to top-up
 
 <div class="phone_and_description">
 
-<Image src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-card1.png" alt="Claims supporting our two observations" noBg={true} withLightbox={true}/>
 <div>
 
 **Balance Information**  
@@ -268,7 +269,7 @@ Use of visually interesting, but simple UX to increase the usability for kids
 
 <div class="phone_and_description">
 
-<Image src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-card3.png" alt="Claims supporting our two observations" withLightbox={true}/>
 <div>
 
 **Card Drawer**  
@@ -284,7 +285,7 @@ The drawer is hovering on the wallet to enable the user drag the money outside t
 
 <div class="phone_and_description">
 
-<Image src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-pig1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 <div>
 
 Tag phone on the physical piggy bank making a pig component to appear on the bottom navigation of their phone
@@ -303,7 +304,7 @@ _- Revelle et al., 2005_
 
 ### Goals - Kid's UI
 
-<Image src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-goal1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 To encourage savings and give them a sense of purpose, the child is able to choose any item they are hoping to purchase and set the amount needed and when they hope to achieve it
 
@@ -314,7 +315,7 @@ _- Murphy, 2018_
 
 </Callout>
 
-<Image src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-goal2.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Check on progress towards set long term goal with a visual graph
 
@@ -340,7 +341,7 @@ The fun animation brings excitement and attention to the new concept making it e
 
 ### Dashboard - Parents' UI
 
-<Image src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-dashboard1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 Parents are able to easily track their child’s spending by viewing what’s currently in their account and their recent transactions
 
@@ -358,7 +359,7 @@ After confirming the amount, the parents is prompted to bring their phone close 
 
 ### Individual Impact
 
-<Image src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-impact1.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 **Fill children's childhoods with healthy financial experiences**  
 Through the experience of moving and exchanging bills and coins, children will be able to perceive money as colors and shapes, not numbers, and as a result will be able to read numerical values.
@@ -377,7 +378,7 @@ You could even meet them face-to-face every time they ask you for their pocket m
 
 ### Social Impact
 
-<Image src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations" withLightbox={true}/>
+<LightBoxImage src="/images/posts/oink/product-phone-impact2.png" alt="Claims supporting our two observations" withLightbox={true}/>
 
 **Attract the smart customers of tomorrow**  
 With an easily accessible admin screen in NH's existing app, parents can attract kids as future customers. With financial literacy, customers are expected to quickly see the benefits of "investing," whether it's trading stocks or buying bonds.

@@ -32,6 +32,7 @@ export type Graphics = {
 	description: string;
 	image: string;
 	tags: TagType[];
+	date: string
 };
 
 export type BlogPost = {

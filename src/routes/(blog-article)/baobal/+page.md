@@ -22,7 +22,7 @@ importance: 2
 <script lang="ts">
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
-  import Image from "$lib/components/atoms/Image.svelte";
+  import LightBoxImage from "$lib/components/molecules/LightBoxImage.svelte";
   import TintHighlight from "$lib/components/molecules/TintHighlight.svelte";
   import MarkerHighlight from "$lib/components/molecules/MarkerHighlight.svelte";
   import SparklingHighlight from "$lib/components/molecules/SparklingHighlight.svelte";
@@ -165,12 +165,12 @@ their work perception can lead to excessive, unhealthy decisions.
 ### Persona
 
 From the Point of View statement, we made a user persona for everybody in the team to be on the same page about who to design for.
-<Image src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" withLightbox={true} />
+<LightBoxImage src="/images/posts/baobal/ideation-persona.png" alt="A persona for our application" />
 
 ### How Might We's
 
 To better empathise with the user, it's important to ask ourselves "How might we ..." (or HMWs) questions that forces us to think in the target users' shoes.
-<Image src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" caption={true} withLightbox={true} />
+<LightBoxImage src="/images/posts/baobal/ideation-HMWs.png" alt="HMWs brainstorming in figjam page" caption={true} />
 
 Then we selected 3 HMWs that we think best captures the target user struggles with these criteria:
 
@@ -178,14 +178,14 @@ Then we selected 3 HMWs that we think best captures the target user struggles wi
 - focus on user’s needs
 - does not suggest solutions
 
-<Image src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/ideation-bestHMWs.png" alt="3 best HMWs" caption={true}/>
 
 We tried to come up with as many solution as we can for each HMWs and picked 3 best solutions and draw a user scenario storyboard for each one of them.
 
 We got stuck staring at the HMWs board for some time. Ideas come and go. Some good, some bad; but none really hits. You know -- when you brainstormed and all the ideas are... okay but none _slaps_ yet. Until someone said
 "If workaholics often forgot how imbalanced their life is, how about we _really_ show them the imbalance."
 
-<Image src="/images/posts/baobal/ideation-solution1.png" alt="Early conception of our solutions" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/ideation-solution1.png" alt="Early conception of our solutions" caption={true}/>
 
 So, the idea of mapping abstract concept, like time, to a more concrete concept, like weight, kind of become the central theme of our application. The visualization makes the imbalance of their life more digestible, relatable, and ... somewhat more dramatic.
 
@@ -239,7 +239,7 @@ The prototype is made in a way that can support the verification of 4 tasks that
 
 We asked 4 participants to participate in this prototype testing. First, we gave them a short briefing and then asked them to complete the 4 tasks mentioned before.
 
-<Image src="/images/posts/baobal/paperprototype-participant1.png" alt="A participant during one of the user testing" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/paperprototype-participant1.png" alt="A participant during one of the user testing" caption={true} withLightbox={true}/>
 
 <a name="criteria"></a>
 
@@ -255,7 +255,7 @@ The observations gathered from the user testing were then categorized according 
 
 Then, we brainstormed solutions to patch them.
 
-<Image src="/images/posts/baobal/paperprototype-observations1.png" alt="A participant during one of the user testing" withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/paperprototype-observations1.png" alt="A participant during one of the user testing" withLightbox={true}/>
 
 <Carousel images={paperPrototypeTentativeSols} label="images" withLightbox={true}></Carousel>
 
@@ -359,7 +359,7 @@ You can try performing the tasks yourself with this prototype!
   <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://embed.figma.com/proto/x2eQnkccqsbfs496fZGNDv/Digital-Prototype-(Old)?page-id=777%3A3246&node-id=777-3254&node-type=canvas&viewport=284%2C216%2C0.07&scaling=scale-down&content-scaling=fixed&starting-point-node-id=777%3A3254&embed-host=share&footer=false" allowfullscreen ></iframe>
 </div>
 
-<Image src="/images/posts/baobal/usertest-usertest.png" alt="A participant during one of the user testing" caption={true} noBg={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/usertest-usertest.png" alt="A participant during one of the user testing" caption={true} noBg={true} withLightbox={true}/>
 
 We choose test users based on the defined characteristics of representative users:
 
@@ -396,7 +396,7 @@ I learned that:
 
 To recap before diving into the solutions, I want to mention the [How Might We](#how-might-wes) questions once again and our solution approach them.
 
-<Image src="/images/posts/baobal/final-hmw.png" alt="A participant during one of the user testing" withLightbox={true}/>
+<LightBoxImage src="/images/posts/baobal/final-hmw.png" alt="A participant during one of the user testing" withLightbox={true}/>
 
 And we answered all those How Might We's in the interface. Let me explain those answers as the How Did We's
 

@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
-	import Image from '../atoms/Image.svelte';
+	import LightBoxImage from '$lib/components/molecules/LightBoxImage.svelte';
 	import type { img } from '$lib/utils/types';
+	import Image from '../atoms/Image.svelte';
 
 	export let label: string;
 	export let images: img[];
@@ -24,7 +25,11 @@
 >
 	{#each images as image}
 		<SplideSlide>
-			<Image src={image.src} alt={image.alt} {withLightbox}/>
+			{#if withLightbox}
+				<LightBoxImage src={image.src} alt={image.alt} />
+			{:else}
+				<Image src={image.src} alt={image.alt} />
+			{/if}
 		</SplideSlide>
 	{/each}
 </Splide>
