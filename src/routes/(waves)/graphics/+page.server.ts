@@ -3,7 +3,6 @@ import type { Graphics } from '$lib/utils/types';
 
 const sortedGraphics = (unsortedGraphics: Graphics[]) => {
 	return unsortedGraphics.sort((a, b) => {
-		console.log(new Date(a.date));
 		return new Date(a.date).getTime() > new Date(b.date).getTime()
 			? -1
 			: new Date(a.date).getTime() < new Date(b.date).getTime()

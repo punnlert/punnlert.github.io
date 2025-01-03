@@ -1,5 +1,6 @@
 <script lang="ts">
-	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
+	import { createLoadObserver } from '$lib/utils/loadObserve';
+
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 	import Masonry from '$lib/components/atoms/Masonry.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
@@ -11,17 +12,38 @@
 
 	let { graphics } = data;
 	let refreshLayout;
+
+	const onload = createLoadObserver(refreshLayout);
 </script>
 
 <div class="container">
 	<ContentSection title="Graphic Designs">
 		<Masonry stretchFirst={false} colWidth="minmax(Min(15em, 100%), 1fr)" bind:refreshLayout>
 			{#each graphics as graphic}
-				<Image src={graphic.image} alt={graphic.description} loadCall={refreshLayout} />
+				<div class="postcard">
+					<Image
+						src={graphic.image}
+						alt={graphic.description}
+						loadCall={refreshLayout}
+					/>
+				</div>
 			{/each}
 		</Masonry>
 	</ContentSection>
 </div>
 
 <style lang="scss">
+	@import '$lib/scss/_mixins.scss';
+
+	.postcard {
+		box-shadow: var(--card-shadow);
+		transition: 0.2s ease-in-out;
+
+		cursor: pointer;
+
+		&:hover {
+			box-shadow: var(--card-shadow-hover);
+			transform: scale(1.01);
+		}
+	}
 </style>
