@@ -18,14 +18,11 @@
 
 <div class="container">
 	<ContentSection title="Graphic Designs">
-		<Masonry stretchFirst={false} colWidth="minmax(Min(15em, 100%), 1fr)" bind:refreshLayout>
+		<Masonry stretchFirst={false} colWidth="minmax(Min(12em, 100%), 1fr)" bind:refreshLayout>
 			{#each graphics as graphic}
 				<div class="postcard">
-					<Image
-						src={graphic.image}
-						alt={graphic.description}
-						loadCall={refreshLayout}
-					/>
+					<a href="/{graphic.slug}" />
+					<Image src={graphic.image} alt={graphic.description} loadCall={refreshLayout} />
 				</div>
 			{/each}
 		</Masonry>
@@ -37,13 +34,13 @@
 
 	.postcard {
 		box-shadow: var(--card-shadow);
-		transition: 0.2s ease-in-out;
+		// transition: 0.2s ease-in-out;
 
 		cursor: pointer;
 
-		&:hover {
-			box-shadow: var(--card-shadow-hover);
-			transform: scale(1.01);
-		}
+		// &:hover {
+		// 	box-shadow: var(--card-shadow-hover);
+		// 	transform: scale(1.01);
+		// }
 	}
 </style>
