@@ -41,6 +41,7 @@
 </script>
 
 <figure>
+	<!-- {#if additionalStyleVar} -->
 	<img
 		srcset={buildSrcset()}
 		{src}
@@ -60,6 +61,7 @@
 
 <style lang="scss">
 	img {
+		view-transition-name: var(--img-transition, none);
 		width: 100%;
 		height: 100%;
 		object-fit: contain;

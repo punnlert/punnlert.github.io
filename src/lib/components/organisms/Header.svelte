@@ -30,6 +30,8 @@
 		padding: 30px 0;
 		border-bottom: solid;
 
+		view-transition-name: header;
+
 		@include for-phone-only {
 			padding: 20px 0;
 		}
