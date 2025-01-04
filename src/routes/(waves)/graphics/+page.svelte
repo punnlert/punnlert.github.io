@@ -44,7 +44,7 @@
 
 	.postcard {
 		box-shadow: var(--card-shadow);
-		transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
+		transition: all 0.4s ease;
 
 		cursor: pointer;
 
