@@ -52,6 +52,7 @@
 		"@fontsource/anonymous-pro": "^5.1.0",
 		"@fontsource/instrument-serif": "^5.1.0",
 		"@fontsource/space-mono": "^5.1.1",
-		"@splidejs/svelte-splide": "^0.2.9"
+		"@splidejs/svelte-splide": "^0.2.9",
+		"svelte-bricks": "^0.2.1"
 	}
 }
