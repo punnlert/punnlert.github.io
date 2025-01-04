@@ -10,7 +10,7 @@
 </script>
 
 <figure>
-	<Lightbox imagePreset="fullscreen" enableClickToClose={true} enableImageExpand={true}>
+	<Lightbox imagePreset="scroll" enableClickToClose={true} enableImageExpand={true}>
 		<Image {src} {alt} {fullBleed} {noBg} />
 	</Lightbox>
 	{#if caption}

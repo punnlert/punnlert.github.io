@@ -36,13 +36,13 @@
 
 	.postcard {
 		box-shadow: var(--card-shadow);
-		// transition: 0.2s ease-in-out;
+		// transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
 
 		cursor: pointer;
 
 		&:hover {
 			box-shadow: var(--card-shadow-hover);
-			transform: scale(1.01);
+			transform: scale(1.02);
 		}
 	}
 </style>

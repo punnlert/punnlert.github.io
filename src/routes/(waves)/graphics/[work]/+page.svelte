@@ -1,6 +1,8 @@
 <script lang="ts">
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
+	import LightBoxImage from '$lib/components/molecules/LightBoxImage.svelte';
+	import dateformat from 'dateformat';
 
 	import type { Graphics } from '$lib/utils/types';
 
@@ -14,17 +16,30 @@
 <div class="container">
 	<article id="article-content">
 		<div class="cover-image">
-			<Image src={work.image} alt={work.description} --img-transition={work.slug.toLowerCase()} />
+			<LightBoxImage
+				src={work.image}
+				alt={work.description}
+				--img-transition={work.slug.toLowerCase()}
+			/>
 		</div>
 		<div class="header">
 			<h1>{work.name}</h1>
-			<div class="description-container">
-				<h2>Description</h2>
+			<div class="dateperiod-container">
 				<div class="note">
-					<p>
-						{work.description}
-					</p>
+					{#if work.date}
+						{dateformat(work.date, 'UTC:mmmm yyyy')}
+					{/if}
 				</div>
+			</div>
+			<div class="description-container">
+				{#if work.description}
+					<h2>Description</h2>
+					<div class="note">
+						<p>
+							{work.description}
+						</p>
+					</div>
+				{/if}
 			</div>
 		</div>
 	</article>
@@ -59,7 +74,7 @@
 		width: 100%;
 		display: grid;
 		align-items: start;
-		grid-template-columns: 1fr 2fr;
+		grid-template-columns: 3fr 4fr;
 		grid-gap: 30px;
 
 		@media (max-width: 1000px) {
@@ -96,13 +111,20 @@
 		}
 
 		.cover-image {
+			box-shadow: var(--card-shadow);
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
+			transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
 
 			img {
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
+			}
+
+			&:hover {
+				box-shadow: var(--card-shadow-hover);
+				transform: scale(1.02);
 			}
 		}
 	}
