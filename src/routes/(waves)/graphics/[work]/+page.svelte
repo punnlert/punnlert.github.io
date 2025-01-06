@@ -114,7 +114,7 @@
 			box-shadow: var(--card-shadow);
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
-			transition: 0.1s cubic-bezier(0.47, 0, 0.745, 0.715);
+			transition: all 0.2s ease;
 
 			img {
 				width: 100%;
