@@ -71,7 +71,8 @@ export default [
 	},
 	{
 		name: 'Kastle Hoodie Advertisement Poster Fall 2024',
-		description: 'To carry on with the retro-cartoon style on the hoodie, the advertisement poster is also retro advertisement design.',
+		description:
+			'To carry on with the retro-cartoon style on the hoodie, the advertisement poster is also retro advertisement design.',
 		image: '/images/graphics/KastleHoodie-f2024.jpg',
 		slug: 'KastleHoodie-f2024',
 		date: '2024-11-26'
@@ -89,5 +90,11 @@ export default [
 		image: '/images/graphics/ChronicleRecruit-s2025.jpg',
 		slug: 'ChronicleRecruit-s2025',
 		date: '2025-02-19'
+	},
+	{
+		name: 'Kastle Club Member Recruitment Spring 2025',
+		image: '/images/graphics/ChronicleRecruit-s2025.jpg',
+		slug: 'ChronicleRecruit-s2025',
+		date: '2025-02-17'
 	}
 ] as Graphics[];
