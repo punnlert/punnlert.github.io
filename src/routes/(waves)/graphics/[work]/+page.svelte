@@ -19,7 +19,6 @@
 			<LightBoxImage
 				src={work.image}
 				alt={work.description}
-				--img-transition={work.slug.toLowerCase()}
 			/>
 		</div>
 		<div class="header">

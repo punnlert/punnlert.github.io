@@ -20,11 +20,7 @@
 			{#each graphics as graphic}
 				<div class="postcard">
 					<a href="/graphics/{graphic.slug.toLowerCase()}">
-						<Image
-							src={graphic.image}
-							alt={graphic.description}
-							--img-transition={graphic.slug.toLowerCase()}
-						/>
+						<Image src={graphic.image} alt={graphic.description} />
 					</a>
 				</div>
 			{/each}
