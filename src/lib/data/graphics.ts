@@ -93,8 +93,8 @@ export default [
 	},
 	{
 		name: 'Kastle Club Member Recruitment Spring 2025',
-		image: '/images/graphics/ChronicleRecruit-s2025.jpg',
-		slug: 'ChronicleRecruit-s2025',
+		image: '/images/graphics/KastleRecruit-s2025.jpg',
+		slug: 'KastleRecruit-s2025',
 		date: '2025-02-17'
 	}
 ] as Graphics[];
