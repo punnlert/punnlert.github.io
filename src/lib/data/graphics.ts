@@ -83,5 +83,11 @@ export default [
 		image: '/images/graphics/KastleHoodies-f2024.png',
 		slug: 'KastleHoodies-f2024',
 		date: '2024-10-29'
+	},
+	{
+		name: 'Chronicles Club Member Recruitment Spring 2025',
+		image: '/images/graphics/ChronicleRecruit-s2025.jpg',
+		slug: 'ChronicleRecruit-s2025',
+		date: '2025-02-19'
 	}
 ] as Graphics[];

@@ -16,26 +16,19 @@
 
 <div class="container">
 	<ContentSection title="Graphic Designs">
-		<Masonry
-			items={graphics}
-			{minColWidth}
-			{maxColWidth}
-			{gap}
-			let:item
-			idKey="slug"
-			duration={0}
-			animate={false}
-		>
-			<div class="postcard">
-				<a href="/graphics/{item.slug.toLowerCase()}">
-					<Image
-						src={item.image}
-						alt={item.description}
-						--img-transition={item.slug.toLowerCase()}
-					/>
-				</a>
-			</div>
-		</Masonry>
+		<div class="layout-container">
+			{#each graphics as graphic}
+				<div class="postcard">
+					<a href="/graphics/{graphic.slug.toLowerCase()}">
+						<Image
+							src={graphic.image}
+							alt={graphic.description}
+							--img-transition={graphic.slug.toLowerCase()}
+						/>
+					</a>
+				</div>
+			{/each}
+		</div>
 	</ContentSection>
 </div>
 
@@ -45,6 +38,7 @@
 	.postcard {
 		box-shadow: var(--card-shadow);
 		transition: all 0.4s ease;
+		margin-bottom: 0.25em;
 
 		cursor: pointer;
 
@@ -52,5 +46,12 @@
 			box-shadow: var(--card-shadow-hover);
 			transform: scale(1.02);
 		}
+	}
+
+	.layout-container {
+		width: min(1000px, 100%);
+		margin: 0 auto;
+		columns: 100px 5;
+		column-gap: 0.25em;
 	}
 </style>
