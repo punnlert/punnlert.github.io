@@ -38,6 +38,9 @@
     <loc>https://punnlert.github.io/projects</loc>
   </url>
   <url>
+    <loc>https://punnlert.github.io/publications</loc>
+  </url>
+  <url>
     <loc>https://punnlert.github.io/roger-roger</loc>
   </url>
   <url>
@@ -78,5 +81,11 @@
   </url>
   <url>
     <loc>https://punnlert.github.io/graphics/tsaklogo-summer2024</loc>
+  </url>
+  <url>
+    <loc>https://punnlert.github.io/publications/inline-2024</loc>
+  </url>
+  <url>
+    <loc>https://punnlert.github.io/publications/stitchflow-2025</loc>
   </url>
 </urlset>
