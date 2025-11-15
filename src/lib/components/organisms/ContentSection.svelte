@@ -23,7 +23,24 @@
 					</p>
 				{/if}
 				{#if href_title}
-					<a href={href_link}>{href_title}</a>
+					<a href={href_link} class="link-with-arrow">
+						{href_title}
+						<svg
+							width="30"
+							height="30"
+							viewBox="0 0 30 30"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								vector-effect="non-scaling-stroke"
+								d="M30.1992 0H27.6988V0.0012209H-0.303711V2.50162H25.8422L0.714516 27.6295L2.48256 29.3975L27.6988 4.1812V30H30.1992V0Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</a>
 				{/if}
 			</div>
 		{/if}
@@ -65,6 +82,22 @@
 				align-items: center;
 				gap: 5px;
 				width: 100%;
+
+				.link-with-arrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 10px;
+
+					svg {
+						width: 12px;
+						height: 12px;
+						transition: transform 0.2s ease;
+					}
+
+					&:hover svg {
+						transform: rotate(45deg);
+					}
+				}
 			}
 		}
 		.content-area {
