@@ -1,0 +1,1 @@
+.grid.svelte-1wtrjnd{width:100%;display:grid;grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;grid-gap:20px}@media (max-width: 900px){.grid.svelte-1wtrjnd{grid-template-columns:1fr}}@media (min-width: 901px){.grid.svelte-1wtrjnd>:nth-child(n){grid-column:span 2}}
