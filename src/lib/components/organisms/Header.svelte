@@ -14,6 +14,7 @@
 		<div class="links">
 			<a href="/projects">Projects</a>
 			<!-- <a id="reach" href="/graphics">Graphics</a> -->
+			<a id="reach" href="/publications">Publications</a>
 			<a id="reach" href="/about">About</a>
 			<a id="reach" href="/files/resume.pdf">Resume</a>
 			<!-- <RssLink /> -->

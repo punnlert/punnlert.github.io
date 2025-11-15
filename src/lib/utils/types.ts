@@ -36,6 +36,22 @@ export type Graphics = {
 	slug: string;
 };
 
+export type Publication = {
+	name: string;
+	shortName: string;
+	description: string;
+	shortDescription: string;
+	youtube: string;
+	image: string;
+	tags: TagType[];
+	authors: string[];
+	venue: string;
+	reference: string;
+	links: { text: string; url: string }[];
+	date: string;
+	slug: string;
+};
+
 export type BlogPost = {
 	tags: string[];
 	keywords: string[];

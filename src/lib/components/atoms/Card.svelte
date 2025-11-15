@@ -51,7 +51,7 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		height: 400px;
+		height: 450px;
 
 		display: flex;
 		flex-direction: column;
