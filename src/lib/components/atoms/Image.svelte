@@ -40,7 +40,24 @@
 	}
 </script>
 
-<figure>
+{#if caption}
+	<figure>
+		<!-- {#if additionalStyleVar} -->
+		<img
+			srcset={buildSrcset()}
+			{src}
+			{alt}
+			loading="lazy"
+			decoding="async"
+			on:load={loadCall}
+			class:full-bleed={fullBleed}
+			class:show_nobg={noBg}
+		/>
+		<figcaption>
+			{alt}
+		</figcaption>
+	</figure>
+{:else}
 	<!-- {#if additionalStyleVar} -->
 	<img
 		srcset={buildSrcset()}
@@ -52,12 +69,7 @@
 		class:full-bleed={fullBleed}
 		class:show_nobg={noBg}
 	/>
-	{#if caption}
-		<figcaption>
-			{alt}
-		</figcaption>
-	{/if}
-</figure>
+{/if}
 
 <style lang="scss">
 	img {

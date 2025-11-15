@@ -42,7 +42,7 @@
 
 		@include for-tablet-landscape-up {
 			> :global(:nth-child(n)) {
-				grid-column: span 6;
+				grid-column: span 2;
 			}
 			// // Select every 6 elements, starting from position 1
 			// // And make it take up 6 columns

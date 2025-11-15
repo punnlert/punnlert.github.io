@@ -43,17 +43,19 @@
 <style lang="scss">
 	.card {
 		background: var(--color--card-background);
-		box-shadow: var(--card-shadow);
+		border-top: 2px solid var(--color--text);
+		border-bottom: 2px solid var(--color--text);
 		color: var(--color--text);
-		border-radius: 10px;
-		transition: all 0.4s ease;
+		border-radius: 0;
+		transition: all 0.3s ease;
 		position: relative;
 		overflow: hidden;
 		width: 100%;
+		height: 400px;
 
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		flex-direction: column;
+		flex-wrap: nowrap;
 
 		text-decoration: none;
 
@@ -61,8 +63,8 @@
 		&[onclick] {
 			cursor: pointer;
 			&:hover {
-				box-shadow: var(--card-shadow-hover);
-				transform: scale(1.01);
+				// background: var(--color--text);
+				// color: var(--color--page-background);
 			}
 		}
 	}
@@ -72,8 +74,8 @@
 		flex-direction: column;
 		justify-content: space-between;
 		gap: 10px;
-		padding: 20px 20px;
-		flex: 1 0 50%;
+		padding: 20px 5px;
+		flex: 1;
 
 		.content {
 			display: flex;
@@ -84,10 +86,9 @@
 
 	.image {
 		position: relative;
-		flex: 1 0 max(50%, 330px);
-		// height: min(100%, 300px);
-		min-height: 280px;
-		max-height: 350px;
+		width: 100%;
+		height: 200px;
+		flex-shrink: 0;
 	}
 
 	:global(.card [slot='image']) {

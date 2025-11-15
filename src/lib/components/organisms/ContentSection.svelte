@@ -13,9 +13,9 @@
 		{#if title || description}
 			<div class="text">
 				{#if title}
-					<h4>
+					<h5>
 						{title}
-					</h4>
+					</h5>
 				{/if}
 				{#if description}
 					<p>
@@ -74,6 +74,11 @@
 			align-items: center;
 			text-align: center;
 			// gap: 15px;
+
+			a {
+				text-decoration: none;
+				font-size: 1 em;
+			}
 
 			.text {
 				display: flex;

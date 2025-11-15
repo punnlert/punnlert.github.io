@@ -20,22 +20,20 @@
 		font-size: 0.85rem;
 		width: fit-content;
 		white-space: nowrap;
-		border-style: dashed;
-		border-width: 2px;
+		border-style: solid;
+		border-width: 1px;
 
 		@media for-phone-only {
-			border-width: 1px;
+			border-width: 0.5px;
 		}
 
 		&.primary {
-			background-color: var(--color--page-background);
-			color: var(--color--primary);
-			border-color: var(--color--primary);
+			color: var(--color--text);
+			border-color: var(--color--text);
 		}
 		&.secondary {
-			background-color: var(--color--secondary-tint);
-			color: var(--color--secondary);
-			border-color: var(--color--secondary);
+			color: var(--color--text);
+			border-color: var(--color--text);
 		}
 	}
 </style>

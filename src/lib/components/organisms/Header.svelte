@@ -13,7 +13,7 @@
 		</a>
 		<div class="links">
 			<a href="/projects">Projects</a>
-			<a id="reach" href="/graphics">Graphics</a>
+			<!-- <a id="reach" href="/graphics">Graphics</a> -->
 			<a id="reach" href="/about">About</a>
 			<a id="reach" href="/files/resume.pdf">Resume</a>
 			<!-- <RssLink /> -->
@@ -27,8 +27,9 @@
 
 	header {
 		position: relative;
-		padding: 30px 0;
+		padding: 25px 0;
 		border-bottom: solid;
+		border-width: 1px;
 
 		view-transition-name: header;
 
@@ -75,15 +76,15 @@
 
 			a {
 				text-decoration: none;
-				font-weight: 600;
+				font-weight: 400;
 
 				@include for-phone-only {
-					font-weight: 500;
+					font-weight: 400;
 				}
 
 				&:hover {
 					text-decoration: underline;
-					text-decoration-thickness: 2px;
+					text-decoration-thickness: 1px;
 
 					// get rid of shadows
 					// color: var(--color--primary);
