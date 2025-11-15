@@ -11,14 +11,14 @@
 
 	@include define-color('yellow', #ffd400);
 
-	@include define-color('text', #277857);
+	@include define-color('text', #0d0d0d);
 	@include define-color('text-shade', #7e8782);
 	@include define-color('text-inverse', #ffffff);
 	@include define-color('text-inverse-shade', #9eb4b5);
 
-	@include define-color('page-background', #efe9d1);
-	@include define-color('post-page-background', #efe9d1);
-	@include define-color('card-background', #eee9d4);
+	@include define-color('page-background', #f2f0e7);
+	@include define-color('post-page-background', #f2f0e7);
+	@include define-color('card-background', #f2f0e7);
 
 	// Used for Callout component
 	@include define-color('callout-text', #1c1e26);

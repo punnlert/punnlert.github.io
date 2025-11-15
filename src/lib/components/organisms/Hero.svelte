@@ -7,11 +7,11 @@
 </script>
 
 <section id="hero">
-	<div class="name">
+	<!-- <div class="name">
 		<h1>Punn</h1>
 		<h1>Lertjaturaphat's</h1>
 	</div>
-	<h2 class="hello">Portfolio</h2>
+	<h2 class="hello">Portfolio</h2> -->
 	<!-- <p class="intro">
 		<span class="left">It supports Markdown,</span>
 		<span class="right">and is really fast.</span>

@@ -5,9 +5,6 @@
 </script>
 
 <section id="about">
-	<div class="image">
-		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
-	</div>
 	<div class="info">
 		<h2>
 			<!-- This is a catchy headline that
@@ -22,10 +19,6 @@
 			Currently majoring in Industrial Design and Computer Science at
 			<a href="https://www.kaist.ac.kr/en/html/kaist/01.html">KAIST</a>
 		</p>
-		<p>
-			I keep my days going with small talks with cafeteria ladies, songs on cracked speakers, and
-			the romance of handwritten letters.
-		</p>
 		<div class="socials">
 			<Socials />
 		</div>
@@ -38,9 +31,10 @@
 	#about {
 		position: relative;
 		display: grid;
-		grid-template-columns: 500px 400px;
+		grid-template-columns: 1fr;
 		align-items: center;
 		justify-content: space-between;
+		padding-top: 50px;
 		padding-bottom: 50px;
 
 		@media (max-width: 1000px) {

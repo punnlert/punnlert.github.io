@@ -27,9 +27,9 @@
 		<p class="title">
 			{title}
 		</p>
-		{#if readingTime}
+		<!-- {#if readingTime}
 			<div class="note">{readingTime}</div>
-		{/if}
+		{/if} -->
 		{#if excerpt}
 			<p class="text">
 				{excerpt}

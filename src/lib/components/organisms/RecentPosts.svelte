@@ -9,13 +9,14 @@
 
 <ContentSection
 	id="recent-posts"
-	title="Proudly Presents"
-	description="Here are some of the highlights of my projects."
+	title="Selected Projects"
 	align="top"
+	href_link="/projects"
+	href_title="see all"
 >
-	<div slot="button">
+	<!-- <div slot="button">
 		<Button href="/projects">View All</Button>
-	</div>
+	</div> -->
 	<div class="grid">
 		{#each posts as post}
 			<BlogPostCard

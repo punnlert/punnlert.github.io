@@ -15,6 +15,8 @@
 @import '@fontsource/space-mono';
 @import '@fontsource/anonymous-pro';
 @import '@fontsource/instrument-serif';
+@import '@fontsource/inter';
+@import '@fontsource/manrope';
 
 body {
 	--body-background-color: var(--color--page-background);
@@ -37,7 +39,7 @@ body {
 
 html {
 	scroll-behavior: smooth;
-	font-size: 18px;
+	font-size: 14px;
 	width: 100%;
 }
 

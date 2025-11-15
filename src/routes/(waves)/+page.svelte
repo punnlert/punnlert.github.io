@@ -14,7 +14,7 @@
 </script>
 
 <div class="container">
-	<Hero />
+	<!-- <Hero /> -->
 	<About />
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />

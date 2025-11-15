@@ -49,8 +49,12 @@
 	"type": "module",
 	"dependencies": {
 		"@builder.io/partytown": "^0.10.2",
+		"@fontsource-variable/inter": "^5.2.8",
 		"@fontsource/anonymous-pro": "^5.1.0",
 		"@fontsource/instrument-serif": "^5.1.0",
+		"@fontsource/inter": "^5.2.8",
+		"@fontsource/manrope": "^5.2.8",
+		"@fontsource/poppins": "^5.2.7",
 		"@fontsource/space-mono": "^5.1.1",
 		"@splidejs/svelte-splide": "^0.2.9",
 		"svelte-bricks": "^0.2.1"

@@ -2,6 +2,8 @@
 	export let id: string | undefined = undefined;
 	export let title: string | undefined = undefined;
 	export let description: string | undefined = undefined;
+	export let href_title: string | undefined = undefined;
+	export let href_link: string | undefined = undefined;
 
 	export let align: 'left' | 'top' | 'right' = 'top';
 </script>
@@ -11,14 +13,17 @@
 		{#if title || description}
 			<div class="text">
 				{#if title}
-					<h2>
+					<h4>
 						{title}
-					</h2>
+					</h4>
 				{/if}
 				{#if description}
 					<p>
 						{description}
 					</p>
+				{/if}
+				{#if href_title}
+					<a href={href_link}>{href_title}</a>
 				{/if}
 			</div>
 		{/if}
@@ -44,21 +49,22 @@
 		padding: 50px 0;
 
 		.title-area {
-			flex: 2;
+			width: 100%;
 
 			display: flex;
-			flex-direction: column;
-			justify-content: center;
+			flex-direction: row;
+			// justify-content: center;
 			align-items: center;
 			text-align: center;
-			gap: 15px;
+			// gap: 15px;
 
 			.text {
 				display: flex;
-				flex-direction: column;
-				justify-content: center;
+				flex-direction: row;
+				justify-content: space-between;
 				align-items: center;
 				gap: 5px;
+				width: 100%;
 			}
 		}
 		.content-area {
@@ -89,7 +95,7 @@
 				flex-direction: column;
 				.title-area {
 					order: 1;
-					max-width: 600px;
+					// max-width: 600px;
 				}
 				.content-area {
 					order: 2;
