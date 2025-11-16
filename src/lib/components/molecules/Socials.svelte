@@ -29,24 +29,54 @@
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
+		class="link-with-arrow"
 	>
-		<GitHubIcon />
+		GitHub
+		<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				vector-effect="non-scaling-stroke"
+				d="M30.1992 0H27.6988V0.0012209H-0.303711V2.50162H25.8422L0.714516 27.6295L2.48256 29.3975L27.6988 4.1812V30H30.1992V0Z"
+				fill="currentColor"
+			/>
+		</svg>
 	</a>
 	<a
 		href="https://www.linkedin.com/in/punn-lertjaturaphat/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"
+		class="link-with-arrow"
 	>
-		<LinkedInIcon />
+		LinkedIn
+		<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				vector-effect="non-scaling-stroke"
+				d="M30.1992 0H27.6988V0.0012209H-0.303711V2.50162H25.8422L0.714516 27.6295L2.48256 29.3975L27.6988 4.1812V30H30.1992V0Z"
+				fill="currentColor"
+			/>
+		</svg>
 	</a>
 	<a
 		href="mailto: punnlertjaturaphat@gmail.com"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Send an email"
+		class="link-with-arrow"
 	>
-		<EmailIcon />
+		Email
+		<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path
+				fill-rule="evenodd"
+				clip-rule="evenodd"
+				vector-effect="non-scaling-stroke"
+				d="M30.1992 0H27.6988V0.0012209H-0.303711V2.50162H25.8422L0.714516 27.6295L2.48256 29.3975L27.6988 4.1812V30H30.1992V0Z"
+				fill="currentColor"
+			/>
+		</svg>
 	</a>
 </div>
 
@@ -55,17 +85,34 @@
 	.socials {
 		display: flex;
 		align-items: center;
-		gap: 20px;
+		gap: 30px;
 
 		a {
 			transition: all 0.2s ease-in-out;
-			width: 24px;
+			width: auto;
 			color: var(--color--text);
 			fill: var(--color--text);
+			text-decoration: none;
+
+			&.link-with-arrow {
+				display: inline-flex;
+				align-items: center;
+				gap: 7px;
+
+				svg {
+					width: 12px;
+					height: 12px;
+					transition: transform 0.2s ease;
+				}
+
+				&:hover svg {
+					transform: rotate(45deg);
+				}
+			}
 
 			&:hover {
-				color: var(--color--primary);
-				fill: var(--color--primary);
+				// color: var(--color--primary);
+				// fill: var(--color--primary);
 				scale: 1.1;
 				// filter: drop-shadow(0px 0px 3px var(--color--primary));
 			}

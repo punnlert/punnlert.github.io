@@ -68,3 +68,8 @@ export type BlogPost = {
 	relatedPosts: BlogPost[];
 	coverImage: string | undefined;
 };
+
+export type Event = {
+	description: string;
+	date: string;
+};

@@ -13,9 +13,9 @@
 		{#if title || description}
 			<div class="text">
 				{#if title}
-					<h5>
+					<h3>
 						{title}
-					</h5>
+					</h3>
 				{/if}
 				{#if description}
 					<p>
@@ -62,7 +62,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 40px;
+		gap: 20px;
 		padding: 50px 0;
 
 		.title-area {

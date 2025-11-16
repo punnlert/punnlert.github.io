@@ -43,7 +43,7 @@
 <style lang="scss">
 	.card {
 		background: var(--color--card-background);
-		border-top: 2px solid var(--color--text);
+		// border-top: 2px solid var(--color--text);
 		border-bottom: 2px solid var(--color--text);
 		color: var(--color--text);
 		border-radius: 0;

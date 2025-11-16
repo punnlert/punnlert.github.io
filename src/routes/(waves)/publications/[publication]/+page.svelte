@@ -48,7 +48,11 @@
 			<div class="info-container">
 				<div>
 					{#each publication.authors as author}
-						<p>{author}</p>
+						{#if author === 'Punn Lertjaturaphat'}
+							<b>{author}</b>
+						{:else}
+							<p>{author}</p>
+						{/if}
 					{/each}
 				</div>
 				<p>{publication.venue}</p>
@@ -213,7 +217,8 @@
 			}
 		}
 
-		p {
+		p,
+		b {
 			font-size: 1.2rem;
 		}
 
