@@ -21,6 +21,9 @@
 		if (post?.keywords?.length) {
 			metaKeywords = post.keywords.concat(metaKeywords);
 		}
+		if (post?.awards?.length) {
+			metaKeywords = post.awards.concat(metaKeywords);
+		}
 	}
 </script>
 
@@ -68,6 +71,13 @@
 					<!-- {#if post.readingTime}
 						<div class="note">{post.readingTime}</div>
 					{/if} -->
+					{#if post.awards?.length}
+						<div class="awards">
+							{#each post.awards as award}
+								<Tag color="primary">{award}</Tag>
+							{/each}
+						</div>
+					{/if}
 					{#if post.tags?.length}
 						<div class="tags">
 							{#each post.tags as tag}

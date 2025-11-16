@@ -35,4 +35,18 @@
 </Splide>
 
 <style lang="scss">
+	:global(.splide__slide) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: auto;
+	}
+
+	:global(.splide__slide img) {
+		max-height: 500px;
+		height: auto;
+		width: auto;
+		max-width: 100%;
+		object-fit: contain;
+	}
 </style>
