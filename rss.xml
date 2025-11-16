@@ -39,12 +39,15 @@
               </strong>
             </div>
 
-            <div class="button_container svelte-1k0qw67"><div class="sparkle-wrapper svelte-exdx8u">
-	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d"><a href="https://youtu.be/I8RZJOs1q6Y" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+            <div class="button_container svelte-1k0qw67"><a href="https://youtu.be/I8RZJOs1q6Y" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Explanation Video
       
-</a></strong></span>
-</div></div>
+</a>
+      <a href="https://ifdesign.com/en/winner-ranking/project/oink/679863" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1c0o71j" data-sveltekit-preload-data>
+	
+        iF Design Awards
+      
+</a></div>
 <h2 id="context"><a class="heading-link" title="Permalink" aria-hidden="true" href="#context"><span></span></a>Context</h2>
 <p><em>This is a collaboration with <a href="https://banking.nonghyup.com/nhbank.html" rel="nofollow">NH Bank Korea</a> under the theme <strong>“Life Finance Platform Service Design”</strong>. The basic idea is that how can we design financial experience that makes life better.</em></p>
 <p>Oink is an attempt to reshape the financial experience for kids and preteens. The problem with the current financial experience is that it is so… <em>in the air</em>, in a sense that you cannot really touch it; the money you have is just <em>numbers</em> on the screen.</p>
@@ -331,7 +334,7 @@ With an easily accessible admin screen in NH’s existing app, parents can attra
             </div>
 
             <div class="button_container svelte-doqc11"><div class="sparkle-wrapper svelte-exdx8u">
-	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d"><a href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 21L12 21H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.2218 5.82839L15.0503 2.99996L20 7.94971L17.1716 10.7781M12.2218 5.82839L6.61522 11.435C6.42769 11.6225 6.32233 11.8769 6.32233 12.1421L6.32233 16.6776L10.8579 16.6776C11.1231 16.6776 11.3774 16.5723 11.565 16.3847L17.1716 10.7781M12.2218 5.82839L17.1716 10.7781" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+	<span class="slot-wrapper svelte-exdx8u"><strong class="default svelte-8f8x6d"><a href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 21L12 21H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12.2218 5.82839L15.0503 2.99996L20 7.94971L17.1716 10.7781M12.2218 5.82839L6.61522 11.435C6.42769 11.6225 6.32233 11.8769 6.32233 12.1421L6.32233 16.6776L10.8579 16.6776C11.1231 16.6776 11.3774 16.5723 11.565 16.3847L17.1716 10.7781M12.2218 5.82839L17.1716 10.7781" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	Documentation
       
 </a></strong></span>
@@ -376,7 +379,7 @@ With an easily accessible admin screen in NH’s existing app, parents can attra
 <li>They need to set achievable, realistic goals</li>
 <li>They need effective resting techniques, such as the Pomodoro method</li>
 <li>They require tools to measure progress and accomplishments</li></ul>
-<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1yDkNvHZ7Hq9DcPJA49tkmu7zSecXPwtx/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1yDkNvHZ7Hq9DcPJA49tkmu7zSecXPwtx/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Slides
   
 </a></div>
@@ -440,7 +443,7 @@ their work perception can lead to excessive, unhealthy decisions.
 
 	</figure>
 		</li></ul></div></div>
-<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1zFMgVtaQ9DSuMJ0A7S_ZZg-Y1r8RIqJY/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1zFMgVtaQ9DSuMJ0A7S_ZZg-Y1r8RIqJY/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Slides
   
 </a></div>
@@ -529,7 +532,7 @@ their work perception can lead to excessive, unhealthy decisions.
 <p>This stage is one of the most interesting part of UX/HCI research for me. I never thought that presenting a low-fidelity prototype for user testing is a good idea. As a tidy person myself, I prefer showing finished and polished works and ask for others opinion. But performing paper prototype user testing change my perspective on that.</p>
 <p>When I show unfinished rough-on-the-edges kind of works, people tend to feel that it is the early stage of development. And because of that they are more likely to suggest changes that are more <b>radical and creative</b> because for that kind of work <mark class="secondary svelte-1600vgs">change is easy.</mark> Whereas if I show a very finished product and every detail is polished, they think that &quot;well, at this point, the change wouldn&#39;t worth much&quot;.
 </p>
-<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1J25rmjyzjp4kM8PcLfNM78ENu75vUTrI/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1J25rmjyzjp4kM8PcLfNM78ENu75vUTrI/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Slides
   
 </a></div>
@@ -587,7 +590,7 @@ their work perception can lead to excessive, unhealthy decisions.
 
 	</figure>
 		</li></ul></div></div>
-<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1yKLYoUp2EBXEhNKtzkcxC0mCmd66L3iu/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/1yKLYoUp2EBXEhNKtzkcxC0mCmd66L3iu/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Slides
   
 </a></div>
@@ -661,7 +664,7 @@ I learned that:</p>
 <li>They might feel inclined to give positive feedback when they are aware of being recorded and observed.</li>
 <li>Their needs can be more diverse than I expected (no matter how big i expected, it always exceeded that!)</li></ol>
 <a name="user-test-slides"></a>
-<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/14gh7auPP54QxN-btqg5p7shjaDG7Mnu8/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+<div class="button_container svelte-doqc11"><a href="https://drive.google.com/file/d/14gh7auPP54QxN-btqg5p7shjaDG7Mnu8/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 21L17 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	Slides
   
 </a></div>
@@ -718,8 +721,8 @@ I learned that:</p>
 <div class="callout-block info svelte-1u8p6v1"><div class="icon-wrapper svelte-1u8p6v1"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 11.5V16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 7.51L12.01 7.49889" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	This work got third place award at Corporation + Young Designer Brand Exhibition in Seoul Design Week 2023
   <figure>
-		<img srcset="/images/posts/kujungst/booth-2.avif, /images/posts/kujungst/booth-2.webp, /images/posts/kujungst/booth-2.png" src="/images/posts/kujungst/booth-2.png" alt="Exhibited at Seoul Design Week 2023" loading="lazy" decoding="async" class="svelte-123i3se">
-		<figcaption>Exhibited at Seoul Design Week 2023</figcaption></figure>
+		<img srcset="/images/posts/kujungst/booth-2.avif, /images/posts/kujungst/booth-2.webp, /images/posts/kujungst/booth-2.png" src="/images/posts/kujungst/booth-2.png" alt="Getting third place in Young Designer Competition" loading="lazy" decoding="async" class="svelte-123i3se">
+		<figcaption>Getting third place in Young Designer Competition</figcaption></figure>
 </div>
 <h2 id="background" class="svelte-166cy62"><a class="heading-link" title="Permalink" aria-hidden="true" href="#background"><span></span></a>Background</h2>
 <p>Producing wooden floor tile create more then 10 tons of byproduct waste in each year. Moreover, 12 tons of the final product ended up failing the quality control procss.</p>
@@ -758,8 +761,8 @@ make things, work, or engage in creative activities.</p>
 <p>The V-shaped bottom of the stool
 can be used to store personal belongings.</p>
 <figure>
-		<img srcset="/images/posts/kujungst/my10-details.avif, /images/posts/kujungst/my10-details.webp, /images/posts/kujungst/my10-details.png" src="/images/posts/kujungst/my10-details.png" alt="My.10" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.10</figcaption></figure>
+		<img srcset="/images/posts/kujungst/my10-details.avif, /images/posts/kujungst/my10-details.webp, /images/posts/kujungst/my10-details.png" src="/images/posts/kujungst/my10-details.png" alt="Detailed views of My.10 stool" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Detailed views of My.10 stool</figcaption></figure>
 <h3 id="my08"><a class="heading-link" title="Permalink" aria-hidden="true" href="#my08"><span></span></a>My.08</h3>
 <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
 	<img srcset="/images/posts/kujungst/my08-hero.avif, /images/posts/kujungst/my08-hero.webp, /images/posts/kujungst/my08-hero.png" src="/images/posts/kujungst/my08-hero.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se"></div>
@@ -774,34 +777,34 @@ creating a foundation for communication.</p>
 <p>Its V-shape is ergonomically designed to fit the natural
 contours of the body, allowing people to sit comfortably.</p>
 <figure>
-		<img srcset="/images/posts/kujungst/my08-details.avif, /images/posts/kujungst/my08-details.webp, /images/posts/kujungst/my08-details.png" src="/images/posts/kujungst/my08-details.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.08</figcaption></figure>
+		<img srcset="/images/posts/kujungst/my08-details.avif, /images/posts/kujungst/my08-details.webp, /images/posts/kujungst/my08-details.png" src="/images/posts/kujungst/my08-details.png" alt="Detailed views My.08 bench" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Detailed views My.08 bench</figcaption></figure>
 <h3 id="my06"><a class="heading-link" title="Permalink" aria-hidden="true" href="#my06"><span></span></a>My.06</h3>
 <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/kujungst/my06-hero.avif, /images/posts/kujungst/my06-hero.webp, /images/posts/kujungst/my06-hero.png" src="/images/posts/kujungst/my06-hero.png" alt="My.06" loading="lazy" decoding="async" class="svelte-123i3se"></div>
+	<img srcset="/images/posts/kujungst/my06-hero.avif, /images/posts/kujungst/my06-hero.webp, /images/posts/kujungst/my06-hero.png" src="/images/posts/kujungst/my06-hero.png" alt="My.06 bookshelf made from 6 pieces of wooden flooring with V-shaped design" loading="lazy" decoding="async" class="svelte-123i3se"></div>
 
-	<figcaption>My.06</figcaption></figure>
+	<figcaption>My.06 bookshelf made from 6 pieces of wooden flooring with V-shaped design</figcaption></figure>
 <p>A bookshelf</p>
 <p>My.06 is a bookshelf made from six pieces of flooring,
 designed to store books efficiently and securely.</p>
 <p>The V-shape of the shelf distributes weight across a smaller surface area,
 allowing it to hold many books effectively.</p>
 <figure>
-		<img srcset="/images/posts/kujungst/my06-details.avif, /images/posts/kujungst/my06-details.webp, /images/posts/kujungst/my06-details.png" src="/images/posts/kujungst/my06-details.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.08</figcaption></figure>
+		<img srcset="/images/posts/kujungst/my06-details.avif, /images/posts/kujungst/my06-details.webp, /images/posts/kujungst/my06-details.png" src="/images/posts/kujungst/my06-details.png" alt="Detailed views of My.06 bookshelf" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Detailed views of My.06 bookshelf</figcaption></figure>
 <h3 id="my00"><a class="heading-link" title="Permalink" aria-hidden="true" href="#my00"><span></span></a>My.00</h3>
 <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/kujungst/my00-hero.avif, /images/posts/kujungst/my00-hero.webp, /images/posts/kujungst/my00-hero.png" src="/images/posts/kujungst/my00-hero.png" alt="My.00" loading="lazy" decoding="async" class="svelte-123i3se"></div>
+	<img srcset="/images/posts/kujungst/my00-hero.avif, /images/posts/kujungst/my00-hero.webp, /images/posts/kujungst/my00-hero.png" src="/images/posts/kujungst/my00-hero.png" alt="My.00 book partition and planter made from mycelium blocks" loading="lazy" decoding="async" class="svelte-123i3se"></div>
 
-	<figcaption>My.00</figcaption></figure>
+	<figcaption>My.00 book partition and planter made from mycelium blocks</figcaption></figure>
 <p>My.00 is a book partition and planter designed to be used alongside My.06.</p>
 <p>It is made from mycelium blocks grown using flooring sawdust,
 and when used as a planter, it can be planted directly into the ground along with the plant.</p>
 <h2 id="features" class="svelte-166cy62"><a class="heading-link" title="Permalink" aria-hidden="true" href="#features"><span></span></a>Features</h2>
 <h3 id="whole-number-material"><a class="heading-link" title="Permalink" aria-hidden="true" href="#whole-number-material"><span></span></a>Whole number material</h3>
 <figure>
-		<img srcset="/images/posts/kujungst/feature-1.avif, /images/posts/kujungst/feature-1.webp, /images/posts/kujungst/feature-1.png" src="/images/posts/kujungst/feature-1.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.08</figcaption></figure>
+		<img srcset="/images/posts/kujungst/feature-1.avif, /images/posts/kujungst/feature-1.webp, /images/posts/kujungst/feature-1.png" src="/images/posts/kujungst/feature-1.png" alt="Each furniture uses integer number of wooden board" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Each furniture uses integer number of wooden board</figcaption></figure>
 <p>To minimize byproducts generated during processing, we designed the furniture so that each piece uses a natural integer number of flooring boards. The stool uses 10 boards, the bench uses 8, and the bookshelf uses 6, resulting in almost no leftover scraps during production.</p>
 <h3 id="minimizing-use-of-adhesive"><a class="heading-link" title="Permalink" aria-hidden="true" href="#minimizing-use-of-adhesive"><span></span></a>Minimizing use of adhesive</h3>
 <p>The furniture is made from flooring boards and mycelium. To ensure the flooring can be reused later as a substrate for growing mycelium, the pieces are assembled using a minimal amount of adhesive.</p>
@@ -809,23 +812,23 @@ and when used as a planter, it can be planted directly into the ground along wit
 <p>The adhesive used is the same non-toxic glue employed by Kujung Flooring during installation, ensuring safety and material recyclability.</p>
 <h3 id="easy-assembly"><a class="heading-link" title="Permalink" aria-hidden="true" href="#easy-assembly"><span></span></a>Easy assembly</h3>
 <figure>
-		<img srcset="/images/posts/kujungst/feature-2.avif, /images/posts/kujungst/feature-2.webp, /images/posts/kujungst/feature-2.png" src="/images/posts/kujungst/feature-2.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.08</figcaption></figure>
+		<img srcset="/images/posts/kujungst/feature-2.avif, /images/posts/kujungst/feature-2.webp, /images/posts/kujungst/feature-2.png" src="/images/posts/kujungst/feature-2.png" alt="Exploded view of My.10" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Exploded view of My.10</figcaption></figure>
 <p>Designed so users can easily assemble and disassemble it without special tools, the furniture can be shipped in a flat-packed state, reducing carbon emissions during transport.</p>
 <p>When users no longer need the assembled furniture, it can be taken apart and stored with ease. If any component is damaged, only that part needs to be replaced, and the damaged pieces can be recycled as material for producing new mycelium blocks.</p>
 <h2 id="the-exhibition" class="svelte-166cy62"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-exhibition"><span></span></a>The Exhibition</h2>
 <figure>
-		<img srcset="/images/posts/kujungst/booth-1.avif, /images/posts/kujungst/booth-1.webp, /images/posts/kujungst/booth-1.png" src="/images/posts/kujungst/booth-1.png" alt="My.08" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
-		<figcaption>My.08</figcaption></figure>
+		<img srcset="/images/posts/kujungst/booth-1.avif, /images/posts/kujungst/booth-1.webp, /images/posts/kujungst/booth-1.png" src="/images/posts/kujungst/booth-1.png" alt="Exhibition booth setup showing the complete furniture collection" loading="lazy" decoding="async" class="svelte-123i3se  show_nobg">
+		<figcaption>Exhibition booth setup showing the complete furniture collection</figcaption></figure>
 
 
 
 <div class="splide" aria-label="images"><div class="splide__track"><ul class="splide__list"><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/kujungst/booth-2.avif, /images/posts/kujungst/booth-2.webp, /images/posts/kujungst/booth-2.png" src="/images/posts/kujungst/booth-2.png" alt="Booth 2" loading="lazy" decoding="async" class="svelte-123i3se"></div>
+	<img srcset="/images/posts/kujungst/booth-2.avif, /images/posts/kujungst/booth-2.webp, /images/posts/kujungst/booth-2.png" src="/images/posts/kujungst/booth-2.png" alt="Visitors interacting with the furniture at the exhibition booth" loading="lazy" decoding="async" class="svelte-123i3se"></div>
 
 	</figure>
 		</li><li class="splide__slide"><figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/kujungst/booth-3.avif, /images/posts/kujungst/booth-3.webp, /images/posts/kujungst/booth-3.png" src="/images/posts/kujungst/booth-3.jpeg" alt="Booth 3" loading="lazy" decoding="async" class="svelte-123i3se"></div>
+	<img srcset="/images/posts/kujungst/booth-3.avif, /images/posts/kujungst/booth-3.webp, /images/posts/kujungst/booth-3.png" src="/images/posts/kujungst/booth-3.jpeg" alt="Close-up view of the exhibition display with furniture pieces" loading="lazy" decoding="async" class="svelte-123i3se"></div>
 
 	</figure>
 		</li></ul></div></div>
@@ -874,11 +877,11 @@ and when used as a planter, it can be planted directly into the ground along wit
               </strong>
             </div>
 
-            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+            <div class="button_container svelte-1biqf0s"><a href="https://github.com/punnlert/RogerRoger-ID311-Individual-Project" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
 	Github
     
 </a>
-    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--primary  svelte-1djzygq" data-sveltekit-preload-data><div class="icon svelte-1djzygq"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
+    <a href="https://youtu.be/GxBwiM4es7w" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-1c0o71j" data-sveltekit-preload-data><div class="icon svelte-1c0o71j"><svg width="100%" height="100%" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 12L10.5 14V10L14 12Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12.7075V11.2924C2 8.39705 2 6.94939 2.90549 6.01792C3.81099 5.08645 5.23656 5.04613 8.08769 4.96549C9.43873 4.92728 10.8188 4.8999 12 4.8999C13.1812 4.8999 14.5613 4.92728 15.9123 4.96549C18.7634 5.04613 20.189 5.08645 21.0945 6.01792C22 6.94939 22 8.39705 22 11.2924V12.7075C22 15.6028 22 17.0505 21.0945 17.9819C20.189 18.9134 18.7635 18.9537 15.9124 19.0344C14.5613 19.0726 13.1812 19.1 12 19.1C10.8188 19.1 9.43867 19.0726 8.0876 19.0344C5.23651 18.9537 3.81097 18.9134 2.90548 17.9819C2 17.0505 2 15.6028 2 12.7075Z" stroke="currentColor" stroke-width="1.5"></path></svg></div>
 	YouTube
     
 </a></div>
