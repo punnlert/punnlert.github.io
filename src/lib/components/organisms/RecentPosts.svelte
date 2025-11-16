@@ -26,6 +26,7 @@
 				tags={post.tags}
 				readingTime={post.readingTime}
 				coverImage={post.coverImage}
+				awards={post.awards}
 			/>
 		{/each}
 	</div>

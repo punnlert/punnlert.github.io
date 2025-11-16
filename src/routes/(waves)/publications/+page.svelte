@@ -20,6 +20,7 @@
 					excerpt={publication.shortDescription}
 					slug={`publications/${publication.slug}`}
 					tags={[publication.venue]}
+					awards={publication.awards}
 				/>
 			{/each}
 		</div>

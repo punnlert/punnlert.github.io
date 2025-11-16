@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let color: 'primary' | 'secondary' = 'primary';
+	export let color: 'primary' | 'secondary' | 'tertiary' | 'plain' = 'plain';
 </script>
 
 <div class="tag {color}">
@@ -30,10 +30,22 @@
 		&.primary {
 			color: var(--color--text);
 			border-color: var(--color--text);
+			background-color: var(--color--primary);
 		}
 		&.secondary {
 			color: var(--color--text);
 			border-color: var(--color--text);
+			background-color: var(--color--secondary);
+		}
+		&.tertiary {
+			color: var(--color--text);
+			border-color: var(--color--text);
+			background-color: var(--color--tertiary);
+		}
+		&.plain {
+			color: var(--color--text);
+			border-color: var(--color--text);
+			background-color: var(--color-background);
 		}
 	}
 </style>

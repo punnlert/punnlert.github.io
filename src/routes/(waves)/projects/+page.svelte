@@ -21,6 +21,7 @@
 					readingTime={post.readingTime}
 					slug={post.slug}
 					tags={post.tags}
+					awards={post.awards}
 				/>
 			{/each}
 		</div>

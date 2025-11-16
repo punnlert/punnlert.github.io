@@ -50,6 +50,7 @@
 	"dependencies": {
 		"@builder.io/partytown": "^0.10.2",
 		"@fontsource-variable/inter": "^5.2.8",
+		"@fontsource-variable/manrope": "^5.2.8",
 		"@fontsource/anonymous-pro": "^5.1.0",
 		"@fontsource/instrument-serif": "^5.1.0",
 		"@fontsource/inter": "^5.2.8",

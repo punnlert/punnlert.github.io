@@ -15,6 +15,8 @@ teammates:
 startDate: 2023-08-20T11:38:06.000Z
 endDate: 2023-12-19T15:00:00.000Z
 importance: 1
+awards:
+  - iF Design Awards 2025
 ---
 
 <script>
@@ -30,12 +32,14 @@ importance: 1
 </script>
 
 <div class="button_container"> 
-  <SparklingHighlight>
       <Button href="https://youtu.be/I8RZJOs1q6Y">
         <YoutubeIcon slot="icon" />
         Explanation Video
       </Button>
-  </SparklingHighlight>
+      <Button href="https://ifdesign.com/en/winner-ranking/project/oink/679863" color="primary">
+        <!-- <YoutubeIcon slot="icon" /> -->
+        iF Design Awards
+      </Button>
 </div>
 
 ## Context

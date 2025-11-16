@@ -30,7 +30,8 @@ export default [
 			{ text: 'doi', url: 'https://doi.org/10.1145/3660250' }
 		],
 		date: '2024-05-20',
-		slug: 'inline-2024'
+		slug: 'inline-2024',
+		awards: ['Honorable Mention']
 	},
 	{
 		name: 'StitchFlow: Crochet Patterns With Stitch Tracking and Process Sharing (2025)',

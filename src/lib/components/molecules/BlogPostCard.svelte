@@ -9,6 +9,7 @@
 	export let slug: string;
 	export let tags: string[] | undefined;
 	export let readingTime: string | undefined = undefined;
+	export let awards: string[] | undefined = undefined;
 
 	export let showImage = true;
 </script>
@@ -46,6 +47,7 @@
 		<!-- {#if readingTime}
 			<div class="note">{readingTime}</div>
 		{/if} -->
+
 		{#if excerpt}
 			<p class="text">
 				{excerpt}
@@ -53,6 +55,13 @@
 		{/if}
 	</div>
 	<div class="footer" slot="footer">
+		{#if awards?.length}
+			<div class="awards">
+				{#each awards as award}
+					<Tag color="primary">{award}</Tag>
+				{/each}
+			</div>
+		{/if}
 		{#if tags?.length}
 			<div class="tags">
 				{#each tags.slice(0, 2) as tag}
@@ -113,6 +122,11 @@
 
 	.footer {
 		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 10px;
 	}
 
 	:global(.blog-post-card .image img) {

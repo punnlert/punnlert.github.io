@@ -15,8 +15,9 @@
 	<div class="content">
 		<div class="myself">
 			<div class="copyrights">
-				&copy; {new Date().getFullYear()} Punn Lertjaturaphat. All rights reserved.
+				&copy; {new Date().getFullYear()} Punn Lertjaturaphat.
 			</div>
+			<div class="copyrights">All rights reserved.</div>
 			<div class="socials">
 				<Socials />
 				<!-- <RssLink /> -->
@@ -82,6 +83,11 @@
 					text-decoration-thickness: 1px;
 					color: var(--color--text-shade);
 				}
+			}
+
+			.copyrights {
+				font-weight: 400;
+				padding: 0px 0px;
 			}
 
 			.socials {

@@ -1,15 +1,17 @@
 @import '$lib/scss/_mixins.scss';
 
 @mixin base-theme {
-	@include define-color('primary', #277857);
-	@include define-color('primary-shade', #82a496);
-	@include define-color('primary-tint', #b8dad0);
+	@include define-color('primary', #fdcf2f);
+	@include define-color('primary-shade', #d2b429);
+	@include define-color('primary-tint', #ffe595);
 
-	@include define-color('secondary', #f66c8d);
-	@include define-color('secondary-shade', #f5c3c4);
-	@include define-color('secondary-tint', #efd9d1);
+	@include define-color('secondary', #fa52aa);
+	@include define-color('secondary-shade', #d24087);
+	@include define-color('secondary-tint', #f7b6db);
 
-	@include define-color('yellow', #ffd400);
+	@include define-color('tertiary', #1d6efa);
+	@include define-color('tertiary-shade', #1756c3);
+	@include define-color('tertiary-tint', #b3d6f7);
 
 	@include define-color('text', #0d0d0d);
 	@include define-color('text-shade', #7e8782);

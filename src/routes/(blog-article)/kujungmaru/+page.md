@@ -19,6 +19,8 @@ keywords: []
 startDate: 2023-06-20T11:45:13.000Z
 endDate: 2023-11-11T15:00:00.000Z
 importance: 2
+awards: 
+  - Young Designer Awards 2023
 ---
 
 <script>
@@ -35,8 +37,8 @@ importance: 2
   import Carousel from "$lib/components/molecules/Carousel.svelte";
 
   const boothImages = [
-    {src: "/images/posts/kujungst/booth-2.png", alt: "Booth 2"},
-    {src: "/images/posts/kujungst/booth-3.jpeg", alt: "Booth 3"},
+    {src: "/images/posts/kujungst/booth-2.png", alt: "Visitors interacting with the furniture at the exhibition booth"},
+    {src: "/images/posts/kujungst/booth-3.jpeg", alt: "Close-up view of the exhibition display with furniture pieces"},
   ]
 </script>
 
@@ -45,7 +47,7 @@ importance: 2
 <Callout type="info">
   This work got third place award at Corporation + Young Designer Brand Exhibition in Seoul Design Week 2023
 
-  <Image src="/images/posts/kujungst/booth-2.png" caption={true} alt="Exhibited at Seoul Design Week 2023" />
+  <Image src="/images/posts/kujungst/booth-2.png" caption={true} alt="Getting third place in Young Designer Competition" />
 </Callout>
 
 ## Background
@@ -104,7 +106,7 @@ make things, work, or engage in creative activities.
 The V-shaped bottom of the stool
 can be used to store personal belongings.
 
-<Image src="/images/posts/kujungst/my10-details.png" caption={true} alt="My.10" noBg={true}/>
+<Image src="/images/posts/kujungst/my10-details.png" caption={true} alt="Detailed views of My.10 stool" noBg={true}/>
 
 ### My.08
 
@@ -122,11 +124,11 @@ creating a foundation for communication.
 Its V-shape is ergonomically designed to fit the natural
 contours of the body, allowing people to sit comfortably.
 
-<Image src="/images/posts/kujungst/my08-details.png" caption={true} alt="My.08" noBg={true}/>
+<Image src="/images/posts/kujungst/my08-details.png" caption={true} alt="Detailed views My.08 bench" noBg={true}/>
 
 ### My.06
 
-<LightBoxImage src="/images/posts/kujungst/my06-hero.png" caption={true} alt="My.06"/>
+<LightBoxImage src="/images/posts/kujungst/my06-hero.png" caption={true} alt="My.06 bookshelf made from 6 pieces of wooden flooring with V-shaped design"/>
 
 A bookshelf
 
@@ -136,11 +138,11 @@ designed to store books efficiently and securely.
 The V-shape of the shelf distributes weight across a smaller surface area,
 allowing it to hold many books effectively.
 
-<Image src="/images/posts/kujungst/my06-details.png" caption={true} alt="My.08" noBg={true}/>
+<Image src="/images/posts/kujungst/my06-details.png" caption={true} alt="Detailed views of My.06 bookshelf" noBg={true}/>
 
 ### My.00
 
-<LightBoxImage src="/images/posts/kujungst/my00-hero.png" caption={true} alt="My.00"/>
+<LightBoxImage src="/images/posts/kujungst/my00-hero.png" caption={true} alt="My.00 book partition and planter made from mycelium blocks"/>
 
 My.00 is a book partition and planter designed to be used alongside My.06.
 
@@ -151,7 +153,7 @@ and when used as a planter, it can be planted directly into the ground along wit
 
 ### Whole number material
 
-<Image src="/images/posts/kujungst/feature-1.png" caption={true} alt="My.08" noBg={true}/>
+<Image src="/images/posts/kujungst/feature-1.png" caption={true} alt="Each furniture uses integer number of wooden board" noBg={true}/>
 
 To minimize byproducts generated during processing, we designed the furniture so that each piece uses a natural integer number of flooring boards. The stool uses 10 boards, the bench uses 8, and the bookshelf uses 6, resulting in almost no leftover scraps during production.
 
@@ -165,7 +167,7 @@ The adhesive used is the same non-toxic glue employed by Kujung Flooring during 
 
 ### Easy assembly
 
-<Image src="/images/posts/kujungst/feature-2.png" caption={true} alt="My.08" noBg={true}/>
+<Image src="/images/posts/kujungst/feature-2.png" caption={true} alt="Exploded view of My.10" noBg={true}/>
 
 Designed so users can easily assemble and disassemble it without special tools, the furniture can be shipped in a flat-packed state, reducing carbon emissions during transport.
 
@@ -173,7 +175,7 @@ When users no longer need the assembled furniture, it can be taken apart and sto
 
 ## The Exhibition
 
-<Image src="/images/posts/kujungst/booth-1.png" caption={true} alt="My.08" noBg={true}/>
+<Image src="/images/posts/kujungst/booth-1.png" caption={true} alt="Exhibition booth setup showing the complete furniture collection" noBg={true}/>
 
 <Carousel images={boothImages} label="images" withLightbox={true}></Carousel>
 

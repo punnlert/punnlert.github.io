@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { HttpRegex } from '$lib/utils/regex';
 
-	export let color: 'primary' | 'secondary' = 'primary';
+	export let color: 'primary' | 'secondary' | 'tertiary' | 'plain' = 'plain';
 	export let style: 'solid' | 'understated' | 'clear' = 'solid';
 	export let size: 'small' | 'medium' | 'large' = 'medium';
 	export let href: string | undefined = undefined;
@@ -68,28 +68,39 @@
 			&--primary {
 				--main-color: var(--color--primary-rgb);
 				--light-color: var(--color--primary-tint-rgb);
-				--contrast-color: var(--color--primary-contrast);
+				--contrast-color: var(--color--text);
 			}
 			&--secondary {
 				--main-color: var(--color--secondary-rgb);
 				--light-color: var(--color--secondary-tint-rgb);
 				--contrast-color: var(--color--secondary-contrast);
 			}
+			&--tertiary {
+				--main-color: var(--color--tertiary-rgb);
+				--light-color: var(--color--tertiary-tint-rgb);
+				--contrast-color: var(--color--tertiary-contrast);
+			}
+
+			&--plain {
+				--main-color: var(--color--page-background);
+				--light-color: var(--color--text);
+				--contrast-color: var(--color--text);
+			}
 		}
 
 		&.style {
 			&--solid {
-				// background-color: rgb(var(--main-color));
-				// color: var(--contrast-color);
 				background-color: rgb(var(--main-color));
-				color: var(--color--page-background);
+				color: var(--contrast-color);
+				// background-color: rgb(var(--color--page-background));
+				// color: var(--color--page-background);
 				border-style: solid;
 
 				&:hover {
 					// box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
 					scale: 1.05;
-					background-color: rgb(var(--color--page-background));
-					color: var(--main-color);
+					background-color: rgb(var(--main-color));
+					color: var(--contrast-color);
 				}
 			}
 			&--understated {
