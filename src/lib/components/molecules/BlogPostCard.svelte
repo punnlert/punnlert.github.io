@@ -136,6 +136,7 @@
 	.awards {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 10px;
 		// align-content: center;
 		// min-height: 50px;
 	}

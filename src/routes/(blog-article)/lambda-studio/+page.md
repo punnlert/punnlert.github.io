@@ -19,8 +19,10 @@ startDate: 2023-03-01T11:46:13.000Z
 endDate: 2023-06-13T15:00:00.000Z
 importance: 2
 awards:
-  - name: Shinsegae Daejeon Nexperium Exhibition 2023-2024
-    logo: Null
+  - name: Shinsegae Daejeon
+    logo: /images/posts/lambda-studio/awards/shinsegae.png
+  - name: Nexperium
+    logo: /images/posts/lambda-studio/awards/nexperium.png
 ---
 
 <script>

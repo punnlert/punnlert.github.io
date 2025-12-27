@@ -188,9 +188,12 @@
 			}
 		}
 		.awards {
-			display: flex;
+			display: grid;
 			align-items: center;
+			gap: 5px;
+			grid-template-columns: 1fr;
 			width: min(100px, 100%);
+			margin-bottom: 0.5rem;
 		}
 
 		.cover-image {
