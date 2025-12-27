@@ -472,7 +472,7 @@ and when used as a planter, it can be planted directly into the ground along wit
               </strong>
             </div>
 
-            <p>This work was exhibited at Nexperium Shinsegei, Daejeon from August 2023 - November 2024</p>
+            <p>This work was exhibited at Nexperium Shinsegae, Daejeon from August 2023 - November 2024</p>
 
 
 
@@ -489,9 +489,9 @@ and when used as a planter, it can be planted directly into the ground along wit
 <p>After I watched the video, I instantly think about music concept called <em>sampling</em>. Sampling is when you record the sound of things around you or other music and manipulate that sound to be used in your own way.</p>
 <p>So I experiment with a barcode reader</p>
 <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/lambda-studio/barcode-reader-1.avif, /images/posts/lambda-studio/barcode-reader-1.webp, /images/posts/lambda-studio/barcode-reader-1.png" src="/images/posts/lambda-studio/barcode-reader-1.png" alt="A participant during one of the user testing" loading="lazy" decoding="async" class="svelte-1yr0q11"></div>
+	<img srcset="/images/posts/lambda-studio/barcode-reader-1.avif, /images/posts/lambda-studio/barcode-reader-1.webp, /images/posts/lambda-studio/barcode-reader-1.png" src="/images/posts/lambda-studio/barcode-reader-1.png" alt="inside the barcode reader" loading="lazy" decoding="async" class="svelte-1yr0q11"></div>
 
-	<figcaption>A participant during one of the user testing</figcaption></figure>
+	<figcaption>inside the barcode reader</figcaption></figure>
 <p>And found out which pin outputs the reflection frequency from the laser.</p>
 
 
