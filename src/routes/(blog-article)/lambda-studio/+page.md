@@ -2,7 +2,9 @@
 title: Lambda Studio
 slug: lambda-studio
 coverImage: /images/posts/lambda-studio/cover.png
-excerpt: A MIDI controller with an ability to sample soundwaves... using a barcode reader!
+excerpt: >-
+  A MIDI controller with an ability to sample soundwaves... using a barcode
+  reader!
 hidden: false
 tags:
   - Interaction Design
@@ -17,7 +19,8 @@ startDate: 2023-03-01T11:46:13.000Z
 endDate: 2023-06-13T15:00:00.000Z
 importance: 2
 awards:
-  - Shinsegei Daejeon Nexperium Exhibition 2023-2024
+  - name: Shinsegae Daejeon Nexperium Exhibition 2023-2024
+    logo: Null
 ---
 
 <script>
@@ -60,7 +63,7 @@ awards:
   ]
 </script>
 
-This work was exhibited at Nexperium Shinsegei, Daejeon from August 2023 - November 2024
+This work was exhibited at Nexperium Shinsegae, Daejeon from August 2023 - November 2024
 
 <Carousel images={boothImages} label="images" withLightbox={true}></Carousel>
 
@@ -70,7 +73,7 @@ After I watched the video, I instantly think about music concept called _samplin
 
 So I experiment with a barcode reader
 
-<LightBoxImage src="/images/posts/lambda-studio/barcode-reader-1.png" alt="A participant during one of the user testing" caption={true} withLightbox={true}/>
+<LightBoxImage src="/images/posts/lambda-studio/barcode-reader-1.png" alt="inside the barcode reader" caption={true} withLightbox={true}/>
 
 And found out which pin outputs the reflection frequency from the laser.
 

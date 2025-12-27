@@ -31,7 +31,7 @@ export default [
 		],
 		date: '2024-05-20',
 		slug: 'inline-2024',
-		awards: ['Honorable Mention']
+		awards: [{ name: 'Honorable Mention', logo: '' }]
 	},
 	{
 		name: 'StitchFlow: Crochet Patterns With Stitch Tracking and Process Sharing (2025)',

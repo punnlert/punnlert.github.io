@@ -50,7 +50,7 @@ export type Publication = {
 	links: { text: string; url: string }[];
 	date: string;
 	slug: string;
-	awards: string[];
+	awards: { name: string; logo: string }[];
 };
 
 export type BlogPost = {
@@ -68,7 +68,7 @@ export type BlogPost = {
 	readingTime: string;
 	relatedPosts: BlogPost[];
 	coverImage: string | undefined;
-	awards: string[];
+	awards: { name: string; logo: string }[];
 };
 
 export type Event = {

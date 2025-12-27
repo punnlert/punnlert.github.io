@@ -1,6 +1,7 @@
 import type { Event } from '$lib/utils/types';
 
 export default [
+	{ description: 'KAIST ID Exhibition from 13–21 December', date: '2025-12-13' },
 	{
 		description: 'Going to UIST 2025',
 		date: '2025-09-30'
@@ -14,7 +15,7 @@ export default [
 		date: '2025-01-01'
 	},
 	{
-		description: 'Exhibiting Lambda Studio at Nexperium Shinsegei Department Store, Daejeon',
+		description: 'Exhibiting Lambda Studio at Nexperium Shinsegae Department Store, Daejeon',
 		date: '2023-08-11'
 	},
 	{

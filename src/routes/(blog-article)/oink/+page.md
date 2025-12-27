@@ -1,7 +1,9 @@
 ---
 slug: oink
 title: Oink
-excerpt: Reshaping digital financial experience for kids and preteens by introducing tangible interface.
+excerpt: >-
+  Reshaping digital financial experience for kids and preteens by introducing
+  tangible interface.
 coverImage: /images/posts/oink/cover.png
 tags:
   - UI Design
@@ -16,9 +18,9 @@ startDate: 2023-08-20T11:38:06.000Z
 endDate: 2023-12-19T15:00:00.000Z
 importance: 1
 awards:
-  - iF Design Awards 2025
+  - name: iF Design Awards 2025
+    logo: /images/posts/oink/awards/if.png
 ---
-
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
@@ -450,3 +452,4 @@ We had quite a short time period in developing this project. So, we rely so heav
 		box-shadow: var(--image-shadow);
   } */
 </style>
+

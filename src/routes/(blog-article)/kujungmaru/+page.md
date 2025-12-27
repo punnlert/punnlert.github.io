@@ -1,8 +1,11 @@
 ---
-title: 'Beyond the Floor'
+title: Beyond the Floor
 slug: kujungmaru
 coverImage: /images/posts/kujungst/cover.png
-excerpt: In collaboration with Korean wooden floor company Kujungmaru, we designed a set of furnitures that utilize left over wooden floor, friction joint construction, and mycelium cushion.
+excerpt: >-
+  In collaboration with Korean wooden floor company Kujungmaru, we designed a
+  set of furnitures that utilize left over wooden floor, friction joint
+  construction, and mycelium cushion.
 hidden: false
 tags:
   - Product Design
@@ -19,8 +22,9 @@ keywords: []
 startDate: 2023-06-20T11:45:13.000Z
 endDate: 2023-11-11T15:00:00.000Z
 importance: 2
-awards: 
-  - Young Designer Awards 2023
+awards:
+  - name: Young Designer Awards 2023
+    logo: images/posts/kujungst/awards/seoul_design_week.png
 ---
 
 <script>

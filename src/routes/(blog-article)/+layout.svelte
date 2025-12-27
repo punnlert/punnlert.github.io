@@ -22,7 +22,7 @@
 			metaKeywords = post.keywords.concat(metaKeywords);
 		}
 		if (post?.awards?.length) {
-			metaKeywords = post.awards.concat(metaKeywords);
+			metaKeywords = post.awards.map((val) => val.name).concat(metaKeywords);
 		}
 	}
 </script>
@@ -74,7 +74,10 @@
 					{#if post.awards?.length}
 						<div class="awards">
 							{#each post.awards as award}
-								<Tag color="primary">{award}</Tag>
+								{#if award.logo}
+									<Image src={award.logo} alt={`logo for ${award.name}`} />
+									<!-- <Tag color="primary">{award}</Tag> -->
+								{/if}
 							{/each}
 						</div>
 					{/if}
@@ -176,13 +179,18 @@
 			}
 
 			.dateperiod-container {
-				margin-bottom: 1rem;
+				margin-bottom: 0.5rem;
 			}
 
 			.note {
 				font-size: 90%;
 				color: rgba(var(--color--text-rgb), 0.8);
 			}
+		}
+		.awards {
+			display: flex;
+			align-items: center;
+			width: min(100px, 100%);
 		}
 
 		.cover-image {

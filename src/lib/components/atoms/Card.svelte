@@ -41,6 +41,8 @@
 </svelte:element>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.card {
 		background: var(--color--card-background);
 		// border-top: 2px solid var(--color--text);
@@ -51,7 +53,14 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		height: 450px;
+
+		@include for-tablet-landscape-up {
+			height: 500px;
+		}
+
+		@include for-phone-only {
+			border-bottom: 1px solid var(--color--text);
+		}
 
 		display: flex;
 		flex-direction: column;
@@ -62,10 +71,10 @@
 		&[href],
 		&[onclick] {
 			cursor: pointer;
-			&:hover {
-				// background: var(--color--text);
-				// color: var(--color--page-background);
-			}
+			// &:hover {
+			// 	// background: var(--color--text);
+			// 	// color: var(--color--page-background);
+			// }
 		}
 	}
 

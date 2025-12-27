@@ -8,8 +8,7 @@
 	export let excerpt: string;
 	export let slug: string;
 	export let tags: string[] | undefined;
-	export let readingTime: string | undefined = undefined;
-	export let awards: string[] | undefined = undefined;
+	export let awards: { name: string; logo: string }[] | undefined = undefined;
 
 	export let showImage = true;
 </script>
@@ -58,7 +57,12 @@
 		{#if awards?.length}
 			<div class="awards">
 				{#each awards as award}
-					<Tag color="primary">{award}</Tag>
+					{#if !!award.logo}
+						<Image src={award.logo} alt={`logo for ${award.name}`} />
+						<!-- <Tag color="primary">{award.name}</Tag> -->
+					{:else}
+						<Tag color="primary">{award.name}</Tag>
+					{/if}
 				{/each}
 			</div>
 		{/if}
@@ -127,6 +131,13 @@
 		align-items: flex-start;
 		justify-content: space-between;
 		gap: 10px;
+	}
+
+	.awards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		// align-content: center;
+		// min-height: 50px;
 	}
 
 	:global(.blog-post-card .image img) {
