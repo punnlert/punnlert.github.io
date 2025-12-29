@@ -94,7 +94,7 @@ importance: 3
 
 <div class="button_container"> 
   <SparklingHighlight>
-      <Button href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing">
+      <Button href="https://drive.google.com/file/d/1x7tsklOYHSgqUX5qG54zCxzYMxKm4OY-/view?usp=sharing" target="_blank">
         <BlogIcon slot="icon" />
         Documentation
       </Button>

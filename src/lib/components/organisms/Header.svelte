@@ -16,7 +16,7 @@
 			<!-- <a id="reach" href="/graphics">Graphics</a> -->
 			<a id="reach" href="/publications">Publications</a>
 			<a id="reach" href="/about">About</a>
-			<a id="reach" href="/files/resume.pdf">Resume</a>
+			<a id="reach" href="/files/resume.pdf" target="_blank">Resume</a>
 			<!-- <RssLink /> -->
 			<!-- <ThemeToggle /> -->
 		</div>

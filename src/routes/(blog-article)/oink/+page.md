@@ -21,6 +21,7 @@ awards:
   - name: iF Design Awards 2025
     logo: /images/posts/oink/awards/if.png
 ---
+
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
@@ -34,11 +35,14 @@ awards:
 </script>
 
 <div class="button_container"> 
-      <Button href="https://youtu.be/I8RZJOs1q6Y">
+      <Button href="https://youtu.be/I8RZJOs1q6Y" target="_blank">
         <YoutubeIcon slot="icon" />
         Explanation Video
       </Button>
-      <Button href="https://ifdesign.com/en/winner-ranking/project/oink/679863" color="primary">
+      <Button href="/files/oink-presentation-slides.pdf" target="_blank">
+        Presentation Slides
+      </Button>
+      <Button href="https://ifdesign.com/en/winner-ranking/project/oink/679863" color="primary" target="_blank">
         <!-- <YoutubeIcon slot="icon" /> -->
         iF Design Awards
       </Button>
@@ -452,4 +456,3 @@ We had quite a short time period in developing this project. So, we rely so heav
 		box-shadow: var(--image-shadow);
   } */
 </style>
-
