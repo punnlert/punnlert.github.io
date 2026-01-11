@@ -24,7 +24,7 @@
 				<h2>About Me</h2>
 			</div>
 			<div class="cover-image">
-				<Image src="/images/about-me.jpg" alt="Punn with a cat" />
+				<Image src="/images/about-me.jpg" alt="Punn with a cat" lazy={false} />
 			</div>
 			<div class="content">
 				<slot />

@@ -7,6 +7,7 @@
 	export let noBg: boolean | undefined = undefined;
 	export let caption: boolean | undefined = undefined;
 	export let loadCall = undefined;
+	export let lazy: boolean = true;
 
 	export let formats: string[] = ['avif', 'webp', 'png'];
 	export let widths: string[] | undefined = undefined;
@@ -47,7 +48,7 @@
 			srcset={buildSrcset()}
 			{src}
 			{alt}
-			loading="lazy"
+			loading={lazy ? 'lazy' : 'eager'}
 			decoding="async"
 			on:load={loadCall}
 			class:full-bleed={fullBleed}
@@ -63,7 +64,7 @@
 		srcset={buildSrcset()}
 		{src}
 		{alt}
-		loading="lazy"
+		loading={lazy ? 'lazy' : 'eager'}
 		decoding="async"
 		on:load={loadCall}
 		class:full-bleed={fullBleed}
