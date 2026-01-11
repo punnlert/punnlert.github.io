@@ -24,9 +24,8 @@ endDate: 2023-11-11T15:00:00.000Z
 importance: 2
 awards:
   - name: Young Designer Awards 2023
-    logo: images/posts/kujungst/awards/seoul_design_week.png
+    logo: /images/posts/kujungst/awards/seoul_design_week.png
 ---
-
 <script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
@@ -216,3 +215,4 @@ When users no longer need the assembled furniture, it can be taken apart and sto
 		box-shadow: var(--image-shadow);
   } */
 </style>
+
