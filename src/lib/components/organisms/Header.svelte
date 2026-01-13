@@ -6,14 +6,17 @@
 	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 	import Linkedin from '$lib/icons/socials/linkedin.svelte';
+	import { page } from '$app/stores';
 
 	export let showBackground = false;
 
 	let showMenu = 'translateY(-100%)';
 
 	const paths = [
+		{ name: 'Home', path: '/' },
 		{ name: 'Projects', path: '/projects' },
 		{ name: 'Publications', path: '/publications' },
+		{ name: 'Fun!', path: '/fun' },
 		{ name: 'About', path: '/about' }
 	];
 
@@ -25,24 +28,18 @@
 		showMenu = 'translateY(-100%)';
 	};
 
-	let toggleMenu = () => {
-		if (showMenu == 'translateY(-100%)') {
-			showMenu = 'translateY(0)';
-		} else {
-			showMenu = 'translateY(-100%)';
-		}
-	};
 	beforeNavigate(() => hide());
 </script>
 
 <nav class="menu" style="--show-menu: {showMenu}">
 	<ul>
 		{#each paths as { name, path }}
-			<li><a href={path}>{name}</a></li>
+			{@const active = $page.url.pathname === path ? 'page' : null}
+			<li><a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a></li>
 		{/each}
 		<li><a href="/files/resume.pdf" target="_blank">Resume</a></li>
 		<li>
-			<button on:click={toggleMenu}> Close </button>
+			<button on:click={hide}> Close </button>
 		</li>
 	</ul>
 </nav>
@@ -53,10 +50,12 @@
 		</a>
 		<div class="links">
 			{#each paths as { name, path }}
-				<a href={path}>{name}</a>
+				{#if name != 'Home'}
+					<a href={path} data-sveltekit-preload-data>{name}</a>
+				{/if}
 			{/each}
 			<a href="/files/resume.pdf" target="_blank">Resume</a>
-			<button id="phone" on:click={toggleMenu}>
+			<button id="phone" on:click={show}>
 				<Hamburger />
 			</button>
 		</div>
@@ -169,9 +168,14 @@
 
 		button {
 			background: none;
-			color: var(--color--text);
+			color: var(--color--text-shade);
 			border: none;
 			padding: 0;
+			font-style: italic;
+		}
+
+		[aria-current='page'] {
+			font-weight: 800;
 		}
 		//
 		// button {

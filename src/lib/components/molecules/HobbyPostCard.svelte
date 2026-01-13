@@ -1,29 +1,23 @@
 <script lang="ts">
-	import Card from '$lib/components/atoms/Card.svelte';
+	import CollapsibleCard from '$lib/components/atoms/CollapsibleCard.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import Image from '../atoms/Image.svelte';
 
 	export let title: string;
-	export let coverImage: string | undefined = undefined;
+	export let images: string[] | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
 	export let tags: string[] | undefined;
-	export let awards: { name: string; logo: string }[] | undefined = undefined;
 
 	export let showImage = true;
 </script>
 
-<Card
+<CollapsibleCard
 	href="/{slug}"
 	target="_self"
-	additionalClass="blog-post-card {!showImage || !coverImage ? 'no-image' : ''}"
+	additionalClass="blog-post-card {!showImage || !images ? 'no-image' : ''}"
 >
-	<div class="image" slot="image">
-		{#if coverImage}
-			<Image src={coverImage} alt="Cover image of this blog post" />
-		{/if}
-	</div>
-	<div class="content" slot="content">
+	<div class="content" slot="title">
 		<p class="title">
 			<span>{title}</span>
 			<svg
@@ -42,37 +36,28 @@
 				/>
 			</svg>
 		</p>
-
-		{#if excerpt}
-			<p class="text">
-				{excerpt}
-			</p>
-		{/if}
 	</div>
-	<div class="footer" slot="footer">
-		{#if awards?.length}
-			<div class="awards">
-				{#each awards as award}
-					{#if !!award.logo}
-						<Image src={award.logo} alt={`logo for ${award.name}`} />
-						<!-- <Tag color="primary">{award.name}</Tag> -->
-					{:else}
-						<Tag color="primary">{award.name}</Tag>
-					{/if}
-				{/each}
+	<div class="body" slot="content">
+		<p class="text">
+			{excerpt}
+		</p>
+		<div class="photo-banner">
+			<div class="scroll">
+				{#if images}
+					{#each images as image}
+						<Image src={image} alt="Punn with a cat" lazy={false} />
+					{/each}
+					{#each images as image}
+						<Image src={image} alt="Punn with a cat" lazy={false} />
+					{/each}
+				{/if}
 			</div>
-		{/if}
-		{#if tags?.length}
-			<div class="tags">
-				{#each tags.slice(0, 2) as tag}
-					<Tag>{tag}</Tag>
-				{/each}
-			</div>
-		{/if}
+		</div>
 	</div>
-</Card>
+</CollapsibleCard>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -101,17 +86,40 @@
 		transform: rotate(45deg);
 	}
 
+	.photo-banner {
+		width: 100%;
+		height: 200px; /* Adjust the height as needed */
+		overflow: hidden;
+		position: relative;
+
+		@include for-phone-only {
+			height: 100px;
+		}
+	}
+	.scroll {
+		display: flex;
+		height: 100%;
+		width: max-content;
+		justify-content: space-between;
+		animation: scroll 30s linear infinite;
+		padding-left: 10px;
+		gap: 10px;
+	}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(-50%);
+		}
+	}
+
 	.tags {
 		display: flex;
 		align-items: center;
 		gap: 5px;
 		flex-wrap: wrap;
-	}
-
-	.note {
-		margin-top: 3px;
-		font-size: 0.8rem;
-		color: rgba(var(--color--text-rgb), 0.8);
 	}
 
 	.text {
@@ -120,28 +128,15 @@
 		text-align: justify;
 	}
 
-	.footer {
-		margin-top: 20px;
+	.body {
 		display: flex;
+		gap: 15px;
 		flex-direction: column;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 10px;
 	}
 
-	.awards {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		gap: 10px;
-		// align-content: center;
-		// min-height: 50px;
-	}
-
-	:global(.blog-post-card .image img) {
-		object-fit: cover;
-	}
-
-	:global(.blog-post-card.no-image > .image) {
-		display: none;
+	:global(.blog-post-card .body .photo-banner .scroll img) {
+		height: 100%;
+		width: auto;
+		display: inline-block;
 	}
 </style>

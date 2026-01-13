@@ -18,7 +18,6 @@
 					title={post.title}
 					coverImage={post.coverImage}
 					excerpt={post.excerpt}
-					readingTime={post.readingTime}
 					slug={post.slug}
 					tags={post.tags}
 					awards={post.awards}

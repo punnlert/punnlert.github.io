@@ -6,7 +6,6 @@ import Prism from 'prismjs';
 // is not removed automatically on build
 const ifYouRemoveMeTheBuildFails = Prism;
 import 'prism-svelte';
-import readingTime from 'reading-time/lib/reading-time';
 import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
 
@@ -41,19 +40,18 @@ const compareDates = (a: string, b: string) => {
 export const filterPosts = (posts: BlogPost[]) => {
 	return posts
 		.filter((post) => !post.hidden)
-		.sort((a, b) => a.importance < b.importance
+		.sort((a, b) =>
+			a.importance < b.importance
 				? -1
 				: a.importance > b.importance
 				? 1
 				: compareDates(a.endDate, b.endDate)
 		)
 		.map((post) => {
-			const readingTimeResult = post.html ? readingTime(striptags(post.html) || '') : undefined;
 			const relatedPosts = getRelatedPosts(posts, post);
 
 			return {
 				...post,
-				readingTime: readingTimeResult ? readingTimeResult.text : '',
 				relatedPosts: relatedPosts
 			} as BlogPost;
 		});
@@ -72,8 +70,7 @@ const getRelatedPosts = (posts: BlogPost[], post: BlogPost) => {
 		});
 
 	return relatedPosts.slice(0, 3).map((p) => ({
-		...p,
-		readingTime: p.html ? readingTime(striptags(p.html) || '').text : ''
+		...p
 	}));
 };
 

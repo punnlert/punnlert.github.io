@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { partytownSnippet } from '@builder.io/partytown/integration';
+	import { partytownSnippet } from '@qwik.dev/partytown/integration';
 </script>
 
 <slot />

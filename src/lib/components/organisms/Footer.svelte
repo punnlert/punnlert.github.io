@@ -20,8 +20,6 @@
 			<div class="copyrights">All rights reserved.</div>
 			<div class="socials">
 				<Socials />
-				<!-- <RssLink /> -->
-				<!-- <ThemeToggle /> -->
 			</div>
 			<div class="last-updated">
 				Last updated on {lastUpdatedDate.toLocaleDateString(undefined, {
@@ -42,6 +40,8 @@
 </footer>
 
 <style lang="scss">
+	@import '$lib/scss/_mixins.scss';
+
 	footer {
 		height: fit-content;
 		padding-top: 100px;
@@ -60,6 +60,10 @@
 			.last-updated {
 				font-weight: 400;
 				font-size: 90%;
+
+				@include for-phone-only {
+					font-size: 0.8rem;
+				}
 				color: var(--color--text-shade);
 			}
 		}
@@ -77,6 +81,10 @@
 				font-weight: 400;
 				font-size: 90%;
 				color: var(--color--text-shade);
+
+				@include for-phone-only {
+					font-size: 0.8rem;
+				}
 				a {
 					color: var(--color--text);
 					text-decoration: underline;
@@ -88,12 +96,24 @@
 			.copyrights {
 				font-weight: 400;
 				padding: 0px 0px;
+
+				@include for-phone-only {
+					font-size: 0.8rem;
+				}
 			}
 
 			.socials {
 				display: flex;
 				align-items: center;
 				gap: 20px;
+
+				@include for-phone-only {
+					font-size: 0.8rem;
+					svg {
+						width: 0.6rem;
+						height: 0.6rem;
+					}
+				}
 			}
 		}
 

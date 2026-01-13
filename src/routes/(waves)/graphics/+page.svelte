@@ -19,9 +19,9 @@
 		<div class="layout-container">
 			{#each graphics as graphic}
 				<div class="postcard">
-					<a href="/graphics/{graphic.slug.toLowerCase()}">
-						<Image src={graphic.image} alt={graphic.description} />
-					</a>
+					<!-- <a href="/graphics/{graphic.slug.toLowerCase()}"> -->
+					<Image src={graphic.image} alt={graphic.description} />
+					<!-- </a> -->
 				</div>
 			{/each}
 		</div>
@@ -32,22 +32,26 @@
 	@import '$lib/scss/_mixins.scss';
 
 	.postcard {
-		box-shadow: var(--card-shadow);
+		// box-shadow: var(--card-shadow);
 		transition: all 0.4s ease;
-		margin-bottom: 0.25em;
+		// margin-bottom: 0.25em;
+		padding: 30px;
+		// border: solid;
+		// border-color: var(color--text);
+		background: var(--color--text);
 
-		cursor: pointer;
+		// cursor: pointer;
 
-		&:hover {
-			box-shadow: var(--card-shadow-hover);
-			transform: scale(1.02);
-		}
+		// &:hover {
+		// 	box-shadow: var(--card-shadow-hover);
+		// 	transform: scale(1.02);
+		// }
 	}
 
 	.layout-container {
-		width: min(1000px, 100%);
 		margin: 0 auto;
-		columns: 100px 5;
-		column-gap: 0.25em;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 10px;
 	}
 </style>

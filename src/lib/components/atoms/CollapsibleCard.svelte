@@ -8,6 +8,16 @@
 	export let target: '_self' | '_blank' = isExternalLink ? '_blank' : '_self';
 	export let rel = isExternalLink ? 'noopener noreferrer' : undefined;
 
+	let toggleShow = () => {
+		if (show == 'none') {
+			show = 'block';
+		} else {
+			show = 'none';
+		}
+	};
+
+	$: show = 'none';
+
 	$: tag = href ? 'a' : 'article';
 	$: linkProps = {
 		href,
@@ -22,21 +32,20 @@
 	{...linkProps}
 	data-sveltekit-preload-data
 	{...$$restProps}
+	on:mouseenter={toggleShow}
+	on:mouseleave={toggleShow}
 >
-	{#if $$slots.image}
-		<div class="image">
-			<slot name="image" />
-		</div>
-	{/if}
 	<div class="body">
-		<div class="content">
-			<slot name="content" />
+		<div class="title">
+			<slot name="title" />
 		</div>
-		{#if $$slots.footer}
-			<div class="footer">
-				<slot name="footer" />
+		<div class="collapsible" style="--show-collapsible: {show}">
+			<div class="inner">
+				<div class="content">
+					<slot name="content" />
+				</div>
 			</div>
-		{/if}
+		</div>
 	</div>
 </svelte:element>
 
@@ -54,10 +63,6 @@
 		overflow: hidden;
 		width: 100%;
 
-		@include for-tablet-landscape-up {
-			height: 500px;
-		}
-
 		@include for-phone-only {
 			border-bottom: 1px solid var(--color--text);
 		}
@@ -71,9 +76,6 @@
 		&[href],
 		&[onclick] {
 			cursor: pointer;
-			&:hover {
-				scale: 1.01;
-			}
 		}
 	}
 
@@ -90,6 +92,19 @@
 			flex-direction: column;
 			flex: 1;
 		}
+
+		.inner {
+			overflow: hidden;
+		}
+		.collapsible {
+			grid-template-rows: 0fr;
+			transition: grid-template-rows 0.5s ease;
+			display: grid;
+		}
+	}
+
+	:global(.card:hover .body .collapsible) {
+		grid-template-rows: 1fr !important;
 	}
 
 	.image {

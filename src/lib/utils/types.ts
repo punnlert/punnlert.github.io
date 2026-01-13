@@ -36,6 +36,13 @@ export type Graphics = {
 	slug: string;
 };
 
+export type Hobbies = {
+	name: string;
+	description: string;
+	images: string[] | undefined;
+	slug: string;
+};
+
 export type Publication = {
 	name: string;
 	shortName: string;

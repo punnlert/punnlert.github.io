@@ -15,7 +15,7 @@
 		width: '640',
 		//  see https://developers.google.com/youtube/player_parameters
 		playerVars: {
-			autoplay: 1
+			autoplay: 0
 		}
 	};
 </script>
@@ -46,7 +46,7 @@
 				<!-- <h4>My Contribution</h4> -->
 			</div>
 			<div class="info-container">
-				<div>
+				<div class="author">
 					{#each publication.authors as author}
 						{#if author === 'Punn Lertjaturaphat'}
 							<b>{author}</b>
@@ -76,6 +76,11 @@
 					</div>
 				{/if}
 			</div> -->
+			{#if publication.youtube}
+				<div class="youtube-container">
+					<YouTube videoId={publication.youtube.split('v=')[1] || ''} {options} />
+				</div>
+			{/if}
 			<div class="description-container">
 				{#if publication.description}
 					<p>
@@ -106,11 +111,6 @@
 					</a>
 				{/each}
 			</div>
-			{#if publication.youtube}
-				<div class="youtube-container">
-					<YouTube videoId={publication.youtube.split('v=')[1] || ''} {options} />
-				</div>
-			{/if}
 		</div>
 	</article>
 </div>
@@ -167,6 +167,10 @@
 				font-size: 2.617924rem;
 				line-height: 1.25;
 				margin-bottom: 20px;
+
+				@include for-phone-only {
+					font-size: 1.5rem;
+				}
 			}
 
 			.description-container {
@@ -187,11 +191,35 @@
 			gap: 10px;
 			padding-bottom: 10px;
 			border-bottom: 1px solid var(--color--text);
+
+			.author {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
+
+			@include for-phone-only {
+				h4,
+				b,
+				p {
+					font-size: 1rem;
+				}
+			}
 		}
 
 		.description-container {
-			padding-top: 10px;
 			line-height: 1.5;
+			p {
+				text-align: justify;
+			}
+
+			@include for-phone-only {
+				p {
+					// column-count: 2;
+					// column-gap: 16px;
+					font-size: 0.8rem;
+				}
+			}
 		}
 
 		.links-container {
@@ -213,6 +241,15 @@
 
 				&:hover svg {
 					transform: rotate(45deg);
+				}
+
+				@include for-phone-only {
+					font-size: 0.8rem;
+
+					svg {
+						width: 0.6rem;
+						height: 0.6rem;
+					}
 				}
 			}
 		}
@@ -251,6 +288,10 @@
 		display: flex;
 		justify-content: center;
 		background: var(--color--page-background);
+
+		@include for-phone-only {
+			padding: 10px 0;
+		}
 
 		:global(div) {
 			width: 100%;
