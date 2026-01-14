@@ -1,11 +1,7 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
 	import Hamburger from '$lib/icons/hamburger.svelte';
-	import { beforeNavigate, goto } from '$app/navigation';
-	import Exit from '$lib/icons/exit.svelte';
-	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
-	import Linkedin from '$lib/icons/socials/linkedin.svelte';
+	import { beforeNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 
 	export let showBackground = false;
@@ -34,7 +30,7 @@
 <nav class="menu" style="--show-menu: {showMenu}">
 	<ul>
 		{#each paths as { name, path }}
-			{@const active = $page.url.pathname === path ? 'page' : null}
+			{@const active = '/' + $page.url.pathname.split('/')[1] === path ? 'page' : null}
 			<li><a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a></li>
 		{/each}
 		<li><a href="/files/resume.pdf" target="_blank">Resume</a></li>
@@ -156,7 +152,7 @@
 		position: fixed;
 		transform: var(--show-menu);
 		background: var(--color--page-background);
-		transition: transform 0.2s;
+		transition: transform 0.4s ease-out;
 		width: 100vw;
 		height: 100vh;
 		top: 0;
@@ -176,6 +172,10 @@
 
 		[aria-current='page'] {
 			font-weight: 800;
+		}
+
+		[aria-current='page']::before {
+			view-transition-name: active-page;
 		}
 		//
 		// button {
