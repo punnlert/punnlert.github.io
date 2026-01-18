@@ -3,6 +3,7 @@
 	import dateformat from 'dateformat';
 	import type { Publication } from '$lib/utils/types';
 	import YouTube from 'svelte-youtube';
+	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
 
 	export let data: {
 		publication: Publication;
@@ -18,7 +19,32 @@
 			autoplay: 0
 		}
 	};
+
+	let metaKeywords = keywords;
+	$: {
+		if (publication?.tags?.length) {
+			metaKeywords = publication.tags.map((t) => t.label).concat(metaKeywords);
+		}
+	}
 </script>
+
+<svelte:head>
+	<meta name="keywords" content={metaKeywords.join(', ')} />
+
+	<meta name="description" content={publication.description} />
+	<meta property="og:description" content={publication.description} />
+	<meta name="twitter:description" content={publication.description} />
+	<link rel="canonical" href="{siteBaseUrl}/{publication.slug}" />
+
+	<title>{publication.name} - {title}</title>
+	<meta property="og:title" content="{publication.name} - {title}" />
+	<meta name="twitter:title" content="{publication.name} - {title}" />
+
+	{#if publication.image}
+		<meta property="og:image" content="{siteBaseUrl}{publication.image}" />
+		<meta name="twitter:image" content="{siteBaseUrl}{publication.image}" />
+	{/if}
+</svelte:head>
 
 <div class="container">
 	<article id="article-content">
