@@ -1,1 +1,0 @@
-const t="https://punnlert.github.io/",n=["Industrial Design","Interaction Design","UX Design","UI Design","Punn Lertjaturaphat","Portfolio"],s="Punn Lertjaturaphat is a playful industrial designer who loves to create meaningful interaction.",e="Punn Lertjaturaphat's Personal Portfolio",a=`${t}/images/site-preview.png`;export{s as d,a as i,n as k,t as s,e as t};
