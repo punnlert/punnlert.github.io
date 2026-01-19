@@ -6,9 +6,16 @@ declare namespace App {
 	// interface Locals {}
 	// interface PageData {}
 	// interface Platform {}
+	interface Meta {
+		canonical: string;
+		keywords: string;
+		description: string;
+		title: string;
+		image: string;
+	}
 }
 
-declare module "*&imagetools" {
+declare module '*&imagetools' {
 	/**
 	 * actual types
 	 * - code https://github.com/JonasKruckenberg/imagetools/blob/main/packages/core/src/output-formats.ts
@@ -17,3 +24,4 @@ declare module "*&imagetools" {
 	const out;
 	export default out;
 }
+

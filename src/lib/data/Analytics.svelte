@@ -1,14 +1,17 @@
 <script lang="ts">
 	import { partytownSnippet } from '@qwik.dev/partytown/integration';
 	import { afterNavigate } from '$app/navigation';
+	import { page } from '$app/stores';
 
-	afterNavigate(({ to }) => {
-		window.gtag?.('event', 'page_view', {
-			page_path: to?.url.pathname,
-			page_location: window.location.href,
-			page_title: document.title
-		});
-	});
+	$: {
+		if (typeof gtag !== 'undefined') {
+			gtag('config', 'MEASUREMENT_ID', {
+				page_title: document.title,
+				page_path: $page.url.pathname
+			});
+		}
+	}
+
 </script>
 
 <slot />
@@ -29,10 +32,10 @@
 	></script>
 	<script type="text/partytown">
 		window.dataLayer = window.dataLayer || [];
-		window.gtag = function () {
+		function gtag() {
 			dataLayer.push(arguments);
-		};
+		}
 		gtag('js', new Date());
-		gtag('config', 'G-HK7XKY17D1', { send_page_view: false });
+		gtag('config', 'G-HK7XKY17D1');
 	</script>
 </svelte:head>
