@@ -1,5 +1,14 @@
 <script lang="ts">
 	import { partytownSnippet } from '@qwik.dev/partytown/integration';
+	import { afterNavigate } from '$app/navigation';
+
+	afterNavigate(({ to }) => {
+		window.gtag?.('event', 'page_view', {
+			page_path: to?.url.pathname,
+			page_location: window.location.href,
+			page_title: document.title
+		});
+	});
 </script>
 
 <slot />
@@ -24,6 +33,6 @@
 			dataLayer.push(arguments);
 		};
 		gtag('js', new Date());
-		gtag('config', 'G-HK7XKY17D1');
+		gtag('config', 'G-HK7XKY17D1', { send_page_view: false });
 	</script>
 </svelte:head>
