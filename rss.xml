@@ -10,30 +10,30 @@
 	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
 >
   <channel>
-    <atom:link href="https://punnlert.com//rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://punnlert.com/rss.xml" rel="self" type="application/rss+xml" />
     <title>Punn Lertjaturaphat's Personal Portfolio</title>
-    <link>https://punnlert.com/</link>
+    <link>https://punnlert.com</link>
     <description>Punn Lertjaturaphat is a playful industrial designer who loves to create meaningful interaction.</description>
     <image>
-      <url>https://punnlert.com//favicons/favicon-32x32.png</url>
+      <url>https://punnlert.com/favicons/favicon-32x32.png</url>
       <title>Punn Lertjaturaphat's Personal Portfolio</title>
-      <link>https://punnlert.com/</link>
+      <link>https://punnlert.com</link>
       <width>32</width>
       <height>32</height>
     </image>
     
         <item>
-          <guid>https://punnlert.com//oink</guid>
+          <guid>https://punnlert.com/oink</guid>
           <title>Oink</title>
           <description>Reshaping digital financial experience for kids and preteens by introducing tangible interface.</description>
-          <link>https://punnlert.com//oink</link>
+          <link>https://punnlert.com/oink</link>
           <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
           <category>UI Design</category><category>UX Design</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://punnlert.com//oink">
+                <a href="https://punnlert.com/oink">
                   read on the site!
                 </a>
               </strong>
@@ -316,22 +316,22 @@ With an easily accessible admin screen in NH’s existing app, parents can attra
     </a></strong></span>
 </div></p>
           ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com///images/posts/oink/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com///images/posts/oink/cover.png"/>          
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/oink/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/oink/cover.png"/>          
         </item>
       
         <item>
-          <guid>https://punnlert.com//kujungmaru</guid>
+          <guid>https://punnlert.com/kujungmaru</guid>
           <title>Beyond the Floor</title>
           <description>In collaboration with Korean wooden floor company Kujungmaru, we designed a set of furnitures that utilize left over wooden floor, friction joint construction, and mycelium cushion.</description>
-          <link>https://punnlert.com//kujungmaru</link>
+          <link>https://punnlert.com/kujungmaru</link>
           <pubDate>Tue, 20 Jun 2023 11:45:13 +0000</pubDate>
           <category>Product Design</category><category>System Design</category><category>Sustainablility</category><category>Seoul Design Week 2023</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://punnlert.com//kujungmaru">
+                <a href="https://punnlert.com/kujungmaru">
                   read on the site!
                 </a>
               </strong>
@@ -455,22 +455,22 @@ and when used as a planter, it can be planted directly into the ground along wit
 	</figure>
 		</li></ul></div></div>
           ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com///images/posts/kujungst/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com///images/posts/kujungst/cover.png"/>          
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/kujungst/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/kujungst/cover.png"/>          
         </item>
       
         <item>
-          <guid>https://punnlert.com//lambda-studio</guid>
+          <guid>https://punnlert.com/lambda-studio</guid>
           <title>Lambda Studio</title>
           <description>A MIDI controller with an ability to sample soundwaves... using a barcode reader!</description>
-          <link>https://punnlert.com//lambda-studio</link>
+          <link>https://punnlert.com/lambda-studio</link>
           <pubDate>Wed, 01 Mar 2023 11:46:13 +0000</pubDate>
           <category>Interaction Design</category><category>Product Design</category><category>Microcomputer</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://punnlert.com//lambda-studio">
+                <a href="https://punnlert.com/lambda-studio">
                   read on the site!
                 </a>
               </strong>
@@ -535,22 +535,22 @@ and when used as a planter, it can be planted directly into the ground along wit
 <div class="youtube-container svelte-pikb5p"><div><div></div></div>
 </div>
           ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com///images/posts/lambda-studio/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com///images/posts/lambda-studio/cover.png"/>          
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/lambda-studio/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/lambda-studio/cover.png"/>          
         </item>
       
         <item>
-          <guid>https://punnlert.com//baobal</guid>
+          <guid>https://punnlert.com/baobal</guid>
           <title>Baobal</title>
           <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
-          <link>https://punnlert.com//baobal</link>
+          <link>https://punnlert.com/baobal</link>
           <pubDate>Sun, 20 Aug 2023 11:38:06 +0000</pubDate>
           <category>HCI</category><category>HCI Research</category><category>UI Design</category><category>UX Design</category><category>UX Research</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://punnlert.com//baobal">
+                <a href="https://punnlert.com/baobal">
                   read on the site!
                 </a>
               </strong>
@@ -917,22 +917,22 @@ I learned that:</p>
 <p>Because prototype offers so little to explore, I wish we can get to early implementation stage and conduct another user study with semi-implemented product. I want to see how a feature is tested before launch using evaluative UX method in larger scale (like tree test, AB test)</p>
 <p>I wish we can get a glimpse of how all of this documentation get passed on to the implementation stage. I want to see how the developers deal with these information and what role do designers play in the next step. I want to see how my concept can be brought alive as a real world product.</p>
           ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com///images/posts/baobal/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com///images/posts/baobal/cover.png"/>          
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/baobal/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/baobal/cover.png"/>          
         </item>
       
         <item>
-          <guid>https://punnlert.com//roger-roger</guid>
+          <guid>https://punnlert.com/roger-roger</guid>
           <title>Roger, Roger</title>
           <description>Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!</description>
-          <link>https://punnlert.com//roger-roger</link>
+          <link>https://punnlert.com/roger-roger</link>
           <pubDate>Mon, 20 Feb 2023 11:40:39 +0000</pubDate>
           <category>Coding</category><category>Javascript</category><category>Game Design</category>
           <content:encoded><![CDATA[
             <div style="margin: 50px 0; font-style: italic;">
               If anything looks wrong, 
               <strong>
-                <a href="https://punnlert.com//roger-roger">
+                <a href="https://punnlert.com/roger-roger">
                   read on the site!
                 </a>
               </strong>
@@ -1040,8 +1040,8 @@ I learned that:</p>
 <p>Right now, the obstacles are extended from the class asteroid. That is not very organized in terms of the readability of the code. So, in the future, I would like to restructure it to have a base class of “hittable” and extends every obstacle from there.</p>
 <p>I would also like to add collectibles other than “lives” and “astronaut”; like temporary life extension or gun boost that modify the property of the bullet fired.</p>
           ]]></content:encoded>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com///images/posts/roger-roger/cover.png"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com///images/posts/roger-roger/cover.png"/>          
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/roger-roger/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/roger-roger/cover.png"/>          
         </item>
       
   </channel>
