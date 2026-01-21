@@ -47,7 +47,7 @@ export default [
 		venue: 'EICS 2024',
 		reference: 'Reference 1',
 		links: [
-			{ text: 'paper', url: 'files/publications/Bianchi_Inline_PACM2024.pdf' },
+			{ text: 'paper', url: '/files/publications/Bianchi_Inline_PACM2024.pdf' },
 			{ text: 'doi', url: 'https://doi.org/10.1145/3660250' }
 		],
 		date: '2024-05-20',
@@ -72,7 +72,7 @@ export default [
 		venue: 'UIST 2025',
 		reference: 'Reference 1',
 		links: [
-			{ text: 'paper', url: 'files/publications/Marciniak_StitchFlow_UIST2025.pdf' },
+			{ text: 'paper', url: '/files/publications/Marciniak_StitchFlow_UIST2025.pdf' },
 			{ text: 'doi', url: 'https://doi.org/10.1145/3746059.3747715' }
 		],
 		date: '2025-10-20',
