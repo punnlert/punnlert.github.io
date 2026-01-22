@@ -49,17 +49,16 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/inter": "^5.2.8",
+		"@fontsource-variable/eb-garamond": "^5.2.7",
 		"@fontsource-variable/manrope": "^5.2.8",
-		"@fontsource/anonymous-pro": "^5.1.0",
-		"@fontsource/instrument-serif": "^5.1.0",
-		"@fontsource/inter": "^5.2.8",
-		"@fontsource/manrope": "^5.2.8",
-		"@fontsource/poppins": "^5.2.7",
-		"@fontsource/space-mono": "^5.1.1",
+		"@fontsource-variable/source-serif-4": "^5.2.9",
+		"@fontsource/instrument-serif": "^5.2.8",
+		"@fontsource/libre-caslon-condensed": "^5.2.5",
+		"@fontsource/libre-caslon-display": "^5.2.7",
+		"@fontsource/libre-caslon-text": "^5.2.7",
+		"@fontsource/redaction": "^5.2.5",
 		"@qwik.dev/partytown": "^0.11.2",
 		"@splidejs/svelte-splide": "^0.2.9",
-		"svelte-bricks": "^0.2.1",
 		"svelte-youtube": "^0.0.2"
 	}
 }

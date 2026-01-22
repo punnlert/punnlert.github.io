@@ -1,7 +1,5 @@
 <script lang="ts">
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
-	// import Masonry from '$lib/components/atoms/Masonry.svelte';
-	import Masonry from 'svelte-bricks';
 	import Image from '$lib/components/atoms/Image.svelte';
 	import type { Graphics } from '$lib/utils/types';
 

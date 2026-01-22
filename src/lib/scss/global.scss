@@ -12,11 +12,14 @@
 @import '$lib/scss/_carousel.scss';
 @import '$lib/scss/_lightbox.scss';
 
-@import '@fontsource/space-mono';
-@import '@fontsource/anonymous-pro';
-@import '@fontsource/instrument-serif';
-@import '@fontsource/inter';
 @import '@fontsource-variable/manrope';
+@import '@fontsource-variable/eb-garamond';
+@import '@fontsource-variable/source-serif-4';
+@import '@fontsource/instrument-serif';
+@import '@fontsource/instrument-serif';
+@import '@fontsource/libre-caslon-display';
+@import '@fontsource/libre-caslon-condensed';
+@import '@fontsource/libre-caslon-text';
 
 body {
 	--body-background-color: var(--color--page-background);

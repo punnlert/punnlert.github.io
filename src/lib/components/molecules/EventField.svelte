@@ -55,6 +55,7 @@
 
 		.date {
 			font-size: 1rem;
+			font-style: italic;
 			color: rgba(var(--color--text-rgb), 0.8);
 		}
 
