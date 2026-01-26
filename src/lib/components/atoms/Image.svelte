@@ -74,10 +74,10 @@
 
 <style lang="scss">
 	img {
-		view-transition-name: var(--img-transition, none);
+		// view-transition-name: var(--img-transition, none);
 		width: 100%;
 		height: 100%;
-		max-height: 40vh;
+		// max-height: 40vh;
 		object-fit: contain;
 	}
 </style>

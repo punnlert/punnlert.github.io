@@ -106,6 +106,8 @@
 			margin: 0 auto;
 			max-height: 400px;
 			// box-shadow: var(--image-shadow);
+			height: 400px;
+			max-width: 400px;
 			border-radius: 12px;
 			border-style: solid;
 			border-width: 3px;
@@ -114,7 +116,6 @@
 			img {
 				width: 100%;
 				height: 100%;
-				max-height: 400px;
 				object-fit: contain;
 			}
 		}
