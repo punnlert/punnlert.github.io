@@ -106,7 +106,7 @@
 			margin: 0 auto;
 			max-height: 400px;
 			// box-shadow: var(--image-shadow);
-			height: 400px;
+			height: fit-content;
 			max-width: 400px;
 			border-radius: 12px;
 			border-style: solid;
