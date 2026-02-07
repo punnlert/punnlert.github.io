@@ -11,7 +11,6 @@
 			});
 		}
 	}
-
 </script>
 
 <slot />
@@ -29,6 +28,12 @@
 	<script
 		type="text/partytown"
 		src="https://www.googletagmanager.com/gtag/js?id=G-HK7XKY17D1"
+	></script>
+	<script
+		defer
+		async
+		src="https://cloud.umami.is/script.js"
+		data-website-id="61459c4e-40bf-4575-a0c8-3d83d23c5d71"
 	></script>
 	<script type="text/partytown">
 		window.dataLayer = window.dataLayer || [];
