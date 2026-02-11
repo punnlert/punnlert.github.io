@@ -15,12 +15,15 @@ export default [
 			{ label: 'Programming', color: 'primary' }
 		],
 		authors: ['Punn Lertjaturaphat*', 'Jungwoo Rhee*', 'Jaewon You', 'Andrea Bianchi'],
-		venue: 'To appear at CHI 2026',
+		venue: '',
 		reference: 'Reference 1',
 		links: [],
 		date: '2026-04-13',
 		slug: 'wireway-2026',
-		awards: [{ name: 'My first first-authored paper', logo: '' }]
+		awards: [
+			{ name: 'To appear at CHI 2026', logo: '' }
+			// { name: 'My first first-authored paper', logo: '' }
+		]
 	},
 	{
 		name: 'Inline Visualization and Manipulation of Real-Time Hardware Logs for Embedded Programs (2024)',
