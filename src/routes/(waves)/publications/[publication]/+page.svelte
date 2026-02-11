@@ -1,9 +1,10 @@
 <script lang="ts">
-	import LightBoxImage from '$lib/components/molecules/LightBoxImage.svelte';
-	import dateformat from 'dateformat';
 	import type { Publication } from '$lib/utils/types';
 	import YouTube from 'svelte-youtube';
 	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
+	import Button from '$lib/components/atoms/Button.svelte';
+	import Document from '$lib/icons/document.svelte';
+	import Info from '$lib/icons/info.svelte';
 
 	export let data: {
 		publication: Publication;
@@ -65,6 +66,23 @@
 				<p>{publication.venue}</p>
 				<!-- <p>todo</p> -->
 			</div>
+			<div class="links-container">
+				{#if publication.links.length !== 0}
+					{#each publication.links as link}
+						{#if link.text === 'paper' || link.text == 'pre-print'}
+							<Button href={link.url} target="_blank">
+								<Document slot="icon" />
+								{link.text}
+							</Button>
+						{:else}
+							<Button href={link.url} target="_blank">
+								<Info slot="icon" />
+								{link.text}
+							</Button>
+						{/if}
+					{/each}
+				{/if}
+			</div>
 
 			<!-- <div class="dateperiod-container">
 				<div class="note">
@@ -93,31 +111,6 @@
 					<p>
 						{publication.description}
 					</p>
-				{/if}
-			</div>
-
-			<div class="links-container">
-				{#if publication.links.length !== 0}
-					{#each publication.links as link}
-						<a href={link.url} target="_blank">
-							{link.text}
-							<svg
-								width="30"
-								height="30"
-								viewBox="0 0 30 30"
-								fill="none"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									fill-rule="evenodd"
-									clip-rule="evenodd"
-									vector-effect="non-scaling-stroke"
-									d="M30.1992 0H27.6988V0.0012209H-0.303711V2.50162H25.8422L0.714516 27.6295L2.48256 29.3975L27.6988 4.1812V30H30.1992V0Z"
-									fill="currentColor"
-								/>
-							</svg>
-						</a>
-					{/each}
 				{/if}
 			</div>
 		</div>

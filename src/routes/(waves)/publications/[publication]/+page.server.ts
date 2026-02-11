@@ -18,7 +18,7 @@ export async function load({ params }) {
 				canonical: `${siteBaseUrl}/publications/${publication.slug}`,
 				keywords: metaKeywords.join(', '),
 				description: publication.shortDescription,
-				title: `${title} - ${publication.shortName}`,
+				title: `${publication.shortName} - ${title}`,
 				image: publication.image
 			}
 		};

@@ -25,7 +25,6 @@
 				venue={publication.venue}
 				title={publication.shortName}
 				excerpt={publication.shortDescription}
-				tags={[publication.venue]}
 				coverImage={publication.image}
 				awards={publication.awards}
 			/>

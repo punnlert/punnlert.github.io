@@ -1,5 +1,5 @@
 <script lang="ts">
-	import BlogPostCard from '$lib/components/molecules/BlogPostCard.svelte';
+	import PublicationCard from '$lib/components/molecules/PublicationCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 	import type { Publication } from '$lib/utils/types';
 
@@ -14,12 +14,13 @@
 	<ContentSection title="Publications">
 		<div class="grid">
 			{#each publications as publication}
-				<BlogPostCard
-					title={publication.shortName}
-					coverImage={publication.image}
-					excerpt={publication.shortDescription}
+				<PublicationCard
 					slug={`publications/${publication.slug}`}
-					tags={[publication.venue]}
+					authors={publication.authors}
+					venue={publication.venue}
+					title={publication.shortName}
+					excerpt={publication.shortDescription}
+					coverImage={publication.image}
 					awards={publication.awards}
 				/>
 			{/each}

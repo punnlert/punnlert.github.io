@@ -72,8 +72,13 @@
 		&[onclick] {
 			cursor: pointer;
 			&:hover {
-				scale: 1.01;
+				scale: 1.05;
 			}
+		}
+	}
+	.publication-post-card {
+		@include for-tablet-landscape-up {
+			height: 500px;
 		}
 	}
 

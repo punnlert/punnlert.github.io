@@ -95,6 +95,7 @@
 				// background-color: rgb(var(--color--page-background));
 				// color: var(--color--page-background);
 				border-style: solid;
+				border-width: 2px;
 
 				&:hover {
 					// box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);

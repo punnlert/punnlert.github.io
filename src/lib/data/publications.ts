@@ -4,6 +4,7 @@ export default [
 	{
 		name: 'Wire Your Way: Hardware-Contextualized Guidance and In-situ Tests for Personalized Circuit Prototyping (2026)',
 		shortName: 'WireWay',
+		// youtube: 'https://www.youtube.com/watch?v=g0KKqrsPBd8',
 		description:
 			'The increasing popularity of microcontroller platforms like Arduino enablesdiverse end-user developers to participate in circuit prototyping. Traditionally, follow-along tutorials serve as an essential learning method for makers, and in fact, several prior toolkits leveraged this format as a way to engage new makers. However, literature and our formative study (N=12) show that makers have unique preferences regarding the construction of their circuits and idiosyncratic ways to assess and debug problems, which contrasts with the step-by-step instructional nature of tutorials and those systems leveraging this method. To address this mismatch, we present a prototyping platform that supports personalized circuit construction and debugging. Our system utilizes an augmented breadboard, which is circuit-aware and supports on-the-fly hardware reconfiguration via contextualized guidance and in-situ circuit validation through interactive tests. Through a usability study (N=12), we demonstrate how makers leverage circuit-aware guidance and debugging to support individual building patterns.',
 		shortDescription:
@@ -15,9 +16,11 @@ export default [
 			{ label: 'Programming', color: 'primary' }
 		],
 		authors: ['Punn Lertjaturaphat*', 'Jungwoo Rhee*', 'Jaewon You', 'Andrea Bianchi'],
-		venue: '',
+		venue: 'CHI 2026',
 		reference: 'Reference 1',
-		links: [],
+		links: [
+			{ text: 'pre-print', url: '/files/publications/Lertjaturaphat_Rhee_WireWay_CHI2026.pdf' }
+		],
 		date: '2026-04-13',
 		slug: 'wireway-2026',
 		awards: [

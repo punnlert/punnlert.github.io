@@ -1,15 +1,13 @@
 <script lang="ts">
 	import Card from '$lib/components/atoms/Card.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
-	import Image from '../atoms/Image.svelte';
-	import type { Publication } from '$lib/utils/types';
+	import Image from '$lib/components/atoms/Image.svelte';
 
 	export let title: string;
 	export let authors: string[];
 	export let coverImage: string | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
-	export let tags: string[] | undefined;
 	export let awards: { name: string; logo: string }[] | undefined = undefined;
 	export let venue: string | undefined = undefined;
 
@@ -19,7 +17,7 @@
 <Card
 	href="/{slug}"
 	target="_self"
-	additionalClass="blog-post-card {!showImage || !coverImage ? 'no-image' : ''}"
+	additionalClass=" {!showImage || !coverImage ? 'no-image' : ''} publication-post-card"
 >
 	<div class="image" slot="image">
 		{#if coverImage}
@@ -79,6 +77,7 @@
 </Card>
 
 <style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
 	.content {
 		display: flex;
 		flex-direction: column;
@@ -103,7 +102,7 @@
 		}
 	}
 
-	:global(.blog-post-card:hover .title svg) {
+	:global(.publication-post-card:hover .title svg) {
 		transform: rotate(45deg);
 	}
 
@@ -130,11 +129,11 @@
 		gap: 10px;
 	}
 
-	:global(.blog-post-card .image img) {
+	:global(.publication-post-card .image img) {
 		object-fit: cover;
 	}
 
-	:global(.blog-post-card.no-image > .image) {
+	:global(.publication-post-card.no-image > .image) {
 		display: none;
 	}
 </style>
