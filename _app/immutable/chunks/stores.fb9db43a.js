@@ -1,1 +1,0 @@
-import{j as s,d as t}from"./singletons.108faf8e.js";const n=s("before_navigate"),i=s("on_navigate"),a=()=>{const e=t;return{page:{subscribe:e.page.subscribe},navigating:{subscribe:e.navigating.subscribe},updated:e.updated}},b={subscribe(e){return a().page.subscribe(e)}};export{n as b,i as o,b as p};
