@@ -20,7 +20,7 @@ export default [
 		reference: 'Reference 1',
 		links: [
 			{ text: 'arXiv', url: 'https://arxiv.org/abs/2603.05085' },
-			{ text: 'pre-print', url: '/files/publications/Lertjaturaphat_Rhee_WireWay_CHI2026.pdf' }
+			{ text: 'paper', url: 'https://doi.org/10.1145/3772318.3791371' }
 		],
 		date: '2026-04-13',
 		slug: 'wireway-2026',

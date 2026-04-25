@@ -1,6 +1,7 @@
 import type { Event } from '$lib/utils/types';
 
 export default [
+	{ description: 'Going to CHI 2026', date: '2026-04-13' },
 	{ description: 'First CHI paper accepted!', date: '2026-01-15' },
 	{ description: 'KAIST ID Exhibition from 13–21 December', date: '2025-12-13' },
 	{
