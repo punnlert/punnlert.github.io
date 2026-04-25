@@ -16,7 +16,7 @@
 	let { features, posts, publications, events } = data;
 </script>
 
-<Announcement />
+<!-- <Announcement /> -->
 <div class="container">
 	<!-- <Hero /> -->
 
