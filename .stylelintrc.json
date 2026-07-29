@@ -1,0 +1,17 @@
+{
+	"overrides": [
+		{
+			"files": ["**/*.scss", "**/*.css"],
+			"customSyntax": "postcss-scss"
+		},
+		{
+			"files": ["**/*.svelte"],
+			"customSyntax": "postcss-html"
+		}
+	],
+	"rules": {
+		"declaration-property-value-allowed-list": {
+			"font-size": ["/^var\\(--/", "inherit", "unset", "revert", "initial"]
+		}
+	}
+}

@@ -27,7 +27,7 @@
 	href="/{slug}"
 	target="_self"
 	additionalClass=" {!showImage || !coverImage ? 'no-image' : ''} publication-post-card"
-    {orientation}
+	{orientation}
 >
 	<div class="image" slot="image">
 		{#if coverImage}
@@ -44,7 +44,7 @@
 					{/each}
 				{/if}
 			</div>
-			<span>{title} </span>
+			<h6>{title}</h6>
 			<svg
 				width="30"
 				height="30"
@@ -109,13 +109,16 @@
 		align-items: flex-start;
 		justify-content: space-between;
 		width: 100%;
-		font-size: 1.2rem;
 		font-family: var(--font--default);
 		font-weight: 700;
 
+		h6 {
+			line-height: 1.2;
+		}
+
 		.venue {
-			font-size: 1rem;
-			font-weight: 600;
+			color: var(--color--secondary);
+			font-weight: 800;
 			line-height: 1;
 			margin-bottom: calc(1.2rem * 0.5);
 		}
@@ -137,12 +140,10 @@
 
 	.text {
 		margin-top: 10px;
-		font-size: 0.9rem;
 		text-align: justify;
 	}
 	.authors {
 		margin-top: 10px;
-		font-size: 0.9rem;
 		text-align: start;
 		b {
 			font-weight: 700;

@@ -13,9 +13,9 @@
 		{#if title || description}
 			<div class="text">
 				{#if title}
-					<h3>
+					<h5>
 						{title}
-					</h3>
+					</h5>
 				{/if}
 				{#if description}
 					<p>
@@ -77,7 +77,6 @@
 
 			a {
 				text-decoration: none;
-				font-size: 1 em;
 			}
 
 			.text {

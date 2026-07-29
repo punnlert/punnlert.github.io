@@ -91,7 +91,7 @@
 		&.size {
 			&--small {
 				padding: 5px 10px;
-				font-size: 0.75rem;
+				font-size: var(--small-font-size);
 
 				.icon {
 					width: 20px;
@@ -100,11 +100,11 @@
 			}
 			&--medium {
 				padding: 10px 20px;
-				font-size: 1rem;
+				font-size: var(--p-font-size);
 			}
 			&--large {
 				padding: 15px 30px;
-				font-size: 1.15rem;
+				font-size: var(--p-font-size);
 
 				.icon {
 					width: 28px;
@@ -143,7 +143,7 @@
 
 				&:hover {
 					background-color: rgb(var(--light-color));
-                    font-weight: 800;
+					font-weight: 800;
 				}
 			}
 		}

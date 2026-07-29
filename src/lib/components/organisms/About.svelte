@@ -9,11 +9,9 @@
 		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
 	</div>
 	<div class="info">
-		<h2>
-			<!-- This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight> -->
+		<h3>
 			Hi! I'm Punn Lertjaturaphat.
-		</h2>
+		</h3>
 		<p>
 			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
 			<!-- fun physical experience into an otherwise mundane digital task we perform everyday. -->

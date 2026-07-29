@@ -186,7 +186,6 @@ When users no longer need the assembled furniture, it can be taken apart and sto
 
   h2 {
     text-align: center;
-    font-size: 1.5rem;
   }
 
   .drawing_container {

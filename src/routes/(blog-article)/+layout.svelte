@@ -175,17 +175,13 @@
 			.teammate-container {
 				width: fit-content;
 				margin: 1rem;
-				h2 {
-					font-size: 1.618rem;
-				}
 			}
 
 			.dateperiod-container {
-				margin: 0.5rem 0; 
+				margin: 0.5rem 0;
 			}
 
 			.note {
-				font-size: 90%;
 				color: rgba(var(--color--text-rgb), 0.8);
 			}
 		}

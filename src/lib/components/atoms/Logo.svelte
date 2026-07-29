@@ -45,43 +45,6 @@
 			max-height: 60px;
 
 			transition: all 0.2s ease-in-out;
-			#text {
-			}
-		}
-
-		&:hover {
-			#logo-text {
-				// filter: drop-shadow(var(--card-shadow));
-				filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.1));
-				transform: scale(1.05);
-			}
-		}
-	}
-
-	@media screen and (prefers-reduced-motion: no-preference) {
-		.animated {
-			#icon {
-				> path {
-					// --text-color: var(--color--text-shade);
-					--text-color: var(--color--text);
-					stroke-width: 2;
-					animation: svg-text-stroke 3s;
-				}
-
-				#darker {
-					> path {
-						--text-color: var(--color--text);
-						stroke-width: 2;
-						animation: svg-text-stroke 3s;
-					}
-				}
-			}
-
-			#text {
-				animation: svg-text-stroke 3s;
-				stroke-width: 2;
-				--text-color: var(--color--text);
-			}
 		}
 	}
 </style>

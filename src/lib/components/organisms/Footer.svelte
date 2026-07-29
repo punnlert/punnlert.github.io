@@ -51,12 +51,7 @@
 
 			.last-updated {
 				font-weight: 400;
-				font-size: 90%;
 				color: var(--color--text-shade);
-
-				@include for-phone-only {
-					font-size: 0.8rem;
-				}
 			}
 		}
 
@@ -71,12 +66,8 @@
 
 			.credits {
 				font-weight: 400;
-				font-size: 90%;
 				color: var(--color--text-shade);
 
-				@include for-phone-only {
-					font-size: 0.8rem;
-				}
 				a {
 					color: var(--color--text);
 					text-decoration: underline;
@@ -88,10 +79,6 @@
 			.copyrights {
 				font-weight: 400;
 				padding: 0px 0px;
-
-				@include for-phone-only {
-					font-size: 0.8rem;
-				}
 			}
 
 			.socials {
@@ -100,7 +87,6 @@
 				gap: 20px;
 
 				@include for-phone-only {
-					font-size: 0.8rem;
 					svg {
 						width: 0.6rem;
 						height: 0.6rem;

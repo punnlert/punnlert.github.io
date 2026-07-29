@@ -160,7 +160,6 @@
 		right: 0;
 		margin: 0;
 		z-index: 99;
-		font-size: 1.5rem;
 
 		button {
 			background: none;

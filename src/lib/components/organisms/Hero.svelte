@@ -60,7 +60,6 @@
 
 		.intro {
 			font-weight: 500;
-			font-size: 1.4rem;
 			width: min(100%, 440px);
 			display: flex;
 			flex-direction: column;

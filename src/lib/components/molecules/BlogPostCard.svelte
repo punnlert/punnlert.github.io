@@ -24,7 +24,7 @@
 		{/if}
 	</div>
 	<div class="content" slot="content">
-		<p class="title">
+		<h6 class="title">
 			<span>{title}</span>
 			<svg
 				width="30"
@@ -41,7 +41,7 @@
 					fill="currentColor"
 				/>
 			</svg>
-		</p>
+		</h6>
 
 		{#if excerpt}
 			<p class="text">
@@ -85,7 +85,6 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 100%;
-		font-size: 1.2rem;
 		font-family: var(--font--default);
 		font-weight: 700;
 
@@ -95,6 +94,11 @@
 			flex-shrink: 0;
 			transition: transform 0.2s ease;
 		}
+
+        span {
+
+			transition: transform 0.2s ease;
+        }
 	}
 
 	:global(.blog-post-card:hover .title svg) {
@@ -110,13 +114,11 @@
 
 	.note {
 		margin-top: 3px;
-		font-size: 0.8rem;
 		color: rgba(var(--color--text-rgb), 0.8);
 	}
 
 	.text {
 		margin-top: 10px;
-		font-size: 0.9rem;
 		text-align: justify;
 	}
 
@@ -133,8 +135,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		gap: 10px;
-		// align-content: center;
-		// min-height: 50px;
 	}
 
 	:global(.blog-post-card .image img) {

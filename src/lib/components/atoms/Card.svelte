@@ -75,6 +75,7 @@
 				:global(.image img) {
 					scale: 1.05;
 				}
+
 			}
 		}
 	}

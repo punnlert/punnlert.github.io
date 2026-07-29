@@ -78,7 +78,6 @@
 		padding: 10px 0px;
 		margin-left: auto;
 		color: var(--color--text);
-		font-size: 1rem;
 		font-family: inherit;
 		cursor: pointer;
 		transition: all 0.2s ease-in-out;

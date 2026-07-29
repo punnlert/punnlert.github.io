@@ -38,7 +38,6 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 100%;
-		font-size: 1rem;
 		font-family: var(--font--default);
 		font-weight: 400;
 
@@ -54,7 +53,6 @@
 		}
 
 		.date {
-			font-size: 1rem;
 			font-style: italic;
 			color: rgba(var(--color--text-rgb), 0.8);
 		}

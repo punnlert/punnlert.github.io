@@ -29,30 +29,58 @@ i {
 
 // #region Titles
 h1 {
-	font-size: 6rem;
+	font-size: var(--h1-font-size);
 	font-weight: 800;
 
 	@include for-phone-only {
-		font-size: 3.5rem;
+		font-size: var(--h2-font-size);
 	}
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: var(--h2-font-size);
 	font-weight: 600;
+
+	@include for-phone-only {
+		font-size: var(--h3-font-size);
+	}
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: var(--h3-font-size);
 	font-weight: 600;
+
+	@include for-phone-only {
+		font-size: var(--h4-font-size);
+	}
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: var(--h4-font-size);
+
+	@include for-phone-only {
+		font-size: var(--h5-font-size);
+	}
 }
 
 h5 {
-	font-size: 1rem;
+	font-size: var(--h5-font-size);
+
+	@include for-phone-only {
+		font-size: var(--h6-font-size);
+	}
+}
+
+h6 {
+	font-size: var(--h6-font-size);
+
+	@include for-phone-only {
+		font-size: var(--p-font-size);
+	}
+}
+
+small {
+  font-size: var(--small-font-size);
 }
 
 h1,

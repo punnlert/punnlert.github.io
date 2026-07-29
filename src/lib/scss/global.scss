@@ -38,6 +38,7 @@ body {
 }
 
 html {
+	/* stylelint-disable-next-line declaration-property-value-allowed-list -- root size the rem scale is built on */
 	font-size: 16px;
 	width: 100%;
 	overflow-x: hidden;

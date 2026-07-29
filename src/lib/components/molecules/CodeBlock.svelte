@@ -21,7 +21,6 @@
 		background-color: var(--color--code-background);
 		color: var(--color--code-text);
 		font-family: var(--font--mono);
-		font-size: 1rem;
 		line-height: 1.33em;
 		border-radius: 8px;
 		box-shadow: var(--card-shadow);
@@ -54,7 +53,6 @@
 			border-radius: 8px;
 			padding: 5px 10px;
 			z-index: 2;
-			font-size: 0.85em;
 		}
 
 		.filename {

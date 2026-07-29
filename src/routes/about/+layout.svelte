@@ -89,9 +89,6 @@
 				// border-bottom: solid;
 				// padding: 0.7rem 1rem;
 				margin: 1rem;
-				h2 {
-					font-size: 1.618rem;
-				}
 			}
 
 			.dateperiod-container {
@@ -99,7 +96,6 @@
 			}
 
 			.note {
-				font-size: 90%;
 				color: rgba(var(--color--text-rgb), 0.8);
 			}
 		}

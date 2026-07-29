@@ -17,7 +17,6 @@
 		padding: 5px 15px;
 		border-radius: 10px;
 		font-weight: 500;
-		font-size: 0.85rem;
 		width: fit-content;
 		white-space: nowrap;
 		border-style: solid;

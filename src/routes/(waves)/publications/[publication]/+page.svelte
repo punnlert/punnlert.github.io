@@ -31,7 +31,7 @@
 <div class="container">
 	<article id="article-content">
 		<div class="header">
-			<h1>{publication.name}</h1>
+			<h4>{publication.name}</h4>
 			<div class="info-container">
 				<!-- <div class="info-item">
 					<h4>Authors</h4>
@@ -49,8 +49,8 @@
 					<h4>My Contribution</h4>
 					<p>todo</p>
 				</div> -->
-				<h4>Authors</h4>
-				<h4>Venue</h4>
+				<h6>Authors</h6>
+				<h6>Venue</h6>
 				<!-- <h4>My Contribution</h4> -->
 			</div>
 			<div class="info-container">
@@ -166,23 +166,11 @@
 			margin: 0 auto;
 
 			h1 {
-				font-size: 2.617924rem;
 				line-height: 1.25;
 				margin-bottom: 20px;
-
-				@include for-phone-only {
-					font-size: 1.5rem;
-				}
-			}
-
-			.description-container {
-				h2 {
-					font-size: 1.618rem;
-				}
 			}
 
 			.note {
-				font-size: 90%;
 				color: rgba(var(--color--text-rgb), 0.8);
 			}
 		}
@@ -199,28 +187,12 @@
 				flex-direction: column;
 				gap: 10px;
 			}
-
-			@include for-phone-only {
-				h4,
-				b,
-				p {
-					font-size: 1rem;
-				}
-			}
 		}
 
 		.description-container {
 			line-height: 1.5;
 			p {
 				text-align: justify;
-			}
-
-			@include for-phone-only {
-				p {
-					// column-count: 2;
-					// column-gap: 16px;
-					font-size: 0.8rem;
-				}
 			}
 		}
 
@@ -246,8 +218,6 @@
 				}
 
 				@include for-phone-only {
-					font-size: 0.8rem;
-
 					svg {
 						width: 0.6rem;
 						height: 0.6rem;
@@ -256,10 +226,6 @@
 			}
 		}
 
-		p,
-		b {
-			font-size: 1.2rem;
-		}
 
 		b {
 			font-weight: 800;
