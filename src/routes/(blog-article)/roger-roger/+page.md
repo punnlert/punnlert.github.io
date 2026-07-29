@@ -1,7 +1,9 @@
 ---
 slug: roger-roger
-title: Roger, Roger
-excerpt: Travel through space with your friends in this cooperative rocket controlling game. Shoot some asteroids, save some astronauts, and try not to fight!
+title: 'Roger, Roger'
+excerpt: >-
+  Travel through space with your friends in this cooperative rocket controlling
+  game. Shoot some asteroids, save some astronauts, and try not to fight!
 coverImage: /images/posts/roger-roger/cover.png
 tags:
   - Coding
@@ -11,7 +13,6 @@ hidden: false
 startDate: 2023-02-20T11:40:39.000Z
 importance: 3
 ---
-
 <script>
   import Image from "$lib/components/atoms/Image.svelte";
   import LightBoxImage from "$lib/components/molecules/LightBoxImage.svelte";
@@ -31,7 +32,6 @@ importance: 3
     </Button>
 </div>
 
-<LightBoxImage src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/>
 
 ## Introduction
 
@@ -142,3 +142,4 @@ I would also like to add collectibles other than "lives" and "astronaut"; like t
         width: 100%;
     }
 </style>
+
