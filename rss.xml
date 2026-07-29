@@ -946,10 +946,6 @@ I learned that:</p>
 	YouTube
     
 </a></div>
-<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
-	<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1ykl0dj"></div>
-
-	</figure>
 <h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
 <p>“Roger, Roger” is a cooperative game about a rocket travelling through space. Players have to navigate through asteroids by cooperative with each other. There is a total of 3 controls that can be accessed: trajectory control, acceleration control, and gun. trajectory control lets the player control the y-axis of the rocket, acceleration control lets the player control the x-axis, and gun lets player shoots.</p>
 <figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
