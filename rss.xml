@@ -1040,5 +1040,68 @@ I learned that:</p>
           <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/roger-roger/cover.png"/>          
         </item>
       
+        <item>
+          <guid>https://punnlert.com/steezy-webpage</guid>
+          <title>Steezy Webpage</title>
+          <description>Web design for a skating shoe protection brand. How I designed a website that encapsulates the dynamic, gritty, and street nature of Thailand's skate culture.</description>
+          <link>https://punnlert.com/steezy-webpage</link>
+          <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+          <category>Creative Web Design</category><category>Front End Development</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.com/steezy-webpage">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <div class="button_container svelte-xvwug4"><a href="https://steezy.lol" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-kskrmv" data-sveltekit-preload-data>
+	<svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><!-- HTML_TAG_START --><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/><!-- HTML_TAG_END --></svg>
+        Live Webpage
+    
+</a></div>
+<p>This brand is a communication design student’s graduation project. He contacted me to help designing and implementing his website. I begin by asking him questions about the brand identity and motiff. Along with that, he provided me a CI document for the do’s and don’ts, the allowed color palette, the typeface to be used. He wants the website to be a simple minimalistic website, with references like <a href="https://supreme.com/stores" rel="nofollow">supreme</a>; another steet brand that he take lots of inspiration from.</p>
+<div class="quote svelte-zueihi">Having a limited choice in how the website should look (the fixed brand&#39;s identity), my design lies in the motions graphics and interaction with the website.
+</div>
+<p>I identified 2 themes that I can use as a motif for the website:</p>
+<ol><li>Motions: Skateboarders and motions are like bread and butter. When picture skateboarding, you see a blurry figure zooms pass by and you see them doing tricks.</li>
+<li>Gritty: Skateboarding is always rough. You always take risk. You perform tricks at high speed and fall on hard, rough concrete.</li></ol>
+<h2 id="main-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#main-page"><span></span></a>Main page</h2>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/steezy-webpage/steezy-home.avif, /images/posts/steezy-webpage/steezy-home.webp, /images/posts/steezy-webpage/steezy-home.png" src="/images/posts/steezy-webpage/steezy-home.png" alt="Main page of steezy website" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<p>I put a simple high contrast image of the brand and keep to page monotonous to keep the minimalistic style.</p>
+<h2 id="about-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#about-page"><span></span></a>About page</h2>
+<p>The about page is one of the most important pages. I want to make it dynamic and interactive. So, I link the current scroll to one of the brands advertising video. As the visitor scroll down, the video plays.</p>
+<img src="/images/posts/steezy-webpage/steezy-about.gif">
+<div class="button_container svelte-xvwug4"><a href="https://steezy.lol/about" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-kskrmv" data-sveltekit-preload-data>
+	<svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><!-- HTML_TAG_START --><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/><!-- HTML_TAG_END --></svg>
+            Try the scroll
+    
+</a></div>
+<h2 id="contacts-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#contacts-page"><span></span></a>Contacts page</h2>
+<p>Another thing that the brand owner mentioned was that he loves graffity and tagging. So, in the contact page, the user can use their cursor to “paint” the information onto the site.</p>
+<img src="/images/posts/steezy-webpage/steezy-contact.gif">
+<div class="button_container svelte-xvwug4"><a href="https://steezy.lol/contact" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-kskrmv" data-sveltekit-preload-data>
+	<svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><!-- HTML_TAG_START --><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/><!-- HTML_TAG_END --></svg>
+            Try the contact page
+    
+</a></div>
+<h2 id="products-page"><a class="heading-link" title="Permalink" aria-hidden="true" href="#products-page"><span></span></a>Products page</h2>
+<p>The product page is a simple, minimalistic grid with a lot of breathing room.</p>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/steezy-webpage/steezy-products.avif, /images/posts/steezy-webpage/steezy-products.webp, /images/posts/steezy-webpage/steezy-products.png" src="/images/posts/steezy-webpage/steezy-products.png" alt="Main page of steezy website" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<h2 id="what-i-learned"><a class="heading-link" title="Permalink" aria-hidden="true" href="#what-i-learned"><span></span></a>What I learned</h2>
+<p>I always want to try implementing fun and interactive website but my problem is I don’t have the material to fully implement one. This is a great opportunity for me to try implement quirky, unique interactivity; from simple stuff like implementing <a href="https://github.com/darkroomengineering/lenis" rel="nofollow">smooth scrolling</a>, to challenging new stuffs like <a href="#about-page">video on scroll</a>, <a href="#contacts-page">text reveal effect</a>,</p>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/steezy-webpage/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/steezy-webpage/cover.png"/>          
+        </item>
+      
   </channel>
 </rss>
