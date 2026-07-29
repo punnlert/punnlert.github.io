@@ -12,20 +12,22 @@
 
 	export let showImage = true;
 
-	const slug = `publication/${publication.slug}`;
+	const slug = `publications/${publication.slug}`;
 	const coverImage = publication.image;
 	const venue = publication.venue;
 	const awards = publication.awards;
 	const title = publication.name;
 	const authors = publication.authors;
 	const links = publication.links;
+
+	export let orientation: 'horizontal' | 'vertical' = 'vertical';
 </script>
 
 <Card
 	href="/{slug}"
 	target="_self"
 	additionalClass=" {!showImage || !coverImage ? 'no-image' : ''} publication-post-card"
-	orientation="horizontal"
+    {orientation}
 >
 	<div class="image" slot="image">
 		{#if coverImage}

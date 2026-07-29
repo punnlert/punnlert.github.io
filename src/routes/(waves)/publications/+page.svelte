@@ -14,15 +14,7 @@
 	<ContentSection title="Publications">
 		<div class="grid">
 			{#each publications as publication}
-				<PublicationCard
-					slug={`publications/${publication.slug}`}
-					authors={publication.authors}
-					venue={publication.venue}
-					title={publication.shortName}
-					excerpt={publication.shortDescription}
-					coverImage={publication.image}
-					awards={publication.awards}
-				/>
+				<PublicationCard {publication} />
 			{/each}
 		</div>
 	</ContentSection>

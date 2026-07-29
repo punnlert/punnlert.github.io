@@ -2,7 +2,6 @@
 	import PublicationCard from '../molecules/PublicationCard.svelte';
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
 	import type { Publication } from '$lib/utils/types';
-	import Button from '$lib/components/atoms/Button.svelte';
 
 	export let publications: Publication[];
 </script>
@@ -10,9 +9,7 @@
 <ContentSection id="recent-publications" title="Publications" align="top">
 	<div class="grid">
 		{#each publications as publication}
-			<PublicationCard
-            {publication}
-			/>
+			<PublicationCard {publication} orientation="horizontal" />
 		{/each}
 	</div>
 </ContentSection>
