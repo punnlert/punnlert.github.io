@@ -27,7 +27,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_mixins.scss' as *;
 
 	.postcard {
 		// box-shadow: var(--card-shadow);

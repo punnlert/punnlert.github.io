@@ -123,7 +123,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	.article-layout {
 		--body-background-color: var(--color--post-page-background);
@@ -169,7 +169,7 @@
 
 			h1 {
 				line-height: 1;
-                margin-bottom: calc(6rem * 0.5);
+				margin-bottom: calc(6rem * 0.5);
 			}
 
 			.teammate-container {

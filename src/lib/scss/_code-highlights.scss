@@ -1,27 +1,3 @@
-// pre[class*="language-"] {
-//   display: block;
-//   background-color: var(--code-background-color);
-//   color: var(--code-text-color);
-//   font-family: var(--mono-font);
-//   font-size: 0.85em;
-//   line-height: 1.33em;
-//   border-radius: 0.25em;
-//   box-shadow: var(--card-shadow);
-
-//   padding: 30px 15px;
-
-//   overflow-x: auto;
-//   scrollbar-color: var(--primary-color) var(--scrollbar-track-color);
-//   scrollbar-width: thin;
-
-//   &::-webkit-scrollbar {
-//     height: 5px;
-//   }
-//   &::-webkit-scrollbar-thumb {
-//     background: var(--primary-color);
-//   }
-// }
-
 code[class*='language-'],
 pre[class*='language-'] {
 	text-align: left;

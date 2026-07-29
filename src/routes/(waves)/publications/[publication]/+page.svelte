@@ -118,7 +118,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	#article-content {
 		--main-column-width: 80ch;

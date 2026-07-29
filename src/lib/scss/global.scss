@@ -1,25 +1,25 @@
-@import '$lib/scss/_reset.scss';
-@import '$lib/scss/_variables.scss';
-@import '$lib/scss/_themes.scss';
-@import '$lib/scss/_breakpoints.scss';
-@import '$lib/scss/_functions.scss';
-@import '$lib/scss/_mixins.scss';
-@import '$lib/scss/_base.scss';
-@import '$lib/scss/_typography.scss';
-@import '$lib/scss/_markdown.scss';
-@import '$lib/scss/_code-highlights.scss';
-@import '$lib/scss/_animations.scss';
-@import '$lib/scss/_carousel.scss';
-@import '$lib/scss/_lightbox.scss';
+@use '$lib/scss/_reset.scss' as *;
+@use '$lib/scss/_variables.scss' as *;
+@use '$lib/scss/_themes.scss' as *;
+@use '$lib/scss/_breakpoints.scss' as *;
+@use '$lib/scss/_functions.scss' as *;
+@use '$lib/scss/_mixins.scss' as *;
+@use '$lib/scss/_base.scss' as *;
+@use '$lib/scss/_typography.scss' as *;
+@use '$lib/scss/_markdown.scss' as *;
+@use '$lib/scss/_code-highlights.scss' as *;
+@use '$lib/scss/_animations.scss' as *;
+@use '$lib/scss/_carousel.scss' as *;
+@use '$lib/scss/_lightbox.scss' as *;
 
-@import '@fontsource-variable/manrope';
-@import '@fontsource-variable/eb-garamond';
-@import '@fontsource-variable/source-serif-4';
-@import '@fontsource/instrument-serif';
-@import '@fontsource/instrument-serif';
-@import '@fontsource/libre-caslon-display';
-@import '@fontsource/libre-caslon-condensed';
-@import '@fontsource/libre-caslon-text';
+@use '@fontsource-variable/manrope' as *;
+@use '@fontsource-variable/eb-garamond' as *;
+@use '@fontsource-variable/source-serif-4' as *;
+@use '@fontsource/instrument-serif' as *;
+@use '@fontsource/instrument-serif' as *;
+@use '@fontsource/libre-caslon-display' as *;
+@use '@fontsource/libre-caslon-condensed' as *;
+@use '@fontsource/libre-caslon-text' as *;
 
 body {
 	--body-background-color: var(--color--page-background);

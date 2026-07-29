@@ -39,7 +39,7 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_mixins.scss' as *;
 
 	.article-layout {
 		--body-background-color: var(--color--post-page-background);
