@@ -3,7 +3,7 @@
 	import Check from '$lib/icons/check.svelte';
 	import Info from '$lib/icons/info.svelte';
 
-	export let type: string | undefined = undefined;
+	export let type: 'info' | 'warning' | 'success' | 'error' = 'info';
 </script>
 
 <div class="callout-block {type ?? ''}">
@@ -32,7 +32,6 @@
 		border-top-right-radius: 10px;
 		border-bottom-right-radius: 10px;
 		background: var(--bg-color);
-		// color: var(--text-color);
 		color: var(--accent-color);
 		font-weight: 700;
 		border-left: 4px solid var(--accent-color);

@@ -169,7 +169,7 @@
 
 			h1 {
 				line-height: 1;
-				margin-bottom: calc(6rem * 0.5);
+				margin: 0.5rem;
 			}
 
 			.teammate-container {
@@ -181,7 +181,7 @@
 			}
 
 			.dateperiod-container {
-				margin-bottom: 0.5rem;
+				margin: 0.5rem 0; 
 			}
 
 			.note {
