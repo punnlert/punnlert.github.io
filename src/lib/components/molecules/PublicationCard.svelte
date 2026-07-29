@@ -75,14 +75,17 @@
 	</div>
 	<div class="footer" slot="footer">
 		{#each links as link}
-			<Button href={link.url} target="_blank">
-				{#if link.text == 'paper'}
+			{#if link.text == 'paper'}
+				<Button style="clear" href={link.url} target="_blank">
 					<Document slot="icon" />
-				{:else}
+					{link.text}
+				</Button>
+			{:else}
+				<Button style="clear" href={link.url} target="_blank">
 					<Info slot="icon" />
-				{/if}
-				{link.text}
-			</Button>
+					{link.text}
+				</Button>
+			{/if}
 		{/each}
 	</div>
 </Card>
@@ -150,7 +153,7 @@
 		flex-direction: row;
 		align-items: flex-start;
 		justify-content: flex-start;
-		gap: 10px;
+		gap: 20px;
 	}
 
 	:global(.publication-post-card .image img) {

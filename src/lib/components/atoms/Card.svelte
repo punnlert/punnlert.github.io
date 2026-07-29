@@ -83,7 +83,7 @@
 		@include for-tablet-landscape-up {
 			flex-direction: row;
 			gap: 20px;
-			height: 250px;
+			height: 220px;
 			border: none;
 
 			.image {
