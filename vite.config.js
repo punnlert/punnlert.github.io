@@ -1,4 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import Icons from 'unplugin-icons/vite';
 import { partytownVite } from '@qwik.dev/partytown/utils';
 import path from 'path';
 import { execSync } from 'child_process';
@@ -15,7 +16,7 @@ function getLastCommitDate() {
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit(), partytownVite()],
+	plugins: [sveltekit(), Icons({ compiler: 'svelte' }), partytownVite()],
 	resolve: {
 		alias: {
 			$routes: path.resolve('./src/routes')
