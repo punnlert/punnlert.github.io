@@ -6,8 +6,8 @@ excerpt: >-
   tangible interface.
 coverImage: /images/posts/oink/cover.png
 tags:
-  - UI Design
   - UX Design
+  - UI Design
 hidden: false
 teammates:
   - Lucy Bell
