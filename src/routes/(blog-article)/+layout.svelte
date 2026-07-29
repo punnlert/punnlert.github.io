@@ -167,11 +167,13 @@
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
 
+			h1 {
+				line-height: 1;
+                margin-bottom: calc(6rem * 0.5);
+			}
+
 			.teammate-container {
 				width: fit-content;
-				// border-top: solid;
-				// border-bottom: solid;
-				// padding: 0.7rem 1rem;
 				margin: 1rem;
 				h2 {
 					font-size: 1.618rem;
