@@ -4,6 +4,7 @@
 	export let additionalClass: string | undefined = undefined;
 
 	export let href: string | undefined = undefined;
+	export let orientation: 'vertical' | 'horizontal' = 'vertical';
 	const isExternalLink = !!href && HttpRegex.test(href);
 	export let target: '_self' | '_blank' = isExternalLink ? '_blank' : '_self';
 	export let rel = isExternalLink ? 'noopener noreferrer' : undefined;
@@ -18,7 +19,7 @@
 
 <svelte:element
 	this={tag}
-	class="card {additionalClass}"
+	class="card {orientation} {additionalClass}"
 	{...linkProps}
 	data-sveltekit-preload-data
 	{...$$restProps}
@@ -77,6 +78,35 @@
 			}
 		}
 	}
+
+	.card.horizontal {
+		@include for-tablet-landscape-up {
+			flex-direction: row;
+			gap: 20px;
+			height: 250px;
+			border: none;
+
+			.image {
+				width: 40%;
+				height: 100%;
+				align-self: stretch;
+			}
+			.body {
+				padding: 0 5px;
+			}
+		}
+
+		@include for-phone-only {
+			flex-direction: column;
+			gap: 0;
+
+			.image {
+				width: 100%;
+				height: 200px;
+			}
+		}
+	}
+
 	.publication-post-card {
 		@include for-tablet-landscape-up {
 			height: 500px;

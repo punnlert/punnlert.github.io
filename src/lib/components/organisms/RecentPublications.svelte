@@ -7,26 +7,11 @@
 	export let publications: Publication[];
 </script>
 
-<ContentSection
-	id="recent-publications"
-	title="Selected Publications"
-	align="top"
-	href_link="/publications"
-	href_title="see all"
->
-	<!-- <div slot="button">
-		<Button href="/projects">View All</Button>
-	</div> -->
+<ContentSection id="recent-publications" title="Publications" align="top">
 	<div class="grid">
 		{#each publications as publication}
 			<PublicationCard
-				slug={`publications/${publication.slug}`}
-				authors={publication.authors}
-				venue={publication.venue}
-				title={publication.shortName}
-				excerpt={publication.shortDescription}
-				coverImage={publication.image}
-				awards={publication.awards}
+            {publication}
 			/>
 		{/each}
 	</div>
@@ -38,7 +23,7 @@
 	.grid {
 		width: 100%;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
 		grid-gap: 20px;
 
 		@include for-phone-only {

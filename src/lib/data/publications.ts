@@ -2,7 +2,7 @@ import type { Publication } from '$lib/utils/types';
 
 export default [
 	{
-		name: 'Wire Your Way: Hardware-Contextualized Guidance and In-situ Tests for Personalized Circuit Prototyping (2026)',
+		name: 'Wire Your Way: Hardware-Contextualized Guidance and In-situ Tests for Personalized Circuit Prototyping',
 		shortName: 'WireWay',
 		youtube: 'https://www.youtube.com/watch?v=g0KKqrsPBd8',
 		description:
@@ -19,15 +19,15 @@ export default [
 		venue: 'CHI 2026',
 		reference: 'Reference 1',
 		links: [
-			{ text: 'arXiv', url: 'https://arxiv.org/abs/2603.05085' },
-			{ text: 'paper', url: 'https://doi.org/10.1145/3772318.3791371' }
+			{ text: 'paper', url: 'https://doi.org/10.1145/3772318.3791371' },
+			{ text: 'archive', url: '/files/publications/Lertjaturaphat_Rhee_WireWay_CHI2026.pdf' }
 		],
 		date: '2026-04-13',
 		slug: 'wireway-2026',
 		awards: [{ name: 'Honorable Mention', logo: '' }]
 	},
 	{
-		name: 'Inline Visualization and Manipulation of Real-Time Hardware Logs for Embedded Programs (2024)',
+		name: 'Inline Visualization and Manipulation of Real-Time Hardware Logs for Embedded Programs',
 		shortName: 'Inline',
 		youtube: 'https://www.youtube.com/watch?v=gAf5mNowg7A',
 		description:
@@ -51,15 +51,15 @@ export default [
 		venue: 'EICS 2024',
 		reference: 'Reference 1',
 		links: [
-			{ text: 'paper', url: '/files/publications/Bianchi_Inline_PACM2024.pdf' },
-			{ text: 'doi', url: 'https://doi.org/10.1145/3660250' }
+			{ text: 'paper', url: 'https://doi.org/10.1145/3660250' },
+			{ text: 'archive', url: '/files/publications/Bianchi_Inline_PACM2024.pdf' }
 		],
 		date: '2024-05-20',
 		slug: 'inline-2024',
 		awards: [{ name: 'Honorable Mention', logo: '' }]
 	},
 	{
-		name: 'StitchFlow: Crochet Patterns With Stitch Tracking and Process Sharing (2025)',
+		name: 'StitchFlow: Crochet Patterns With Stitch Tracking and Process Sharing',
 		shortName: 'StitchFlow',
 		youtube: 'https://www.youtube.com/watch?v=Qo6rLz8-52Y',
 		description:
@@ -76,10 +76,11 @@ export default [
 		venue: 'UIST 2025',
 		reference: 'Reference 1',
 		links: [
-			{ text: 'paper', url: '/files/publications/Marciniak_StitchFlow_UIST2025.pdf' },
-			{ text: 'doi', url: 'https://doi.org/10.1145/3746059.3747715' }
+			{ text: 'paper', url: 'https://doi.org/10.1145/3746059.3747715' },
+			{ text: 'archive', url: '/files/publications/Marciniak_StitchFlow_UIST2025.pdf' }
 		],
 		date: '2025-10-20',
-		slug: 'stitchflow-2025'
+		slug: 'stitchflow-2025',
+        awards: []
 	}
 ] as Publication[];

@@ -98,8 +98,6 @@
 				border-width: 2px;
 
 				&:hover {
-					// box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
-					scale: 1.05;
 					background-color: rgb(var(--main-color));
 					color: var(--contrast-color);
 				}

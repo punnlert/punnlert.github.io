@@ -1,23 +1,31 @@
 <script lang="ts">
 	import Card from '$lib/components/atoms/Card.svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
 
-	export let title: string;
-	export let authors: string[];
-	export let coverImage: string | undefined = undefined;
-	export let excerpt: string;
-	export let slug: string;
-	export let awards: { name: string; logo: string }[] | undefined = undefined;
-	export let venue: string | undefined = undefined;
+	import Document from '$lib/icons/document.svelte';
+	import Info from '$lib/icons/info.svelte';
+	import type { Publication } from '$lib/utils/types';
+
+	export let publication: Publication;
 
 	export let showImage = true;
+
+	const slug = `publication/${publication.slug}`;
+	const coverImage = publication.image;
+	const venue = publication.venue;
+	const awards = publication.awards;
+	const title = publication.name;
+	const authors = publication.authors;
+	const links = publication.links;
 </script>
 
 <Card
 	href="/{slug}"
 	target="_self"
 	additionalClass=" {!showImage || !coverImage ? 'no-image' : ''} publication-post-card"
+	orientation="horizontal"
 >
 	<div class="image" slot="image">
 		{#if coverImage}
@@ -25,8 +33,16 @@
 		{/if}
 	</div>
 	<div class="content" slot="content">
-		<p class="title">
-			<span>{title}</span>
+		<div class="title">
+			<div class="venue">
+				{venue}
+				{#if awards.length}
+					{#each awards as award}
+						• {award.name}
+					{/each}
+				{/if}
+			</div>
+			<span>{title} </span>
 			<svg
 				width="30"
 				height="30"
@@ -42,42 +58,37 @@
 					fill="currentColor"
 				/>
 			</svg>
-		</p>
+		</div>
 
-		{#if excerpt}
-			<p class="text">
-				{excerpt}
-			</p>
-		{/if}
-		{#if authors?.length}
-			<div class="authors">
-				{#each authors as author, i}
-					{#if author === 'Punn Lertjaturaphat' || author === 'Punn Lertjaturaphat*'}
-						<b>{author}</b>
-					{:else}
-						{author}
-					{/if}
-					{#if i !== authors.length - 1}
-						{', '}
-					{/if}
-				{/each}
-			</div>
-		{/if}
+		<div class="authors">
+			{#each authors as author, i}
+				{#if author === 'Punn Lertjaturaphat' || author === 'Punn Lertjaturaphat*'}
+					<b>{author}</b>
+				{:else}
+					{author}
+				{/if}
+				{#if i !== authors.length - 1}
+					{', '}
+				{/if}
+			{/each}
+		</div>
 	</div>
 	<div class="footer" slot="footer">
-		{#if awards?.length}
-			{#each awards as award}
-				<Tag color="primary">{award.name}</Tag>
-			{/each}
-		{/if}
-		{#if venue}
-			<Tag>{venue}</Tag>
-		{/if}
+		{#each links as link}
+			<Button href={link.url} target="_blank">
+				{#if link.text == 'paper'}
+					<Document slot="icon" />
+				{:else}
+					<Info slot="icon" />
+				{/if}
+				{link.text}
+			</Button>
+		{/each}
 	</div>
 </Card>
 
 <style lang="scss">
-	@use '$lib/scss/breakpoints.scss' as *;
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	.content {
 		display: flex;
@@ -88,14 +99,26 @@
 
 	.title {
 		display: flex;
-		align-items: center;
+		flex-direction: column;
+		position: relative;
+		align-items: flex-start;
 		justify-content: space-between;
 		width: 100%;
 		font-size: 1.2rem;
 		font-family: var(--font--default);
 		font-weight: 700;
 
+		.venue {
+			font-size: 1rem;
+			font-weight: 600;
+			line-height: 1;
+			margin-bottom: calc(1.2rem * 0.5);
+		}
+
 		svg {
+			position: absolute;
+			top: 0;
+			right: 0;
 			width: 16px;
 			height: 16px;
 			flex-shrink: 0;
