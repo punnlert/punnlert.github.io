@@ -79,5 +79,6 @@
 		height: 100%;
 		// max-height: 40vh;
 		object-fit: contain;
+        transition: all 0.4s ease;
 	}
 </style>

@@ -45,7 +45,6 @@
 
 	.card {
 		background: var(--color--card-background);
-		// border-top: 2px solid var(--color--text);
 		border-bottom: 2px solid var(--color--text);
 		color: var(--color--text);
 		border-radius: 0;
@@ -72,7 +71,9 @@
 		&[onclick] {
 			cursor: pointer;
 			&:hover {
-				scale: 1.05;
+				:global(.image img) {
+					scale: 1.05;
+				}
 			}
 		}
 	}
@@ -101,6 +102,7 @@
 		position: relative;
 		width: 100%;
 		height: 200px;
+		overflow: hidden;
 		flex-shrink: 0;
 	}
 
