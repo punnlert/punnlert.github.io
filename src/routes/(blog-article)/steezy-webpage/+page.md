@@ -79,7 +79,7 @@ The product page is a simple, minimalistic grid with a lot of breathing room.
 
 ## What I learned
 
-I always want to try implementing fun and interactive website but my problem is I don't have the material to fully implement one. This is a great opportunity for me to try implement quirky, unique interactivity; from simple stuff like implementing [smooth scrolling](https://github.com/darkroomengineering/lenis), to challenging new stuffs like [video on scroll](#about-page), [text reveal effect](#contact-page), 
+I always want to try implementing fun and interactive website but my problem is I don't have the material to fully implement one. This is a great opportunity for me to try implement quirky, unique interactivity; from simple stuff like implementing [smooth scrolling](https://github.com/darkroomengineering/lenis), to challenging new stuffs like [video on scroll](#about-page), [text reveal effect](#contacts-page),
 
 <style lang="scss">
     .drawing_container {
