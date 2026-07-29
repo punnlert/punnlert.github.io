@@ -15,7 +15,8 @@
 </div>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_mixins.scss' as *;
+
 	.announcement {
 		padding-top: 10px;
 		padding-bottom: 10px;

@@ -29,25 +29,17 @@
 				})}
 			</div>
 		</div>
-		<div class="credits">
-			Sveltekit template by <a
-				href="https://fantinel.dev?utm_source=site-template"
-				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
 	</div>
 </footer>
 
 <style lang="scss">
-	@import '$lib/scss/_mixins.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	footer {
 		height: fit-content;
 		padding-top: 100px;
 		padding-bottom: 50px;
 		width: 100%;
-		// background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
 		display: grid;
 		grid-template-rows: 120px 1fr;
 		.myself {

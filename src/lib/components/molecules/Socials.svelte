@@ -81,7 +81,8 @@
 </div>
 
 <style lang="scss">
-	@import '../../scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss' as *;
+
 	.socials {
 		display: flex;
 		align-items: center;

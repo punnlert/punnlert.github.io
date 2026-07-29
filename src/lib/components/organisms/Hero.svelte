@@ -29,7 +29,7 @@
 </section>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	#hero {
 		display: flex;

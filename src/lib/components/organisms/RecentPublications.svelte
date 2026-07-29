@@ -33,7 +33,7 @@
 </ContentSection>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	.grid {
 		width: 100%;

@@ -59,8 +59,8 @@
 </header>
 
 <style lang="scss">
-	@import '$lib/scss/breakpoints.scss';
-	@import '$lib/scss/themes.scss';
+	@use '$lib/scss/_breakpoints.scss' as *;
+	@use '$lib/scss/_themes.scss' as *;
 
 	header {
 		position: relative;

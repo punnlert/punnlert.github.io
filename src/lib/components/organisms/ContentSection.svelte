@@ -56,7 +56,7 @@
 </section>
 
 <style lang="scss">
-	@import '../../scss/breakpoints.scss';
+	@use '$lib/scss/breakpoints.scss' as *;
 
 	.content-section {
 		display: flex;
