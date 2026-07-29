@@ -23,7 +23,7 @@
 </div>
 
 <style lang="scss">
-	@use '$lib/scss/_mixins.scss' as *;
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	.postcard {
 		box-shadow: var(--card-shadow);

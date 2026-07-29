@@ -39,7 +39,7 @@
 </div>
 
 <style lang="scss">
-	@use '$lib/scss/_mixins.scss' as *;
+	@use '$lib/scss/_breakpoints.scss' as *;
 
 	.article-layout {
 		--body-background-color: var(--color--post-page-background);
