@@ -22,6 +22,14 @@ const config = {
 			$routes: path.resolve('./src/routes')
 		}
 	},
+	css: {
+		preprocessorOptions: {
+			scss: {
+				silenceDeprecations: ['legacy-js-api']
+			}
+		}
+	},
+
 	define: {
 		__LAST_UPDATED__: JSON.stringify(getLastCommitDate())
 	}

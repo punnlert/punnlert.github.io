@@ -44,9 +44,5 @@
 		#{color.channel($color, 'red', $space: rgb)}, #{color.channel($color, 'green', $space: rgb)},
 		#{color.channel($color, 'blue', $space: rgb)};
 
-	--color--#{$title}-contrast: #{if(
-			brightness($color) > 186,
-			var(--color--text),
-			var(--color--text-inverse)
-		)};
+	--color--#{$title}-contrast: #{if(sass(brightness($color) > 186): var(--color--text); else: var(--color--text-inverse))};
 }

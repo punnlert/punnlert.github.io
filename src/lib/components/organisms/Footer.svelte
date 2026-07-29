@@ -52,11 +52,11 @@
 			.last-updated {
 				font-weight: 400;
 				font-size: 90%;
+				color: var(--color--text-shade);
 
 				@include for-phone-only {
 					font-size: 0.8rem;
 				}
-				color: var(--color--text-shade);
 			}
 		}
 

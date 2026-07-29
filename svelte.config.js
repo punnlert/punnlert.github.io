@@ -10,6 +10,13 @@ const extensions = ['.svelte', '.md'];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	vitePlugin: {
+		onwarn: (warning, defaultHandler) => {
+			if (warning.code === 'css-unused-selector') return;
+
+			defaultHandler(warning);
+		}
+	},
 	kit: {
 		adapter: adapter(),
 		paths: {

@@ -138,6 +138,10 @@
 		padding-right: 15px;
 		padding-left: 15px;
 
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
 		@include for-iphone-se {
 			padding-left: 0;
 			padding-right: 0;
@@ -152,10 +156,6 @@
 			padding-right: 30px;
 			padding-left: 30px;
 		}
-
-		display: flex;
-		flex-direction: column;
-		gap: 30px;
 
 		.header {
 			display: flex;

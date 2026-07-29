@@ -53,6 +53,12 @@
 		overflow: hidden;
 		width: 100%;
 
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		text-decoration: none;
+
 		@include for-tablet-landscape-up {
 			height: 500px;
 		}
@@ -60,12 +66,6 @@
 		@include for-phone-only {
 			border-bottom: 1px solid var(--color--text);
 		}
-
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-
-		text-decoration: none;
 
 		&[href],
 		&[onclick] {
