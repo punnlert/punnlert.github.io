@@ -14,7 +14,7 @@
 			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
 			<!-- fun physical experience into an otherwise mundane digital task we perform everyday. -->
 			I am a KAIST undergraduate majoring in Industrial Design and Computer Science. Previously working
-			with Professor Andrea Bianchi in <a href="https://make.kaist.ac.kr/"> Make Lab </a>
+			with Professor Andrea Bianchi in <a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab </a>
 		</p>
 		<p>
 			My motivation in research and in design lies in
@@ -25,8 +25,7 @@
 				>enhances creative process not by making it faster or easier but by helping the people
 				understand it better.</i
 			>
-			<!-- As a passionate maker, I believe that the connection with your craft lies as much in the -->
-			<!-- process as in the final result. While faster and easier tools are important, I think focusing on it too much makes the making boring -->
+			Heavily inspired by <a href="https://worrydream.com/" target="_blank">Bret Victor.</a>
 		</p>
 		<p>
 			Weekends and end of the days I am going to either be making weird sounds on my synths or

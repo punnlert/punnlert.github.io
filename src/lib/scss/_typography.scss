@@ -1,5 +1,13 @@
 @use '$lib/scss/_breakpoints.scss' as *;
 
+@font-face {
+	font-family: 'Editorial Old';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 300;
+	src: url('$lib/fonts/PPEditorialOld-Light.woff2');
+}
+
 a {
 	color: var(--color--secondary);
 	text-decoration: none;

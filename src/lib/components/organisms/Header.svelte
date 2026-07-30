@@ -165,8 +165,7 @@
 
 			p {
 				font-size: var(--h4-font-size);
-				font-family: var(--font--emphasize);
-				letter-spacing: -1px;
+				letter-spacing: -2px;
 				line-height: 1;
 			}
 

@@ -9,7 +9,7 @@ tags:
   - Product Design
   - Real Production
   - Interaction Design
-hidden: true 
+hidden: false
 startDate: 2025-03
 endDate: 2025-10
 importance: 3

@@ -1,15 +1,19 @@
 @use '$lib/scss/_mixins.scss' as *;
 
 @mixin base-theme {
-	@include define-color('primary', #fdcf2f);
+	@include define-color('primary', #fdc841);
 	@include define-color('primary-shade', #d2b429);
 	@include define-color('primary-tint', #ffe595);
 
-	@include define-color('secondary', #fa52aa);
+	@include define-color('secondary', #fc4281);
 	@include define-color('secondary-shade', #d24087);
 	@include define-color('secondary-tint', #f7b6db);
 
-	@include define-color('tertiary', #1d6efa);
+	// @include define-color('secondary', #fa52aa);
+	// @include define-color('secondary-shade', #d24087);
+	// @include define-color('secondary-tint', #f7b6db);
+
+	@include define-color('tertiary', #4273fc);
 	@include define-color('tertiary-shade', #1756c3);
 	@include define-color('tertiary-tint', #b3d6f7);
 
@@ -18,9 +22,9 @@
 	@include define-color('text-inverse', #ffffff);
 	@include define-color('text-inverse-shade', #9eb4b5);
 
-	@include define-color('page-background', #f1eee9);
-	@include define-color('post-page-background', #f1eee9);
-	@include define-color('card-background', #f1eee9);
+	@include define-color('page-background', #ffffff);
+	@include define-color('post-page-background', #ffffff);
+	@include define-color('card-background', #ffffff);
 
 	// Used for Callout component
 	@include define-color('callout-text', #1c1e26);
