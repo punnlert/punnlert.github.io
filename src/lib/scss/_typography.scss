@@ -4,7 +4,23 @@ a {
 	color: var(--color--secondary);
     text-decoration: none;
     font-weight: 700;
-	transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-out;
+
+    // animatable stand-in for text-decoration: underline
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1px;
+
+   // if want to opt out then set background-image:none;
+
+    &:hover {
+      background-size: 100% 1px;
+  }
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+  }
 }
 
 ::selection {

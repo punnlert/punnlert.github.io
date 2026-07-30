@@ -79,8 +79,8 @@
 
 			p {
 				i {
-					color: var(--color--secondary) ;
-					font-weight: 600;
+					// color: var(--color--secondary);
+					font-weight: 800;
 				}
 				@include for-phone-only {
 					text-align: justify;

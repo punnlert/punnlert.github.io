@@ -140,6 +140,8 @@
 				color: rgb(var(--main-color));
 				padding-left: 0;
 				padding-right: 0;
+				background-image: none;
+                font-weight: 400;
 
 				&:hover {
 					background-color: rgb(var(--light-color));

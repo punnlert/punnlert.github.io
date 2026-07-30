@@ -116,6 +116,8 @@
 		.logo {
 			height: 44px;
 			flex: 1;
+
+				background-image: none;
 		}
 
 		a {
@@ -136,15 +138,15 @@
 					font-weight: 400;
 				}
 
-				&:hover,
-				&[aria-current='page'] {
-					// text-decoration: underline;
-					// text-decoration-thickness: 1px;
+				// &:hover,
+				// &[aria-current='page'] {
+				// text-decoration: underline;
+				// text-decoration-thickness: 1px;
 
-					// get rid of shadows
-					color: var(--color--secondary);
-					// filter: drop-shadow(0px 0px 3px var(--color--primary));
-				}
+				// get rid of shadows
+				// color: var(--color--secondary);
+				// filter: drop-shadow(0px 0px 3px var(--color--primary));
+				// }
 			}
 		}
 	}
@@ -171,8 +173,14 @@
 			font-style: italic;
 		}
 
+		a {
+			font-weight: 400;
+			color: var(--color--text);
+		}
+
 		[aria-current='page'] {
 			font-weight: 800;
+			color: var(--color--secondary);
 		}
 
 		[aria-current='page']::before {
