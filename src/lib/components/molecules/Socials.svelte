@@ -113,6 +113,7 @@
 			fill: var(--color--text);
 			text-decoration: none;
 			font-weight: 400;
+			background-image: none;
 
 			&.link-with-arrow {
 				display: inline-flex;
@@ -130,12 +131,11 @@
 				}
 			}
 
-			&:hover {
-				color: var(--color--secondary);
+			// &:hover {
 				// fill: var(--color--primary);
 				// filter: drop-shadow(0px 0px 3px var(--color--primary));
 				// font-weight: 600;
-			}
+			// }
 		}
 	}
 </style>
