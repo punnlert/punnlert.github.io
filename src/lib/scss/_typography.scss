@@ -1,21 +1,20 @@
 @use "$lib/scss/_breakpoints.scss" as *;
 
 a {
-	color: var(--color--text);
-	text-decoration-color: var(--color--text);
-	text-underline-offset: 4px;
-	text-decoration-thickness: 2px;
+	color: var(--color--secondary);
+    text-decoration: none;
+    font-weight: 700;
 	transition: all 0.2s ease-in-out;
-
-	&:hover {
-		text-underline-offset: 8px;
-	}
 }
 
 ::selection {
 	background-color: rgba(var(--color--primary-rgb), 0.3);
 	color: var(--color--text);
 	text-shadow: none;
+}
+
+p {
+  font-weight: 400;
 }
 
 strong,
@@ -25,6 +24,12 @@ b {
 em,
 i {
 	font-style: italic;
+
+    // this is for when you want to use the serif font
+    // font-family: var(--font--emphasize);
+    // font-size: 1.15em;
+    // letter-spacing: -0.5px;
+    font-weight: 400;
 }
 
 // #region Titles

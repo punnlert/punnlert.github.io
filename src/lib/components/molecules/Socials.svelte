@@ -112,6 +112,7 @@
 			color: var(--color--text);
 			fill: var(--color--text);
 			text-decoration: none;
+			font-weight: 400;
 
 			&.link-with-arrow {
 				display: inline-flex;
@@ -130,10 +131,10 @@
 			}
 
 			&:hover {
-				// color: var(--color--primary);
+				color: var(--color--secondary);
 				// fill: var(--color--primary);
 				// filter: drop-shadow(0px 0px 3px var(--color--primary));
-                font-weight: 600;
+				// font-weight: 600;
 			}
 		}
 	}

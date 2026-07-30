@@ -62,7 +62,7 @@
 			</svg>
 		</div>
 
-		<div class="authors">
+		<p class="authors">
 			{#each authors as author, i}
 				{#if author === 'Punn Lertjaturaphat' || author === 'Punn Lertjaturaphat*'}
 					<b>{author}</b>
@@ -73,7 +73,7 @@
 					{', '}
 				{/if}
 			{/each}
-		</div>
+		</p>
 	</div>
 	<div class="footer" slot="footer">
 		{#each links as link}

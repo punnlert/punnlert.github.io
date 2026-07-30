@@ -46,8 +46,9 @@
 		</a>
 		<div class="links">
 			{#each paths as { name, path }}
+				{@const active = '/' + $page.url.pathname.split('/')[1] === path ? 'page' : null}
 				{#if name != 'Home'}
-					<a href={path} data-sveltekit-preload-data>{name}</a>
+					<a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a>
 				{/if}
 			{/each}
 			<a href="/files/resume.pdf" target="_blank">Resume</a>
@@ -135,12 +136,13 @@
 					font-weight: 400;
 				}
 
-				&:hover {
-					text-decoration: underline;
-					text-decoration-thickness: 1px;
+				&:hover,
+				&[aria-current='page'] {
+					// text-decoration: underline;
+					// text-decoration-thickness: 1px;
 
 					// get rid of shadows
-					// color: var(--color--primary);
+					color: var(--color--secondary);
 					// filter: drop-shadow(0px 0px 3px var(--color--primary));
 				}
 			}

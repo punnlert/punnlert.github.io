@@ -9,9 +9,7 @@
 		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
 	</div>
 	<div class="info">
-		<h3>
-			Hi! I'm Punn Lertjaturaphat.
-		</h3>
+		<h3>Hi! I'm Punn Lertjaturaphat.</h3>
 		<p>
 			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
 			<!-- fun physical experience into an otherwise mundane digital task we perform everyday. -->
@@ -19,10 +17,14 @@
 			with Professor Andrea Bianchi in <a href="https://make.kaist.ac.kr/"> Make Lab </a>
 		</p>
 		<p>
-			My motivation in research and in design lies in creating intellectually-munchable interaction.
-			I strive to make tools that help people think and see. Tools that let people be in control.
-			Interaction that enhances creative process not by making it faster or easier but by helping
-			the people understand it better.
+			My motivation in research and in design lies in
+			<i> creating an intellectually-munchable interaction. </i>
+			I strive to make tools that help people think and see. Tools that let people be in control. Interaction
+			that
+			<i
+				>enhances creative process not by making it faster or easier but by helping the people
+				understand it better.</i
+			>
 			<!-- As a passionate maker, I believe that the connection with your craft lies as much in the -->
 			<!-- process as in the final result. While faster and easier tools are important, I think focusing on it too much makes the making boring -->
 		</p>
@@ -68,13 +70,18 @@
 			display: flex;
 			flex-direction: column;
 			gap: 10px;
-			h2 {
+			h3 {
+				font-family: var(--font--title);
 				@include for-phone-only {
 					text-align: center;
 				}
 			}
 
 			p {
+				i {
+					color: var(--color--secondary) ;
+					font-weight: 600;
+				}
 				@include for-phone-only {
 					text-align: justify;
 				}

@@ -13,13 +13,7 @@
 @use '$lib/scss/_lightbox.scss' as *;
 
 @use '@fontsource-variable/manrope' as *;
-@use '@fontsource-variable/eb-garamond' as *;
-@use '@fontsource-variable/source-serif-4' as *;
-@use '@fontsource/instrument-serif' as *;
-@use '@fontsource/instrument-serif' as *;
-@use '@fontsource/libre-caslon-display' as *;
-@use '@fontsource/libre-caslon-condensed' as *;
-@use '@fontsource/libre-caslon-text' as *;
+@use '@fontsource-variable/fraunces/wght.css' as *;
 
 body {
 	--body-background-color: var(--color--page-background);

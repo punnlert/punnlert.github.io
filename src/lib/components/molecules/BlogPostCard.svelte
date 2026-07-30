@@ -95,10 +95,9 @@
 			transition: transform 0.2s ease;
 		}
 
-        span {
-
+		span {
 			transition: transform 0.2s ease;
-        }
+		}
 	}
 
 	:global(.blog-post-card:hover .title svg) {
