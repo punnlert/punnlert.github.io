@@ -165,7 +165,7 @@
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
 
-			h1 {
+			h4 {
 				line-height: 1.25;
 				margin-bottom: 20px;
 			}
@@ -181,6 +181,7 @@
 			gap: 10px;
 			padding-bottom: 10px;
 			border-bottom: 1px solid var(--color--text);
+			line-height: 1.25;
 
 			.author {
 				display: flex;
@@ -225,7 +226,6 @@
 				}
 			}
 		}
-
 
 		b {
 			font-weight: 800;

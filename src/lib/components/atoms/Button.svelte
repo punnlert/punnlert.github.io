@@ -121,6 +121,7 @@
 				// color: var(--color--page-background);
 				border-style: solid;
 				border-width: 2px;
+				background-image: none;
 
 				&:hover {
 					background-color: rgb(var(--main-color));
@@ -130,7 +131,8 @@
 			&--understated {
 				background-color: rgb(var(--light-color));
 				color: rgb(var(--main-color));
-
+				background-image: none;
+                
 				&:hover {
 					box-shadow: 0px 0px 1px 7px rgba(var(--main-color), 0.3);
 				}
@@ -141,7 +143,7 @@
 				padding-left: 0;
 				padding-right: 0;
 				background-image: none;
-                font-weight: 400;
+				font-weight: 400;
 
 				&:hover {
 					background-color: rgb(var(--light-color));
