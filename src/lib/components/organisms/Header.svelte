@@ -1,13 +1,21 @@
 <script lang="ts">
-	import Logo from '$lib/components/atoms/Logo.svelte';
 	import NewLogo from '$lib/components/atoms/NewLogo.svelte';
 	import Hamburger from '$lib/icons/hamburger.svelte';
 	import { beforeNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
+	import { lerp } from '$lib/utils/lerp';
 
 	export let showBackground = false;
 
 	let showMenu = 'translateY(-100%)';
+	let scrollY: number;
+	let outerHeight: number;
+	let offset = 100;
+	let header: HTMLDivElement;
+	let headerHeight: number;
+	let hidden = false;
+	let prevScrollY = 0;
+	let rotation = 0;
 
 	const paths = [
 		{ name: 'Home', path: '/' },
@@ -26,7 +34,28 @@
 	};
 
 	beforeNavigate(() => hide());
+
+	const checkScroll = () => {
+		const scrollDown = scrollY > prevScrollY;
+		const percentRotate = scrollY / outerHeight;
+
+		rotation = Math.floor(lerp(0, 360, percentRotate));
+
+		if (scrollY > outerHeight + offset && !hidden && scrollDown) {
+			header.style.top = `-${headerHeight}px`;
+			hidden = true;
+		}
+
+		if (!scrollDown) {
+			header.style.top = `0`;
+			hidden = false;
+		}
+
+		prevScrollY = scrollY;
+	};
 </script>
+
+<svelte:window bind:scrollY bind:outerHeight on:scroll={checkScroll} />
 
 <nav class="menu" style="--show-menu: {showMenu}">
 	<ul>
@@ -40,30 +69,41 @@
 		</li>
 	</ul>
 </nav>
-<header class:has-background={showBackground}>
-	<nav class="container">
-		<a class="logo" href="/" aria-label="Site logo">
-			<NewLogo animated={false} />
-			<p>punnlert</p>
-		</a>
-		<div class="links">
-			{#each paths as { name, path }}
-				{@const active = '/' + $page.url.pathname.split('/')[1] === path ? 'page' : null}
-				{#if name != 'Home'}
-					<a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a>
-				{/if}
-			{/each}
-			<a href="/files/resume.pdf" target="_blank">Resume</a>
-			<button id="phone" on:click={show}>
-				<Hamburger />
-			</button>
-		</div>
-	</nav>
-</header>
+
+<div class="header" bind:this={header} bind:clientHeight={headerHeight}>
+	<header class:has-background={showBackground}>
+		<nav class="container">
+			<a class="logo_container" href="/" aria-label="Site logo" style:--rotate={`${rotation}deg`}>
+				<NewLogo animated={false} />
+				<p>punnlert</p>
+			</a>
+			<div class="links">
+				{#each paths as { name, path }}
+					{@const active = '/' + $page.url.pathname.split('/')[1] === path ? 'page' : null}
+					{#if name != 'Home'}
+						<a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a>
+					{/if}
+				{/each}
+				<a href="/files/resume.pdf" target="_blank">Resume</a>
+				<button id="phone" on:click={show}>
+					<Hamburger />
+				</button>
+			</div>
+		</nav>
+	</header>
+</div>
 
 <style lang="scss">
 	@use '$lib/scss/_breakpoints.scss' as *;
 	@use '$lib/scss/_themes.scss' as *;
+
+	.header {
+		position: sticky;
+		z-index: 100;
+		background: var(--color--page-background);
+		top: 0;
+		transition: all 0.2s ease-out;
+	}
 
 	header {
 		position: relative;
@@ -115,7 +155,7 @@
 			}
 		}
 
-		.logo {
+		.logo_container {
 			height: 60px;
 			flex: 1;
 			display: flex;
@@ -128,6 +168,10 @@
 				font-family: var(--font--emphasize);
 				letter-spacing: -1px;
 				line-height: 1;
+			}
+
+			:global(.logo) {
+				rotate: var(--rotate);
 			}
 		}
 
@@ -151,7 +195,7 @@
 
 				&:hover,
 				&[aria-current='page'] {
-		background-size: 100% 1px;
+					background-size: 100% 1px;
 				}
 			}
 		}
