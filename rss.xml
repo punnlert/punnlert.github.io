@@ -540,6 +540,62 @@ and when used as a planter, it can be planted directly into the ground along wit
         </item>
       
         <item>
+          <guid>https://punnlert.com/aesop</guid>
+          <title>aesop</title>
+          <description>aesop is an audiobook reading device that sync your physical book with your audiobook, helping you switch between them according to your needs!</description>
+          <link>https://punnlert.com/aesop</link>
+          <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+          <category>Product Design</category><category>Real Production</category><category>Interaction Design</category>
+          <content:encoded><![CDATA[
+            <div style="margin: 50px 0; font-style: italic;">
+              If anything looks wrong, 
+              <strong>
+                <a href="https://punnlert.com/aesop">
+                  read on the site!
+                </a>
+              </strong>
+            </div>
+
+            <div class="button_container svelte-1biqf0s"><a href="https://steezy.lol" target="_blank" rel="noopener noreferrer" class="button style--solid size--medium color--plain  svelte-d66fuh" data-sveltekit-preload-data>
+	<svg viewBox="0 0 24 24" width="1.2em" height="1.2em"><!-- HTML_TAG_START --><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/><!-- HTML_TAG_END --></svg>
+        Live Webpage
+    
+</a></div>
+<h2 id="introduction"><a class="heading-link" title="Permalink" aria-hidden="true" href="#introduction"><span></span></a>Introduction</h2>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/gameplay_1.avif, /images/posts/roger-roger/gameplay_1.webp, /images/posts/roger-roger/gameplay_1.png" src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<h2 id="the-main-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-main-screen"><span></span></a>The main screen</h2>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/start_page.avif, /images/posts/roger-roger/start_page.webp, /images/posts/roger-roger/start_page.png" src="/images/posts/roger-roger/start_page.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/score_and_info.avif, /images/posts/roger-roger/score_and_info.webp, /images/posts/roger-roger/score_and_info.png" src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/asteroid_streaming.avif, /images/posts/roger-roger/asteroid_streaming.webp, /images/posts/roger-roger/asteroid_streaming.png" src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+<figure><div aria-label="thumbnail" class="svelte-lightbox-thumbnail svelte-hpqpx9">
+	<img srcset="/images/posts/roger-roger/gameplay_2.avif, /images/posts/roger-roger/gameplay_2.webp, /images/posts/roger-roger/gameplay_2.png" src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp"></div>
+
+	</figure>
+
+	<img srcset="/images/posts/roger-roger/new_highscore.avif, /images/posts/roger-roger/new_highscore.webp, /images/posts/roger-roger/new_highscore.png" src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" loading="lazy" decoding="async" class="svelte-1805avp">
+<h2 id="the-control-screen"><a class="heading-link" title="Permalink" aria-hidden="true" href="#the-control-screen"><span></span></a>The control screen</h2>
+          ]]></content:encoded>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://punnlert.com//images/posts/aesop/cover.png"/>
+          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://punnlert.com//images/posts/aesop/cover.png"/>          
+        </item>
+      
+        <item>
           <guid>https://punnlert.com/baobal</guid>
           <title>Baobal</title>
           <description>Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.</description>
