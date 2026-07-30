@@ -82,7 +82,7 @@
 		href="https://scholar.google.com/citations?user=zBxA4FUAAAAJ&hl=en&oi=ao"
 		target="_blank"
 		rel="noopener noreferrer"
-		title="Send an email"
+		title="See me on Google Scholar"
 		class="link-with-arrow"
 	>
 		Google Scholar

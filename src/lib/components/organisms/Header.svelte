@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/atoms/Logo.svelte';
+	import NewLogo from '$lib/components/atoms/NewLogo.svelte';
 	import Hamburger from '$lib/icons/hamburger.svelte';
 	import { beforeNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
@@ -42,7 +43,8 @@
 <header class:has-background={showBackground}>
 	<nav class="container">
 		<a class="logo" href="/" aria-label="Site logo">
-			<Logo animated={false} />
+			<NewLogo animated={false} />
+			<p>punnlert</p>
 		</a>
 		<div class="links">
 			{#each paths as { name, path }}
@@ -114,10 +116,19 @@
 		}
 
 		.logo {
-			height: 44px;
+			height: 60px;
 			flex: 1;
+			display: flex;
+			align-items: center;
+			gap: 15px;
+			background-image: none;
 
-				background-image: none;
+			p {
+				font-size: var(--h4-font-size);
+				font-family: var(--font--emphasize);
+				letter-spacing: -1px;
+				line-height: 1;
+			}
 		}
 
 		a {
@@ -138,15 +149,10 @@
 					font-weight: 400;
 				}
 
-				// &:hover,
-				// &[aria-current='page'] {
-				// text-decoration: underline;
-				// text-decoration-thickness: 1px;
-
-				// get rid of shadows
-				// color: var(--color--secondary);
-				// filter: drop-shadow(0px 0px 3px var(--color--primary));
-				// }
+				&:hover,
+				&[aria-current='page'] {
+		background-size: 100% 1px;
+				}
 			}
 		}
 	}

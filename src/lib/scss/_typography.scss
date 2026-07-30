@@ -1,26 +1,26 @@
-@use "$lib/scss/_breakpoints.scss" as *;
+@use '$lib/scss/_breakpoints.scss' as *;
 
 a {
 	color: var(--color--secondary);
-    text-decoration: none;
-    font-weight: 700;
+	text-decoration: none;
+	font-weight: 700;
 	transition: all 0.2s ease-out;
 
-    // animatable stand-in for text-decoration: underline
-    background-image: linear-gradient(currentColor, currentColor);
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-    background-size: 0% 1px;
+	// animatable stand-in for text-decoration: underline
+	background-image: linear-gradient(currentColor, currentColor);
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size: 0% 1px;
 
-   // if want to opt out then set background-image:none;
+	// if want to opt out then set background-image:none;
 
-    &:hover {
-      background-size: 100% 1px;
-  }
+	&:hover {
+		background-size: 100% 1px;
+	}
 
-    @media (prefers-reduced-motion: reduce) {
-      transition: none;
-  }
+	@media (prefers-reduced-motion: reduce) {
+		transition: none;
+	}
 }
 
 ::selection {
@@ -30,7 +30,7 @@ a {
 }
 
 p {
-  font-weight: 400;
+	font-weight: 400;
 }
 
 strong,
@@ -41,11 +41,11 @@ em,
 i {
 	font-style: italic;
 
-    // this is for when you want to use the serif font
-    // font-family: var(--font--emphasize);
-    // font-size: 1.15em;
-    // letter-spacing: -0.5px;
-    font-weight: 400;
+	// this is for when you want to use the serif font
+	// font-family: var(--font--emphasize);
+	// font-size: 1.15em;
+	// letter-spacing: -0.5px;
+	font-weight: 400;
 }
 
 // #region Titles
@@ -101,7 +101,7 @@ h6 {
 }
 
 small {
-  font-size: var(--small-font-size);
+	font-size: var(--small-font-size);
 }
 
 h1,
