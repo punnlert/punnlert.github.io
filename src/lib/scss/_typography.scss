@@ -103,10 +103,8 @@ h5 {
 h6 {
 	font-size: var(--h6-font-size);
 
-	@include for-phone-only {
-		font-size: var(--p-font-size);
-	}
 }
+
 
 small {
 	font-size: var(--small-font-size);
