@@ -164,7 +164,8 @@
 			background-image: none;
 
 			p {
-				font-size: var(--h4-font-size);
+				font-family: var(--font--emphasize);
+				font-size: var(--h3-font-size);
 				letter-spacing: -2px;
 				line-height: 1;
 			}

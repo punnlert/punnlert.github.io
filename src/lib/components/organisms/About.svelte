@@ -9,12 +9,13 @@
 		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
 	</div>
 	<div class="info">
-		<h3>Hi! I'm Punn Lertjaturaphat.</h3>
+		<h1>Hi! I'm Punn Lertjaturaphat.</h1>
 		<p>
 			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
 			<!-- fun physical experience into an otherwise mundane digital task we perform everyday. -->
 			I am a KAIST undergraduate majoring in Industrial Design and Computer Science. Previously working
-			with Professor Andrea Bianchi in <a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab </a>
+			with Professor Andrea Bianchi in
+			<a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab </a>
 		</p>
 		<p>
 			My motivation in research and in design lies in
@@ -48,6 +49,7 @@
 		align-items: center;
 		padding-top: 50px;
 		padding-bottom: 50px;
+		gap: 50px;
 
 		@media (max-width: 1000px) {
 			grid-template-columns: 1fr;
@@ -69,8 +71,10 @@
 			display: flex;
 			flex-direction: column;
 			gap: 10px;
-			h3 {
-				font-family: var(--font--title);
+			h1 {
+				font-family: var(--font--emphasize);
+				line-height: 1;
+				margin-bottom: calc(var(--h2-font-size) * 0.25);
 				@include for-phone-only {
 					text-align: center;
 				}
@@ -108,14 +112,15 @@
 
 		.image {
 			margin: 0 auto;
-			max-height: 400px;
 			// box-shadow: var(--image-shadow);
 			height: fit-content;
-			max-width: 400px;
+			width: 100%;
 			border-radius: 12px;
-			border-style: solid;
-			border-width: 3px;
 			overflow: hidden;
+
+			@include for-tablet-portrait-down {
+				max-height: 400px;
+			}
 
 			img {
 				width: 100%;
