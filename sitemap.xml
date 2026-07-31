@@ -17,9 +17,6 @@
     <loc>https://punnlert.com/fun</loc>
   </url>
   <url>
-    <loc>https://punnlert.com/graphics</loc>
-  </url>
-  <url>
     <loc>https://punnlert.com/</loc>
   </url>
   <url>
@@ -48,6 +45,9 @@
   </url>
   <url>
     <loc>https://punnlert.com/steezy-webpage</loc>
+  </url>
+  <url>
+    <loc>https://punnlert.com/fun/graphics</loc>
   </url>
   <url>
     <loc>https://punnlert.com/publications/inline-2024</loc>
