@@ -1,14 +1,15 @@
-<script>
-	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
+<script lang="ts">
 	import Socials from '$lib/components/molecules/Socials.svelte';
 	import Image from '../atoms/Image.svelte';
+
+	let aboutHeight: number;
 </script>
 
 <section id="about">
-	<div class="image">
+	<div class="image" style:--aboutHeight={`${aboutHeight}px`}>
 		<Image src="/images/profile.jpeg" alt="Punn with a cat" />
 	</div>
-	<div class="info">
+	<div class="info" bind:clientHeight={aboutHeight}>
 		<h1>Hi! I'm Punn Lertjaturaphat.</h1>
 		<p>
 			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
@@ -112,10 +113,12 @@
 
 		.image {
 			margin: 0 auto;
-			// box-shadow: var(--image-shadow);
 			height: fit-content;
 			width: 100%;
+			max-height: var(--aboutHeight);
 			border-radius: 12px;
+			// border-style: solid;
+			// border-width: 3px;
 			overflow: hidden;
 
 			@include for-tablet-portrait-down {
