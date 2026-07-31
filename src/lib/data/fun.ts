@@ -7,24 +7,17 @@ const getGraphics = () => {
 
 const graphicsPaths = getGraphics();
 
-// const graphicsPaths = [
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png',
-// 	'/images/graphics/ChronicleHoodies-s2024.png'
-// ];
-
 export default [
 	{
 		name: 'Graphic Designs',
-		description: 'Posters and designs I made for clubs and organizations over the years',
+		description: 'Posters and designs I made for clubs and organizations over the years.',
 		images: graphicsPaths,
-		slug: 'graphics'
-	}
+		slug: 'fun/graphics'
+	},
+	// {
+	// 	name: 'Sketches & Rendering',
+	// 	description: 'Sketches and renderings for work. Some from projects and some for practice.',
+	// 	images: graphicsPaths,
+	// 	slug: 'fun/graphics'
+	// }
 ] as Hobbies[];
