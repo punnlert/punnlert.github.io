@@ -6,7 +6,7 @@ export default [
 		shortName: 'WireWay',
 		youtube: 'https://www.youtube.com/watch?v=g0KKqrsPBd8',
 		description:
-			'The increasing popularity of microcontroller platforms like Arduino enablesdiverse end-user developers to participate in circuit prototyping. Traditionally, follow-along tutorials serve as an essential learning method for makers, and in fact, several prior toolkits leveraged this format as a way to engage new makers. However, literature and our formative study (N=12) show that makers have unique preferences regarding the construction of their circuits and idiosyncratic ways to assess and debug problems, which contrasts with the step-by-step instructional nature of tutorials and those systems leveraging this method. To address this mismatch, we present a prototyping platform that supports personalized circuit construction and debugging. Our system utilizes an augmented breadboard, which is circuit-aware and supports on-the-fly hardware reconfiguration via contextualized guidance and in-situ circuit validation through interactive tests. Through a usability study (N=12), we demonstrate how makers leverage circuit-aware guidance and debugging to support individual building patterns.',
+			'The increasing popularity of microcontroller platforms like Arduino enables diverse end-user developers to participate in circuit prototyping. Traditionally, follow-along tutorials serve as an essential learning method for makers, and in fact, several prior toolkits leveraged this format as a way to engage new makers. However, literature and our formative study (N=12) show that makers have unique preferences regarding the construction of their circuits and idiosyncratic ways to assess and debug problems, which contrasts with the step-by-step instructional nature of tutorials and those systems leveraging this method. To address this mismatch, we present a prototyping platform that supports personalized circuit construction and debugging. Our system utilizes an augmented breadboard, which is circuit-aware and supports on-the-fly hardware reconfiguration via contextualized guidance and in-situ circuit validation through interactive tests. Through a usability study (N=12), we demonstrate how makers leverage circuit-aware guidance and debugging to support individual building patterns.',
 		shortDescription:
 			'A circuit prototyping system that supports personalized construction and debugging practices using a circuit-aware augmented breadboard with contextual guidance and in-situ validation.',
 		image: '/images/publications/wireway.png',
@@ -20,7 +20,8 @@ export default [
 		reference: 'Reference 1',
 		links: [
 			{ text: 'paper', url: 'https://doi.org/10.1145/3772318.3791371' },
-			{ text: 'archive', url: '/files/publications/Lertjaturaphat_Rhee_WireWay_CHI2026.pdf' }
+			{ text: 'archive', url: '/files/publications/Lertjaturaphat_Rhee_WireWay_CHI2026.pdf' },
+			{ text: 'presentation', url: 'https://www.youtube.com/watch?v=vgZatgrBznw' }
 		],
 		date: '2026-04-13',
 		slug: 'wireway-2026',
@@ -81,6 +82,6 @@ export default [
 		],
 		date: '2025-10-20',
 		slug: 'stitchflow-2025',
-        awards: []
+		awards: []
 	}
 ] as Publication[];

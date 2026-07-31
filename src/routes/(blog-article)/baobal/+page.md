@@ -1,7 +1,10 @@
 ---
 slug: baobal
 title: Baobal
-excerpt: Have you ever think that sometimes productivity application is a little bit toxic? Baobal is a productivity app that places more emphasis on work/life balance.
+excerpt: >-
+  Have you ever think that sometimes productivity application is a little bit
+  toxic? Baobal is a productivity app that places more emphasis on work/life
+  balance.
 coverImage: /images/posts/baobal/cover.png
 tags:
   - HCI
@@ -18,8 +21,7 @@ startDate: 2023-08-20T11:38:06.000Z
 endDate: 2023-12-19T15:00:00.000Z
 importance: 3
 ---
-
-<script lang="ts">
+<script>
   import Callout from "$lib/components/molecules/Callout.svelte";
   import CodeBlock from "$lib/components/molecules/CodeBlock.svelte";
   import LightBoxImage from "$lib/components/molecules/LightBoxImage.svelte";
@@ -34,7 +36,6 @@ importance: 3
   import DocumentIcon from "$lib/icons/document.svelte";
 
   import Carousel from "$lib/components/molecules/Carousel.svelte";
-  import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 
   const needfindingImages = [
     {src: "/images/posts/baobal/needfinding-sequence.png", alt: "Sequence Model"},
@@ -495,3 +496,4 @@ I wish we can get a glimpse of how all of this documentation get passed on to th
   }
 
 </style>
+

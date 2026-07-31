@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Publication } from '$lib/utils/types';
+	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
 	import YouTube from 'svelte-youtube';
 	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
 	import Button from '$lib/components/atoms/Button.svelte';
@@ -33,25 +34,8 @@
 		<div class="header">
 			<h4>{publication.name}</h4>
 			<div class="info-container">
-				<!-- <div class="info-item">
-					<h4>Authors</h4>
-					<div>
-						{#each publication.authors as author}
-							<p>{author}</p>
-						{/each}
-					</div>
-				</div>
-				<div class="info-item">
-					<h4>Venue</h4>
-					<p>{publication.venue}</p>
-				</div>
-				<div class="info-item">
-					<h4>My Contribution</h4>
-					<p>todo</p>
-				</div> -->
 				<h6>Authors</h6>
 				<h6>Venue</h6>
-				<!-- <h4>My Contribution</h4> -->
 			</div>
 			<div class="info-container">
 				<div class="author">
@@ -74,9 +58,14 @@
 								<Document slot="icon" />
 								{link.text}
 							</Button>
-						{:else}
+						{:else if link.text === 'archive'}
 							<Button href={link.url} target="_blank">
 								<Info slot="icon" />
+								{link.text}
+							</Button>
+						{:else}
+							<Button href={link.url} target="_blank">
+								<YoutubeIcon slot="icon" />
 								{link.text}
 							</Button>
 						{/if}
@@ -84,23 +73,6 @@
 				{/if}
 			</div>
 
-			<!-- <div class="dateperiod-container">
-				<div class="note">
-					{#if publication.date}
-						{dateformat(publication.date, 'UTC:mmmm yyyy')}
-					{/if}
-				</div>
-			</div>
-			<div class="description-container">
-				{#if publication.description}
-					<h2>Description</h2>
-					<div class="note">
-						<p>
-							{publication.description}
-						</p>
-					</div>
-				{/if}
-			</div> -->
 			{#if publication.youtube}
 				<div class="youtube-container">
 					<YouTube videoId={publication.youtube.split('v=')[1] || ''} {options} />
@@ -113,6 +85,12 @@
 					</p>
 				{/if}
 			</div>
+
+			{#if publication.presentation}
+				<div class="youtube-container">
+					<YouTube videoId={publication.presentation.split('v=')[1] || ''} {options} />
+				</div>
+			{/if}
 		</div>
 	</article>
 </div>

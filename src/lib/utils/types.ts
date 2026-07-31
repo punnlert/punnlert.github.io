@@ -54,7 +54,7 @@ export type Publication = {
 	authors: string[];
 	venue: string;
 	reference: string;
-	links: { text: "paper" | "archive"; url: string }[];
+	links: { text: 'paper' | 'archive' | 'presentation'; url: string }[];
 	date: string;
 	slug: string;
 	awards: { name: string; logo: string }[];

@@ -21,16 +21,34 @@ importance: 3
   import YoutubeIcon from "$lib/icons/socials/youtube.svelte"; 
   import GithubIcon from "$lib/icons/socials/github.svelte"; 
   import MdiWeb from '~icons/mdi/web'
+  import Carousel from "$lib/components/molecules/Carousel.svelte";
+
+  const circuitImg = [
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+  ]
+
+  const sketchImg = [
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+  ]
+
+  const finalImg = [
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+      {src: "images/placeholder.png", alt: "placeholder"},
+  ]
 </script>
 
-<!-- <div class="button_container">  -->
-<!--     <Button href="https://steezy.lol"> -->
-<!--       <MdiWeb /> -->
-<!--         Live Webpage -->
-<!--     </Button> -->
-<!-- </div> -->
-
-## Introduction
+### Introduction
 
 aesop is a audiobook reader that can sync your audiobook with your physical book. When you want to continue from the page that you left off, simply scan the page number or manually input it with the rotating knob.
 
@@ -40,7 +58,7 @@ If you forgot anything about the characters or events, simply ask aesop and it w
 
 <Image src="/images/placeholder.png" alt="placeholder"/>
 
-## Background
+### Background
 
 Researches have suggested that modern lifestyle suffers from fractured and disconnected leisure time. In other words, the free time we have is often interrupted by other tasks, like long commute time to work, house chores, or socializing. This leaves only small block of time between each task for us to enjoy ourselves. Smartphone and social media is the most likely method people use to unwind because it is easy to access and require less attention to enjoy.
 
@@ -54,21 +72,57 @@ Researcher have also shown that there is a steady decline in reading for pleasur
 
 I happen to have found a reddit post mentioning how they incorporate audiobook with their daily reading. They would listen to the audiobooks during the day when they are commuting and doing trivial chores, and then they would come home and read before bed. I think this is a good way to incorporate reading into daily life, so I designed this device.
 
-<!-- <LightBoxImage src="/images/posts/roger-roger/gameplay_1.png" alt="Picture showing gameplay while the rocket shoots the asteroid" withLightbox={true}/> -->
-<!-- <LightBoxImage src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/> -->
-<!---->
-<!-- ## The main screen -->
-<!---->
-<!-- <LightBoxImage src="/images/posts/roger-roger/start_page.png" alt="Start Page" withLightbox={true}/> -->
-<!---->
-<!-- <LightBoxImage src="/images/posts/roger-roger/score_and_info.png" alt="Start Page" withLightbox={true}/> -->
-<!---->
-<!-- <LightBoxImage src="/images/posts/roger-roger/asteroid_streaming.png" alt="Start Page" withLightbox={true}/> -->
-<!---->
-<!-- <LightBoxImage src="/images/posts/roger-roger/gameplay_2.png" alt="Start Page" withLightbox={true}/> -->
-<!-- <Image src="/images/posts/roger-roger/new_highscore.png" alt="Start Page" withLightbox={true}/> -->
-<!---->
-<!-- ## The control screen -->
+### Development
+
+#### Electronics
+
+I begin the development on the circuit. I made a prototype on the breadboard and noted the connections made. The whole device consisted of
+
+1. Microcomputer (Raspberry Pi)
+2. Microphone
+3. Camera
+4. Audio output circuit
+5. Rotary Encoder
+6. Control Buttons
+7. E-ink display
+
+<Carousel images={circuitImg} label="images" withLightbox={true}></Carousel>
+
+#### Case
+
+I made multiple sketches of body enclosures with multiple ways of attaching the device to a book.
+
+<Carousel images={sketchImg} label="images" withLightbox={true}></Carousel>
+
+I like this design the most because it also turns the device into a bookmard. Later on, I designed a magnetic back so that the devices can changes the attachment depending on the user's need.
+
+<Image src="/images/placeholder.png" alt="placeholder"/>
+
+The case design is incremental along with the [PCB Design.](#pcb-design) Any component conflict on the PCB (like if this component is here it would block other component during installation) and the case have to go through a minor or major adjustment.
+
+#### PCB Design
+
+I designed a PCB (Printed Circuit Board) as a Raspberry Pi HAT (Hardware Attached on Top). It took a couple version along with the case development to resolve all the components position conflict. It took a lot of soldering until the final layout is ready.
+<Image src="/images/placeholder.png" alt="placeholder"/>
+<Image src="/images/placeholder.png" alt="placeholder"/>
+
+#### Programming
+
+Developing the software for this was not an easy task, especially since I did not have any prior experience developing for embedded Linux-based device. In the end, even though the aesop is not the fastest to boot up (2 minutes), it still boots up and work for the demo.
+
+### Final Product
+
+<Image src="/images/placeholder.png" alt="placeholder"/>
+<Carousel images={finalImg} label="images" withLightbox={true}></Carousel>
+
+### Exhibition
+
+This work was exhibited at KAIST ID Exhibition 2025. The exhibition took place at KAIST and Nodeul Gallery, Seoul.
+<Image src="/images/placeholder.png" alt="placeholder"/>
+
+### What I learned
+
+This project was very huge and ambitious for me at the time. I imagine how cool it must be to love a project so much and polish it until it is nice and shiny -- all by myself! However, as I progress, I soon realize why product _realization_ is a team work. Turns out ideating, designing, fabricating, programming, and testing is a lot of work for one person in the time frame of one year. At the end I came out exhausted and tired yet strangely satisfy having completed more or less what I have envisioned. I learned a great deal about handheld ergonomics, 3D modelling for assembly, rendering, PCB designing, programming for embedded device. It was a joy to implement and develop and it inspires me to make more physical products.
 
 <style>
     .drawing_container {
