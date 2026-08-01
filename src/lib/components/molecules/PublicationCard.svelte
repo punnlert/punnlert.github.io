@@ -6,6 +6,7 @@
 
 	import Document from '$lib/icons/document.svelte';
 	import Info from '$lib/icons/info.svelte';
+	import YoutubeIcon from '$lib/icons/socials/youtube.svelte';
 	import type { Publication } from '$lib/utils/types';
 
 	export let publication: Publication;
@@ -82,9 +83,14 @@
 					<Document slot="icon" />
 					{link.text}
 				</Button>
-			{:else}
+			{:else if link.text === 'archive'}
 				<Button style="clear" href={link.url} target="_blank">
 					<Info slot="icon" />
+					{link.text}
+				</Button>
+			{:else}
+				<Button style="clear" href={link.url} target="_blank">
+					<YoutubeIcon slot="icon" />
 					{link.text}
 				</Button>
 			{/if}

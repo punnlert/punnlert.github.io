@@ -76,6 +76,7 @@
 				font-family: var(--font--emphasize);
 				line-height: 1;
 				margin-bottom: calc(var(--h2-font-size) * 0.25);
+				margin-top: calc(var(--h2-font-size) * 0.5);
 				@include for-phone-only {
 					text-align: center;
 				}

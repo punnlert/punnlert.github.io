@@ -9,12 +9,19 @@
 </script>
 
 <footer>
-	<div class="container">
+	<div class="container grid">
 		<div class="myself">
 			<div class="copyrights">
 				&copy; {new Date().getFullYear()} Punn Lertjaturaphat.
-				<a href="/contact">contact.</a>
 				<br />All Rights Reserved.
+			</div>
+			<div class="gmail">
+				<button
+					on:click={async () => {
+						await navigator.clipboard.writeText('punnlertjaturaphat@gmail.com');
+                        alert("Email Copied to Clipboard")
+					}}>punnlertjaturaphat@gmail.com</button
+				>
 			</div>
 			<div class="last-updated">
 				Last updated on {lastUpdatedDate.toLocaleDateString(undefined, {
@@ -32,24 +39,38 @@
 
 	footer {
 		height: fit-content;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 100px;
+		padding-bottom: 50px;
 		width: 100%;
-		background-color: var(--color--primary);
-		font-weight: 600;
+
 		.myself {
 			display: flex;
 			flex-direction: column;
 			gap: 5px;
+			justify-content: center;
+			align-items: center;
+			grid-column-end: span 3;
 
 			.copyrights {
-				a {
-					color: var(--color--text);
-				}
+				text-align: center;
 			}
 
 			.last-updated {
 				font-weight: 400;
+			}
+
+			.gmail {
+				button {
+					background: none;
+					border: none;
+					padding: 0;
+					font: inherit;
+					color: var(--color--text);
+					text-decoration: underline solid 1px;
+					cursor: pointer;
+					-webkit-user-select: text;
+					user-select: text;
+				}
 			}
 		}
 	}

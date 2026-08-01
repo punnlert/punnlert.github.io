@@ -8,22 +8,6 @@
 </script>
 
 <div class="socials">
-	<!-- <a
-		href="#"
-		target="_blank"
-		rel="noopener noreferrer"
-		title="Say Hi on Telegram"
-	>
-		<TelegramIcon />
-	</a>
-	<a
-		href="#"
-		target="_blank"
-		rel="me noreferrer"
-		title="Say Hi on Mastodon"
-	>
-		<MastodonIcon />
-	</a> -->
 	<a
 		href="https://github.com/punnlert"
 		target="_blank"
@@ -106,6 +90,10 @@
 		align-items: center;
 		gap: 30px;
 
+		@include for-phone-only {
+			gap: 10px;
+		}
+
 		a {
 			transition: all 0.2s ease-in-out;
 			width: auto;
@@ -114,28 +102,38 @@
 			text-decoration: none;
 			font-weight: 400;
 			background-image: none;
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
 
-			&.link-with-arrow {
-				display: inline-flex;
-				align-items: center;
-				gap: 7px;
+			svg {
+				width: 12px;
+				height: 12px;
+				transition: transform 0.2s ease;
 
-				svg {
-					width: 12px;
-					height: 12px;
-					transition: transform 0.2s ease;
-				}
-
-				&:hover svg {
-					transform: rotate(45deg);
+				@include for-phone-only {
+					display: none;
 				}
 			}
 
-			// &:hover {
-				// fill: var(--color--primary);
-				// filter: drop-shadow(0px 0px 3px var(--color--primary));
-				// font-weight: 600;
-			// }
+			&:hover svg {
+				transform: rotate(45deg);
+			}
+
+			@include for-phone-only {
+				--size: 80px;
+				background-color: var(--color--primary);
+				width: var(--size);
+				height: var(--size);
+				border-style: solid;
+				border-width: 1px;
+				justify-content: center;
+				text-align: center;
+				border-radius: var(--size);
+				display: inline-flex;
+				align-items: center;
+				gap: 7px;
+			}
 		}
 	}
 </style>
