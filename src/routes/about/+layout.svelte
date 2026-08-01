@@ -16,7 +16,6 @@
 </svelte:head>
 
 <div class="article-layout">
-	<Header />
 
 	<main>
 		<article id="article-content">
@@ -35,7 +34,6 @@
 		</article>
 	</main>
 
-	<Footer />
 </div>
 
 <style lang="scss">

@@ -26,10 +26,8 @@
 
 <!-- <Waves /> -->
 
-<Header />
 
 <main>
 	<slot />
 </main>
 
-<Footer />

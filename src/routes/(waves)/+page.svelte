@@ -18,8 +18,6 @@
 
 <!-- <Announcement /> -->
 <div class="container">
-	<!-- <Hero /> -->
-
 	<About />
 	{#if events && events.length > 0}
 		<RecentEvents {events} />
@@ -30,5 +28,4 @@
 	{#if publications && publications.length > 0}
 		<RecentPublications {publications} />
 	{/if}
-	<!-- <Features {features} /> -->
 </div>

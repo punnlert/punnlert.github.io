@@ -2,11 +2,13 @@
 	import '$lib/scss/global.scss';
 	import 'lenis/dist/lenis.css';
 	import Analytics from '$lib/data/Analytics.svelte';
-	import ViewTransition from '$lib/components/atoms/Navigation.svelte'
-    	import Lenis from 'lenis';
+	import ViewTransition from '$lib/components/atoms/Navigation.svelte';
+	import Header from '$lib/components/organisms/Header.svelte';
+	import Footer from '$lib/components/organisms/Footer.svelte';
+	import Lenis from 'lenis';
 	import { onMount } from 'svelte';
 
-    onMount(() => {
+	onMount(() => {
 		const lenis = new Lenis({
 			autoRaf: true,
 			autoToggle: true,
@@ -22,4 +24,8 @@
 <Analytics />
 <ViewTransition />
 
-<slot />
+<Header />
+
+	<slot />
+
+<Footer />
