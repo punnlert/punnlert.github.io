@@ -121,7 +121,7 @@
 			}
 
 			@include for-phone-only {
-				--size: 80px;
+				--size: 70px;
 				background-color: var(--color--primary);
 				width: var(--size);
 				height: var(--size);
@@ -133,6 +133,8 @@
 				display: inline-flex;
 				align-items: center;
 				gap: 7px;
+				font-size: var(--small-font-size);
+				font-weight: 600;
 			}
 		}
 	}
