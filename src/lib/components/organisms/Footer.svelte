@@ -9,17 +9,12 @@
 </script>
 
 <footer>
-	<!-- <div class="wave">
-		<FooterWave />
-	</div> -->
-	<div class="content">
+	<div class="container">
 		<div class="myself">
 			<div class="copyrights">
 				&copy; {new Date().getFullYear()} Punn Lertjaturaphat.
-			</div>
-			<div class="copyrights">All rights reserved.</div>
-			<div class="socials">
-				<Socials />
+				<a href="/contact">contact.</a>
+				<br />All Rights Reserved.
 			</div>
 			<div class="last-updated">
 				Last updated on {lastUpdatedDate.toLocaleDateString(undefined, {
@@ -37,68 +32,25 @@
 
 	footer {
 		height: fit-content;
-		padding-top: 100px;
-		padding-bottom: 50px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		width: 100%;
-		display: grid;
-		grid-template-rows: 120px 1fr;
+		background-color: var(--color--primary);
+		font-weight: 600;
 		.myself {
 			display: flex;
 			flex-direction: column;
-			align-items: center;
-			justify-content: center;
 			gap: 5px;
+
+			.copyrights {
+				a {
+					color: var(--color--text);
+				}
+			}
 
 			.last-updated {
 				font-weight: 400;
-				color: var(--color--text-shade);
 			}
 		}
-
-		.content {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			gap: 15px;
-			font-weight: 400;
-			text-align: center;
-
-			.credits {
-				font-weight: 400;
-				color: var(--color--text-shade);
-
-				a {
-					color: var(--color--text);
-					text-decoration: underline;
-					text-decoration-thickness: 1px;
-					color: var(--color--text-shade);
-				}
-			}
-
-			.copyrights {
-				font-weight: 400;
-				padding: 0px 0px;
-			}
-
-			.socials {
-				display: flex;
-				align-items: center;
-				gap: 20px;
-
-				@include for-phone-only {
-					svg {
-						width: 0.6rem;
-						height: 0.6rem;
-					}
-				}
-			}
-		}
-
-		// a {
-		// 	&:hover {
-		// 		filter: drop-shadow(0px 0px 3px var(--color--primary));
-		// 	}
-		// }
 	}
 </style>
