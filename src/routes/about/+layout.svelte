@@ -80,6 +80,7 @@
 			margin: 0 auto;
 
             h2 {
+                font-weight: 300;
                 font-family: var(--font--emphasize);
             }
 		}

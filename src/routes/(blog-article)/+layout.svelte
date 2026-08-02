@@ -159,6 +159,7 @@
 
 			h1 {
                 font-family: var(--font--emphasize);
+                font-weight: 300;
 				line-height: 1;
 				margin: 0.5rem;
 			}

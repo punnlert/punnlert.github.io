@@ -166,6 +166,7 @@
 			p {
 				font-family: var(--font--emphasize);
 				font-size: var(--h3-font-size);
+                font-weight: 300;
 				letter-spacing: -2px;
 				line-height: 1;
 			}

@@ -74,6 +74,7 @@
 			gap: 10px;
 			h1 {
 				font-family: var(--font--emphasize);
+				font-weight: 300;
 				line-height: 1;
 				margin-bottom: calc(var(--h2-font-size) * 0.25);
 				margin-top: calc(var(--h2-font-size) * 0.5);
