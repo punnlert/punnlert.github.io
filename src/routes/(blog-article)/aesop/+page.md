@@ -70,27 +70,29 @@ importance: 1
 
 ### Introduction
 
-aesop is a audiobook reader that can sync your audiobook with your physical book. When you want to continue from the page that you left off, simply scan the page number or manually input it with the rotating knob.
+["Aesop"](https://en.wikipedia.org/wiki/Aesop) was a Greek storyteller telling morality fables. Spoken word fables are the first form of human storytelling; as primal as fire and ashes. Would spoken words help us be more engaged in the books we read?
 
-<Image src="/images/placeholder.png" alt="placeholder"/>
+[Researches](https://www.researchgate.net/publication/353850247_Rethinking_the_workweek_Results_from_a_longitudinal_time-use_study_of_a_30-hour_workweek_experiment) have suggested that modern lifestyle suffers from fractured and disconnected leisure time. In other words, the free time we have is often interrupted by other tasks, like long commute time to work, house chores, or socializing. This leaves only small block of time between each task for us to enjoy ourselves. Smartphone and social media is the most likely method people use to unwind because it is easy to access and require less attention to enjoy.
 
-If you forgot anything about the characters or events, simply ask aesop and it will tell you the page number they appeared in.
-
-<Image src="/images/placeholder.png" alt="placeholder"/>
-
-### Background
-
-Researches have suggested that modern lifestyle suffers from fractured and disconnected leisure time. In other words, the free time we have is often interrupted by other tasks, like long commute time to work, house chores, or socializing. This leaves only small block of time between each task for us to enjoy ourselves. Smartphone and social media is the most likely method people use to unwind because it is easy to access and require less attention to enjoy.
-
-<Image src="/images/placeholder.png" alt="placeholder"/>
-
-Researcher have also shown that there is a steady decline in reading for pleasure. I don't know if the former issue causes the latter. So, I asked around my friends at the bookclub and got sentiments that
+Researcher have also shown that there is a steady [decline in reading for pleasure](https://www.sciencedirect.com/science/article/pii/S2589004225015494). I don't know if the former issue causes the latter. So, I asked around my friends at the bookclub and got sentiments that
 
 1. Yes, they wouldn't read if they don't have the long stretch of designated time of the day to do so (which is challenging for undergraduate students whose life are filled with team projects, procrastinated homework, and parties) and
 
 2. Reading requires lots of attention that if they do read during those fragmented free time, it's not long enough for them to process the information and they would end up reading the same part again anyway.
 
-I happen to have found a reddit post mentioning how they incorporate audiobook with their daily reading. They would listen to the audiobooks during the day when they are commuting and doing trivial chores, and then they would come home and read before bed. I think this is a good way to incorporate reading into daily life, so I designed this device.
+One of the colleages happen to mention how they incorporate audiobook with their daily reading. They would listen to the audiobooks during the day when they are commuting and doing trivial chores, and then they would come home and read before bed. I think this is a good way to incorporate reading into daily life, so I designed this device.
+
+### What is aesop
+
+<Image src="/images/posts/aesop/intro_1.png" alt="aesop in use"/>
+
+aesop is a audiobook reader that can sync your audiobook with your physical book. When you want to continue from the page that you left off, simply scan the page number or manually input it with the rotating knob.
+
+<Image src="/images/posts/aesop/aesop_find.png" alt="How to find pages on aesop" caption={true}/>
+
+If you forgot anything about the characters or events, simply ask aesop and it will tell you the page number they appeared in.
+
+<Image src="/images/posts/aesop/aesop_ask.png" alt="How to ask about things in aesop" caption={true}/>
 
 ### Development
 
@@ -116,17 +118,13 @@ I made multiple sketches of body enclosures with multiple ways of attaching the 
 
 <Carousel images={sketchImg} label="images" withLightbox={true}></Carousel>
 
-I like this design the most because it also turns the device into a bookmard. Later on, I designed a magnetic back so that the devices can changes the attachment depending on the user's need. This is the early conceptual rendering to discuss with all the stakeholders.
+Later on, I designed a magnetic back so that the devices can changes the attachment depending on the user's need. This is the early conceptual rendering to discuss with all the stakeholders.
 
 <Carousel images={caseConceptImg} label="images" withLightbox={true}></Carousel>
 
 The case design is incremental along with the [PCB Design.](#pcb-design) Any component conflict on the PCB (like if this component is here it would block other component during installation) and the case have to go through a minor or major adjustment.
 
 <Carousel images={caseManuImg} label="images" withLightbox={true}></Carousel>
-
-This is how the case look like in the end.
-
-<Image src="/images/posts/aesop/circuit.png" alt="aesop initial test circuit" caption={true}/>
 
 #### PCB Design
 
@@ -137,7 +135,11 @@ I designed a PCB (Printed Circuit Board) as a Raspberry Pi HAT (Hardware Attache
 
 #### Programming
 
+I designed the software screen with [Lopaka.](https://lopaka.app/projects) And import it into my software written in python.
+
 Developing the software for this was not an easy task, especially since I did not have any prior experience developing for embedded Linux-based device. In the end, even though the aesop is not the fastest to boot up (2 minutes), it still boots up and work for the demo.
+
+<Image src="/images/posts/aesop/screen_design.png" alt="Screen designing"/>
 
 ### Final Product
 
