@@ -12,7 +12,7 @@ tags:
 hidden: false
 startDate: 2025-03
 endDate: 2025-10
-importance: 3
+importance: 1
 ---
 <script>
   import Image from "$lib/components/atoms/Image.svelte";
@@ -42,6 +42,21 @@ importance: 3
   const pcbImg = [
       {src: "images/posts/aesop/PCB_manufacture_1.png", alt: "case early concept 1"},
       {src: "images/posts/aesop/PCB_manufacture_2.jpg", alt: "case early concept 2"},
+  ]
+
+  const exhibitionImg = [
+      {src: "images/posts/aesop/booth_1.jpg  ", alt: "booth close up 1"},
+      {src: "images/posts/aesop/booth_2.jpg  ", alt: "booth close up 2"},
+      {src: "images/posts/aesop/booth_3.jpg  ", alt: "booth close up 3"},
+      {src: "images/posts/aesop/booth_4.jpg  ", alt: "booth close up 4"},
+      {src: "images/posts/aesop/booth_5.jpg  ", alt: "booth close up 5"},
+      {src: "images/posts/aesop/booth_6.jpg  ", alt: "booth close up 6"},
+      {src: "images/posts/aesop/booth_7.jpeg ", alt: "booth close up 7"},
+      {src: "images/posts/aesop/booth_8.jpeg ", alt: "booth close up 8"},
+      {src: "images/posts/aesop/booth_9.jpeg ", alt: "booth close up 9"},
+      {src: "images/posts/aesop/booth_10.jpeg", alt: "booth close up 10"},
+      {src: "images/posts/aesop/booth_11.jpeg", alt: "booth close up 11"},
+      {src: "images/posts/aesop/booth_12.jpeg", alt: "booth close up 12"},
   ]
 
   const finalImg = [
@@ -136,7 +151,8 @@ Developing the software for this was not an easy task, especially since I did no
 ### Exhibition
 
 This work was exhibited at KAIST ID Exhibition 2025. The exhibition took place at KAIST and Nodeul Gallery, Seoul.
-<Image src="/images/placeholder.png" alt="placeholder"/>
+
+<Carousel images={exhibitionImg} label="images" withLightbox={true}></Carousel>
 
 ### What I learned
 
