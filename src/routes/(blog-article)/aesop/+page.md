@@ -9,7 +9,7 @@ tags:
   - Product Design
   - Real Production
   - Interaction Design
-hidden: true 
+hidden: false
 startDate: 2025-03
 endDate: 2025-10
 importance: 3
@@ -23,20 +23,25 @@ importance: 3
   import MdiWeb from '~icons/mdi/web'
   import Carousel from "$lib/components/molecules/Carousel.svelte";
 
-  const circuitImg = [
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
+  const sketchImg = [
+      {src: "images/posts/aesop/case_design_1.png", alt: "iterations of cases"},
+      {src: "images/posts/aesop/case_design_2.png", alt: "intermediate case design"},
   ]
 
-  const sketchImg = [
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
-      {src: "images/placeholder.png", alt: "placeholder"},
+  const caseConceptImg = [
+      {src: "images/posts/aesop/case_concept_1.png", alt: "case early concept 1"},
+      {src: "images/posts/aesop/case_concept_2.png", alt: "case early concept 2"},
+      {src: "images/posts/aesop/case_concept_3.png", alt: "case early concept 3"},
+  ]
+
+  const caseManuImg = [
+      {src: "images/posts/aesop/case_manufacture_1.jpg", alt: "Case surface finishing after print"},
+      {src: "images/posts/aesop/case_manufacture_2.jpg", alt: "Case surface finishing after print"},
+  ]
+
+  const pcbImg = [
+      {src: "images/posts/aesop/PCB_manufacture_1.png", alt: "case early concept 1"},
+      {src: "images/posts/aesop/PCB_manufacture_2.jpg", alt: "case early concept 2"},
   ]
 
   const finalImg = [
@@ -86,7 +91,9 @@ I begin the development on the circuit. I made a prototype on the breadboard and
 6. Control Buttons
 7. E-ink display
 
-<Carousel images={circuitImg} label="images" withLightbox={true}></Carousel>
+<Image src="/images/posts/aesop/circuit.png" alt="aesop initial test circuit" caption={true}/>
+
+<img src="images/posts/aesop/prototype_demo.gif" alt="demo for prototype"/>
 
 #### Case
 
@@ -94,17 +101,24 @@ I made multiple sketches of body enclosures with multiple ways of attaching the 
 
 <Carousel images={sketchImg} label="images" withLightbox={true}></Carousel>
 
-I like this design the most because it also turns the device into a bookmard. Later on, I designed a magnetic back so that the devices can changes the attachment depending on the user's need.
+I like this design the most because it also turns the device into a bookmard. Later on, I designed a magnetic back so that the devices can changes the attachment depending on the user's need. This is the early conceptual rendering to discuss with all the stakeholders.
 
-<Image src="/images/placeholder.png" alt="placeholder"/>
+<Carousel images={caseConceptImg} label="images" withLightbox={true}></Carousel>
 
 The case design is incremental along with the [PCB Design.](#pcb-design) Any component conflict on the PCB (like if this component is here it would block other component during installation) and the case have to go through a minor or major adjustment.
+
+<Carousel images={caseManuImg} label="images" withLightbox={true}></Carousel>
+
+This is how the case look like in the end.
+
+<Image src="/images/posts/aesop/circuit.png" alt="aesop initial test circuit" caption={true}/>
 
 #### PCB Design
 
 I designed a PCB (Printed Circuit Board) as a Raspberry Pi HAT (Hardware Attached on Top). It took a couple version along with the case development to resolve all the components position conflict. It took a lot of soldering until the final layout is ready.
-<Image src="/images/placeholder.png" alt="placeholder"/>
-<Image src="/images/placeholder.png" alt="placeholder"/>
+<Image src="/images/posts/aesop/PiZeroHat_01.jpg" alt="placeholder"/>
+
+<Carousel images={pcbImg} label="images" withLightbox={true}></Carousel>
 
 #### Programming
 
@@ -112,8 +126,12 @@ Developing the software for this was not an easy task, especially since I did no
 
 ### Final Product
 
-<Image src="/images/placeholder.png" alt="placeholder"/>
-<Carousel images={finalImg} label="images" withLightbox={true}></Carousel>
+<Image src="/images/posts/aesop/PCB_exploded_view.png" alt="Exploded view with PCB and all of the case assembly" caption={true}/>
+
+<LightBoxImage src="/images/posts/aesop/final_rendering.png" alt="Final rendering" caption={true}/>
+<LightBoxImage src="/images/posts/aesop/final_product_photoshoot.png" alt="Final product photoshoot" caption={true}/>
+
+<LightBoxImage src="/images/posts/aesop/promotional_shoot.png" alt="Promotional shoot" caption={true}/>
 
 ### Exhibition
 

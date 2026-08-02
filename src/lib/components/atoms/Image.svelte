@@ -43,7 +43,6 @@
 
 {#if caption}
 	<figure>
-		<!-- {#if additionalStyleVar} -->
 		<img
 			srcset={buildSrcset()}
 			{src}
@@ -59,7 +58,6 @@
 		</figcaption>
 	</figure>
 {:else}
-	<!-- {#if additionalStyleVar} -->
 	<img
 		srcset={buildSrcset()}
 		{src}
@@ -74,11 +72,9 @@
 
 <style lang="scss">
 	img {
-		// view-transition-name: var(--img-transition, none);
 		width: 100%;
 		height: 100%;
-		// max-height: 40vh;
 		object-fit: contain;
-        transition: all 0.4s ease;
+		transition: all 0.4s ease;
 	}
 </style>

@@ -48,7 +48,6 @@
 </svelte:head>
 
 <div class="article-layout">
-
 	<main>
 		<article id="article-content">
 			<div class="header">
@@ -159,6 +158,7 @@
 			margin: 0 auto;
 
 			h1 {
+                font-family: var(--font--emphasize);
 				line-height: 1;
 				margin: 0.5rem;
 			}

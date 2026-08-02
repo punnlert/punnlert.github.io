@@ -16,7 +16,6 @@
 </svelte:head>
 
 <div class="article-layout">
-
 	<main>
 		<article id="article-content">
 			<div class="header">
@@ -33,7 +32,6 @@
 			</div>
 		</article>
 	</main>
-
 </div>
 
 <style lang="scss">
@@ -81,21 +79,9 @@
 			width: min(var(--main-column-width), 100%);
 			margin: 0 auto;
 
-			.teammate-container {
-				width: fit-content;
-				// border-top: solid;
-				// border-bottom: solid;
-				// padding: 0.7rem 1rem;
-				margin: 1rem;
-			}
-
-			.dateperiod-container {
-				margin-bottom: 1rem;
-			}
-
-			.note {
-				color: rgba(var(--color--text-rgb), 0.8);
-			}
+            h2 {
+                font-family: var(--font--emphasize);
+            }
 		}
 
 		.cover-image {
