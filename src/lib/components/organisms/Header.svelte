@@ -21,7 +21,7 @@
 		{ name: 'Home', path: '/' },
 		{ name: 'Projects', path: '/projects' },
 		{ name: 'Publications', path: '/publications' },
-		{ name: 'Fun!', path: '/fun' },
+		{ name: 'Skills', path: '/skills' },
 		{ name: 'About', path: '/about' }
 	];
 
@@ -166,7 +166,7 @@
 			p {
 				font-family: var(--font--emphasize);
 				font-size: var(--h3-font-size);
-                font-weight: 300;
+				font-weight: 300;
 				letter-spacing: -2px;
 				line-height: 1;
 			}

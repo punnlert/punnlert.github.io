@@ -15,8 +15,9 @@
 		justify-content: center;
 		gap: 5px;
 		padding: 5px 15px;
-		border-radius: 10px;
+		border-radius: 100px;
 		font-weight: 500;
+		font-size: var(--small-font-size);
 		width: fit-content;
 		white-space: nowrap;
 		border-style: solid;

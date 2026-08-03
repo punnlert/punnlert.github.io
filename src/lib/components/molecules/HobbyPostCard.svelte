@@ -1,13 +1,14 @@
 <script lang="ts">
 	import CollapsibleCard from '$lib/components/atoms/CollapsibleCard.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
+	import { each } from 'svelte/internal';
 	import Image from '../atoms/Image.svelte';
 
 	export let title: string;
 	export let images: string[] | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
-	export let tags: string[] | undefined;
+	export let tags: string[] = [];
 
 	export let showImage = true;
 </script>
@@ -18,8 +19,15 @@
 	additionalClass="blog-post-card {!showImage || !images ? 'no-image' : ''}"
 >
 	<div class="content" slot="title">
-		<p class="title">
-			<span>{title}</span>
+		<div class="title">
+			<div class="title-and-tags">
+				<span>{title}</span>
+				<div class="tags">
+					{#each tags as tag}
+						<Tag>{tag}</Tag>
+					{/each}
+				</div>
+			</div>
 			<svg
 				width="30"
 				height="30"
@@ -35,7 +43,7 @@
 					fill="currentColor"
 				/>
 			</svg>
-		</p>
+		</div>
 	</div>
 	<div class="body" slot="content">
 		<p class="text">
@@ -73,6 +81,13 @@
 		width: 100%;
 		font-family: var(--font--default);
 		font-weight: 700;
+
+		.title-and-tags {
+			display: flex;
+			flex-direction: row;
+			gap: 20px;
+			align-items: center;
+		}
 
 		svg {
 			width: 16px;

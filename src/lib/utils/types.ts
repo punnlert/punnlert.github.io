@@ -38,6 +38,7 @@ export type Graphics = {
 
 export type Hobbies = {
 	name: string;
+    tools: string[];
 	description: string;
 	images: string[] | undefined;
 	slug: string;

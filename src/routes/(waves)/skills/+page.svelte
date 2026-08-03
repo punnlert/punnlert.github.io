@@ -13,10 +13,10 @@
 </script>
 
 <div class="container">
-	<ContentSection title="Interests and Hobbies">
+	<ContentSection title="Design skills, interest, and hobbies">
 		<div class="layout-container">
-			{#each hobbies as { name, description, images, slug }}
-				<HobbyPostCard title={name} excerpt={description} {images} {slug} />
+			{#each hobbies as { name, description, images, slug, tools }}
+				<HobbyPostCard title={name} excerpt={description} {images} {slug} tags={tools} />
 			{/each}
 		</div>
 	</ContentSection>
