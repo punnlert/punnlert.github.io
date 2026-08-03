@@ -1,0 +1,1 @@
+import{w as n}from"./index.7c97403a.js";function o(){let t;t=localStorage.getItem("theme-preference")||"auto";const{subscribe:l,set:_}=n(t);return{subscribe:l,set:e=>{var s;localStorage.setItem("theme-preference",e),(s=document.firstElementChild)==null||s.setAttribute("data-theme",e),_(e)}}}o();
