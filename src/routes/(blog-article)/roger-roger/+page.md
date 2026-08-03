@@ -6,9 +6,9 @@ excerpt: >-
   game. Shoot some asteroids, save some astronauts, and try not to fight!
 coverImage: /images/posts/roger-roger/cover.png
 tags:
-  - Coding
   - Javascript
   - Game Design
+  - Front-end Development
 hidden: false
 startDate: 2023-02-20T11:40:39.000Z
 importance: 3
@@ -31,7 +31,6 @@ importance: 3
       YouTube
     </Button>
 </div>
-
 
 ## Introduction
 

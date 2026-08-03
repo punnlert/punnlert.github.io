@@ -10,8 +10,8 @@ hidden: false
 tags:
   - Product Design
   - System Design
-  - Sustainablility
-  - Seoul Design Week 2023
+  - Rendering
+  - CAD
 contribution: []
 teammates:
   - Seo Young Choi

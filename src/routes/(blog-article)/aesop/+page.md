@@ -9,6 +9,9 @@ tags:
   - Product Design
   - Real Production
   - Interaction Design
+  - CAD
+  - Rendering
+  - Microcomputer
 hidden: false
 startDate: 2025-03
 endDate: 2025-10

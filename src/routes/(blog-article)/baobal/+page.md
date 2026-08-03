@@ -8,10 +8,8 @@ excerpt: >-
 coverImage: /images/posts/baobal/cover.png
 tags:
   - HCI
-  - HCI Research
   - UI Design
   - UX Design
-  - UX Research
 hidden: false
 teammates:
   - Zhi Lin Yap

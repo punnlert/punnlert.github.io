@@ -8,7 +8,8 @@ excerpt: >-
 coverImage: /images/posts/steezy-webpage/cover.png
 tags:
   - Creative Web Design
-  - Front End Development
+  - Front-end Development
+  - Javascript
 hidden: false
 startDate: 2026-07-05T00:00:00.000Z
 importance: 3
