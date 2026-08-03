@@ -53,10 +53,18 @@
 			<div class="scroll">
 				{#if images}
 					{#each images as image}
-						<Image src={image} alt="Punn with a cat" lazy={false} />
+						{#if image.split('.').pop() === 'gif'}
+							<img src={image} alt="Punn with a cat" loading="lazy" />
+						{:else}
+							<Image src={image} alt="Punn with a cat" lazy={false} />
+						{/if}
 					{/each}
 					{#each images as image}
-						<Image src={image} alt="Punn with a cat" lazy={false} />
+						{#if image.split('.').pop() === 'gif'}
+							<img src={image} alt="Punn with a cat" loading="lazy" />
+						{:else}
+							<Image src={image} alt="Punn with a cat" lazy={false} />
+						{/if}
 					{/each}
 				{/if}
 			</div>
