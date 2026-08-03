@@ -14,9 +14,6 @@
     <loc>https://punnlert.com/baobal</loc>
   </url>
   <url>
-    <loc>https://punnlert.com/fun</loc>
-  </url>
-  <url>
     <loc>https://punnlert.com/</loc>
   </url>
   <url>
@@ -44,10 +41,10 @@
     <loc>https://punnlert.com/roger-roger</loc>
   </url>
   <url>
-    <loc>https://punnlert.com/steezy-webpage</loc>
+    <loc>https://punnlert.com/skills</loc>
   </url>
   <url>
-    <loc>https://punnlert.com/fun/graphics</loc>
+    <loc>https://punnlert.com/steezy-webpage</loc>
   </url>
   <url>
     <loc>https://punnlert.com/publications/inline-2024</loc>
@@ -57,5 +54,8 @@
   </url>
   <url>
     <loc>https://punnlert.com/publications/wireway-2026</loc>
+  </url>
+  <url>
+    <loc>https://punnlert.com/skills/graphics</loc>
   </url>
 </urlset>
