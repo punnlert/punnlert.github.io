@@ -44,6 +44,6 @@ export default [
 		tools: ['Python', 'HTML/Javascript/css/sass', 'Sveltekit', 'Next.JS', 'Web-motion'],
 		description: 'Web Development',
 		images: frontendPaths,
-		slug: 'projects?filter=Front-end+Development&filter=Javascripl'
+		slug: 'projects?filter=Front-end+Development&filter=Javascript'
 	}
 ] as Hobbies[];

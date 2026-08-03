@@ -1,12 +1,11 @@
 import { filteredPosts } from '$lib/data/blog-posts';
 import type { PageServerLoad } from './$types';
-export const prerender = false;
 
-export const load: PageServerLoad = async ({ url }) => {
-	const filter = url.searchParams.getAll('filter');
+// This route is prerendered (see src/routes/+layout.ts), so the load function
+// cannot read url.searchParams — filtering happens client-side in +page.svelte.
+export const load: PageServerLoad = async () => {
 	return {
 		posts: filteredPosts,
-		allTags: [...new Set(filteredPosts.flatMap((post) => post.tags ?? []))].sort(),
-		filter
+		allTags: [...new Set(filteredPosts.flatMap((post) => post.tags ?? []))].sort()
 	};
 };

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import Tag from '$lib/components/atoms/Tag.svelte';
@@ -9,10 +10,11 @@
 	export let data: {
 		posts: BlogPost[];
 		allTags: string[];
-		filter: string[];
 	};
 
-	$: activeTags = data.filter;
+	// This route is prerendered, and SvelteKit throws on url.search/url.searchParams
+	// during prerendering — so only read the query string in the browser.
+	$: activeTags = browser ? $page.url.searchParams.getAll('filter') : [];
 	$: visiblePosts = activeTags.length
 		? data.posts.filter((post) => post.tags?.some((tag) => activeTags.includes(tag)))
 		: data.posts;

@@ -23,7 +23,13 @@ const config = {
 			relative: false
 		},
 		prerender: {
-			handleHttpError: 'warn'
+			handleHttpError: ({ status, path, message }) => {
+				// Image.svelte emits <source> variants (avif/webp/png) that image-transmutation
+				// generates in `postbuild` — i.e. after this crawl — so they can't exist yet
+				// and always 404 here. Anything else, especially a page erroring, fails the build.
+				if (status === 404 && path.startsWith('/images/')) return;
+				throw new Error(message);
+			}
 		}
 	},
 	preprocess: [
