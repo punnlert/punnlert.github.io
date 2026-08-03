@@ -23,14 +23,14 @@ export default [
 		tools: ['Raspberry Pi pico', 'Raspberry Pi 4', 'Arduino', 'Micropython'],
 		description: 'Making my projects interactive with microprocessors.',
 		images: ipdPaths,
-		slug: 'projects/?filter=Interaction+Design&filter=Microcomputer'
+		slug: 'projects?filter=Interaction+Design&filter=Microcomputer'
 	},
 	{
 		name: 'Rendering & CAD',
 		tools: ['Keyshot', 'Rhino', 'Grasshopper', 'Onshape'],
 		description: 'Renderings for my projects',
 		images: renderingPaths,
-		slug: 'projects/?filter=CAD&filter=Rendering'
+		slug: 'projects?filter=CAD&filter=Rendering'
 	},
 	{
 		name: 'Graphic Design',
@@ -44,6 +44,6 @@ export default [
 		tools: ['Python', 'HTML/Javascript/css/sass', 'Sveltekit', 'Next.JS', 'Web-motion'],
 		description: 'Web Development',
 		images: frontendPaths,
-		slug: 'projects/?filter=Front-end+Development&filter=Javascripl'
+		slug: 'projects?filter=Front-end+Development&filter=Javascripl'
 	}
 ] as Hobbies[];
