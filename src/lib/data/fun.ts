@@ -1,6 +1,11 @@
 import type { Hobbies } from '$lib/utils/types';
 
-const allImages = import.meta.glob('/static/images/**');
+const allImages = import.meta.glob([
+	'/static/images/graphics/**',
+	'/static/images/renderings/**',
+	'/static/images/ipd/**',
+	'/static/images/frontends/**'
+]);
 
 const getPaths = (folder: string) =>
 	Object.keys(allImages)
