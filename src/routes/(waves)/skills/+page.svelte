@@ -13,7 +13,7 @@
 </script>
 
 <div class="container">
-	<ContentSection title="Design skills, interest, and hobbies">
+	<ContentSection title="Design skills, interests, and hobbies">
 		<div class="layout-container">
 			{#each hobbies as { name, description, images, slug, tools }}
 				<HobbyPostCard title={name} excerpt={description} {images} {slug} tags={tools} />
