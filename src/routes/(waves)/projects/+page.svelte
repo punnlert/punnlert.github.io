@@ -9,9 +9,10 @@
 	export let data: {
 		posts: BlogPost[];
 		allTags: string[];
+		filter: string[];
 	};
 
-	$: activeTags = $page.url.searchParams.getAll('filter');
+	$: activeTags = data.filter;
 	$: visiblePosts = activeTags.length
 		? data.posts.filter((post) => post.tags?.some((tag) => activeTags.includes(tag)))
 		: data.posts;

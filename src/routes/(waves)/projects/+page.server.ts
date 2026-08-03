@@ -1,9 +1,11 @@
 import { filteredPosts } from '$lib/data/blog-posts';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async () => {
+export const load: PageServerLoad = async ({url}) => {
+    const filter = url.searchParams.getAll('filter');
 	return {
 		posts: filteredPosts,
-		allTags: [...new Set(filteredPosts.flatMap((post) => post.tags ?? []))].sort()
+		allTags: [...new Set(filteredPosts.flatMap((post) => post.tags ?? []))].sort(),
+        filter
 	};
 };
