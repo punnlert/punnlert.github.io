@@ -27,7 +27,7 @@ export default [
 	},
 	{
 		name: 'Rendering & CAD',
-		tools: ['Keyshot', 'Rhino', 'Grasshopper', 'Onshape'],
+		tools: ['Keyshot', 'Rhino', 'Grasshopper', 'Onshape', 'Unity'],
 		description: 'Renderings for my projects',
 		images: renderingPaths,
 		slug: 'projects?filter=CAD&filter=Rendering'
