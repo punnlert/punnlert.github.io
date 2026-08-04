@@ -25,7 +25,7 @@ export default [
 		],
 		date: '2026-04-13',
 		slug: 'wireway-2026',
-		awards: [{ name: 'Honorable Mention', logo: '' }]
+		awards: [{ name: 'Best Paper Honorable Mention (Top 5%)', logo: '' }]
 	},
 	{
 		name: 'Inline Visualization and Manipulation of Real-Time Hardware Logs for Embedded Programs',
