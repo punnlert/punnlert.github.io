@@ -12,22 +12,30 @@
 	<div class="info" bind:clientHeight={aboutHeight}>
 		<h1>Hi! I'm Punn Lertjaturaphat.</h1>
 		<p>
-			<!-- A designer who loves to create meaningful interaction. I always keep looking for a way to mix -->
-			<!-- fun physical experience into an otherwise mundane digital task we perform everyday. -->
-			I am a KAIST undergraduate majoring in Industrial Design and Computer Science. Previously working
-			with Professor Andrea Bianchi in
-			<a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab </a>
+			I graduated from KAIST, where I majored in Industrial Design and Computer Science. Previously,
+			I worked with Professor Andrea Bianchi in
+			<a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab</a>.
 		</p>
 		<p>
-			My motivation in research and in design lies in
-			<i> creating an intellectually-munchable interaction. </i>
+			My motivation in design lies in <i>intersection between physical product and digital interaction.</i
+			>
+			I am interested in wide variety of design and realization; from traditional product design to programmed
+			interaction, because
+			<i>
+				I believe designing is more impactful (and more fun) when one is not confined to a single
+				method.
+			</i>
+		</p>
+		<p>
+			My motivation in research lies in
+			<i>making difficult interactions easy.</i>
 			I strive to make tools that help people think and see. Tools that let people be in control. Interaction
 			that
 			<i
-				>enhances creative process not by making it faster or easier but by helping the people
+				>enhances the creative process, not by making it faster or easier but by helping people
 				understand it better.</i
 			>
-			Heavily inspired by <a href="https://worrydream.com/" target="_blank">Bret Victor.</a>
+			Heavily inspired by <a href="https://worrydream.com/" target="_blank">Bret Victor</a>.
 		</p>
 		<p>
 			Weekends and end of the days I am going to either be making weird sounds on my synths or
