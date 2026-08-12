@@ -10,8 +10,8 @@ import striptags from 'striptags';
 import type { BlogPost } from '$lib/utils/types';
 
 export const importPosts = (render = false) => {
-	const blogImports = import.meta.glob('$routes/*/*/*.md', { eager: true });
-	const innerImports = import.meta.glob('$routes/*/*/*/*.md', { eager: true });
+	const blogImports = import.meta.glob('$routes/*/*/*/*.md', { eager: true });
+	const innerImports = import.meta.glob('$routes/*/*/*/*/*.md', { eager: true });
 
 	const imports = { ...blogImports, ...innerImports };
 

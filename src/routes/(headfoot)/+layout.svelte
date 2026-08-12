@@ -24,8 +24,8 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-
-<main>
-	<slot />
-</main>
-
+<Header />
+    <main>
+        <slot />
+    </main>
+<Footer />

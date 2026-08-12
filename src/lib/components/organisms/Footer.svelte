@@ -16,13 +16,7 @@
 				<br />All Rights Reserved.
 			</div>
 			<div class="gmail">
-				<button
-					on:click={async () => {
-						await navigator.clipboard.writeText('punnlertjaturaphat@gmail.com');
-                        alert("Email Copied to Clipboard")
-					}}>punnlertjaturaphat@gmail.com</button
-				>
-			</div>
+				punnlertjaturaphat [at] gmail [dot] com			</div>
 			<div class="last-updated">
 				Last updated on {lastUpdatedDate.toLocaleDateString(undefined, {
 					year: 'numeric',

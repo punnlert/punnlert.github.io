@@ -17,7 +17,8 @@
 			<a href="https://make.kaist.ac.kr/" target="_blank"> Make Lab</a>.
 		</p>
 		<p>
-			My motivation in design lies in <i>intersection between physical product and digital interaction.</i
+			My motivation in design lies in <i
+				>intersection between physical product and digital interaction.</i
 			>
 			I am interested in wide variety of design and realization; from traditional product design to programmed
 			interaction, because
@@ -123,22 +124,19 @@
 
 		.image {
 			margin: 0 auto;
-			height: fit-content;
 			width: 100%;
-			max-height: var(--aboutHeight);
+			height: var(--aboutHeight);
 			border-radius: 12px;
-			// border-style: solid;
-			// border-width: 3px;
 			overflow: hidden;
 
 			@include for-tablet-portrait-down {
 				max-height: 400px;
 			}
 
-			img {
+			:global(img) {
 				width: 100%;
 				height: 100%;
-				object-fit: contain;
+				object-fit: cover;
 			}
 		}
 	}

@@ -3,8 +3,6 @@
 	import 'lenis/dist/lenis.css';
 	import Analytics from '$lib/data/Analytics.svelte';
 	import ViewTransition from '$lib/components/atoms/Navigation.svelte';
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
 	import Lenis from 'lenis';
 	import { onMount } from 'svelte';
 
@@ -24,8 +22,4 @@
 <Analytics />
 <ViewTransition />
 
-<Header />
-
-	<slot />
-
-<Footer />
+<slot />
