@@ -1,51 +1,13 @@
 <script lang="ts">
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import dateformat from 'dateformat';
 
-	import { keywords, siteBaseUrl, title } from '$lib/data/meta';
 	import type { BlogPost } from '$lib/utils/types';
-	import RelatedPosts from '$lib/components/organisms/RelatedPosts.svelte';
 	import Image from '$lib/components/atoms/Image.svelte';
 
 	export let data: { post: BlogPost };
 	$: ({ post } = data);
-
-	let metaKeywords = keywords;
-
-	$: {
-		if (post?.tags?.length) {
-			metaKeywords = post.tags.concat(metaKeywords);
-		}
-		if (post?.keywords?.length) {
-			metaKeywords = post.keywords.concat(metaKeywords);
-		}
-		if (post?.awards?.length) {
-			metaKeywords = post.awards.map((val) => val.name).concat(metaKeywords);
-		}
-	}
 </script>
-
-<svelte:head>
-	{#if post}
-		<meta name="keywords" content={metaKeywords.join(', ')} />
-
-		<meta name="description" content={post.excerpt} />
-		<meta property="og:description" content={post.excerpt} />
-		<meta name="twitter:description" content={post.excerpt} />
-		<link rel="canonical" href="{siteBaseUrl}/{post.slug}" />
-
-		<title>{post.title} - {title}</title>
-		<meta property="og:title" content="{post.title} - {title}" />
-		<meta name="twitter:title" content="{post.title} - {title}" />
-
-		{#if post.coverImage}
-			<meta property="og:image" content="{siteBaseUrl}{post.coverImage}" />
-			<meta name="twitter:image" content="{siteBaseUrl}{post.coverImage}" />
-		{/if}
-	{/if}
-</svelte:head>
 
 <div class="article-layout">
 	<main>
@@ -158,8 +120,8 @@
 			margin: 0 auto;
 
 			h1 {
-                font-family: var(--font--emphasize);
-                font-weight: 300;
+				font-family: var(--font--emphasize);
+				font-weight: 300;
 				line-height: 1;
 				margin: 0.5rem;
 			}

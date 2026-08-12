@@ -24,8 +24,6 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<!-- <Waves /> -->
-
 
 <main>
 	<slot />
