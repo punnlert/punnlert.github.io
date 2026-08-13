@@ -55,6 +55,7 @@
 			border-width: 1px;
 			justify-content: center;
 			text-align: center;
+            color: var(--color--text);
 			border-radius: var(--size);
 			display: inline-flex;
 			align-items: center;

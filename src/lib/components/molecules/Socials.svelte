@@ -27,6 +27,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: calc(var(--p-font-size) * 0.5);
+        width: 100%;
 	}
 
 	.socials {

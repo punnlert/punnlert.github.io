@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import type { Body } from 'matter-js';
 	import ArrowLink from '$lib/components/atoms/ArrowLink.svelte';
 
 	let width: number;
 	let stage: HTMLDivElement;
 	let businessCardWidth = 600;
 	let businessCardHeight = 300;
-	let proxy;
+	let proxy: Body;
 	let realCard: HTMLDivElement;
 	let raf: number;
 
@@ -38,6 +39,11 @@
 		const w = stage.clientWidth;
 		const h = stage.clientHeight;
 
+		if (w < businessCardWidth) {
+			businessCardWidth = w - 20;
+			businessCardHeight = businessCardWidth * 0.5;
+		}
+
 		const engine = Matter.Engine.create();
 
 		proxy = Matter.Bodies.rectangle(
@@ -46,10 +52,9 @@
 			businessCardWidth,
 			businessCardHeight,
 			{
-				restitution: 0.7,
-				friction: 2,
-				frictionStatic: 20,
-				density: 100,
+				restitution: 0.2,
+				density: 500,
+				friction: 0,
 				angle: Math.random() * 1.0 - 0.5,
 				render: {
 					visible: false
@@ -58,31 +63,36 @@
 		);
 		const wallOptions = { isStatic: true, render: { visible: false } };
 
-		const ground = Matter.Bodies.rectangle(w / 2, h - businessCardHeight / 2, w, 0.1, wallOptions);
-		const leftWall = Matter.Bodies.rectangle(-25, h / 2, 50, h, wallOptions);
-		const rightWall = Matter.Bodies.rectangle(w + 25, h / 2, 50, h, wallOptions);
+		// oversized so a resize only needs repositioning, never rescaling
+		const SPAN = 20000;
+		const groundY = (height: number) => height / 2 + businessCardHeight / 2;
+		const ground = Matter.Bodies.rectangle(w / 2, groundY(h), SPAN, 0.1, wallOptions);
+		const leftWall = Matter.Bodies.rectangle(-25, h / 2, 50, SPAN, wallOptions);
+		const rightWall = Matter.Bodies.rectangle(w + 25, h / 2, 50, SPAN, wallOptions);
 		Matter.Composite.add(engine.world, [proxy, ground, leftWall, rightWall]);
 
-		const render = Matter.Render.create({
-			element: stage,
-			engine,
-			options: {
-				width: w,
-				height: h,
-				wireframes: false,
-				background: 'transparent'
-			}
-		});
-		Matter.Render.run(render);
-
+		// no Matter.Render: every body is render.visible:false, so it repainted a
+		// full-viewport canvas each frame for zero output. The DOM card is the view.
 		const runner = Matter.Runner.create();
 		Matter.Runner.run(runner, engine);
+
+		// walls are positioned once at create, so re-sync them on resize
+		function resize() {
+			const nw = stage.clientWidth;
+			const nh = stage.clientHeight;
+
+			Matter.Body.setPosition(ground, { x: nw / 2, y: groundY(nh) });
+			Matter.Body.setPosition(leftWall, { x: -25, y: nh / 2 });
+			Matter.Body.setPosition(rightWall, { x: nw + 25, y: nh / 2 });
+		}
+
+		window.addEventListener('resize', resize);
 
 		update();
 
 		return () => {
+			window.removeEventListener('resize', resize);
 			cancelAnimationFrame(raf);
-			Matter.Render.stop(render);
 			Matter.Runner.stop(runner);
 			Matter.Composite.clear(engine.world, false);
 			Matter.Engine.clear(engine);
@@ -91,6 +101,19 @@
 </script>
 
 <svelte:window bind:innerWidth={width} />
+
+<!-- scoped to this page: the <style> only exists in <head> while this route is mounted -->
+<svelte:head>
+	<style>
+		html {
+			overflow: hidden;
+			scrollbar-gutter: auto;
+		}
+		body {
+			overflow: hidden;
+		}
+	</style>
+</svelte:head>
 
 <div id="canvas" bind:this={stage}>
 	<div
@@ -111,12 +134,15 @@
 </div>
 
 <style lang="scss">
+	@use '$lib/scss/_breakpoints.scss' as *;
+
 	#canvas {
-		position: absolute;
-		top: 0;
+		/* fixed + inset instead of 100vw/100vh: vw counts the scrollbar gutter
+		   (html has scrollbar-gutter: stable) and vh ignores mobile browser chrome */
+		position: fixed;
+		inset: 0;
 		display: block;
-		width: 100vw;
-		height: 100vh;
+		overflow: hidden;
 		background-color: var(--color--primary);
 	}
 
@@ -127,10 +153,13 @@
 		padding: 20px;
 		color: var(--color--primary);
 		font-weight: 700;
+		@include for-phone-only {
+			padding: 10px;
+		}
 	}
 
 	.business-card {
-		position: relative;
+		position: absolute;
 		top: 0;
 		left: 0;
 		line-height: 1;
@@ -144,6 +173,10 @@
 		justify-content: space-between;
 		h1 {
 			font-family: var(--font--emphasize);
+
+			@include for-phone-only {
+				font-size: var(--h3-font-size);
+			}
 		}
 	}
 </style>
