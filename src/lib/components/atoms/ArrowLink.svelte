@@ -23,10 +23,10 @@
 	a {
 		transition: all 0.2s ease-in-out;
 		width: auto;
-		color: var(--color--text);
 		fill: var(--color--text);
+		color: inherit;
 		text-decoration: none;
-		font-weight: 400;
+		font-weight: inherit;
 		background-image: none;
 		display: flex;
 		align-items: center;

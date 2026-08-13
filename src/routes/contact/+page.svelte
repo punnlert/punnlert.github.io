@@ -5,7 +5,7 @@
 	let width: number;
 	let stage: HTMLDivElement;
 	let businessCardWidth = 600;
-	let businessCardHeight = 400;
+	let businessCardHeight = 300;
 	let proxy;
 	let realCard: HTMLDivElement;
 	let raf: number;
@@ -48,7 +48,6 @@
 			{
 				restitution: 0.7,
 				friction: 2,
-				frictionAir: 0.01,
 				frictionStatic: 20,
 				density: 100,
 				angle: Math.random() * 1.0 - 0.5,
@@ -100,10 +99,14 @@
 		bind:this={realCard}
 	>
 		<h1>Punn Lertjaturaphat</h1>
-
-		<p>designer, maker, developer</p>
-		<ArrowLink href="/" text="go to website" title="punn's website" />
-		<p>punnlertjaturaphat [at] gmail [dot] com</p>
+		<h5>designer, maker, developer</h5>
+		<div class="info">
+			<p>punnlert.com</p>
+			<p>punnlertjaturaphat [at] gmail [dot] com</p>
+		</div>
+		<div class="site">
+			<ArrowLink href="/" text="go to website" title="punn's website" />
+		</div>
 	</div>
 </div>
 
@@ -117,15 +120,28 @@
 		background-color: var(--color--primary);
 	}
 
-	.business-card {
+	.site {
 		position: absolute;
+		bottom: 0;
+		right: 0;
+		padding: 20px;
+		color: var(--color--primary);
+		font-weight: 700;
+	}
+
+	.business-card {
+		position: relative;
 		top: 0;
 		left: 0;
+		line-height: 1;
 		width: var(--width);
 		height: var(--height);
 		background-color: var(--color--page-background);
-		padding: 10px;
+		padding: 20px;
 		color: var(--color--primary);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		h1 {
 			font-family: var(--font--emphasize);
 		}
