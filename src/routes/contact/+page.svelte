@@ -6,15 +6,17 @@
 	let width: number;
 	let stage: HTMLDivElement;
 	let businessCardWidth = 600;
-	let businessCardHeight = 300;
+	let businessCardHeight = 400;
 	let proxy: Body;
 	let realCard: HTMLDivElement;
 	let raf: number;
 
 	function update() {
-		realCard.style.transform = `translate(${proxy.position.x - realCard.offsetWidth / 2}px, ${
-			proxy.position.y - realCard.offsetHeight / 2
-		}px) rotate(${proxy.angle}rad)`;
+		// box-sizing is border-box, so offsetWidth/Height === the card vars.
+		// using them avoids a forced layout read on every frame.
+		const x = proxy.position.x - businessCardWidth / 2;
+		const y = proxy.position.y - businessCardHeight / 2;
+		realCard.style.transform = `translate3d(${x}px, ${y}px, 0) rotate(${proxy.angle}rad)`;
 		raf = window.requestAnimationFrame(update);
 	}
 
@@ -41,10 +43,11 @@
 
 		if (w < businessCardWidth) {
 			businessCardWidth = w - 20;
-			businessCardHeight = businessCardWidth * 0.5;
+			businessCardHeight = businessCardWidth * 0.66;
 		}
 
-		const engine = Matter.Engine.create();
+		const engine = Matter.Engine.create({ enableSleeping: true });
+		engine.gravity.scale = 0.002;
 
 		proxy = Matter.Bodies.rectangle(
 			w / 2,
@@ -52,7 +55,7 @@
 			businessCardWidth,
 			businessCardHeight,
 			{
-				restitution: 0.2,
+				restitution: 0.3,
 				density: 500,
 				friction: 0,
 				angle: Math.random() * 1.0 - 0.5,
@@ -63,20 +66,35 @@
 		);
 		const wallOptions = { isStatic: true, render: { visible: false } };
 
-		// oversized so a resize only needs repositioning, never rescaling
 		const SPAN = 20000;
-		const groundY = (height: number) => height / 2 + businessCardHeight / 2;
-		const ground = Matter.Bodies.rectangle(w / 2, groundY(h), SPAN, 0.1, wallOptions);
-		const leftWall = Matter.Bodies.rectangle(-25, h / 2, 50, SPAN, wallOptions);
-		const rightWall = Matter.Bodies.rectangle(w + 25, h / 2, 50, SPAN, wallOptions);
-		Matter.Composite.add(engine.world, [proxy, ground, leftWall, rightWall]);
+		const THICKNESS = 200;
+		const groundY = (height: number) => height / 2 + businessCardHeight / 2 + THICKNESS / 2;
+		const ground = Matter.Bodies.rectangle(w / 2, groundY(h), SPAN, THICKNESS, wallOptions);
+		const ceiling = Matter.Bodies.rectangle(
+			w / 2,
+			-businessCardHeight * 2 - THICKNESS * 2,
+			SPAN,
+			THICKNESS,
+			wallOptions
+		);
+		const leftWall = Matter.Bodies.rectangle(-100, h / 2, 50, SPAN, wallOptions);
+		const rightWall = Matter.Bodies.rectangle(w + 100, h / 2, 50, SPAN, wallOptions);
+		Matter.Composite.add(engine.world, [proxy, ceiling, ground, leftWall, rightWall]);
 
-		// no Matter.Render: every body is render.visible:false, so it repainted a
-		// full-viewport canvas each frame for zero output. The DOM card is the view.
+		const mouse = Matter.Mouse.create(stage);
+		const mouseConstraint = Matter.MouseConstraint.create(engine, {
+			mouse,
+			constraint: {
+				stiffness: 0.2,
+				angularStiffness: 0
+			}
+		});
+
+		Matter.Composite.add(engine.world, mouseConstraint);
+
 		const runner = Matter.Runner.create();
 		Matter.Runner.run(runner, engine);
 
-		// walls are positioned once at create, so re-sync them on resize
 		function resize() {
 			const nw = stage.clientWidth;
 			const nh = stage.clientHeight;
@@ -127,7 +145,14 @@
 			<p>punnlert.com</p>
 			<p>punnlertjaturaphat [at] gmail [dot] com</p>
 		</div>
-		<div class="site">
+		<!-- Matter's touch handlers are bound to #canvas and preventDefault() every touch,
+		     which kills the synthesized click. Stop the event before it reaches them. -->
+		<div
+			class="site"
+			on:touchstart|stopPropagation
+			on:touchmove|stopPropagation
+			on:touchend|stopPropagation
+		>
 			<ArrowLink href="/" text="go to website" title="punn's website" />
 		</div>
 	</div>
