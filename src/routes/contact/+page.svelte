@@ -13,7 +13,7 @@
 	let width: number;
 	let stage: HTMLDivElement;
 	let cardScale = 1;
-	let proxy: Body;
+	let proxy: Body | undefined = undefined;
 	let realCard: HTMLDivElement;
 	let raf: number;
 
@@ -159,6 +159,10 @@
 	</style>
 </svelte:head>
 
+{#if !proxy}
+	<div class="temp" />
+{/if}
+
 <div id="canvas" bind:this={stage}>
 	<div
 		class="business-card"
@@ -232,6 +236,16 @@
 				font-size: var(--p-font-size);
 			}
 		}
+	}
+
+	.temp {
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		background-color: var(--color--primary);
 	}
 
 	button {
