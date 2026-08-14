@@ -1,7 +1,5 @@
 <script lang="ts">
 	import ContentSection from '$lib/components/organisms/ContentSection.svelte';
-	import Image from '$lib/components/atoms/Image.svelte';
-	import FeatureCard from '$lib/components/molecules/FeatureCard.svelte';
 	import type { Hobbies } from '$lib/utils/types';
 	import HobbyPostCard from '$lib/components/molecules/HobbyPostCard.svelte';
 
