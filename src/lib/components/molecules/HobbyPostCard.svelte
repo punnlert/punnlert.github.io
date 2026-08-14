@@ -1,7 +1,6 @@
 <script lang="ts">
 	import CollapsibleCard from '$lib/components/atoms/CollapsibleCard.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
-	import { each } from 'svelte/internal';
 	import Image from '../atoms/Image.svelte';
 
 	export let title: string;
@@ -54,14 +53,14 @@
 				{#if images}
 					{#each images as image}
 						{#if image.split('.').pop() === 'gif'}
-							<img src={image} alt="Punn with a cat" loading="lazy" />
+							<img src={image} alt="Punn with a cat" loading="eager" />
 						{:else}
 							<Image src={image} alt="Punn with a cat" lazy={false} />
 						{/if}
 					{/each}
 					{#each images as image}
 						{#if image.split('.').pop() === 'gif'}
-							<img src={image} alt="Punn with a cat" loading="lazy" />
+							<img src={image} alt="Punn with a cat" loading="eager" />
 						{:else}
 							<Image src={image} alt="Punn with a cat" lazy={false} />
 						{/if}

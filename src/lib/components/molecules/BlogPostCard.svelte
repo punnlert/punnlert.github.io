@@ -20,7 +20,7 @@
 >
 	<div class="image" slot="image">
 		{#if coverImage}
-			<Image src={coverImage} alt="Cover image of this blog post" />
+			<Image src={coverImage} alt="Cover image of this blog post" lazy={false} />
 		{/if}
 	</div>
 	<div class="content" slot="content">
