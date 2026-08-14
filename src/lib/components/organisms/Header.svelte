@@ -5,8 +5,6 @@
 	import { page } from '$app/stores';
 	import { lerp } from '$lib/utils/lerp';
 
-	export let showBackground = false;
-
 	let showMenu = 'translateY(-100%)';
 	let scrollY: number;
 	let outerHeight: number;
@@ -14,6 +12,8 @@
 	let header: HTMLDivElement;
 	let headerHeight: number;
 	let hidden = false;
+	let phone_show = false;
+
 	let prevScrollY = 0;
 	let rotation = 0;
 
@@ -26,11 +26,21 @@
 	];
 
 	let show = () => {
-		showMenu = 'translateY(0)';
+		phone_show = true;
+		showMenu = `translateY(${headerHeight}px)`;
 	};
 
 	let hide = () => {
-		showMenu = 'translateY(-100%)';
+		phone_show = false;
+		showMenu = `translateY(calc(-100% + ${headerHeight}px))`;
+	};
+
+	let toggle = () => {
+		if (phone_show) {
+			hide();
+		} else {
+			show();
+		}
 	};
 
 	beforeNavigate(() => hide());
@@ -57,21 +67,24 @@
 
 <svelte:window bind:scrollY bind:outerHeight on:scroll={checkScroll} />
 
-<nav class="menu" style="--show-menu: {showMenu}">
+<nav class="container menu" style="--show-menu: {showMenu}"
+	style:--header-height={`${headerHeight}px`}
+>
 	<ul>
 		{#each paths as { name, path }}
 			{@const active = '/' + $page.url.pathname.split('/')[1] === path ? 'page' : null}
 			<li><a aria-current={active} href={path} data-sveltekit-preload-data>{name}</a></li>
 		{/each}
 		<li><a href="/files/resume.pdf" target="_blank">Resume</a></li>
-		<li>
-			<button on:click={hide}> Close </button>
-		</li>
 	</ul>
 </nav>
 
-<div class="header" bind:this={header} bind:clientHeight={headerHeight}>
-	<header class:has-background={showBackground}>
+<div
+	class="header"
+	bind:this={header}
+	bind:clientHeight={headerHeight}
+>
+	<header>
 		<nav class="container">
 			<a class="logo_container" href="/" aria-label="Site logo" style:--rotate={`${rotation}deg`}>
 				<NewLogo animated={false} />
@@ -85,7 +98,7 @@
 					{/if}
 				{/each}
 				<a href="/files/resume.pdf" target="_blank">Resume</a>
-				<button id="phone" on:click={show}>
+				<button id="phone" on:click={toggle}>
 					<Hamburger />
 				</button>
 			</div>
@@ -115,14 +128,6 @@
 
 		@include for-phone-only {
 			padding: 20px 0;
-		}
-
-		&.has-background {
-			background: linear-gradient(
-				60deg,
-				var(--color--waves-start) 0%,
-				var(--color--waves-end) 100%
-			);
 		}
 
 		.container {
@@ -207,9 +212,9 @@
 		position: fixed;
 		transform: var(--show-menu);
 		background: var(--color--page-background);
-		transition: transform 0.4s ease-out;
+		transition: transform 0.4s ease-in-out;
 		width: 100vw;
-		height: 100vh;
+		height: calc(100vh - var(--header-height));
 		top: 0;
 		left: 0;
 		right: 0;
@@ -225,28 +230,21 @@
 		}
 
 		a {
-			font-weight: 400;
+			font-weight: 300;
 			color: var(--color--text);
+			font-size: var(--h1-font-size);
+			font-family: var(--font--emphasize);
+			line-height: 1.25;
 		}
 
 		[aria-current='page'] {
-			font-weight: 800;
+			font-weight: 300;
 			color: var(--color--secondary);
 		}
 
 		[aria-current='page']::before {
 			view-transition-name: active-page;
 		}
-		//
-		// button {
-		// 	position: absolute;
-		// 	top: 20px;
-		// 	right: 20px;
-		// 	width: 50px;
-		// 	background: none;
-		// 	color: var(--color--text);
-		// 	border: none;
-		// }
 
 		ul {
 			list-style: none;
@@ -259,7 +257,7 @@
 
 		@include for-phone-only {
 			display: flex;
-			justify-content: center;
+			// justify-content: center;
 			align-items: center;
 		}
 	}
