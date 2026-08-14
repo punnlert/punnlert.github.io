@@ -32,7 +32,7 @@
 
 	let hide = () => {
 		phone_show = false;
-		showMenu = `translateY(calc(-100% + ${headerHeight}px))`;
+		showMenu = `translateY(-100%)`;
 	};
 
 	let toggle = () => {
@@ -67,7 +67,9 @@
 
 <svelte:window bind:scrollY bind:outerHeight on:scroll={checkScroll} />
 
-<nav class="container menu" style="--show-menu: {showMenu}"
+<nav
+	class="container menu"
+	style="--show-menu: {showMenu}"
 	style:--header-height={`${headerHeight}px`}
 >
 	<ul>
@@ -79,11 +81,7 @@
 	</ul>
 </nav>
 
-<div
-	class="header"
-	bind:this={header}
-	bind:clientHeight={headerHeight}
->
+<div class="header" bind:this={header} bind:clientHeight={headerHeight}>
 	<header>
 		<nav class="container">
 			<a class="logo_container" href="/" aria-label="Site logo" style:--rotate={`${rotation}deg`}>
@@ -212,7 +210,7 @@
 		position: fixed;
 		transform: var(--show-menu);
 		background: var(--color--page-background);
-		transition: transform 0.4s ease-in-out;
+		transition: transform 0.4s ease-out;
 		width: 100vw;
 		height: calc(100vh - var(--header-height));
 		top: 0;
