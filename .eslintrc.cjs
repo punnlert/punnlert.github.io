@@ -1,11 +1,14 @@
 module.exports = {
 	root: true,
-	extends: ['eslint:recommended', 'prettier'],
-	plugins: ['svelte3'],
+	extends: ['eslint:recommended', 'plugin:svelte/recommended', 'prettier'],
 	overrides: [
 		{
 			files: ['*.svelte'],
-			processor: 'svelte3/svelte3'
+			parser: 'svelte-eslint-parser',
+			// svelte-eslint-parser handles the markup; it delegates <script lang="ts"> to this
+			parserOptions: {
+				parser: '@typescript-eslint/parser'
+			}
 		}
 	],
 	parserOptions: {
