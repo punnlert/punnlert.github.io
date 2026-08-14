@@ -99,6 +99,10 @@
 			grid-template-rows: 0fr;
 			transition: grid-template-rows 0.5s ease;
 			display: grid;
+
+            @include for-phone-only {
+                grid-template-rows: 1fr;
+            }
 		}
 	}
 
