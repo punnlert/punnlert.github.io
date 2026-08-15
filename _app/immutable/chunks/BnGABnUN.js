@@ -1,0 +1,1 @@
+import{q as r,D as l}from"./DPNi64M2.js";function d(i,t,e,s,o){var a;r&&l();var n=(a=t.$$slots)==null?void 0:a[e],f=!1;n===!0&&(n=t[e==="default"?"children":e],f=!0),n===void 0||n(i,f?()=>s:s)}function c(i){const t={};i.children&&(t.default=!0);for(const e in i.$$slots)t[e]=!0;return t}export{c as a,d as s};

@@ -1,0 +1,1 @@
+import{w as o}from"./BAYaQ6m-.js";function n(){let t;t=localStorage.getItem("theme-preference")||"auto";const{subscribe:m,set:c}=o(t);return{subscribe:m,set:e=>{var r;localStorage.setItem("theme-preference",e),(r=document.firstElementChild)==null||r.setAttribute("data-theme",e),c(e)}}}n();
