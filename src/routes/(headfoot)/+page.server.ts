@@ -1,7 +1,7 @@
 import features from '$lib/data/features';
 import { filteredPosts } from '$lib/data/blog-posts';
 import rawPublications from '$lib/data/publications';
-import { Publication } from '$lib/utils/types';
+import type { Publication } from '$lib/utils/types';
 import rawEvents from '$lib/data/events';
 import type { Event } from '$lib/utils/types';
 

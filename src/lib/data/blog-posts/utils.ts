@@ -7,9 +7,12 @@ import Prism from 'prismjs';
 const ifYouRemoveMeTheBuildFails = Prism;
 import 'prism-svelte';
 import striptags from 'striptags';
+import { render } from 'svelte/server';
 import type { BlogPost } from '$lib/utils/types';
 
-export const importPosts = (render = false) => {
+// Only ever call this from server-only modules (*.server.ts / +server.ts) — `svelte/server`
+// must not end up in the client bundle.
+export const importPosts = (renderHtml = false) => {
 	const blogImports = import.meta.glob('$routes/*/*/*/*.md', { eager: true });
 	const innerImports = import.meta.glob('$routes/*/*/*/*/*.md', { eager: true });
 
@@ -21,7 +24,7 @@ export const importPosts = (render = false) => {
 		if (post) {
 			posts.push({
 				...post.metadata,
-				html: render && post.default.render ? post.default.render()?.html : undefined
+				html: renderHtml && post.default ? render(post.default).body : undefined
 			});
 		}
 	}

@@ -15,6 +15,15 @@ declare namespace App {
 	}
 }
 
+// svelte-youtube (unmaintained, last published for Svelte 3) ships .d.ts typing the
+// component as a Svelte 3 class, which Svelte 5's component type rejects. It ships raw
+// .svelte source, so it compiles and runs fine — only the bundled types are stale.
+declare module 'svelte-youtube' {
+	import type { Component } from 'svelte';
+	const YouTube: Component<{ videoId: string; options?: Record<string, unknown> }>;
+	export default YouTube;
+}
+
 declare module '*&imagetools' {
 	/**
 	 * actual types
